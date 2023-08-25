@@ -32,7 +32,7 @@ Here are some stats from the GitHub Readme Stats project for my profile.
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=diogoribeiro7&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21"
         alt="Top languages card" />
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=mdiogoribeiro7" alt="Streak stats card" />
-    <img src="https://github-readme-stats.vercel.app/api?username=diogoribeiro7n&show_icons=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" 
+    <img src="https://github-readme-stats.vercel.app/api?username=diogoribeiro7&show_icons=true&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21" 
         alt="Profile stats card" />
 </a>
 

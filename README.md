@@ -15,6 +15,7 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDD00)](https://buymeacoffee.com/diogoribeiro7)
 
 
+### Tools and skills 🎓
 | Area           | Tool            |
 |---             | ---             |
 |OS              | ![Linux](https://img.shields.io/badge/OS-Linux-FFDD00?logo=linux&logoColor=white) ![macOS](https://img.shields.io/badge/OS-macOS-FFDD00?logo=apple&logoColor=white) |

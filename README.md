@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 # Hello, I'm Diogo Ribeiro
-[![Continuous integration](https://github.com/diogoribeiro7/metrics/actions/workflows/ci.yml/badge.svg)](https://github.com/diogoribeiro7/metrics/actions/workflows/ci.yml)
+[![Continuous integration](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml/badge.svg)](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml)
 
 I'm a data scientist with a passion for coding, mathematics and technology. Welcome to my GitHub profile!
 

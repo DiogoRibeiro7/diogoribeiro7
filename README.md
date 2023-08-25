@@ -11,6 +11,7 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 - ⚡ Fun fact: I'm also a sustainability enthusiast
 - ### Connect with Me
 [![Medium](https://img.shields.io/badge/Medium-Follow%20Me-2bbc8a?logo=medium)](https://medium.com/@neverforget-1975)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-007BFF?logo=github)](https://diogoribeiro7.github.io)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDD00)](https://buymeacoffee.com/diogoribeiro7)
 
 

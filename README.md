@@ -9,6 +9,9 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 - 💬 Let's connect and collaborate on interesting projects
 - 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/diogo-ribeiro-9094604a/)
 - ⚡ Fun fact: I'm also a sustainability enthusiast
+- ### Connect with Me
+[![Medium](https://img.shields.io/badge/Medium-Follow%20Me-2bbc8a?logo=medium)](https://medium.com/@neverforget-1975)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDD00)](https://buymeacoffee.com/diogoribeiro7)
 
 
 | Area           | Tool            |

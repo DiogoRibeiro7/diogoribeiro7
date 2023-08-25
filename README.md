@@ -1,6 +1,7 @@
 ### Hi there 👋
 
 # Hello, I'm Diogo Ribeiro
+[![Continuous integration](https://github.com/lowlighter/metrics/actions/workflows/ci.yml/badge.svg)](https://github.com/lowlighter/metrics/actions/workflows/ci.yml)
 
 I'm a data scientist with a passion for coding, mathematics and technology. Welcome to my GitHub profile!
 

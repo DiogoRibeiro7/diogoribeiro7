@@ -25,8 +25,8 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 
 
 ### GitHub Stats
-![Metrics](/github-metrics.svg)
-![Metrics](/metrics.plugin.isocalendar.fullyear.svg)
+<div> ![Metrics](/github-metrics.svg)</div>
+<div></div>![Metrics](/metrics.plugin.isocalendar.fullyear.svg)</div>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=DiogoRibeiro7)
 

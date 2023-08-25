@@ -31,6 +31,8 @@ Here are some stats from the GitHub Readme Stats project for my profile.
 <a href="https://github.com/diogoribeiro7" alt="Go to GitHub profile">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=diogoribeiro7&theme=dark"
         alt="Top languages card" />
+</a>
+<a href="https://github.com/diogoribeiro7" alt="Go to GitHub profile">
     <img src="https://github-readme-stats.vercel.app/api?username=diogoribeiro7&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage,show_icons=true&theme=dark"
         alt="Profile stats card" />
 </a>

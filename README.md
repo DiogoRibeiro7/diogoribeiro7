@@ -1,16 +1,14 @@
 ### Hi there 👋
 
-<!--
-**DiogoRibeiro7/diogoribeiro7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hello, I'm Diogo Ribeiro
 
-Here are some ideas to get you started:
+I'm a data scientist with a passion for coding, mathematics and technology. Welcome to my GitHub profile!
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔭 Currently working on exciting data analysis projects
+- 🌱 Learning new programming languages and techniques
+- 💬 Let's connect and collaborate on interesting projects
+- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/diogo-ribeiro-9094604a/)
+- ⚡ Fun fact: I'm also a sustainability enthusiast
+
+![Profile Views](https://diogoribeiro7.github.io/)
+

@@ -4,7 +4,7 @@
 
 I'm a data scientist with a passion for coding, mathematics and technology. Welcome to my GitHub profile!
 
-- 🔭 Currently working on exciting data analysis projects
+- 🔭 Currently working on exciting data science and machine learning projects
 - 🌱 Learning new programming languages and techniques
 - 💬 Let's connect and collaborate on interesting projects
 - 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/diogo-ribeiro-9094604a/)

@@ -24,7 +24,7 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 | Infrastructure | ![Docker](https://img.shields.io/badge/Containers-Docker-2bbc8a?logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/CICD-GitHub_Actions-2bbc8a?logo=github-actions&logoColor=white) ![AWS](https://img.shields.io/badge/Tools-AWS-2bbc8a?logo=amazon-aws&logoColor=white) ![Datadog](https://img.shields.io/badge/Monitoring-Datadog-2bbc8a?logo=datadog&logoColor=white) |
 
 
-![Diogo GitHub stats](https://github-readme-stats.vercel.app/api?username=diogoribeiro7)
+![Diogo GitHub stats](https://github-readme-stats.vercel.app/api?username=diogoribeiro7&show_icons=true&theme=dark)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=DiogoRibeiro7)
 

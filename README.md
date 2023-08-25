@@ -45,3 +45,16 @@ Here are some stats from the GitHub Readme Stats project for my profile.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=DiogoRibeiro7)
 
+
+<details>
+<summary>Read more</summary>
+     
+This page you are reading is a profile readme. Around July 2020, GitHub made this a public feature.
+
+To make one, create a repo named after your username (matching case exactly) and create a `README.md` file in it. Then go to your GitHub profile and you'll see your README appear there ✨.
+
+- [DiogoRibeiro7/diogoribeiro7](https://github.com/DiogoRibeiro7/diogoribeiro7/) repo where this README lives
+- GitHub topic: [profile-readme](https://github.com/topics/profile-readme)
+- Tutorial: [How To Create A GitHub Profile README](https://www.aboutmonica.com/blog/how-to-create-a-github-profile-readme)
+
+</details>

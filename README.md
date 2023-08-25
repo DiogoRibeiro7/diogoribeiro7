@@ -46,6 +46,8 @@ Here are some stats from the GitHub Readme Stats project for my profile.
 ![Profile Views](https://komarev.com/ghpvc/?username=DiogoRibeiro7)
 
 
+![Metrics](/github-metrics.svg)
+
 <details>
 <summary>Read more</summary>
      

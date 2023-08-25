@@ -23,5 +23,8 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 | Databases      | ![PostgreSQL](https://img.shields.io/badge/DB-PostgreSQL-2bbc8a?logo=postgresql&logoColor=white) [![SQLite](https://img.shields.io/badge/DB-SQLite-2bbc8a?logo=sqlite&logoColor=white)](https://www.sqlite.org/index.html) ![MongoDB](https://img.shields.io/badge/DB-MongoDB-2bbc8a?logo=mongodb&logoColor=white) [![DynamoDB](https://img.shields.io/badge/DB-DynamoDB-2bbc8a?logo=amazon-dynamodb&logoColor=white)](https://aws.amazon.com/dynamodb/) | 
 | Infrastructure | ![Docker](https://img.shields.io/badge/Containers-Docker-2bbc8a?logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/CICD-GitHub_Actions-2bbc8a?logo=github-actions&logoColor=white) ![AWS](https://img.shields.io/badge/Tools-AWS-2bbc8a?logo=amazon-aws&logoColor=white) ![Datadog](https://img.shields.io/badge/Monitoring-Datadog-2bbc8a?logo=datadog&logoColor=white) |
 
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=diogoribeiro7&hide=contribs,prs)
+
 ![Profile Views](https://komarev.com/ghpvc/?username=DiogoRibeiro7)
 

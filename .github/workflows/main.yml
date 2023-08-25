@@ -12,13 +12,10 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Generate Metrics 1
+        uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.plugin.isocalendar.fullyear.svg
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
           filename: metrics.plugin.lines.history.svg
           base: ""
           plugin_lines: yes
@@ -29,3 +26,13 @@ jobs:
             @use.patterns
             */*
             +lowlighter/metrics
+
+      - name: Generate Metrics 2
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+

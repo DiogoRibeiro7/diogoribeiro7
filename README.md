@@ -29,16 +29,13 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 Here are some stats from the GitHub Readme Stats project for my profile.
 
 <a href="https://github.com/diogoribeiro7" alt="Go to GitHub profile">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=diogoribeiro7&title_color=ffffff&text_color=c9cacc&icon_color=2bbc8a&bg_color=1d1f21"
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=diogoribeiro7&theme=dark"
         alt="Top languages card" />
     <img src="https://github-readme-stats.vercel.app/api?username=diogoribeiro7&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage,show_icons=true&theme=dark"
         alt="Profile stats card" />
 </a>
 
 
-
-
-![Diogo GitHub stats](https://github-readme-stats.vercel.app/api?username=diogoribeiro7&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage,show_icons=true&theme=dark)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=DiogoRibeiro7)
 

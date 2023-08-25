@@ -10,5 +10,5 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 - 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/diogo-ribeiro-9094604a/)
 - ⚡ Fun fact: I'm also a sustainability enthusiast
 
-![Profile Views](https://diogoribeiro7.github.io/)
+![Profile Views](https://komarev.com/ghpvc/?username=DiogoRibeiro7)
 

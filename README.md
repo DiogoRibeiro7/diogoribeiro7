@@ -38,6 +38,9 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 <div>
     <img src="/metrics.plugin.languages.indepth.svg" alt="Metrics" />
 </div>
+<div>
+    <img src="/metrics.plugin.posts.full.svg" alt="Metrics" />
+</div>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=DiogoRibeiro7)
 

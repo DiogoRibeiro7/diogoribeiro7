@@ -40,15 +40,3 @@ jobs:
           plugin_posts_limit: 2
           plugin_posts_descriptions: yes
           plugin_posts_covers: yes
-      - name: Recent posts with descriptions and cover images 2
-        uses: lowlighter/metrics@latest
-        with:
-            filename: metrics.plugin.posts.full_1.svg
-            token: NOT_NEEDED
-            base: ""
-            plugin_posts: yes
-            plugin_posts_source: medium.com
-            plugin_posts_user: "neverforget-1975"
-            plugin_posts_limit: 2
-            plugin_posts_descriptions: yes
-            plugin_posts_covers: yes

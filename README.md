@@ -46,25 +46,25 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 
 ### On my blog
 <!-- blog starts -->
-[The Ultimate Guide to Design Patterns in Software Engineering](https://neverforget-1975.medium.com/the-ultimate-guide-to-design-patterns-in-software-engineering-a7e2d28ce907) - Wed, 30 Aug 2023 07:32:26 GMT
+[The Ultimate Guide to Design Patterns in Software Engineering](https://neverforget-1975.medium.com/the-ultimate-guide-to-design-patterns-in-software-engineering-a7e2d28ce907) - Wed, 30 Aug 2023
 
-[Exploring Bhattacharyya Distance](https://medium.com/the-modern-scientist/exploring-bhattacharyya-distance-a31822f94c34) - Thu, 24 Aug 2023 09:47:23 GMT
+[Exploring Bhattacharyya Distance](https://medium.com/the-modern-scientist/exploring-bhattacharyya-distance-a31822f94c34) - Thu, 24 Aug 2023
 
-[Mastering Python: A Deep Dive into Coding Best Practices](https://tutorials.botsfloor.com/mastering-python-a-deep-dive-into-coding-best-practices-de8ee4cf2249) - Wed, 23 Aug 2023 01:26:51 GMT
+[Mastering Python: A Deep Dive into Coding Best Practices](https://tutorials.botsfloor.com/mastering-python-a-deep-dive-into-coding-best-practices-de8ee4cf2249) - Wed, 23 Aug 2023
 
-[Integrating C Functions with Python using the C API](https://neverforget-1975.medium.com/integrating-c-functions-with-python-using-the-c-api-a74829c1bbc8) - Tue, 22 Aug 2023 21:32:21 GMT
+[Integrating C Functions with Python using the C API](https://neverforget-1975.medium.com/integrating-c-functions-with-python-using-the-c-api-a74829c1bbc8) - Tue, 22 Aug 2023
 
-[Understanding and Utilizing Doctest in Python](https://medium.com/data-science-dev/understanding-and-utilizing-doctest-in-python-441d60aa72b9) - Tue, 22 Aug 2023 07:42:21 GMT
+[Understanding and Utilizing Doctest in Python](https://medium.com/data-science-dev/understanding-and-utilizing-doctest-in-python-441d60aa72b9) - Tue, 22 Aug 2023
 
-[Understanding the Power and Pitfalls of the Autoregressive Integrated Moving Average (ARIMA)](https://neverforget-1975.medium.com/understanding-the-power-and-pitfalls-of-the-autoregressive-integrated-moving-average-arima-b6b028a6df97) - Mon, 21 Aug 2023 18:32:20 GMT
+[Understanding the Power and Pitfalls of the Autoregressive Integrated Moving Average (ARIMA)](https://neverforget-1975.medium.com/understanding-the-power-and-pitfalls-of-the-autoregressive-integrated-moving-average-arima-b6b028a6df97) - Mon, 21 Aug 2023
 
-[Unlocking the Power of Python Type Hinting](https://medium.com/data-science-dev/unlocking-the-power-of-python-type-hinting-6dc56fb37061) - Sat, 19 Aug 2023 23:26:19 GMT
+[Unlocking the Power of Python Type Hinting](https://medium.com/data-science-dev/unlocking-the-power-of-python-type-hinting-6dc56fb37061) - Sat, 19 Aug 2023
 
-[Model Stacking](https://tutorials.botsfloor.com/model-stacking-power-and-complexity-in-machine-learning-70adb1525521) - Wed, 16 Aug 2023 19:12:30 GMT
+[Model Stacking](https://tutorials.botsfloor.com/model-stacking-power-and-complexity-in-machine-learning-70adb1525521) - Wed, 16 Aug 2023
 
-[Mastering Data Preprocessing for Machine Learning](https://medium.com/data-and-beyond/mastering-data-preprocessing-for-machine-learning-b680ef384bf7) - Wed, 16 Aug 2023 11:52:26 GMT
+[Mastering Data Preprocessing for Machine Learning](https://medium.com/data-and-beyond/mastering-data-preprocessing-for-machine-learning-b680ef384bf7) - Wed, 16 Aug 2023
 
-[Simulated Annealing — A Mathematical and Practical Deep Dive](https://neverforget-1975.medium.com/simulated-annealing-a-mathematical-and-practical-deep-dive-ee0d51de1738) - Wed, 09 Aug 2023 07:32:01 GMT
+[Simulated Annealing — A Mathematical and Practical Deep Dive](https://neverforget-1975.medium.com/simulated-annealing-a-mathematical-and-practical-deep-dive-ee0d51de1738) - Wed, 09 Aug 2023
 <!-- blog ends -->
 
 

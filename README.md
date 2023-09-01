@@ -3,6 +3,8 @@
 # Hello, I'm Diogo Ribeiro
 [![Continuous integration](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml/badge.svg)](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml)
 
+![Profile Views](https://komarev.com/ghpvc/?username=DiogoRibeiro7&color=red&style=plastic)
+
 I'm a data scientist with a passion for coding, mathematics and technology. Welcome to my GitHub profile!
 
 - 🔭 Currently working on exciting data science and machine learning projects
@@ -42,7 +44,7 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
     <img src="/metrics.plugin.posts.full.svg" alt="Metrics" />
 </div>
 
-![Profile Views](https://komarev.com/ghpvc/?username=DiogoRibeiro7)
+
 
 ### On my blog
 <!-- blog starts -->

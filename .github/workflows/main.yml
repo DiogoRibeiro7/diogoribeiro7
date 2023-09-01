@@ -2,7 +2,7 @@ name: Metrics
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 * * 1"
+    - cron: "0 0 * * *"
 jobs:
   github-metrics:
     runs-on: ubuntu-latest

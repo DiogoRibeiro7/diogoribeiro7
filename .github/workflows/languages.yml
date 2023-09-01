@@ -1,4 +1,4 @@
-name: Metrics 2
+name: Metrics Languages
 on:
   # Schedule daily updates
   schedule: 

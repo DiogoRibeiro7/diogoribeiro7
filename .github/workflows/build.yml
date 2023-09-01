@@ -1,4 +1,4 @@
-name: Build README
+name: Metrics Blog Posts
 
 on:
   workflow_dispatch:

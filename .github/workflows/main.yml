@@ -1,4 +1,4 @@
-name: Metrics
+name: Metrics Gists
 on:
   workflow_dispatch:
   schedule:

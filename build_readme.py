@@ -76,7 +76,6 @@ def extract_date_substring(input_str: str) -> str:
 
 if __name__ == "__main__":
     readme = root / "README.md"
-    project_releases = root / "releases.md"
 
     entries = fetch_blog_entries()
     

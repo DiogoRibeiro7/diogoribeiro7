@@ -33,7 +33,6 @@ def replace_chunk(content, marker, chunk, inline=False):
     
     # Debugging: Count occurrences of the marker
     occurrences = len(r.findall(content))
-    print(f"Number of occurrences of marker {marker}: {occurrences}")
 
     if occurrences == 1:
         # If the marker is found once, replace it
@@ -61,16 +60,32 @@ def fetch_blog_entries():
     ]
 
 
+def extract_date_substring(input_str: str) -> str:
+    """Extracts the required date portion from a date-time string.
+    
+    Parameters:
+        input_str (str): The date-time string in 'Day, DD Month YYYY HH:MM:SS GMT' format.
+        
+    Returns:
+        str: Extracted date string in 'Day, DD Month YYYY' format.
+    """
+    # Split the string by space and rejoin the first 4 components
+    return ' '.join(input_str.split()[:4])
+
+
+
 if __name__ == "__main__":
     readme = root / "README.md"
     project_releases = root / "releases.md"
 
     entries = fetch_blog_entries()
-    print(entries)
+    
+    for entry in entries:
+        entry["published"] = extract_date_substring(entry["published"])
+    
     entries_md = "\n\n".join(
         ["[{title}]({url}) - {published}".format(**entry) for entry in entries]
     )
     readme_contents = readme.open().read()
     rewritten = replace_chunk(readme_contents, "blog", entries_md)
-    print(readme_contents)
     readme.open("w").write(rewritten)

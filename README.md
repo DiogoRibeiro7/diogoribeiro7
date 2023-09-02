@@ -48,6 +48,10 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 
 ### On my blog
 <!-- blog starts -->
+[The Normal Distribution](https://neverforget-1975.medium.com/the-normal-distribution-e944c026b178) - Sat, 02 Sep 2023
+
+[Unveiling the Mysteries of Overfitting](https://neverforget-1975.medium.com/unveiling-the-mysteries-of-overfitting-b7716d90382a) - Sat, 02 Sep 2023
+
 [The Ultimate Guide to Design Patterns in Software Engineering](https://neverforget-1975.medium.com/the-ultimate-guide-to-design-patterns-in-software-engineering-a7e2d28ce907) - Wed, 30 Aug 2023
 
 [Exploring Bhattacharyya Distance](https://medium.com/the-modern-scientist/exploring-bhattacharyya-distance-a31822f94c34) - Thu, 24 Aug 2023
@@ -63,10 +67,6 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 [Unlocking the Power of Python Type Hinting](https://medium.com/data-science-dev/unlocking-the-power-of-python-type-hinting-6dc56fb37061) - Sat, 19 Aug 2023
 
 [Model Stacking](https://tutorials.botsfloor.com/model-stacking-power-and-complexity-in-machine-learning-70adb1525521) - Wed, 16 Aug 2023
-
-[Mastering Data Preprocessing for Machine Learning](https://medium.com/data-and-beyond/mastering-data-preprocessing-for-machine-learning-b680ef384bf7) - Wed, 16 Aug 2023
-
-[Simulated Annealing — A Mathematical and Practical Deep Dive](https://neverforget-1975.medium.com/simulated-annealing-a-mathematical-and-practical-deep-dive-ee0d51de1738) - Wed, 09 Aug 2023
 <!-- blog ends -->
 
 

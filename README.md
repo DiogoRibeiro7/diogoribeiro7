@@ -51,11 +51,15 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 
 ### On my blog
 <!-- blog starts -->
-[The Normal Distribution](https://neverforget-1975.medium.com/the-normal-distribution-e944c026b178) - Sat, 02 Sep 2023
+[An In-depth Look into Bayesian Updating](https://medium.com/data-science-as-a-better-idea/an-in-depth-look-into-bayesian-updating-95a4d75ba1e0) - Sun, 03 Sep 2023
 
-[Unveiling the Mysteries of Overfitting](https://neverforget-1975.medium.com/unveiling-the-mysteries-of-overfitting-b7716d90382a) - Sat, 02 Sep 2023
+[Embracing Simulation in Modern Statistical Analysis](https://medium.com/data-science-as-a-better-idea/embracing-simulation-in-modern-statistical-analysis-5b64a22cea7a) - Sun, 03 Sep 2023
 
-[The Ultimate Guide to Design Patterns in Software Engineering](https://neverforget-1975.medium.com/the-ultimate-guide-to-design-patterns-in-software-engineering-a7e2d28ce907) - Wed, 30 Aug 2023
+[The Normal Distribution](https://medium.com/data-science-as-a-better-idea/the-normal-distribution-e944c026b178) - Sat, 02 Sep 2023
+
+[Unveiling the Mysteries of Overfitting](https://medium.com/data-science-as-a-better-idea/unveiling-the-mysteries-of-overfitting-b7716d90382a) - Sat, 02 Sep 2023
+
+[The Ultimate Guide to Design Patterns in Software Engineering](https://python.plainenglish.io/the-ultimate-guide-to-design-patterns-in-software-engineering-a7e2d28ce907) - Wed, 30 Aug 2023
 
 [Exploring Bhattacharyya Distance](https://medium.com/the-modern-scientist/exploring-bhattacharyya-distance-a31822f94c34) - Thu, 24 Aug 2023
 
@@ -65,11 +69,7 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 
 [Understanding and Utilizing Doctest in Python](https://medium.com/data-science-dev/understanding-and-utilizing-doctest-in-python-441d60aa72b9) - Tue, 22 Aug 2023
 
-[Understanding the Power and Pitfalls of the Autoregressive Integrated Moving Average (ARIMA)](https://neverforget-1975.medium.com/understanding-the-power-and-pitfalls-of-the-autoregressive-integrated-moving-average-arima-b6b028a6df97) - Mon, 21 Aug 2023
-
-[Unlocking the Power of Python Type Hinting](https://medium.com/data-science-dev/unlocking-the-power-of-python-type-hinting-6dc56fb37061) - Sat, 19 Aug 2023
-
-[Model Stacking](https://tutorials.botsfloor.com/model-stacking-power-and-complexity-in-machine-learning-70adb1525521) - Wed, 16 Aug 2023
+[Power and Pitfalls of the Autoregressive Integrated Moving Average (ARIMA)](https://neverforget-1975.medium.com/understanding-the-power-and-pitfalls-of-the-autoregressive-integrated-moving-average-arima-b6b028a6df97) - Mon, 21 Aug 2023
 <!-- blog ends -->
 
 

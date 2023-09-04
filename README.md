@@ -6,7 +6,7 @@
 [![Continuous integration](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml/badge.svg)](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml)
 
 
-I'm a data scientist with a passion for coding, mathematics and technology. Welcome to my GitHub profile!
+I'm a mathematician and data scientist with a passion for coding, mathematics and technology. Welcome to my GitHub profile!
 
 - 🔭 Currently working on exciting data science and machine learning projects
 - 🌱 Learning new programming languages and techniques

@@ -48,12 +48,8 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
     <img src="/metrics.plugin.posts.full.svg" alt="Metrics" />
 </div>
 
-📊 &nbsp;**This week I spent my time on**
 
-![Wwakatime stats](https://github-readme-stats-taupe-two.vercel.app/api/wakatime?username=diogoribeiro7&hide_title=true&hide_border=true&langs_count=5&bg_color=00000000&text_color=777)
-
-
-### On my blog
+📕 &nbsp;**Latest Blog Posts**
 <!-- blog starts -->
 [An In-depth Look into Bayesian Updating](https://medium.com/data-science-as-a-better-idea/an-in-depth-look-into-bayesian-updating-95a4d75ba1e0) - Sun, 03 Sep 2023
 
@@ -75,6 +71,8 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 
 [Power and Pitfalls of the Autoregressive Integrated Moving Average (ARIMA)](https://neverforget-1975.medium.com/understanding-the-power-and-pitfalls-of-the-autoregressive-integrated-moving-average-arima-b6b028a6df97) - Mon, 21 Aug 2023
 <!-- blog ends -->
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
 
 <details>

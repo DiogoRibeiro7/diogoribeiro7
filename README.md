@@ -12,6 +12,7 @@ I'm a mathematician and data scientist with a passion for coding, mathematics an
 - 🌱 Learning new programming languages and techniques
 - 💬 Let's connect and collaborate on interesting projects
 - ⚡ Fun fact: I'm also a sustainability enthusiast
+- ⚡ Love to read books
 
 🔗 &nbsp;**Connect with me**
 

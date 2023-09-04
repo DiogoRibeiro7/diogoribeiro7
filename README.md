@@ -11,22 +11,15 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 - 🔭 Currently working on exciting data science and machine learning projects
 - 🌱 Learning new programming languages and techniques
 - 💬 Let's connect and collaborate on interesting projects
-- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/diogo-ribeiro-9094604a/)
 - ⚡ Fun fact: I'm also a sustainability enthusiast
-- ### Connect with Me
+🔗 &nbsp;**Connect with me**
 [![Medium](https://img.shields.io/badge/Medium-Follow%20Me-2bbc8a?logo=medium)](https://medium.com/@neverforget-1975)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-007BFF?logo=github)](https://diogoribeiro7.github.io)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDD00)](https://buymeacoffee.com/diogoribeiro7)
 [![Support on Dagshub](https://img.shields.io/badge/Support%20on-Dagshub-9cf)](https://dagshub.com/DiogoRibeiro7)
-
-🔗 &nbsp;**Connect with me**
 <p align="left">
 <a href="https://dev.to/diogoribeiro7" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="gautamkrishnar" height="30" width="40" /></a>
 <a href="https://www.linkedin.com/in/diogo-ribeiro-9094604a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="gautamkrishnar" height="30" width="40" /></a>
-<a href="https://medium.com/@neverforget-1975" target="_blank">
-  <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@neverforget-1975" height="30" width="40" />
-</a>
-
 </a>
 
 ### Tools and skills 🎓

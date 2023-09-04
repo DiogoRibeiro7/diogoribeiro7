@@ -55,7 +55,7 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 </div>
 
 
-📕 &nbsp;**Latest Blog Posts**
+📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
 [An In-depth Look into Bayesian Updating](https://medium.com/data-science-as-a-better-idea/an-in-depth-look-into-bayesian-updating-95a4d75ba1e0) - Sun, 03 Sep 2023
 
@@ -77,6 +77,7 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 
 [Power and Pitfalls of the Autoregressive Integrated Moving Average (ARIMA)](https://neverforget-1975.medium.com/understanding-the-power-and-pitfalls-of-the-autoregressive-integrated-moving-average-arima-b6b028a6df97) - Mon, 21 Aug 2023
 <!-- blog ends -->
+📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
 - [Navigating the Ethical Landscape of Data Science](https://diogoribeiro7.github.io/data%20science/Data_Science/)
 - [The Unseen Art of Data Quality: Bridging the Gap Between Collection and Utilization](https://diogoribeiro7.github.io/data%20science/data_design/)

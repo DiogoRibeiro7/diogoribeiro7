@@ -19,7 +19,11 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDD00)](https://buymeacoffee.com/diogoribeiro7)
 [![Support on Dagshub](https://img.shields.io/badge/Support%20on-Dagshub-9cf)](https://dagshub.com/DiogoRibeiro7)
 
-
+🔗 &nbsp;**Connect with me**
+<p align="left">
+<a href="https://dev.to/diogoribeiro7" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="gautamkrishnar" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/diogo-ribeiro-9094604a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="gautamkrishnar" height="30" width="40" /></a>
+</a>
 
 ### Tools and skills 🎓
 | Area           | Tool            |

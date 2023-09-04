@@ -12,6 +12,7 @@ I'm a data scientist with a passion for coding, mathematics and technology. Welc
 - 🌱 Learning new programming languages and techniques
 - 💬 Let's connect and collaborate on interesting projects
 - ⚡ Fun fact: I'm also a sustainability enthusiast
+
 🔗 &nbsp;**Connect with me**
 [![Medium](https://img.shields.io/badge/Medium-Follow%20Me-2bbc8a?logo=medium)](https://medium.com/@neverforget-1975)
 [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-007BFF?logo=github)](https://diogoribeiro7.github.io)

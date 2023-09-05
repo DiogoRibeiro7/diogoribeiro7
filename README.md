@@ -61,6 +61,10 @@ I'm a mathematician and data scientist with a passion for coding, mathematics an
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[The Power of Transformations](https://neverforget-1975.medium.com/the-power-of-transformations-a98ac0b977d1) - Mon, 04 Sep 2023
+
+[Building a Python Package with C Extensions using Poetry](https://medium.com/data-science-dev/building-a-python-package-with-c-extensions-using-poetry-3e5f23dadd5d) - Mon, 04 Sep 2023
+
 [An In-depth Look into Bayesian Updating](https://medium.com/data-science-as-a-better-idea/an-in-depth-look-into-bayesian-updating-95a4d75ba1e0) - Sun, 03 Sep 2023
 
 [Embracing Simulation in Modern Statistical Analysis](https://medium.com/data-science-as-a-better-idea/embracing-simulation-in-modern-statistical-analysis-5b64a22cea7a) - Sun, 03 Sep 2023
@@ -76,10 +80,6 @@ I'm a mathematician and data scientist with a passion for coding, mathematics an
 [Mastering Python: A Deep Dive into Coding Best Practices](https://tutorials.botsfloor.com/mastering-python-a-deep-dive-into-coding-best-practices-de8ee4cf2249) - Wed, 23 Aug 2023
 
 [Integrating C Functions with Python using the C API](https://neverforget-1975.medium.com/integrating-c-functions-with-python-using-the-c-api-a74829c1bbc8) - Tue, 22 Aug 2023
-
-[Understanding and Utilizing Doctest in Python](https://medium.com/data-science-dev/understanding-and-utilizing-doctest-in-python-441d60aa72b9) - Tue, 22 Aug 2023
-
-[Power and Pitfalls of the Autoregressive Integrated Moving Average (ARIMA)](https://neverforget-1975.medium.com/understanding-the-power-and-pitfalls-of-the-autoregressive-integrated-moving-average-arima-b6b028a6df97) - Mon, 21 Aug 2023
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

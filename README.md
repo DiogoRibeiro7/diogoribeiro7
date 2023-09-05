@@ -42,9 +42,13 @@ I'm a mathematician and data scientist with a passion for coding, mathematics an
 <div>
     <img src="/github-metrics.svg" alt="Metrics" />
 </div>
-<div>
-    <img src="/metrics.plugin.isocalendar.fullyear.svg" alt="Metrics" />
-</div>
+<p align="center" >
+	<picture>
+	  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/night.svg" />
+	  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/day.svg" />
+	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/day.svg" />
+	</picture>
+</p>
 <div>
     <img src="/metrics.plugin.gists.svg" alt="Metrics" />
 </div>
@@ -54,17 +58,7 @@ I'm a mathematician and data scientist with a passion for coding, mathematics an
 <div>
     <img src="/metrics.plugin.posts.full.svg" alt="Metrics" />
 </div>
-<div>
-    <img src="/profile-3d-contrib/night.svg" alt="Metrics" />
-</div>
 
-<p align="center" >
-	<picture>
-	  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/night.svg" />
-	  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/day.svg" />
-	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/day.svg" />
-	</picture>
-</p>
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->

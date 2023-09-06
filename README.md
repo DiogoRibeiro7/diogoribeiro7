@@ -49,7 +49,7 @@ I'm a mathematician and data scientist with a passion for coding, mathematics an
 	<picture>
 	  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/night.svg" />
 	  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/day.svg" />
-	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/day.svg" />
+	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/night.svg" />
 	</picture>
 </p>
 

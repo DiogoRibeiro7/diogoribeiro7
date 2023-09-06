@@ -61,6 +61,10 @@ I'm a mathematician and data scientist with a passion for coding, mathematics an
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Data Distribution vs. Sampling Distribution](https://neverforget-1975.medium.com/data-distribution-vs-sampling-distribution-5455f1d95d3d) - Tue, 05 Sep 2023
+
+[Best Practices for Managing Python Packages with C Extensions](https://neverforget-1975.medium.com/best-practices-for-managing-python-packages-with-c-extensions-e8644a9b477c) - Tue, 05 Sep 2023
+
 [The Power of Transformations](https://neverforget-1975.medium.com/the-power-of-transformations-a98ac0b977d1) - Mon, 04 Sep 2023
 
 [Building a Python Package with C Extensions using Poetry](https://medium.com/data-science-dev/building-a-python-package-with-c-extensions-using-poetry-3e5f23dadd5d) - Mon, 04 Sep 2023
@@ -76,10 +80,6 @@ I'm a mathematician and data scientist with a passion for coding, mathematics an
 [The Ultimate Guide to Design Patterns in Software Engineering](https://python.plainenglish.io/the-ultimate-guide-to-design-patterns-in-software-engineering-a7e2d28ce907) - Wed, 30 Aug 2023
 
 [Exploring Bhattacharyya Distance](https://medium.com/the-modern-scientist/exploring-bhattacharyya-distance-a31822f94c34) - Thu, 24 Aug 2023
-
-[Mastering Python: A Deep Dive into Coding Best Practices](https://tutorials.botsfloor.com/mastering-python-a-deep-dive-into-coding-best-practices-de8ee4cf2249) - Wed, 23 Aug 2023
-
-[Integrating C Functions with Python using the C API](https://neverforget-1975.medium.com/integrating-c-functions-with-python-using-the-c-api-a74829c1bbc8) - Tue, 22 Aug 2023
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

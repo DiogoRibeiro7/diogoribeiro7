@@ -61,6 +61,8 @@ I'm a mathematician and data scientist with a passion for coding, mathematics an
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Vortex Methods in Fluid Dynamics](https://neverforget-1975.medium.com/vortex-methods-in-fluid-dynamics-3fc399c8d373) - Thu, 07 Sep 2023
+
 [Data Distribution vs. Sampling Distribution](https://neverforget-1975.medium.com/data-distribution-vs-sampling-distribution-5455f1d95d3d) - Tue, 05 Sep 2023
 
 [Best Practices for Managing Python Packages with C Extensions](https://neverforget-1975.medium.com/best-practices-for-managing-python-packages-with-c-extensions-e8644a9b477c) - Tue, 05 Sep 2023
@@ -78,8 +80,6 @@ I'm a mathematician and data scientist with a passion for coding, mathematics an
 [Unveiling the Mysteries of Overfitting](https://medium.com/data-science-as-a-better-idea/unveiling-the-mysteries-of-overfitting-b7716d90382a) - Sat, 02 Sep 2023
 
 [The Ultimate Guide to Design Patterns in Software Engineering](https://python.plainenglish.io/the-ultimate-guide-to-design-patterns-in-software-engineering-a7e2d28ce907) - Wed, 30 Aug 2023
-
-[Exploring Bhattacharyya Distance](https://medium.com/the-modern-scientist/exploring-bhattacharyya-distance-a31822f94c34) - Thu, 24 Aug 2023
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

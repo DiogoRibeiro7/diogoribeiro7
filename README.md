@@ -6,13 +6,15 @@
 [![Continuous integration](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml/badge.svg)](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml)
 
 
-I'm a mathematician and data scientist with a passion for coding, mathematics and technology. Welcome to my GitHub profile!
+I'm a seasoned Data Scientist with over a decade of experience in the field, hailing from the picturesque country of Portugal. My journey through the realms of pure and applied mathematics has been a source of fascination and inspiration throughout my career. Welcome to my GitHub profile!
 
-- 🔭 Currently working on exciting data science and machine learning projects
-- 🌱 Learning new programming languages and techniques
-- 💬 Let's connect and collaborate on interesting projects
-- ⚡ Fun fact: I'm also a sustainability enthusiast
-- ⚡ Love to read books
+- I've delved into the intricate domains of supply chain, logistics, sustainability, finance and health where data-driven decision-making plays a pivotal role in optimizing operations and promoting environmental responsibility.
+
+- 🔭 In the realm of research, I'm deeply immersed in exploring the application of machine learning and statistics in the domain of health. My work involves harnessing the power of data to make advancements in healthcare solutions and outcomes.
+
+- 🔭 Additionally, my research extends to the realm of mathematics, particularly focusing on differential equations and partial differential equations. These mathematical tools find applications in diverse fields such as epidemiology, economics, and sociology, where they help unravel complex phenomena.
+
+- 🔭 I'm also passionate about graph theory and its applications in social networks, where I uncover patterns and connections that provide valuable insights into human interactions.
 
 🔗 &nbsp;**Connect with me**
 

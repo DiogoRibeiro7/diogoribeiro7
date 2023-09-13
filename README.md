@@ -63,6 +63,8 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Unraveling the Power of Data Visualization](https://neverforget-1975.medium.com/unraveling-the-power-of-data-visualization-f909d0e26dc4) - Tue, 12 Sep 2023
+
 [Venturing Deeper into the Python Universe](https://medium.com/data-science-dev/venturing-deeper-into-the-python-universe-52f813de31d4) - Sat, 09 Sep 2023
 
 [Vortex Methods in Fluid Dynamics](https://neverforget-1975.medium.com/vortex-methods-in-fluid-dynamics-3fc399c8d373) - Thu, 07 Sep 2023
@@ -80,8 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [Embracing Simulation in Modern Statistical Analysis](https://medium.com/data-science-as-a-better-idea/embracing-simulation-in-modern-statistical-analysis-5b64a22cea7a) - Sun, 03 Sep 2023
 
 [The Normal Distribution](https://medium.com/data-science-as-a-better-idea/the-normal-distribution-e944c026b178) - Sat, 02 Sep 2023
-
-[Unveiling the Mysteries of Overfitting](https://medium.com/data-science-as-a-better-idea/unveiling-the-mysteries-of-overfitting-b7716d90382a) - Sat, 02 Sep 2023
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

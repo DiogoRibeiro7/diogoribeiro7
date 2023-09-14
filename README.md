@@ -63,6 +63,8 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[The Hidden Relationships in Statistics](https://medium.com/data-science-as-a-better-idea/the-hidden-relationships-in-statistics-8fe9a56a969c) - Wed, 13 Sep 2023
+
 [Unraveling the Power of Data Visualization](https://neverforget-1975.medium.com/unraveling-the-power-of-data-visualization-f909d0e26dc4) - Tue, 12 Sep 2023
 
 [Venturing Deeper into the Python Universe](https://medium.com/data-science-dev/venturing-deeper-into-the-python-universe-52f813de31d4) - Sat, 09 Sep 2023
@@ -80,8 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [An In-depth Look into Bayesian Updating](https://medium.com/data-science-as-a-better-idea/an-in-depth-look-into-bayesian-updating-95a4d75ba1e0) - Sun, 03 Sep 2023
 
 [Embracing Simulation in Modern Statistical Analysis](https://medium.com/data-science-as-a-better-idea/embracing-simulation-in-modern-statistical-analysis-5b64a22cea7a) - Sun, 03 Sep 2023
-
-[The Normal Distribution](https://medium.com/data-science-as-a-better-idea/the-normal-distribution-e944c026b178) - Sat, 02 Sep 2023
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

@@ -63,6 +63,12 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[The Convergence of Time and Optimization](https://neverforget-1975.medium.com/the-convergence-of-time-and-optimization-b1ba3729a5b7) - Mon, 25 Sep 2023
+
+[Innumeracy](https://neverforget-1975.medium.com/innumeracy-8b2112c5787b) - Mon, 25 Sep 2023
+
+[Demystifying Variability](https://neverforget-1975.medium.com/demystifying-variability-e35fcf756e3d) - Mon, 25 Sep 2023
+
 [The Art of Optimization](https://neverforget-1975.medium.com/the-art-of-optimization-d22c67987295) - Sat, 23 Sep 2023
 
 [Mastering Python Code Quality: A Holistic Journey](https://betterprogramming.pub/mastering-python-code-quality-a-holistic-journey-e6eb28be4ee7) - Thu, 21 Sep 2023
@@ -76,12 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [Venturing Deeper into the Python Universe](https://medium.com/data-science-dev/venturing-deeper-into-the-python-universe-52f813de31d4) - Sat, 09 Sep 2023
 
 [Vortex Methods in Fluid Dynamics](https://neverforget-1975.medium.com/vortex-methods-in-fluid-dynamics-3fc399c8d373) - Thu, 07 Sep 2023
-
-[Data Distribution vs. Sampling Distribution](https://neverforget-1975.medium.com/data-distribution-vs-sampling-distribution-5455f1d95d3d) - Tue, 05 Sep 2023
-
-[Best Practices for Managing Python Packages with C Extensions](https://neverforget-1975.medium.com/best-practices-for-managing-python-packages-with-c-extensions-e8644a9b477c) - Tue, 05 Sep 2023
-
-[The Power of Transformations](https://neverforget-1975.medium.com/the-power-of-transformations-a98ac0b977d1) - Mon, 04 Sep 2023
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

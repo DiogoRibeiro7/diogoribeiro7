@@ -85,11 +85,11 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [Data and Communication](https://diogoribeiro7.github.io/data%20science/Data_communication/)
+- [The Myth and Reality of Sample Size in Statistical Analysis](https://diogoribeiro7.github.io/statistics/sample_size/)
+- [Innumeracy](https://diogoribeiro7.github.io/mathematics/Innumeracy/)
 - [Walking the Mathematical Path](https://diogoribeiro7.github.io/mathematics/crownd_behaviour/)
 - [The Fears Surrounding Artificial Intelligence](https://diogoribeiro7.github.io/data%20science/Fears-Surrounding/)
-- [Navigating the Ethical Landscape of Data Science](https://diogoribeiro7.github.io/data%20science/Data_Science/)
-- [The Unseen Art of Data Quality: Bridging the Gap Between Collection and Utilization](https://diogoribeiro7.github.io/data%20science/data_design/)
-- [The Life and Legacy of Paul Erdös](https://diogoribeiro7.github.io/genius/Paul-Erdos/)
 <!-- BLOG-POST-LIST:END -->
 
 

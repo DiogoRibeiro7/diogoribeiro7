@@ -63,7 +63,11 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
-[The Convergence of Time and Optimization](https://neverforget-1975.medium.com/the-convergence-of-time-and-optimization-b1ba3729a5b7) - Mon, 25 Sep 2023
+[The Dual Identity of Logistic Regression](https://medium.com/data-and-beyond/the-dual-identity-of-logistic-regression-3b2c63f3ab46) - Wed, 27 Sep 2023
+
+[Data and Communication](https://neverforget-1975.medium.com/data-and-communication-b450f6aa0e6d) - Wed, 27 Sep 2023
+
+[The Convergence of Time and Optimization](https://medium.com/the-modern-scientist/the-convergence-of-time-and-optimization-b1ba3729a5b7) - Mon, 25 Sep 2023
 
 [Innumeracy](https://neverforget-1975.medium.com/innumeracy-8b2112c5787b) - Mon, 25 Sep 2023
 
@@ -78,10 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [The Hidden Relationships in Statistics](https://medium.com/data-science-as-a-better-idea/the-hidden-relationships-in-statistics-8fe9a56a969c) - Wed, 13 Sep 2023
 
 [Unraveling the Power of Data Visualization](https://neverforget-1975.medium.com/unraveling-the-power-of-data-visualization-f909d0e26dc4) - Tue, 12 Sep 2023
-
-[Venturing Deeper into the Python Universe](https://medium.com/data-science-dev/venturing-deeper-into-the-python-universe-52f813de31d4) - Sat, 09 Sep 2023
-
-[Vortex Methods in Fluid Dynamics](https://neverforget-1975.medium.com/vortex-methods-in-fluid-dynamics-3fc399c8d373) - Thu, 07 Sep 2023
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

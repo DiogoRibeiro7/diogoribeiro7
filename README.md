@@ -63,6 +63,8 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Advanced Machine Learning in Healthcare](https://medium.com/data-science-as-a-better-idea/advanced-machine-learning-in-healthcare-8ab0a2d4df01) - Fri, 29 Sep 2023
+
 [The Dual Identity of Logistic Regression](https://medium.com/data-and-beyond/the-dual-identity-of-logistic-regression-3b2c63f3ab46) - Wed, 27 Sep 2023
 
 [Data and Communication](https://neverforget-1975.medium.com/data-and-communication-b450f6aa0e6d) - Wed, 27 Sep 2023
@@ -80,8 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [From Turbulence to Tranquility](https://neverforget-1975.medium.com/from-turbulence-to-tranquility-81d9bc086c81) - Thu, 14 Sep 2023
 
 [The Hidden Relationships in Statistics](https://medium.com/data-science-as-a-better-idea/the-hidden-relationships-in-statistics-8fe9a56a969c) - Wed, 13 Sep 2023
-
-[Unraveling the Power of Data Visualization](https://neverforget-1975.medium.com/unraveling-the-power-of-data-visualization-f909d0e26dc4) - Tue, 12 Sep 2023
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

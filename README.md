@@ -63,7 +63,11 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
-[The Essence of Simplicity in Statistics](https://neverforget-1975.medium.com/the-essence-of-simplicity-in-statistics-e0fd085edafb) - Sat, 30 Sep 2023
+[A Deep Dive into Segment-Based Change Point Detection](https://neverforget-1975.medium.com/a-deep-dive-into-segment-based-change-point-detection-82f89781fa6e) - Sun, 01 Oct 2023
+
+[Quantiles](https://neverforget-1975.medium.com/quantiles-fa7632007a7f) - Sat, 30 Sep 2023
+
+[The Essence of Simplicity in Statistics](https://medium.com/data-and-beyond/the-essence-of-simplicity-in-statistics-e0fd085edafb) - Sat, 30 Sep 2023
 
 [From Paradox to Praxis](https://neverforget-1975.medium.com/from-paradox-to-praxis-b9ab4c2824a1) - Fri, 29 Sep 2023
 
@@ -78,10 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [Innumeracy](https://neverforget-1975.medium.com/innumeracy-8b2112c5787b) - Mon, 25 Sep 2023
 
 [Demystifying Variability](https://neverforget-1975.medium.com/demystifying-variability-e35fcf756e3d) - Mon, 25 Sep 2023
-
-[The Art of Optimization](https://neverforget-1975.medium.com/the-art-of-optimization-d22c67987295) - Sat, 23 Sep 2023
-
-[Mastering Python Code Quality: A Holistic Journey](https://betterprogramming.pub/mastering-python-code-quality-a-holistic-journey-e6eb28be4ee7) - Thu, 21 Sep 2023
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

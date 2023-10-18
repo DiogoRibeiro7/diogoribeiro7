@@ -63,6 +63,8 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Transitioning from Data Science to Biotech](https://neverforget-1975.medium.com/transitioning-from-data-science-to-biotech-e618fad0a0b1) - Tue, 17 Oct 2023
+
 [Crafting Clear Python Functions: A Guide](https://neverforget-1975.medium.com/crafting-clear-python-functions-a-guide-39b39faf5387) - Tue, 10 Oct 2023
 
 [A Deep Dive into Segment-Based Change Point Detection](https://neverforget-1975.medium.com/a-deep-dive-into-segment-based-change-point-detection-82f89781fa6e) - Sun, 01 Oct 2023
@@ -80,8 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [Data and Communication](https://neverforget-1975.medium.com/data-and-communication-b450f6aa0e6d) - Wed, 27 Sep 2023
 
 [The Convergence of Time and Optimization](https://medium.com/the-modern-scientist/the-convergence-of-time-and-optimization-b1ba3729a5b7) - Mon, 25 Sep 2023
-
-[Innumeracy](https://neverforget-1975.medium.com/innumeracy-8b2112c5787b) - Mon, 25 Sep 2023
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

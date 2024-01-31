@@ -85,11 +85,11 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [A Closer Look to the Classic Bell Curve](https://diogoribeiro7.github.io/mathematics/Normal-distribution/)
+- [Demystifying MCMC: A Practical Guide to Bayesian Inference](https://diogoribeiro7.github.io/mathematics/Probabilistic-Programming/)
 - [Data and Communication](https://diogoribeiro7.github.io/data%20science/Data_communication/)
 - [The Myth and Reality of Sample Size in Statistical Analysis](https://diogoribeiro7.github.io/statistics/sample_size/)
 - [Innumeracy](https://diogoribeiro7.github.io/mathematics/Innumeracy/)
-- [Walking the Mathematical Path](https://diogoribeiro7.github.io/mathematics/crownd_behaviour/)
-- [The Fears Surrounding Artificial Intelligence](https://diogoribeiro7.github.io/data%20science/Fears-Surrounding/)
 <!-- BLOG-POST-LIST:END -->
 
 

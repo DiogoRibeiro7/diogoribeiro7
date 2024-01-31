@@ -63,6 +63,10 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[The Complexities of Production Optimization](https://medium.com/operations-research-bit/the-complexities-of-production-optimization-8c5e6573e2d4) - Tue, 30 Jan 2024
+
+[Optimal Clustering](https://medium.com/data-and-beyond/optimal-clustering-a816e70b0ad3) - Tue, 30 Jan 2024
+
 [Data Engineering Transformation: From Gatekeepers to Emergency Responders](https://neverforget-1975.medium.com/data-engineering-transformation-from-gatekeepers-to-emergency-responders-1147de7349c7) - Thu, 26 Oct 2023
 
 [Transitioning from Data Science to Biotech](https://neverforget-1975.medium.com/transitioning-from-data-science-to-biotech-e618fad0a0b1) - Tue, 17 Oct 2023
@@ -78,10 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [From Paradox to Praxis](https://neverforget-1975.medium.com/from-paradox-to-praxis-b9ab4c2824a1) - Fri, 29 Sep 2023
 
 [Advanced Machine Learning in Healthcare](https://medium.com/data-science-as-a-better-idea/advanced-machine-learning-in-healthcare-8ab0a2d4df01) - Fri, 29 Sep 2023
-
-[The Dual Identity of Logistic Regression](https://medium.com/data-and-beyond/the-dual-identity-of-logistic-regression-3b2c63f3ab46) - Wed, 27 Sep 2023
-
-[Data and Communication](https://neverforget-1975.medium.com/data-and-communication-b450f6aa0e6d) - Wed, 27 Sep 2023
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

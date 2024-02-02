@@ -63,6 +63,10 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Predictive Maintenance Strategies](https://neverforget-1975.medium.com/predictive-maintenance-strategies-650350273387) - Thu, 01 Feb 2024
+
+[Python for Advanced Customer Churn Analysis](https://ai.gopubby.com/python-for-advanced-customer-churn-analysis-7b1473b45c3a) - Thu, 01 Feb 2024
+
 [The Complexities of Production Optimization](https://medium.com/operations-research-bit/the-complexities-of-production-optimization-8c5e6573e2d4) - Tue, 30 Jan 2024
 
 [Optimal Clustering](https://medium.com/data-and-beyond/optimal-clustering-a816e70b0ad3) - Tue, 30 Jan 2024
@@ -78,10 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [Quantiles](https://neverforget-1975.medium.com/quantiles-fa7632007a7f) - Sat, 30 Sep 2023
 
 [The Essence of Simplicity in Statistics](https://medium.com/data-and-beyond/the-essence-of-simplicity-in-statistics-e0fd085edafb) - Sat, 30 Sep 2023
-
-[From Paradox to Praxis](https://neverforget-1975.medium.com/from-paradox-to-praxis-b9ab4c2824a1) - Fri, 29 Sep 2023
-
-[Advanced Machine Learning in Healthcare](https://medium.com/data-science-as-a-better-idea/advanced-machine-learning-in-healthcare-8ab0a2d4df01) - Fri, 29 Sep 2023
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

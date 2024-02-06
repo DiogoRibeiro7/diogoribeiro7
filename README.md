@@ -63,6 +63,12 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Revolutionizing Healthcare](https://neverforget-1975.medium.com/revolutionizing-healthcare-5678925eb5f4) - Tue, 06 Feb 2024
+
+[Understanding Clustering Techniques](https://neverforget-1975.medium.com/understanding-clustering-techniques-98c9ab7d1178) - Tue, 06 Feb 2024
+
+[Complexities of Clinical Data Exploration: A Comprehensive Guide](https://neverforget-1975.medium.com/complexities-of-clinical-data-exploration-a-comprehensive-guide-64defd6adcb4) - Tue, 06 Feb 2024
+
 [Predictive Maintenance Strategies](https://neverforget-1975.medium.com/predictive-maintenance-strategies-650350273387) - Thu, 01 Feb 2024
 
 [Python for Advanced Customer Churn Analysis](https://ai.gopubby.com/python-for-advanced-customer-churn-analysis-7b1473b45c3a) - Thu, 01 Feb 2024
@@ -76,12 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [Transitioning from Data Science to Biotech](https://neverforget-1975.medium.com/transitioning-from-data-science-to-biotech-e618fad0a0b1) - Tue, 17 Oct 2023
 
 [Crafting Clear Python Functions: A Guide](https://neverforget-1975.medium.com/crafting-clear-python-functions-a-guide-39b39faf5387) - Tue, 10 Oct 2023
-
-[A Deep Dive into Segment-Based Change Point Detection](https://neverforget-1975.medium.com/a-deep-dive-into-segment-based-change-point-detection-82f89781fa6e) - Sun, 01 Oct 2023
-
-[Quantiles](https://neverforget-1975.medium.com/quantiles-fa7632007a7f) - Sat, 30 Sep 2023
-
-[The Essence of Simplicity in Statistics](https://medium.com/data-and-beyond/the-essence-of-simplicity-in-statistics-e0fd085edafb) - Sat, 30 Sep 2023
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

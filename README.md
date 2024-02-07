@@ -63,6 +63,14 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[WiFi Sensing in IoMT](https://neverforget-1975.medium.com/wifi-sensing-in-iomt-b22a4aeb6cdc) - Wed, 07 Feb 2024
+
+[Modeling Information Spread in a Hyper Connected World](https://neverforget-1975.medium.com/modeling-information-spread-in-a-hyper-connected-world-2af3a4d98444) - Tue, 06 Feb 2024
+
+[Enhancing Manufacturing Excellence with Python](https://neverforget-1975.medium.com/enhancing-manufacturing-excellence-with-python-c8e5571fa087) - Tue, 06 Feb 2024
+
+[Clustering in Longitudinal Data](https://neverforget-1975.medium.com/clustering-in-longitudinal-data-57e75ae90ab9) - Tue, 06 Feb 2024
+
 [Revolutionizing Healthcare](https://neverforget-1975.medium.com/revolutionizing-healthcare-5678925eb5f4) - Tue, 06 Feb 2024
 
 [Understanding Clustering Techniques](https://neverforget-1975.medium.com/understanding-clustering-techniques-98c9ab7d1178) - Tue, 06 Feb 2024
@@ -74,14 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [Python for Advanced Customer Churn Analysis](https://ai.gopubby.com/python-for-advanced-customer-churn-analysis-7b1473b45c3a) - Thu, 01 Feb 2024
 
 [The Complexities of Production Optimization](https://medium.com/operations-research-bit/the-complexities-of-production-optimization-8c5e6573e2d4) - Tue, 30 Jan 2024
-
-[Optimal Clustering](https://medium.com/data-and-beyond/optimal-clustering-a816e70b0ad3) - Tue, 30 Jan 2024
-
-[Data Engineering Transformation: From Gatekeepers to Emergency Responders](https://neverforget-1975.medium.com/data-engineering-transformation-from-gatekeepers-to-emergency-responders-1147de7349c7) - Thu, 26 Oct 2023
-
-[Transitioning from Data Science to Biotech](https://neverforget-1975.medium.com/transitioning-from-data-science-to-biotech-e618fad0a0b1) - Tue, 17 Oct 2023
-
-[Crafting Clear Python Functions: A Guide](https://neverforget-1975.medium.com/crafting-clear-python-functions-a-guide-39b39faf5387) - Tue, 10 Oct 2023
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

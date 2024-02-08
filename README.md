@@ -63,6 +63,12 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[The Impact of Your Marketing Campaigns](https://neverforget-1975.medium.com/the-impact-of-your-marketing-campaigns-d9aed5d836f9) - Wed, 07 Feb 2024
+
+[Optimizing Production Networks](https://neverforget-1975.medium.com/optimizing-production-networks-3f962c19337c) - Wed, 07 Feb 2024
+
+[Optimizing Lean Manufacturing with Graph Theory](https://neverforget-1975.medium.com/optimizing-lean-manufacturing-with-graph-theory-008053ce371d) - Wed, 07 Feb 2024
+
 [WiFi Sensing in IoMT](https://neverforget-1975.medium.com/wifi-sensing-in-iomt-b22a4aeb6cdc) - Wed, 07 Feb 2024
 
 [Modeling Information Spread in a Hyper Connected World](https://neverforget-1975.medium.com/modeling-information-spread-in-a-hyper-connected-world-2af3a4d98444) - Tue, 06 Feb 2024
@@ -76,12 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [Understanding Clustering Techniques](https://neverforget-1975.medium.com/understanding-clustering-techniques-98c9ab7d1178) - Tue, 06 Feb 2024
 
 [Complexities of Clinical Data Exploration: A Comprehensive Guide](https://neverforget-1975.medium.com/complexities-of-clinical-data-exploration-a-comprehensive-guide-64defd6adcb4) - Tue, 06 Feb 2024
-
-[Predictive Maintenance Strategies](https://neverforget-1975.medium.com/predictive-maintenance-strategies-650350273387) - Thu, 01 Feb 2024
-
-[Python for Advanced Customer Churn Analysis](https://ai.gopubby.com/python-for-advanced-customer-churn-analysis-7b1473b45c3a) - Thu, 01 Feb 2024
-
-[The Complexities of Production Optimization](https://medium.com/operations-research-bit/the-complexities-of-production-optimization-8c5e6573e2d4) - Tue, 30 Jan 2024
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

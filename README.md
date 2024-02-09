@@ -63,6 +63,8 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Understanding Ergodicity](https://neverforget-1975.medium.com/understanding-ergodicity-db506dafc32c) - Thu, 08 Feb 2024
+
 [The Impact of Your Marketing Campaigns](https://neverforget-1975.medium.com/the-impact-of-your-marketing-campaigns-d9aed5d836f9) - Wed, 07 Feb 2024
 
 [Optimizing Production Networks](https://neverforget-1975.medium.com/optimizing-production-networks-3f962c19337c) - Wed, 07 Feb 2024
@@ -80,8 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [Revolutionizing Healthcare](https://neverforget-1975.medium.com/revolutionizing-healthcare-5678925eb5f4) - Tue, 06 Feb 2024
 
 [Understanding Clustering Techniques](https://neverforget-1975.medium.com/understanding-clustering-techniques-98c9ab7d1178) - Tue, 06 Feb 2024
-
-[Complexities of Clinical Data Exploration: A Comprehensive Guide](https://neverforget-1975.medium.com/complexities-of-clinical-data-exploration-a-comprehensive-guide-64defd6adcb4) - Tue, 06 Feb 2024
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

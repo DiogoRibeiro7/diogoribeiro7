@@ -85,11 +85,11 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [Mysteries of Clustering](https://diogoribeiro7.github.io/data%20science/Clustering/)
 - [Understanding Customer Lifetime Value](https://diogoribeiro7.github.io/machine%20learning/data%20science/customer_life_value/)
 - [Deciphering Cloud Customer Behavior](https://diogoribeiro7.github.io/machine%20learning/data%20science/model_customer_baheviour/)
 - [Mastering Bayesian Statistics: An In-Depth Guide to MCMC](https://diogoribeiro7.github.io/mathematics/Monte-Carlo/)
 - [Demystifying MCMC: A Practical Guide to Bayesian Inference](https://diogoribeiro7.github.io/mathematics/Probabilistic-Programming/)
-- [A Closer Look to the Classic Bell Curve](https://diogoribeiro7.github.io/mathematics/Normal-distribution/)
 <!-- BLOG-POST-LIST:END -->
 
 

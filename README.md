@@ -63,25 +63,25 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[The Power of K-Nearest Neighbors in Machine Learning](https://neverforget-1975.medium.com/the-power-of-k-nearest-neighbors-in-machine-learning-6a7c353ae7d7) - Fri, 09 Feb 2024
+
+[Optimizing Production in a Data-Driven Era](https://neverforget-1975.medium.com/optimizing-production-in-a-data-driven-era-dbf21c121efe) - Fri, 09 Feb 2024
+
+[Linear Regression with Heteroscedastic Data](https://neverforget-1975.medium.com/linear-regression-with-heteroscedastic-data-aa40c9a5a16d) - Fri, 09 Feb 2024
+
 [Understanding Ergodicity](https://neverforget-1975.medium.com/understanding-ergodicity-db506dafc32c) - Thu, 08 Feb 2024
 
 [The Impact of Your Marketing Campaigns](https://neverforget-1975.medium.com/the-impact-of-your-marketing-campaigns-d9aed5d836f9) - Wed, 07 Feb 2024
 
-[Optimizing Production Networks](https://neverforget-1975.medium.com/optimizing-production-networks-3f962c19337c) - Wed, 07 Feb 2024
+[Optimizing Production Networks](https://medium.com/operations-research-bit/optimizing-production-networks-3f962c19337c) - Wed, 07 Feb 2024
 
-[Optimizing Lean Manufacturing with Graph Theory](https://neverforget-1975.medium.com/optimizing-lean-manufacturing-with-graph-theory-008053ce371d) - Wed, 07 Feb 2024
+[Optimizing Lean Manufacturing with Graph Theory](https://medium.com/operations-research-bit/optimizing-lean-manufacturing-with-graph-theory-008053ce371d) - Wed, 07 Feb 2024
 
 [WiFi Sensing in IoMT](https://neverforget-1975.medium.com/wifi-sensing-in-iomt-b22a4aeb6cdc) - Wed, 07 Feb 2024
 
 [Modeling Information Spread in a Hyper Connected World](https://neverforget-1975.medium.com/modeling-information-spread-in-a-hyper-connected-world-2af3a4d98444) - Tue, 06 Feb 2024
 
 [Enhancing Manufacturing Excellence with Python](https://neverforget-1975.medium.com/enhancing-manufacturing-excellence-with-python-c8e5571fa087) - Tue, 06 Feb 2024
-
-[Clustering in Longitudinal Data](https://neverforget-1975.medium.com/clustering-in-longitudinal-data-57e75ae90ab9) - Tue, 06 Feb 2024
-
-[Revolutionizing Healthcare](https://neverforget-1975.medium.com/revolutionizing-healthcare-5678925eb5f4) - Tue, 06 Feb 2024
-
-[Understanding Clustering Techniques](https://neverforget-1975.medium.com/understanding-clustering-techniques-98c9ab7d1178) - Tue, 06 Feb 2024
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

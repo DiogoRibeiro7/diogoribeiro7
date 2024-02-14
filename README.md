@@ -63,6 +63,10 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Understanding Hypothesis Testing](https://neverforget-1975.medium.com/understanding-hypothesis-testing-e3c5a9d3cb7e) - Wed, 14 Feb 2024
+
+[Two-Way ANOVA Test](https://neverforget-1975.medium.com/two-way-anova-test-e016e3dc648d) - Tue, 13 Feb 2024
+
 [A Comprehensive Guide to Data Preparation and Exploratory Data Analysis](https://neverforget-1975.medium.com/a-comprehensive-guide-to-data-preparation-and-exploratory-data-analysis-67f0daedbd00) - Sun, 11 Feb 2024
 
 [Overcoming Challenges in Customer Segmentation](https://ai.gopubby.com/overcoming-challenges-in-customer-segmentation-8769ada52d3d) - Sat, 10 Feb 2024
@@ -78,10 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [The Impact of Your Marketing Campaigns](https://neverforget-1975.medium.com/the-impact-of-your-marketing-campaigns-d9aed5d836f9) - Wed, 07 Feb 2024
 
 [Optimizing Production Networks](https://medium.com/operations-research-bit/optimizing-production-networks-3f962c19337c) - Wed, 07 Feb 2024
-
-[Optimizing Lean Manufacturing with Graph Theory](https://medium.com/operations-research-bit/optimizing-lean-manufacturing-with-graph-theory-008053ce371d) - Wed, 07 Feb 2024
-
-[WiFi Sensing in IoMT](https://neverforget-1975.medium.com/wifi-sensing-in-iomt-b22a4aeb6cdc) - Wed, 07 Feb 2024
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

@@ -63,6 +63,14 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Structural Risk Minimization](https://neverforget-1975.medium.com/structural-risk-minimization-0560a74d1fa0) - Thu, 15 Feb 2024
+
+[Embracing Data Transformation in Statistical Analysis](https://neverforget-1975.medium.com/embracing-data-transformation-in-statistical-analysis-9a85d953b3cb) - Wed, 14 Feb 2024
+
+[Understanding the Box-Cox Transformation](https://neverforget-1975.medium.com/understanding-the-box-cox-transformation-8740923f35e3) - Wed, 14 Feb 2024
+
+[Exploring the Role of Statistics in Dynamical Chaotic Systems](https://neverforget-1975.medium.com/exploring-the-role-of-statistics-in-dynamical-chaotic-systems-4681ae45d5db) - Wed, 14 Feb 2024
+
 [Understanding Hypothesis Testing](https://neverforget-1975.medium.com/understanding-hypothesis-testing-e3c5a9d3cb7e) - Wed, 14 Feb 2024
 
 [Two-Way ANOVA Test](https://neverforget-1975.medium.com/two-way-anova-test-e016e3dc648d) - Tue, 13 Feb 2024
@@ -74,14 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [The Power of K-Nearest Neighbors in Machine Learning](https://neverforget-1975.medium.com/the-power-of-k-nearest-neighbors-in-machine-learning-6a7c353ae7d7) - Fri, 09 Feb 2024
 
 [Optimizing Production in a Data-Driven Era](https://neverforget-1975.medium.com/optimizing-production-in-a-data-driven-era-dbf21c121efe) - Fri, 09 Feb 2024
-
-[Linear Regression with Heteroscedastic Data](https://neverforget-1975.medium.com/linear-regression-with-heteroscedastic-data-aa40c9a5a16d) - Fri, 09 Feb 2024
-
-[Understanding Ergodicity](https://neverforget-1975.medium.com/understanding-ergodicity-db506dafc32c) - Thu, 08 Feb 2024
-
-[The Impact of Your Marketing Campaigns](https://neverforget-1975.medium.com/the-impact-of-your-marketing-campaigns-d9aed5d836f9) - Wed, 07 Feb 2024
-
-[Optimizing Production Networks](https://medium.com/operations-research-bit/optimizing-production-networks-3f962c19337c) - Wed, 07 Feb 2024
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

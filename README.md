@@ -63,6 +63,10 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Understanding Key Regression Techniques in Data Science](https://neverforget-1975.medium.com/understanding-key-regression-techniques-in-data-science-92096397fb24) - Thu, 15 Feb 2024
+
+[Hidden Patterns in Clustering](https://neverforget-1975.medium.com/hidden-patterns-in-clustering-87207c0d14ff) - Thu, 15 Feb 2024
+
 [Structural Risk Minimization](https://neverforget-1975.medium.com/structural-risk-minimization-0560a74d1fa0) - Thu, 15 Feb 2024
 
 [Embracing Data Transformation in Statistical Analysis](https://neverforget-1975.medium.com/embracing-data-transformation-in-statistical-analysis-9a85d953b3cb) - Wed, 14 Feb 2024
@@ -75,13 +79,9 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 [Two-Way ANOVA Test](https://neverforget-1975.medium.com/two-way-anova-test-e016e3dc648d) - Tue, 13 Feb 2024
 
-[A Comprehensive Guide to Data Preparation and Exploratory Data Analysis](https://neverforget-1975.medium.com/a-comprehensive-guide-to-data-preparation-and-exploratory-data-analysis-67f0daedbd00) - Sun, 11 Feb 2024
+[A Comprehensive Guide to Data Preparation and Exploratory Data Analysis](https://towardsdev.com/a-comprehensive-guide-to-data-preparation-and-exploratory-data-analysis-67f0daedbd00) - Sun, 11 Feb 2024
 
 [Overcoming Challenges in Customer Segmentation](https://ai.gopubby.com/overcoming-challenges-in-customer-segmentation-8769ada52d3d) - Sat, 10 Feb 2024
-
-[The Power of K-Nearest Neighbors in Machine Learning](https://neverforget-1975.medium.com/the-power-of-k-nearest-neighbors-in-machine-learning-6a7c353ae7d7) - Fri, 09 Feb 2024
-
-[Optimizing Production in a Data-Driven Era](https://neverforget-1975.medium.com/optimizing-production-in-a-data-driven-era-dbf21c121efe) - Fri, 09 Feb 2024
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

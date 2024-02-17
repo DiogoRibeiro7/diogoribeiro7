@@ -63,6 +63,10 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Advanced Techniques for Generating Synthetic Data](https://towardsdev.com/advanced-techniques-for-generating-synthetic-data-bf040ff8de66) - Fri, 16 Feb 2024
+
+[Sample Space](https://neverforget-1975.medium.com/sample-space-bec655d9c773) - Fri, 16 Feb 2024
+
 [Understanding Key Regression Techniques in Data Science](https://neverforget-1975.medium.com/understanding-key-regression-techniques-in-data-science-92096397fb24) - Thu, 15 Feb 2024
 
 [Hidden Patterns in Clustering](https://neverforget-1975.medium.com/hidden-patterns-in-clustering-87207c0d14ff) - Thu, 15 Feb 2024
@@ -78,10 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [Understanding Hypothesis Testing](https://neverforget-1975.medium.com/understanding-hypothesis-testing-e3c5a9d3cb7e) - Wed, 14 Feb 2024
 
 [Two-Way ANOVA Test](https://neverforget-1975.medium.com/two-way-anova-test-e016e3dc648d) - Tue, 13 Feb 2024
-
-[A Comprehensive Guide to Data Preparation and Exploratory Data Analysis](https://towardsdev.com/a-comprehensive-guide-to-data-preparation-and-exploratory-data-analysis-67f0daedbd00) - Sun, 11 Feb 2024
-
-[Overcoming Challenges in Customer Segmentation](https://ai.gopubby.com/overcoming-challenges-in-customer-segmentation-8769ada52d3d) - Sat, 10 Feb 2024
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

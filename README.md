@@ -63,11 +63,13 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[MLOps: A Data Engineer’s Roadmap to Operationalizing Machine Learning](https://medium.com/thedeephub/mlops-a-data-engineers-roadmap-to-operationalizing-machine-learning-1769a7817e86) - Sat, 17 Feb 2024
+
 [Advanced Techniques for Generating Synthetic Data](https://towardsdev.com/advanced-techniques-for-generating-synthetic-data-bf040ff8de66) - Fri, 16 Feb 2024
 
-[Sample Space](https://neverforget-1975.medium.com/sample-space-bec655d9c773) - Fri, 16 Feb 2024
+[Sample Space](https://medium.com/thedeephub/sample-space-bec655d9c773) - Fri, 16 Feb 2024
 
-[Understanding Key Regression Techniques in Data Science](https://neverforget-1975.medium.com/understanding-key-regression-techniques-in-data-science-92096397fb24) - Thu, 15 Feb 2024
+[Understanding Key Regression Techniques in Data Science](https://medium.com/thedeephub/understanding-key-regression-techniques-in-data-science-92096397fb24) - Thu, 15 Feb 2024
 
 [Hidden Patterns in Clustering](https://neverforget-1975.medium.com/hidden-patterns-in-clustering-87207c0d14ff) - Thu, 15 Feb 2024
 
@@ -80,8 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [Exploring the Role of Statistics in Dynamical Chaotic Systems](https://neverforget-1975.medium.com/exploring-the-role-of-statistics-in-dynamical-chaotic-systems-4681ae45d5db) - Wed, 14 Feb 2024
 
 [Understanding Hypothesis Testing](https://neverforget-1975.medium.com/understanding-hypothesis-testing-e3c5a9d3cb7e) - Wed, 14 Feb 2024
-
-[Two-Way ANOVA Test](https://neverforget-1975.medium.com/two-way-anova-test-e016e3dc648d) - Tue, 13 Feb 2024
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

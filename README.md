@@ -63,6 +63,10 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Leveraging Mathematics for Enhanced Management Decision-Making](https://privatecurator.org/leveraging-mathematics-for-enhanced-management-decision-making-6150046aa102) - Mon, 19 Feb 2024
+
+[Markov Chains: A Comprehensive Guide to Stochastic Processes and the Chapman-Kolmogorov Equation](https://medium.com/data-and-beyond/markov-chains-a-comprehensive-guide-to-stochastic-processes-and-the-chapman-kolmogorov-equation-8aa04d1e0349) - Mon, 19 Feb 2024
+
 [MLOps: A Data Engineer’s Roadmap to Operationalizing Machine Learning](https://medium.com/thedeephub/mlops-a-data-engineers-roadmap-to-operationalizing-machine-learning-1769a7817e86) - Sat, 17 Feb 2024
 
 [Advanced Techniques for Generating Synthetic Data](https://towardsdev.com/advanced-techniques-for-generating-synthetic-data-bf040ff8de66) - Fri, 16 Feb 2024
@@ -78,10 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [Embracing Data Transformation in Statistical Analysis](https://neverforget-1975.medium.com/embracing-data-transformation-in-statistical-analysis-9a85d953b3cb) - Wed, 14 Feb 2024
 
 [Understanding the Box-Cox Transformation](https://neverforget-1975.medium.com/understanding-the-box-cox-transformation-8740923f35e3) - Wed, 14 Feb 2024
-
-[Exploring the Role of Statistics in Dynamical Chaotic Systems](https://neverforget-1975.medium.com/exploring-the-role-of-statistics-in-dynamical-chaotic-systems-4681ae45d5db) - Wed, 14 Feb 2024
-
-[Understanding Hypothesis Testing](https://neverforget-1975.medium.com/understanding-hypothesis-testing-e3c5a9d3cb7e) - Wed, 14 Feb 2024
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

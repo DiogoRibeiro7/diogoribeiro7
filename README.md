@@ -63,6 +63,8 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Time Series Forecasting with Prior Knowledge Transfer](https://neverforget-1975.medium.com/time-series-forecasting-with-prior-knowledge-transfer-99baf749c64c) - Wed, 21 Feb 2024
+
 [Leveraging Mathematics for Enhanced Management Decision-Making](https://privatecurator.org/leveraging-mathematics-for-enhanced-management-decision-making-6150046aa102) - Mon, 19 Feb 2024
 
 [Markov Chains: A Comprehensive Guide to Stochastic Processes and the Chapman-Kolmogorov Equation](https://medium.com/data-and-beyond/markov-chains-a-comprehensive-guide-to-stochastic-processes-and-the-chapman-kolmogorov-equation-8aa04d1e0349) - Mon, 19 Feb 2024
@@ -80,8 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [Structural Risk Minimization](https://neverforget-1975.medium.com/structural-risk-minimization-0560a74d1fa0) - Thu, 15 Feb 2024
 
 [Embracing Data Transformation in Statistical Analysis](https://neverforget-1975.medium.com/embracing-data-transformation-in-statistical-analysis-9a85d953b3cb) - Wed, 14 Feb 2024
-
-[Understanding the Box-Cox Transformation](https://neverforget-1975.medium.com/understanding-the-box-cox-transformation-8740923f35e3) - Wed, 14 Feb 2024
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

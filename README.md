@@ -63,6 +63,16 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Leveraging PostgreSQL with Python](https://neverforget-1975.medium.com/leveraging-postgresql-with-python-e0beed7a52f8) - Sun, 25 Feb 2024
+
+[Understanding exchangelib](https://neverforget-1975.medium.com/understanding-exchangelib-ed2786872893) - Sat, 24 Feb 2024
+
+[Streamlining Data Pipeline Development with Dagster](https://tutorials.botsfloor.com/streamlining-data-pipeline-development-with-dagster-cb2d1232d1dd) - Sat, 24 Feb 2024
+
+[Operational Research: Techniques and Applications](https://medium.com/operations-research-gig/operational-research-techniques-and-applications-323a7d1fd17e) - Sat, 24 Feb 2024
+
+[Generating Synthetic Data Using Probability Distributions](https://neverforget-1975.medium.com/generating-synthetic-data-using-probability-distributions-e50fe63fece7) - Sat, 24 Feb 2024
+
 [Time Series Forecasting with Prior Knowledge Transfer](https://neverforget-1975.medium.com/time-series-forecasting-with-prior-knowledge-transfer-99baf749c64c) - Wed, 21 Feb 2024
 
 [Leveraging Mathematics for Enhanced Management Decision-Making](https://privatecurator.org/leveraging-mathematics-for-enhanced-management-decision-making-6150046aa102) - Mon, 19 Feb 2024
@@ -72,16 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [MLOps: A Data Engineer’s Roadmap to Operationalizing Machine Learning](https://medium.com/thedeephub/mlops-a-data-engineers-roadmap-to-operationalizing-machine-learning-1769a7817e86) - Sat, 17 Feb 2024
 
 [Advanced Techniques for Generating Synthetic Data](https://towardsdev.com/advanced-techniques-for-generating-synthetic-data-bf040ff8de66) - Fri, 16 Feb 2024
-
-[Sample Space](https://medium.com/thedeephub/sample-space-bec655d9c773) - Fri, 16 Feb 2024
-
-[Understanding Key Regression Techniques in Data Science](https://medium.com/thedeephub/understanding-key-regression-techniques-in-data-science-92096397fb24) - Thu, 15 Feb 2024
-
-[Hidden Patterns in Clustering](https://neverforget-1975.medium.com/hidden-patterns-in-clustering-87207c0d14ff) - Thu, 15 Feb 2024
-
-[Structural Risk Minimization](https://neverforget-1975.medium.com/structural-risk-minimization-0560a74d1fa0) - Thu, 15 Feb 2024
-
-[Embracing Data Transformation in Statistical Analysis](https://neverforget-1975.medium.com/embracing-data-transformation-in-statistical-analysis-9a85d953b3cb) - Wed, 14 Feb 2024
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

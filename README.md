@@ -63,6 +63,12 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Fair Value Portfolio Hedging for a Bank](https://neverforget-1975.medium.com/fair-value-portfolio-hedging-for-a-bank-d3f505b5fac6) - Mon, 26 Feb 2024
+
+[Python Type Checking](https://neverforget-1975.medium.com/python-type-checking-76dbe2142cdb) - Sun, 25 Feb 2024
+
+[Energy Optimization for a Production Facility](https://neverforget-1975.medium.com/energy-optimization-for-a-production-facility-653f510f7e53) - Sun, 25 Feb 2024
+
 [Leveraging PostgreSQL with Python](https://neverforget-1975.medium.com/leveraging-postgresql-with-python-e0beed7a52f8) - Sun, 25 Feb 2024
 
 [Understanding exchangelib](https://neverforget-1975.medium.com/understanding-exchangelib-ed2786872893) - Sat, 24 Feb 2024
@@ -76,12 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [Time Series Forecasting with Prior Knowledge Transfer](https://neverforget-1975.medium.com/time-series-forecasting-with-prior-knowledge-transfer-99baf749c64c) - Wed, 21 Feb 2024
 
 [Leveraging Mathematics for Enhanced Management Decision-Making](https://privatecurator.org/leveraging-mathematics-for-enhanced-management-decision-making-6150046aa102) - Mon, 19 Feb 2024
-
-[Markov Chains: A Comprehensive Guide to Stochastic Processes and the Chapman-Kolmogorov Equation](https://medium.com/data-and-beyond/markov-chains-a-comprehensive-guide-to-stochastic-processes-and-the-chapman-kolmogorov-equation-8aa04d1e0349) - Mon, 19 Feb 2024
-
-[MLOps: A Data Engineer’s Roadmap to Operationalizing Machine Learning](https://medium.com/thedeephub/mlops-a-data-engineers-roadmap-to-operationalizing-machine-learning-1769a7817e86) - Sat, 17 Feb 2024
-
-[Advanced Techniques for Generating Synthetic Data](https://towardsdev.com/advanced-techniques-for-generating-synthetic-data-bf040ff8de66) - Fri, 16 Feb 2024
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

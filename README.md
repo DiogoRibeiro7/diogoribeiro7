@@ -63,6 +63,8 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Modeling the Supply Chain of Second-Hand Cars](https://neverforget-1975.medium.com/modeling-the-supply-chain-of-second-hand-cars-9122246cfb4b) - Tue, 27 Feb 2024
+
 [DBSCAN for Clustering Analysis](https://neverforget-1975.medium.com/dbscan-for-clustering-analysis-9acc160ca1ca) - Tue, 27 Feb 2024
 
 [Fair Value Portfolio Hedging for a Bank](https://medium.com/operations-research-gig/fair-value-portfolio-hedging-for-a-bank-d3f505b5fac6) - Mon, 26 Feb 2024
@@ -80,8 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [Operational Research: Techniques and Applications](https://medium.com/operations-research-gig/operational-research-techniques-and-applications-323a7d1fd17e) - Sat, 24 Feb 2024
 
 [Generating Synthetic Data Using Probability Distributions](https://neverforget-1975.medium.com/generating-synthetic-data-using-probability-distributions-e50fe63fece7) - Sat, 24 Feb 2024
-
-[Time Series Forecasting with Prior Knowledge Transfer](https://neverforget-1975.medium.com/time-series-forecasting-with-prior-knowledge-transfer-99baf749c64c) - Wed, 21 Feb 2024
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

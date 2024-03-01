@@ -63,6 +63,8 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Partial Least Squares: A Comprehensive Guide to Overcoming Data Challenges](https://neverforget-1975.medium.com/partial-least-squares-a-comprehensive-guide-to-overcoming-data-challenges-f0f712cca99d) - Thu, 29 Feb 2024
+
 [Depths of Logistic Regression](https://neverforget-1975.medium.com/depths-of-logistic-regression-61ba3720f709) - Wed, 28 Feb 2024
 
 [Modeling the Supply Chain of Second-Hand Cars](https://neverforget-1975.medium.com/modeling-the-supply-chain-of-second-hand-cars-9122246cfb4b) - Tue, 27 Feb 2024
@@ -80,8 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [Understanding exchangelib](https://neverforget-1975.medium.com/understanding-exchangelib-ed2786872893) - Sat, 24 Feb 2024
 
 [Streamlining Data Pipeline Development with Dagster](https://tutorials.botsfloor.com/streamlining-data-pipeline-development-with-dagster-cb2d1232d1dd) - Sat, 24 Feb 2024
-
-[Operational Research: Techniques and Applications](https://medium.com/operations-research-gig/operational-research-techniques-and-applications-323a7d1fd17e) - Sat, 24 Feb 2024
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

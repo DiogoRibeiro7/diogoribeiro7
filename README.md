@@ -63,6 +63,8 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[A Comprehensive Guide to Structural Equation Modeling with Latent Variables](https://neverforget-1975.medium.com/a-comprehensive-guide-to-structural-equation-modeling-with-latent-variables-82d3e1c6de34) - Tue, 26 Mar 2024
+
 [Comparing Imputation Techniques](https://neverforget-1975.medium.com/comparing-imputation-techniques-caaad12f79f0) - Fri, 08 Mar 2024
 
 [Partial Least Squares: A Comprehensive Guide to Overcoming Data Challenges](https://neverforget-1975.medium.com/partial-least-squares-a-comprehensive-guide-to-overcoming-data-challenges-f0f712cca99d) - Thu, 29 Feb 2024
@@ -80,8 +82,6 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 [Energy Optimization for a Production Facility](https://neverforget-1975.medium.com/energy-optimization-for-a-production-facility-653f510f7e53) - Sun, 25 Feb 2024
 
 [Leveraging PostgreSQL with Python](https://neverforget-1975.medium.com/leveraging-postgresql-with-python-e0beed7a52f8) - Sun, 25 Feb 2024
-
-[Understanding exchangelib](https://neverforget-1975.medium.com/understanding-exchangelib-ed2786872893) - Sat, 24 Feb 2024
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

@@ -85,11 +85,11 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [Kernel Clustering in R](https://diogoribeiro7.github.io/mathematics/statistics/machine%20learning/Kernel-Clustering-in-R/)
 - [Paths of Combinatorics and Probability](https://diogoribeiro7.github.io/mathematics/combinatorics_probability/)
 - [Distinguishing Ergodic Regimes from Processes](https://diogoribeiro7.github.io/mathematics/Ergodicity/)
 - [Mastering Combinatorics with Python](https://diogoribeiro7.github.io/mathematics/combinatorics_python/)
 - [Elegance of the Pigeonhole Principle: A Mathematical Odyssey](https://diogoribeiro7.github.io/mathematics/Pingenhole-Principle/)
-- [The Power of Dimensionality Reduction](https://diogoribeiro7.github.io/data%20science/Spectral-Clustering/)
 <!-- BLOG-POST-LIST:END -->
 
 

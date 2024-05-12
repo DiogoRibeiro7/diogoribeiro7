@@ -85,11 +85,11 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [Efficiency in Research: The Strategic Role of Importance Sampling](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/Importance_Sampling/)
 - [The Limitations of Aggregated GDP Data in Data Science Analysis](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/economy/Data-Analysis-and-GDP/)
 - [Stratified Sampling](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/Stratified-Sampling/)
 - [Survival Analysis in Management](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/Survival-Analysis/)
 - [Kernel Clustering in R](https://diogoribeiro7.github.io/mathematics/statistics/machine%20learning/Kernel-Clustering-in-R/)
-- [Understanding t-SNE](https://diogoribeiro7.github.io/mathematics/statistics/machine%20learning/Understanding-t-SNE/)
 <!-- BLOG-POST-LIST:END -->
 
 

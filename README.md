@@ -5,7 +5,7 @@
 
 [![Continuous integration](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml/badge.svg)](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=DiogoRibeiro7)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=highcontrast&hide_border=true)](https://git.io/streak-stats)
 
 
 I'm a seasoned Data Scientist with over a decade of experience in the field, hailing from the picturesque country of Portugal. My journey through the realms of pure and applied mathematics has been a source of fascination and inspiration throughout my career. Welcome to my GitHub profile!

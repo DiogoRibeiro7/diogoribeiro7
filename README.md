@@ -87,11 +87,11 @@ I'm a seasoned Data Scientist with over a decade of experience in the field, hai
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [Analyzing the Statistical Performance Indicators &lpar;SPI&rpar; Dataset](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/SPI_data/)
+- [Regularization in Machine Learning](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/regularization_machine_learning/)
 - [Navigating AI Fairness](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/ethics%20research/AI_fairness/)
 - [Detect Multivariate Data Drift](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/Detect-Multivariate-Data-Drift/)
 - [Automating Feature Engineering](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/Feature_Engineering/)
-- [Kullback-Leibler and Wasserstein Distances](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/Kullback/)
-- [From Data to Probability](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/P_value/)
 <!-- BLOG-POST-LIST:END -->
 
 

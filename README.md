@@ -53,6 +53,7 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 | Command Line      | ![Bash](https://img.shields.io/badge/Code-Bash-007BFF?logo=gnu-bash&logoColor=white) ![Git](https://img.shields.io/badge/Code-Git-F05032?logo=git&logoColor=white) ![curl](https://img.shields.io/badge/Code-curl-073551?logo=curl&logoColor=white) ![wget](https://img.shields.io/badge/Code-wget-0A9D58?logo=gnu&logoColor=white)|
  Cloud Services | ![Azure](https://img.shields.io/badge/Cloud-Azure-0078D4?logo=microsoft-azure&logoColor=white) ![GCP](https://img.shields.io/badge/Cloud-GCP-4285F4?logo=google-cloud&logoColor=white) ![AWS](https://img.shields.io/badge/Cloud-AWS-232F3E?logo=amazon-aws&logoColor=white)|
 | Typesetting Tools | ![LaTeX](https://img.shields.io/badge/Document%20Preparation-LaTeX-008080?logo=latex&logoColor=white) ![Markdown](https://img.shields.io/badge/Document%20Preparation-Markdown-000000?logo=markdown&logoColor=white) ![R Markdown](https://img.shields.io/badge/Document%20Preparation-R%20Markdown-276DC3?logo=r&logoColor=white)|
+| Web Development Frameworks | ![React](https://img.shields.io/badge/Web%20Framework-React-61DAFB?logo=react&logoColor=white) ![Django](https://img.shields.io/badge/Web%20Framework-Django-092E20?logo=django&logoColor=white)| 
 
 ### GitHub Stats
 

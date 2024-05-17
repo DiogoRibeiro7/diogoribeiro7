@@ -8,15 +8,25 @@
 [![GitHub Streak](https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=highcontrast&hide_border=true)](https://git.io/streak-stats)
 
 
-I'm a seasoned Data Scientist with over a decade of experience in the field, hailing from the picturesque country of Portugal. My journey through the realms of pure and applied mathematics has been a source of fascination and inspiration throughout my career. Welcome to my GitHub profile!
+I'm a veteran Data Scientist with over two decades of experience, hailing from the picturesque country of Portugal. My journey through computer science, economy, management, medicine, natural sciences, engineering, pure mathematics and applied mathematics has been a continuous source of fascination and inspiration. Welcome to my GitHub profile!
 
-- I've delved into the intricate domains of supply chain, logistics, sustainability, finance and health where data-driven decision-making plays a pivotal role in optimizing operations and promoting environmental responsibility.
+I've delved into the intricate domains of supply chain, logistics, sustainability, finance, and health, where data-driven decision-making optimizes operations and promotes environmental responsibility.
 
-- 🔭 In the realm of research, I'm deeply immersed in exploring the application of machine learning and statistics in the domain of health. My work involves harnessing the power of data to make advancements in healthcare solutions and outcomes.
+🔭 In research, I'm deeply immersed in applying machine learning and statistics to health. My work harnesses data to advance healthcare solutions and outcomes.
 
-- 🔭 Additionally, my research extends to the realm of mathematics, particularly focusing on differential equations and partial differential equations. These mathematical tools find applications in diverse fields such as epidemiology, economics, and sociology, where they help unravel complex phenomena.
+🔭 My research also extends to mathematics, focusing on differential equations and partial differential equations. These tools apply to diverse fields such as epidemiology, economics, and sociology, helping unravel complex phenomena.
 
-- 🔭 I'm also passionate about graph theory and its applications in social networks, where I uncover patterns and connections that provide valuable insights into human interactions.
+🔭 I'm passionate about graph theory and its applications in social networks, where I uncover patterns and connections that provide valuable insights into human interactions.
+
+📈 Beyond these areas, I'm intrigued by the potential of big data analytics in marketing, where customer behaviors and preferences can be decoded to enhance business strategies.
+
+📊 I'm also fascinated by the emerging field of quantum computing and its potential to revolutionize problem-solving in cryptography and optimization.
+
+📐 My research in statistics and probability involves developing models that accurately predict outcomes and assess risks. These models are crucial in fields like finance, insurance, and public policy, where they inform decision-making and strategy.
+
+🌍 Sustainability is another key interest, particularly in developing algorithms that promote renewable energy use and reduce carbon footprints.
+
+Thank you for visiting my profile, and I look forward to connecting and collaborating!
 
 🔗 &nbsp;**Connect with me**
 

@@ -1,7 +1,5 @@
  """ https://github.com/zonito/medium_stats/tree/main
  """
-
-
 import json
 import os
 import ssl

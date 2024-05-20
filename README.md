@@ -117,11 +117,11 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [Similarity Measures and Loss Functions in Machine Learning](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/Bhattacharyya_Distance/)
+- [Understanding the Normalized Gini Coefficient and Default Rate](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/gini_coefficiente/)
 - [Understanding Markov Systems](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/Markov_Chain/)
 - [Regularization in Machine Learning](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/regularization_machine_learning/)
 - [Navigating AI Fairness](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/ethics%20research/AI_fairness/)
-- [Detect Multivariate Data Drift](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/Detect-Multivariate-Data-Drift/)
-- [Automating Feature Engineering](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/Feature_Engineering/)
 <!-- BLOG-POST-LIST:END -->
 
 

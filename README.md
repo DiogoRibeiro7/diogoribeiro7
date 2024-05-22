@@ -121,7 +121,7 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
-- [Understanding Probability and Odds](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/Probability_and_odds/)
+- [Probability Integral Transform: Theory and Applications](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/Probability_integral_transform/)
 - [Similarity Measures and Loss Functions in Machine Learning](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/Bhattacharyya_Distance/)
 - [Understanding the Normalized Gini Coefficient and Default Rate](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/gini_coefficiente/)
 - [Understanding Markov Systems](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/Markov_Chain/)

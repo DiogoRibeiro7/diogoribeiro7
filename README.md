@@ -121,11 +121,11 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
-- [Understanding the Use of Error Bars in Scientific Reporting](https://diogoribeiro7.github.io/academic%20writing/research%20methodology/education/study%20skills/writing%20tips/error_bars/)
-- [Explaining Weighted Moving Average and Standard Deviation to Nurses](https://diogoribeiro7.github.io/healthcare%20education/statistical%20methods/data%20interpretation/nursing%20practice/professional%20development/explain_nurse/)
 - [Critical Review of ‘Bursting the &lpar;Filter&rpar; Bubble: Interactions of Members of Parliament on Twitter’](https://diogoribeiro7.github.io/academic%20writing/research%20methodology/political%20communication/social%20media%20studies/digital%20democracy/social%20network%20analysis/political%20sociology/Peer_review/)
 - [How to Write a Research Paper](https://diogoribeiro7.github.io/academic%20writing/research%20methodology/education/study%20skills/writing%20tips/Research_paper/)
 - [Probability Integral Transform: Theory and Applications](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/Probability_integral_transform/)
+- [Similarity Measures and Loss Functions in Machine Learning](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/Bhattacharyya_Distance/)
+- [Understanding the Normalized Gini Coefficient and Default Rate](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/gini_coefficiente/)
 <!-- BLOG-POST-LIST:END -->
 
 

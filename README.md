@@ -99,6 +99,8 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Building a Data Team in an Evolving World](https://neverforget-1975.medium.com/building-a-data-team-in-an-evolving-world-8760c270ef7d) - Wed, 05 Jun 2024
+
 [Unsupervised Anomaly Detection](https://neverforget-1975.medium.com/unsupervised-anomaly-detection-ea5ee712bfc2) - Mon, 22 Apr 2024
 
 [A Comprehensive Guide to Structural Equation Modeling with Latent Variables](https://neverforget-1975.medium.com/a-comprehensive-guide-to-structural-equation-modeling-with-latent-variables-82d3e1c6de34) - Tue, 26 Mar 2024
@@ -116,8 +118,6 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 [Fair Value Portfolio Hedging for a Bank](https://medium.com/operations-research-gig/fair-value-portfolio-hedging-for-a-bank-d3f505b5fac6) - Mon, 26 Feb 2024
 
 [Python Type Checking](https://neverforget-1975.medium.com/python-type-checking-76dbe2142cdb) - Sun, 25 Feb 2024
-
-[Energy Optimization for a Production Facility](https://neverforget-1975.medium.com/energy-optimization-for-a-production-facility-653f510f7e53) - Sun, 25 Feb 2024
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

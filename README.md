@@ -121,11 +121,11 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [The Advantages of Using Data Science in Health Tech](https://diogoribeiro7.github.io/data%20science/mathematics/statistics/data%20analysis/healthcare%20technology/Data_science_in-Health_tech/)
+- [Modeling Sensor Activations with Poisson Distribution in Python](https://diogoribeiro7.github.io/data%20science/statistics/data%20analysis/python%20programming/educational%20tutorial/sensor_activations_models/)
+- [Modeling Count Events with Poisson Distribution in R](https://diogoribeiro7.github.io/data%20science/statistics/r%20programming/probability%20and%20statistics/data%20analysis/poisson_distribution/)
+- [Explaining Weighted Moving Average and Standard Deviation in Health Care](https://diogoribeiro7.github.io/healthcare%20education/statistical%20methods/data%20interpretation/nursing%20practice/professional%20development/explain_nurse/)
 - [Critical Review of ‘Bursting the &lpar;Filter&rpar; Bubble: Interactions of Members of Parliament on Twitter’](https://diogoribeiro7.github.io/academic%20writing/research%20methodology/political%20communication/social%20media%20studies/digital%20democracy/social%20network%20analysis/political%20sociology/Peer_review/)
-- [How to Write a Research Paper](https://diogoribeiro7.github.io/academic%20writing/research%20methodology/education/study%20skills/writing%20tips/Research_paper/)
-- [Probability Integral Transform: Theory and Applications](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/Probability_integral_transform/)
-- [Similarity Measures and Loss Functions in Machine Learning](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/Bhattacharyya_Distance/)
-- [Understanding the Normalized Gini Coefficient and Default Rate](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/gini_coefficiente/)
 <!-- BLOG-POST-LIST:END -->
 
 

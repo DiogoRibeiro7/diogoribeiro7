@@ -99,7 +99,7 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
-[Building a Data Team in an Evolving World](https://neverforget-1975.medium.com/building-a-data-team-in-an-evolving-world-8760c270ef7d) - Wed, 05 Jun 2024
+[Building a Data Team in an Evolving World](https://medium.com/data-and-beyond/building-a-data-team-in-an-evolving-world-8760c270ef7d) - Wed, 05 Jun 2024
 
 [Unsupervised Anomaly Detection](https://neverforget-1975.medium.com/unsupervised-anomaly-detection-ea5ee712bfc2) - Mon, 22 Apr 2024
 

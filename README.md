@@ -121,11 +121,11 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [Impact of Electromagnetic Interference on RSSI Signal: Detailed Insights and Implications](https://diogoribeiro7.github.io/wireless%20communication/signal%20processing/data%20science/network%20engineering/EMI_RSSI_SIGNAL/)
 - [Matthew’s Correlation Coefficient &lpar;MCC&rpar;: A Detailed Explanation](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/matthew_correlation/)
 - [Stepwise Regression: Methodology, Applications, and Concerns](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/Stepwise_regression/)
 - [DBSCAN++: The Faster and Scalable Alternative to DBSCAN Clustering](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/machine%20learning/DBSCAN/)
 - [Estimating Survival Functions: Parametric and Non-Parametric Approaches](https://diogoribeiro7.github.io/mathematics/statistics/data%20science/medical%20research/survival_analysis/)
-- [Data Analysis Skills with Z-Scores: A Quick Guide](https://diogoribeiro7.github.io/data%20science/mathematics/statistics/data%20analysis/r%20programming/educational%20tutorial/z-score/)
 <!-- BLOG-POST-LIST:END -->
 
 

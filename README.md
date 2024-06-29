@@ -12,6 +12,9 @@
     <img src="https://streak-stats.demolab.com?user=DenverCoder1&theme=default" />
 </picture>
 
+<!--START_SECTION_LINES_OF_CODE:readme-info-->
+<!--END_SECTION_LINES_OF_CODE:readme-info-->
+
 I'm a veteran Data Scientist with over two decades of experience, hailing from the picturesque country of Portugal. My journey through computer science, economy, management, medicine, natural sciences, engineering, pure mathematics and applied mathematics has been a continuous source of fascination and inspiration. Welcome to my GitHub profile!
 
 I've delved into the intricate domains of supply chain, logistics, sustainability, finance, and health, where data-driven decision-making optimizes operations and promotes environmental responsibility.

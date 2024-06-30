@@ -124,11 +124,11 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [Statistical Analysis with Generalized Linear Models](/epidemiology/data%20science/medical%20research/statistics/clinical%20studies/GLM/)
+- [Latent Variables: Explained and Its History](/statistics/machine%20learning/physics/artificial%20intelligence/research%20methodology/latente/)
 - [Handling Missing Data in Clinical Research](/epidemiology/data%20science/medical%20research/statistics/clinical%20studies/missing_data/)
 - [The Sunrise Problem: A Bayesian vs Frequentist Perspective](/mathematics/statistics/data%20science/philosophy/probability/Frequentis_Bayesian/)
 - [Impact of Electromagnetic Interference on RSSI Signal: Detailed Insights and Implications](/wireless%20communication/signal%20processing/data%20science/network%20engineering/EMI_RSSI_SIGNAL/)
-- [Matthew’s Correlation Coefficient &lpar;MCC&rpar;: A Detailed Explanation](/mathematics/statistics/data%20science/machine%20learning/matthew_correlation/)
-- [Stepwise Regression: Methodology, Applications, and Concerns](/mathematics/statistics/data%20science/machine%20learning/Stepwise_regression/)
 <!-- BLOG-POST-LIST:END -->
 
 

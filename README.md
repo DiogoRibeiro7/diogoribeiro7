@@ -124,11 +124,11 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [LASSO Regression: What, Why, When, and When Not](/statistics/machine%20learning/data%20science/regression%20analysis/predictive%20modeling/Lasso/)
+- [Latent Class Analysis: Unveiling Hidden Patterns in Data](/data%20science/Latent-Class/)
 - [Statistical Analysis with Generalized Linear Models](/epidemiology/data%20science/medical%20research/statistics/clinical%20studies/GLM/)
 - [Latent Variables: Explained and Its History](/statistics/machine%20learning/physics/artificial%20intelligence/research%20methodology/latente/)
 - [Handling Missing Data in Clinical Research](/epidemiology/data%20science/medical%20research/statistics/clinical%20studies/missing_data/)
-- [The Sunrise Problem: A Bayesian vs Frequentist Perspective](/mathematics/statistics/data%20science/philosophy/probability/Frequentis_Bayesian/)
-- [Impact of Electromagnetic Interference on RSSI Signal: Detailed Insights and Implications](/wireless%20communication/signal%20processing/data%20science/network%20engineering/EMI_RSSI_SIGNAL/)
 <!-- BLOG-POST-LIST:END -->
 
 

@@ -124,11 +124,11 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [Machine Learning Monitoring: Moving Beyond Univariate Data Drift Detection](/machine%20learning/data%20science/model%20monitoring/artificial%20intelligence/technology/monitoring-drift/)
 - [LASSO Regression: What, Why, When, and When Not](/statistics/machine%20learning/data%20science/regression%20analysis/predictive%20modeling/Lasso/)
 - [Latent Class Analysis: Unveiling Hidden Patterns in Data](/data%20science/Latent-Class/)
 - [Statistical Analysis with Generalized Linear Models](/epidemiology/data%20science/medical%20research/statistics/clinical%20studies/GLM/)
 - [Latent Variables: Explained and Its History](/statistics/machine%20learning/physics/artificial%20intelligence/research%20methodology/latente/)
-- [Handling Missing Data in Clinical Research](/epidemiology/data%20science/medical%20research/statistics/clinical%20studies/missing_data/)
 <!-- BLOG-POST-LIST:END -->
 
 

@@ -124,11 +124,11 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [Advanced Non-Parametric ANCOVA and Robust Alternatives](/statistics/data%20science/research%20methods/ancova/)
 - [Machine Learning Monitoring: Moving Beyond Univariate Data Drift Detection](/machine%20learning/data%20science/model%20monitoring/artificial%20intelligence/technology/monitoring-drift/)
 - [LASSO Regression: What, Why, When, and When Not](/statistics/machine%20learning/data%20science/regression%20analysis/predictive%20modeling/Lasso/)
 - [Latent Class Analysis: Unveiling Hidden Patterns in Data](/data%20science/Latent-Class/)
-- [Statistical Analysis with Generalized Linear Models](/epidemiology/data%20science/medical%20research/statistics/clinical%20studies/GLM/)
-- [Latent Variables: Explained and Its History](/statistics/machine%20learning/physics/artificial%20intelligence/research%20methodology/latente/)
+- [How the Human Body Affects RSSI: Detailed Analysis and Practical Approaches](/wireless%20communication/signal%20processing/network%20engineering/RSSI_body_effects/)
 <!-- BLOG-POST-LIST:END -->
 
 

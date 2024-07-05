@@ -124,11 +124,11 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [Understanding the Logrank Test in Survival Analysis](/statistics/data%20science/survival%20analysis/hypothesis%20testing/Logram_test/)
 - [Advanced Non-Parametric ANCOVA and Robust Alternatives](/statistics/data%20science/research%20methods/ancova/)
 - [Machine Learning Monitoring: Moving Beyond Univariate Data Drift Detection](/machine%20learning/data%20science/model%20monitoring/artificial%20intelligence/technology/monitoring-drift/)
 - [LASSO Regression: What, Why, When, and When Not](/statistics/machine%20learning/data%20science/regression%20analysis/predictive%20modeling/Lasso/)
 - [Latent Class Analysis: Unveiling Hidden Patterns in Data](/data%20science/Latent-Class/)
-- [How the Human Body Affects RSSI: Detailed Analysis and Practical Approaches](/wireless%20communication/signal%20processing/network%20engineering/RSSI_body_effects/)
 <!-- BLOG-POST-LIST:END -->
 
 

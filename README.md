@@ -124,11 +124,11 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [Stepwise Selection Algorithms Almost Always Ruin Statistical Estimates](/statistics/data%20science/regression%20analysis/stepwise_selection/)
 - [Smoothing Time Series Data: Moving Averages vs. Savitzky-Golay Filters](/data%20science/time%20series%20analysis/machine%20learning/data%20processing/savitzky_golay/)
 - [Understanding the Logrank Test in Survival Analysis](/statistics/data%20science/survival%20analysis/hypothesis%20testing/Logram_test/)
 - [Advanced Non-Parametric ANCOVA and Robust Alternatives](/statistics/data%20science/research%20methods/ancova/)
 - [Machine Learning Monitoring: Moving Beyond Univariate Data Drift Detection](/machine%20learning/data%20science/model%20monitoring/artificial%20intelligence/technology/monitoring-drift/)
-- [LASSO Regression: What, Why, When, and When Not](/statistics/machine%20learning/data%20science/regression%20analysis/predictive%20modeling/Lasso/)
 <!-- BLOG-POST-LIST:END -->
 
 

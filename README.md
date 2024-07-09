@@ -79,12 +79,6 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 
 ### GitHub Stats
 
-<div>
-    <img src="/github-metrics.svg" alt="Metrics" />
-</div>
-<div>
-    <img src="/metrics.plugin.gists.svg" alt="Metrics" />
-</div>
 <p align="center" >
 	<picture>
 	  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/night.svg" />
@@ -92,10 +86,6 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/night.svg" />
 	</picture>
 </p>
-
-
-
-
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->

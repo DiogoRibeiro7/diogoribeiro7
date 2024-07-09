@@ -94,9 +94,7 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 </p>
 
 
-<div>
-    <img src="/metrics.plugin.posts.full.svg" alt="Metrics" />
-</div>
+
 
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**

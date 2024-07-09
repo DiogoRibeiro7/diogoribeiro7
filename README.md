@@ -7,15 +7,10 @@
 
 <!-- [![GitHub Streak](https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=highcontrast&hide_border=true)](https://git.io/streak-stats) -->
 
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=dark" />
-    <img src="https://streak-stats.demolab.com?user=DenverCoder1&theme=default" />
-</picture>
-
 <!--START_SECTION_LINES_OF_CODE:readme-info-->
 <!--END_SECTION_LINES_OF_CODE:readme-info-->
 
-I'm a veteran Data Scientist with over two decades of experience, hailing from the picturesque country of Portugal. My journey through computer science, economy, management, medicine, natural sciences, engineering, pure mathematics and applied mathematics has been a continuous source of fascination and inspiration. Welcome to my GitHub profile!
+I'm a veteran Data Scientist with over two decades of experience, hailing from the picturesque country of Portugal. My journey through computer science, economy, management, medicine, natural sciences, engineering, pure mathematics, and applied mathematics has been a continuous source of fascination and inspiration. Welcome to my GitHub profile!
 
 I've delved into the intricate domains of supply chain, logistics, sustainability, finance, and health, where data-driven decision-making optimizes operations and promotes environmental responsibility.
 
@@ -32,6 +27,10 @@ I've delved into the intricate domains of supply chain, logistics, sustainabilit
 📐 My research in statistics and probability involves developing models that accurately predict outcomes and assess risks. These models are crucial in fields like finance, insurance, and public policy, where they inform decision-making and strategy.
 
 🌍 Sustainability is another key interest, particularly in developing algorithms that promote renewable energy use and reduce carbon footprints.
+
+🔧 I have extensive experience in statistical modeling in management, including survival analyses, cohort analysis, and production analysis and modeling. My work in optimization of industrial processes ensures efficiency and productivity.
+
+🔬 I enjoy working with Raspberry Pi and sensors, exploring their applications in various fields such as IoT (Internet of Things), automation, and environmental monitoring. This hands-on approach allows me to integrate hardware and software solutions for innovative projects.
 
 Thank you for visiting my profile, and I look forward to connecting and collaborating!
 

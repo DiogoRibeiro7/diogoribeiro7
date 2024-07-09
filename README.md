@@ -124,11 +124,11 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [Pseudo-Supervised Outlier Detection](/mathematics/statistics/data%20science/machine%20learning/PSOD/)
 - [The Logistic Model: Explained](/statistics/machine%20learning/data%20science/predictive%20modeling/logistic-model/)
 - [Stepwise Selection Algorithms Almost Always Ruin Statistical Estimates](/statistics/data%20science/regression%20analysis/stepwise_selection/)
 - [Smoothing Time Series Data: Moving Averages vs. Savitzky-Golay Filters](/data%20science/time%20series%20analysis/machine%20learning/data%20processing/savitzky_golay/)
 - [Understanding the Logrank Test in Survival Analysis](/statistics/data%20science/survival%20analysis/hypothesis%20testing/Logram_test/)
-- [Advanced Non-Parametric ANCOVA and Robust Alternatives](/statistics/data%20science/research%20methods/ancova/)
 <!-- BLOG-POST-LIST:END -->
 
 

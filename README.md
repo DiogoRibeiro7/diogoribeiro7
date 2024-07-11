@@ -129,3 +129,6 @@ To make one, create a repo named after your username (matching case exactly) and
 - Tutorial: [How To Create A GitHub Profile README](https://www.aboutmonica.com/blog/how-to-create-a-github-profile-readme)
 
 </details>
+
+
+### 📈 GitHub Stats

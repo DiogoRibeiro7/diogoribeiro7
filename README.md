@@ -1,6 +1,4 @@
-### Hi there 👋
-
-# Hello, I'm Diogo Ribeiro
+# Hi there 👋, I'm Diogo Ribeiro
 ![Profile Views](https://komarev.com/ghpvc/?username=DiogoRibeiro7&color=red&style=plastic)
 
 [![Continuous integration](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml/badge.svg)](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml)

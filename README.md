@@ -109,11 +109,11 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [Non-Intrusive Load Monitoring: A Comprehensive Guide](/energy%20efficiency/smart%20technology/NILM/)
+- [Streamlining Your Workflow with Pre-commit Hooks in Python Projects](/software%20development/pre_commit/)
 - [Normal Distribution: Explained](/statistics/normal_distribution/)
 - [Common Probability Distributions in Clinical Trials](/statistics/prob_distributions_clinical/)
 - [Understanding the Use of Error Bars in Scientific Reporting](/academic%20writing/research%20methodology/education/study%20skills/writing%20tips/error_bars/)
-- [Pseudo-Supervised Outlier Detection](/mathematics/statistics/data%20science/machine%20learning/PSOD/)
-- [The Logistic Model: Explained](/statistics/machine%20learning/data%20science/predictive%20modeling/logistic-model/)
 <!-- BLOG-POST-LIST:END -->
 
 

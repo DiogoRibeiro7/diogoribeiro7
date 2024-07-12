@@ -22,3 +22,11 @@ jobs:
       - name: Add prefix to blog post URLs
         run: |
           sed -i 's|href="/|href="https://diogoribeiro7.github.io/|g' README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add README.md
+          git commit -m "Update README with latest blog posts"
+          git push

@@ -13,7 +13,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      
       - name: Pull in dev.to posts
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://diogoribeiro7.github.io/feed.xml"
+          
+      - name: Add prefix to blog post URLs
+        run: |
+          sed -i 's|href="/|href="https://diogoribeiro7.github.io/|g' README.md

@@ -87,6 +87,8 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Mastering Project Ownership and Management: Building Effective Teams and Processes](https://neverforget-1975.medium.com/mastering-project-ownership-and-management-building-effective-teams-and-processes-24fc98f73268) - Sat, 13 Jul 2024
+
 [Building a Data Team in an Evolving World](https://medium.com/data-and-beyond/building-a-data-team-in-an-evolving-world-8760c270ef7d) - Wed, 05 Jun 2024
 
 [Unsupervised Anomaly Detection](https://neverforget-1975.medium.com/unsupervised-anomaly-detection-ea5ee712bfc2) - Mon, 22 Apr 2024
@@ -104,8 +106,6 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 [DBSCAN for Clustering Analysis](https://neverforget-1975.medium.com/dbscan-for-clustering-analysis-9acc160ca1ca) - Tue, 27 Feb 2024
 
 [Fair Value Portfolio Hedging for a Bank](https://medium.com/operations-research-gig/fair-value-portfolio-hedging-for-a-bank-d3f505b5fac6) - Mon, 26 Feb 2024
-
-[Python Type Checking](https://neverforget-1975.medium.com/python-type-checking-76dbe2142cdb) - Sun, 25 Feb 2024
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->

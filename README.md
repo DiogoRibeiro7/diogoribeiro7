@@ -109,11 +109,11 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 <!-- blog ends -->
 📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
 <!-- BLOG-POST-LIST:START -->
+- [Understanding Uncertainty in Statistical Estimates: Confidence and Prediction Intervals](/statistics/data%20science/confidence-intervales/)
+- [Copula, GARCH, and Other Financial Models](/finance/statistics/quantitative%20analysis/copulas/)
+- [Central Limit Theorems: A Comprehensive Overview](/mathematics/probability%20theory/CLT/)
+- [Disaggregating Energy Consumption: The NILM Algorithms](/energy%20efficiency/smart%20technology/NILM_Algorithms/)
 - [Non-Intrusive Load Monitoring: A Comprehensive Guide](/energy%20efficiency/smart%20technology/NILM/)
-- [Streamlining Your Workflow with Pre-commit Hooks in Python Projects](/software%20development/pre_commit/)
-- [Normal Distribution: Explained](/statistics/normal_distribution/)
-- [Common Probability Distributions in Clinical Trials](/statistics/prob_distributions_clinical/)
-- [Understanding the Use of Error Bars in Scientific Reporting](/academic%20writing/research%20methodology/education/study%20skills/writing%20tips/error_bars/)
 <!-- BLOG-POST-LIST:END -->
 
 

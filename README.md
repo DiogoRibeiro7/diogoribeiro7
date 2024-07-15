@@ -106,16 +106,6 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 [DBSCAN for Clustering Analysis](https://neverforget-1975.medium.com/dbscan-for-clustering-analysis-9acc160ca1ca) - Tue, 27 Feb 2024
 
 [Fair Value Portfolio Hedging for a Bank](https://medium.com/operations-research-gig/fair-value-portfolio-hedging-for-a-bank-d3f505b5fac6) - Mon, 26 Feb 2024
-<!-- blog ends -->
-📕 &nbsp;**Latest Blog Posts in https://diogoribeiro7.github.io/**
-<!-- BLOG-POST-LIST:START -->
-- [Understanding Uncertainty in Statistical Estimates: Confidence and Prediction Intervals](/statistics/data%20science/confidence-intervales/)
-- [Copula, GARCH, and Other Financial Models](/finance/statistics/quantitative%20analysis/copulas/)
-- [Central Limit Theorems: A Comprehensive Overview](/mathematics/probability%20theory/CLT/)
-- [Disaggregating Energy Consumption: The NILM Algorithms](/energy%20efficiency/smart%20technology/NILM_Algorithms/)
-- [Non-Intrusive Load Monitoring: A Comprehensive Guide](/energy%20efficiency/smart%20technology/NILM/)
-<!-- BLOG-POST-LIST:END -->
-
 
 <details>
 <summary>Read more</summary>

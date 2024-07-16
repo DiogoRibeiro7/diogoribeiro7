@@ -119,3 +119,25 @@ To make one, create a repo named after your username (matching case exactly) and
 - Tutorial: [How To Create A GitHub Profile README](https://www.aboutmonica.com/blog/how-to-create-a-github-profile-readme)
 
 </details>
+
+<!-- blog starts -->
+[Establishing Best Practices for Data Science Teams](https://neverforget-1975.medium.com/establishing-best-practices-for-data-science-teams-38e501abca85) - Mon, 15 Jul 2024
+
+[Mastering Project Ownership and Management: Building Effective Teams and Processes](https://neverforget-1975.medium.com/mastering-project-ownership-and-management-building-effective-teams-and-processes-24fc98f73268) - Sat, 13 Jul 2024
+
+[Building a Data Team in an Evolving World](https://medium.com/data-and-beyond/building-a-data-team-in-an-evolving-world-8760c270ef7d) - Wed, 05 Jun 2024
+
+[Unsupervised Anomaly Detection](https://neverforget-1975.medium.com/unsupervised-anomaly-detection-ea5ee712bfc2) - Mon, 22 Apr 2024
+
+[A Comprehensive Guide to Structural Equation Modeling with Latent Variables](https://neverforget-1975.medium.com/a-comprehensive-guide-to-structural-equation-modeling-with-latent-variables-82d3e1c6de34) - Tue, 26 Mar 2024
+
+[Comparing Imputation Techniques](https://neverforget-1975.medium.com/comparing-imputation-techniques-caaad12f79f0) - Fri, 08 Mar 2024
+
+[Partial Least Squares: A Comprehensive Guide to Overcoming Data Challenges](https://neverforget-1975.medium.com/partial-least-squares-a-comprehensive-guide-to-overcoming-data-challenges-f0f712cca99d) - Thu, 29 Feb 2024
+
+[Depths of Logistic Regression](https://neverforget-1975.medium.com/depths-of-logistic-regression-61ba3720f709) - Wed, 28 Feb 2024
+
+[Modeling the Supply Chain of Second-Hand Cars](https://neverforget-1975.medium.com/modeling-the-supply-chain-of-second-hand-cars-9122246cfb4b) - Tue, 27 Feb 2024
+
+[DBSCAN for Clustering Analysis](https://neverforget-1975.medium.com/dbscan-for-clustering-analysis-9acc160ca1ca) - Tue, 27 Feb 2024
+<!-- blog ends -->

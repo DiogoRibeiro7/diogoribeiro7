@@ -87,6 +87,8 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Guiding a Data Scientist Towards More Effective Communication](https://neverforget-1975.medium.com/guiding-a-data-scientist-towards-more-effective-communication-dff40aa4c143) - Thu, 18 Jul 2024
+
 [What is Metadata Management?](https://neverforget-1975.medium.com/what-is-metadata-management-4b37fa5792d6) - Thu, 18 Jul 2024
 
 [Establishing Best Practices for Data Science Teams](https://neverforget-1975.medium.com/establishing-best-practices-for-data-science-teams-38e501abca85) - Mon, 15 Jul 2024
@@ -104,6 +106,4 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 [Partial Least Squares: A Comprehensive Guide to Overcoming Data Challenges](https://neverforget-1975.medium.com/partial-least-squares-a-comprehensive-guide-to-overcoming-data-challenges-f0f712cca99d) - Thu, 29 Feb 2024
 
 [Depths of Logistic Regression](https://neverforget-1975.medium.com/depths-of-logistic-regression-61ba3720f709) - Wed, 28 Feb 2024
-
-[Modeling the Supply Chain of Second-Hand Cars](https://neverforget-1975.medium.com/modeling-the-supply-chain-of-second-hand-cars-9122246cfb4b) - Tue, 27 Feb 2024
 <!-- blog ends -->

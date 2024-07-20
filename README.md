@@ -87,6 +87,8 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Mastering Python Dataclasses](https://tutorials.botsfloor.com/mastering-python-dataclasses-743eeb6feaaa) - Fri, 19 Jul 2024
+
 [Guiding a Data Scientist Towards More Effective Communication](https://neverforget-1975.medium.com/guiding-a-data-scientist-towards-more-effective-communication-dff40aa4c143) - Thu, 18 Jul 2024
 
 [What is Metadata Management?](https://neverforget-1975.medium.com/what-is-metadata-management-4b37fa5792d6) - Thu, 18 Jul 2024
@@ -104,6 +106,4 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 [Comparing Imputation Techniques](https://neverforget-1975.medium.com/comparing-imputation-techniques-caaad12f79f0) - Fri, 08 Mar 2024
 
 [Partial Least Squares: A Comprehensive Guide to Overcoming Data Challenges](https://neverforget-1975.medium.com/partial-least-squares-a-comprehensive-guide-to-overcoming-data-challenges-f0f712cca99d) - Thu, 29 Feb 2024
-
-[Depths of Logistic Regression](https://neverforget-1975.medium.com/depths-of-logistic-regression-61ba3720f709) - Wed, 28 Feb 2024
 <!-- blog ends -->

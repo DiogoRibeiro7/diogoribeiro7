@@ -89,7 +89,7 @@ Thank you for visiting my profile, and I look forward to connecting and collabor
 <!-- blog starts -->
 [Mastering Python Dataclasses](https://tutorials.botsfloor.com/mastering-python-dataclasses-743eeb6feaaa) - Fri, 19 Jul 2024
 
-[Guiding a Data Scientist Towards More Effective Communication](https://neverforget-1975.medium.com/guiding-a-data-scientist-towards-more-effective-communication-dff40aa4c143) - Thu, 18 Jul 2024
+[Guiding a Data Scientist Towards More Effective Communication](https://medium.com/operations-research-bit/guiding-a-data-scientist-towards-more-effective-communication-dff40aa4c143) - Thu, 18 Jul 2024
 
 [What is Metadata Management?](https://neverforget-1975.medium.com/what-is-metadata-management-4b37fa5792d6) - Thu, 18 Jul 2024
 

@@ -8,6 +8,15 @@
 
 [![Continuous integration](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml/badge.svg)](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml)
 
+🔗 &nbsp;**Connect with me**
+
+[![Medium](https://img.shields.io/badge/Medium-Follow%20Me-2bbc8a?logo=medium)](https://medium.com/@neverforget-1975)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-007BFF?logo=github)](https://diogoribeiro7.github.io)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDD00)](https://buymeacoffee.com/diogoribeiro7)
+[![Support on Dagshub](https://img.shields.io/badge/Support%20on-Dagshub-9cf)](https://dagshub.com/DiogoRibeiro7)
+[![Follow on Dev.to](https://img.shields.io/badge/Follow%20on-Dev.to-blue)](https://dev.to/diogoribeiro7)
+[![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-blue)](https://www.linkedin.com/in/diogo-ribeiro-9094604a/)
+
 
 <!-- [![GitHub Streak](https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=highcontrast&hide_border=true)](https://git.io/streak-stats) -->
 
@@ -85,14 +94,6 @@ Thank you for visiting my profile. I'm always open to connecting with fellow dat
 
 ---
 
-## 📊 GitHub Stats
-
-![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=DiogoRibeiro7&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DiogoRibeiro7&layout=compact&theme=radical)
-
----
-
 # Tags
 
 #DataScience #MachineLearning #Statistics #Mathematics #QuantumComputing #Sustainability #IoT #GraphTheory #BigData #Optimization #Healthcare #Finance #Python #R #GitHub
@@ -100,22 +101,6 @@ Thank you for visiting my profile. I'm always open to connecting with fellow dat
 ---
 
 *Feel free to explore my repositories and contributions. Let's drive innovation and make impactful advancements together!*
-
-
-🔗 &nbsp;**Connect with me**
-
-[![Medium](https://img.shields.io/badge/Medium-Follow%20Me-2bbc8a?logo=medium)](https://medium.com/@neverforget-1975)
-
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-007BFF?logo=github)](https://diogoribeiro7.github.io)
-
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDD00)](https://buymeacoffee.com/diogoribeiro7)
-
-[![Support on Dagshub](https://img.shields.io/badge/Support%20on-Dagshub-9cf)](https://dagshub.com/DiogoRibeiro7)
-
-[![Follow on Dev.to](https://img.shields.io/badge/Follow%20on-Dev.to-blue)](https://dev.to/diogoribeiro7)
-
-[![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-blue)](https://www.linkedin.com/in/diogo-ribeiro-9094604a/)
-
 
 ### Tools and skills 🎓
 | Area           | Tool            |

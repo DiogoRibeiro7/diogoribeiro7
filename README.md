@@ -2,7 +2,7 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=DiogoRibeiro7&color=red&style=plastic)
 
 [![Continuous integration](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml/badge.svg)](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml)
-[![trophy](https://github-profile-trophy.vercel.app/?username=DiogoRibeiro7&theme=algolia)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia)](https://github.com/ryo-ma/github-profile-trophy)
 
 <!-- [![GitHub Streak](https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=highcontrast&hide_border=true)](https://git.io/streak-stats) -->
 

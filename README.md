@@ -1,12 +1,6 @@
 # Hi there 👋, I'm Diogo Ribeiro
 
-## Welcome to My GitHub Profile!
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia)](https://github.com/ryo-ma/github-profile-trophy)
-
-![Profile Views](https://komarev.com/ghpvc/?username=DiogoRibeiro7&color=red&style=plastic)
-
-[![Continuous integration](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml/badge.svg)](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml)
+## Welcome to My GitHub Profile
 
 🔗 &nbsp;**Connect with me**
 

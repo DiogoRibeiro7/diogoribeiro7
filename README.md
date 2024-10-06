@@ -1,38 +1,104 @@
 # Hi there 👋, I'm Diogo Ribeiro
+
+## Welcome to My GitHub Profile!
+
 ![Profile Views](https://komarev.com/ghpvc/?username=DiogoRibeiro7&color=red&style=plastic)
 
 [![Continuous integration](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml/badge.svg)](https://github.com/DiogoRibeiro7/diogoribeiro7/actions/workflows/main.yml)
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=DiogoRibeiro7&theme=algolia)](https://github.com/ryo-ma/github-profile-trophy)
 
 <!-- [![GitHub Streak](https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=highcontrast&hide_border=true)](https://git.io/streak-stats) -->
 
 <!--START_SECTION_LINES_OF_CODE:readme-info-->
 <!--END_SECTION_LINES_OF_CODE:readme-info-->
 
-I'm a veteran Data Scientist with over two decades of experience, hailing from the picturesque country of Portugal. My journey through computer science, economy, management, medicine, natural sciences, engineering, pure mathematics, and applied mathematics has been a continuous source of fascination and inspiration. Welcome to my GitHub profile!
+I'm a **veteran Data Scientist** with over two decades of experience, proudly hailing from the picturesque country of **Portugal**. My journey through diverse fields such as **computer science, economy, management, medicine, natural sciences, engineering, pure mathematics**, and **applied mathematics** has been a continuous source of fascination and inspiration. Welcome to my GitHub profile!
 
-I've delved into the intricate domains of supply chain, logistics, sustainability, finance, and health, where data-driven decision-making optimizes operations and promotes environmental responsibility.
+---
 
-🔭 In research, I'm deeply immersed in applying machine learning and statistics to health. My work harnesses data to advance healthcare solutions and outcomes.
+## 🧠 Areas of Expertise
 
-🔭 My research also extends to mathematics, focusing on differential equations and partial differential equations. These tools apply to diverse fields such as epidemiology, economics, and sociology, helping unravel complex phenomena.
+### 🔍 **Data-Driven Decision Making**
 
-🔭 I'm passionate about graph theory and its applications in social networks, where I uncover patterns and connections that provide valuable insights into human interactions.
+- **Supply Chain & Logistics**: Optimizing operations to enhance efficiency and reduce costs.
+- **Sustainability**: Promoting environmental responsibility through data-driven strategies.
+- **Finance & Health**: Leveraging data to improve financial models and healthcare outcomes.
 
-📈 Beyond these areas, I'm intrigued by the potential of big data analytics in marketing, where customer behaviors and preferences can be decoded to enhance business strategies.
+### 📊 **Machine Learning & Statistics**
 
-📊 I'm also fascinated by the emerging field of quantum computing and its potential to revolutionize problem-solving in cryptography and optimization.
+- **Health Applications**: Advancing healthcare solutions and outcomes using machine learning and statistical analysis.
+- **Mathematical Research**: Focusing on differential equations and partial differential equations to solve complex problems in epidemiology, economics, and sociology.
+- **Graph Theory**: Uncovering patterns and connections in social networks to provide valuable insights into human interactions.
+- **Big Data Analytics in Marketing**: Decoding customer behaviors and preferences to enhance business strategies.
+- **Quantum Computing**: Exploring its potential to revolutionize problem-solving in cryptography and optimization.
+- **Statistics & Probability**: Developing predictive models and risk assessment tools crucial for finance, insurance, and public policy.
+- **Sustainability Algorithms**: Creating algorithms that promote renewable energy use and reduce carbon footprints.
 
-📐 My research in statistics and probability involves developing models that accurately predict outcomes and assess risks. These models are crucial in fields like finance, insurance, and public policy, where they inform decision-making and strategy.
+### 🛠️ **Technical Skills**
 
-🌍 Sustainability is another key interest, particularly in developing algorithms that promote renewable energy use and reduce carbon footprints.
+- **Statistical Modeling in Management**: Expertise in survival analyses, cohort analysis, and production analysis and modeling.
+- **Optimization of Industrial Processes**: Ensuring efficiency and productivity through advanced optimization techniques.
+- **IoT & Automation**: Working with Raspberry Pi and sensors to explore applications in IoT, automation, and environmental monitoring, integrating hardware and software solutions for innovative projects.
 
-🔧 I have extensive experience in statistical modeling in management, including survival analyses, cohort analysis, and production analysis and modeling. My work in optimization of industrial processes ensures efficiency and productivity.
+---
 
-🔬 I enjoy working with Raspberry Pi and sensors, exploring their applications in various fields such as IoT (Internet of Things), automation, and environmental monitoring. This hands-on approach allows me to integrate hardware and software solutions for innovative projects.
+## 🔭 Current Research Interests
 
-Thank you for visiting my profile, and I look forward to connecting and collaborating!
+1. **Machine Learning in Health**
+   - Applying advanced machine learning techniques to improve healthcare solutions and patient outcomes.
+   
+2. **Mathematics & Differential Equations**
+   - Researching differential and partial differential equations to address challenges in various scientific and social domains.
+   
+3. **Graph Theory in Social Networks**
+   - Analyzing social networks to identify patterns and connections that offer deeper insights into human interactions.
+
+4. **Big Data Analytics in Marketing**
+   - Utilizing big data to understand and predict customer behavior, enhancing marketing strategies and business decisions.
+   
+5. **Quantum Computing**
+   - Investigating the transformative potential of quantum computing in fields like cryptography and optimization.
+   
+6. **Sustainability & Renewable Energy**
+   - Developing data-driven algorithms to support sustainable practices and renewable energy initiatives.
+
+---
+
+## 🌟 Highlights
+
+- **Extensive Experience**: Over 20 years in data science, spanning multiple disciplines and industries.
+- **Interdisciplinary Approach**: Combining knowledge from computer science, mathematics, economics, and natural sciences to solve complex problems.
+- **Hands-On Projects**: Practical experience with IoT, automation, and environmental monitoring using Raspberry Pi and sensors.
+- **Advanced Research**: In-depth exploration of machine learning applications, mathematical modeling, and quantum computing.
+
+---
+
+## 📈 Let's Connect and Collaborate!
+
+Thank you for visiting my profile. I'm always open to connecting with fellow data enthusiasts, researchers, and professionals. Whether you're interested in collaborating on a project, discussing innovative ideas, or exploring new opportunities, feel free to reach out!
+
+---
+
+*Happy Coding and Collaborating!*
+
+---
+
+## 📊 GitHub Stats
+
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)
+
+---
+
+# Tags
+
+#DataScience #MachineLearning #Statistics #Mathematics #QuantumComputing #Sustainability #IoT #GraphTheory #BigData #Optimization #Healthcare #Finance #Python #R #GitHub
+
+---
+
+*Feel free to explore my repositories and contributions. Let's drive innovation and make impactful advancements together!*
+
 
 🔗 &nbsp;**Connect with me**
 

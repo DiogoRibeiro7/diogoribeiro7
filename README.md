@@ -1,6 +1,8 @@
 # Hi there 👋, I'm Diogo Ribeiro
 
-## Welcome to My GitHub Profile
+## Welcome to My GitHub Profile!
+
+I'm a **veteran Data Scientist** with over two decades of experience, proudly hailing from the picturesque country of **Portugal**. My journey through diverse fields such as **computer science, economy, management, medicine, natural sciences, engineering, pure mathematics**, and **applied mathematics** has been a continuous source of fascination and inspiration. Welcome to my GitHub profile!
 
 🔗 &nbsp;**Connect with me**
 
@@ -11,13 +13,13 @@
 [![Follow on Dev.to](https://img.shields.io/badge/Follow%20on-Dev.to-blue)](https://dev.to/diogoribeiro7)
 [![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-blue)](https://www.linkedin.com/in/diogo-ribeiro-9094604a/)
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia)](https://github.com/ryo-ma/github-profile-trophy)
+
 
 <!-- [![GitHub Streak](https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=highcontrast&hide_border=true)](https://git.io/streak-stats) -->
 
 <!--START_SECTION_LINES_OF_CODE:readme-info-->
 <!--END_SECTION_LINES_OF_CODE:readme-info-->
-
-I'm a **veteran Data Scientist** with over two decades of experience, proudly hailing from the picturesque country of **Portugal**. My journey through diverse fields such as **computer science, economy, management, medicine, natural sciences, engineering, pure mathematics**, and **applied mathematics** has been a continuous source of fascination and inspiration. Welcome to my GitHub profile!
 
 ---
 

@@ -138,6 +138,8 @@ Thank you for visiting my profile. I'm always open to connecting with fellow dat
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[GitHub Actions: Automate Your Development Workflow](https://neverforget-1975.medium.com/github-actions-automate-your-development-workflow-defb2d5393b4) - Sun, 06 Oct 2024
+
 [Operations Research in Financial Portfolio Optimization](https://medium.com/operations-research-bit/operations-research-in-financial-portfolio-optimization-2490e054118f) - Thu, 05 Sep 2024
 
 [Mastering Python Dataclasses](https://tutorials.botsfloor.com/mastering-python-dataclasses-743eeb6feaaa) - Fri, 19 Jul 2024
@@ -155,6 +157,4 @@ Thank you for visiting my profile. I'm always open to connecting with fellow dat
 [Unsupervised Anomaly Detection](https://neverforget-1975.medium.com/unsupervised-anomaly-detection-ea5ee712bfc2) - Mon, 22 Apr 2024
 
 [A Comprehensive Guide to Structural Equation Modeling with Latent Variables](https://neverforget-1975.medium.com/a-comprehensive-guide-to-structural-equation-modeling-with-latent-variables-82d3e1c6de34) - Tue, 26 Mar 2024
-
-[Comparing Imputation Techniques](https://neverforget-1975.medium.com/comparing-imputation-techniques-caaad12f79f0) - Fri, 08 Mar 2024
 <!-- blog ends -->

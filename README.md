@@ -13,8 +13,9 @@ I'm a **veteran Data Scientist** with over two decades of experience, proudly ha
 [![Follow on Dev.to](https://img.shields.io/badge/Follow%20on-Dev.to-blue)](https://dev.to/diogoribeiro7)
 [![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-blue)](https://www.linkedin.com/in/diogo-ribeiro-9094604a/)
 
+<div align="center">
 [![trophy](https://github-profile-trophy.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia)](https://github.com/ryo-ma/github-profile-trophy)
-
+</div>
 
 <!-- [![GitHub Streak](https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=highcontrast&hide_border=true)](https://git.io/streak-stats) -->
 

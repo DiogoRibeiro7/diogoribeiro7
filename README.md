@@ -34,6 +34,16 @@ I'm a **veteran Data Scientist** with over two decades of experience, proudly ha
   </a>
 </div>
 
+### GitHub Stats
+
+<p align="center" >
+	<picture>
+	  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/night.svg" />
+	  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/day.svg" />
+	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/night.svg" />
+	</picture>
+</p>
+
 <!-- [![GitHub Streak](https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=highcontrast&hide_border=true)](https://git.io/streak-stats) -->
 
 <!--START_SECTION_LINES_OF_CODE:readme-info-->
@@ -134,16 +144,6 @@ Thank you for visiting my profile. I'm always open to connecting with fellow dat
 | Machine Learning | ![TensorFlow](https://img.shields.io/badge/ML-TensorFlow-FF6F00?logo=tensorflow&logoColor=white) ![PyTorch](https://img.shields.io/badge/ML-PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/ML-Scikit--learn-F7931E?logo=scikit-learn&logoColor=white) ![Keras](https://img.shields.io/badge/ML-Keras-D00000?logo=keras&logoColor=white) ![XGBoost](https://img.shields.io/badge/ML-XGBoost-FF6600?logo=xgboost&logoColor=white) ![LightGBM](https://img.shields.io/badge/ML-LightGBM-02569B?logo=lightgbm&logoColor=white) ![H2O.ai](https://img.shields.io/badge/ML-H2O.ai-1A1A1A?logo=h2oai&logoColor=white) ![DataRobot](https://img.shields.io/badge/ML-DataRobot-1E1E1E?logo=datarobot&logoColor=white) ![RapidMiner](https://img.shields.io/badge/ML-RapidMiner-00B0E8?logo=rapidminer&logoColor=white) ![Alteryx](https://img.shields.io/badge/ML-Alteryx-1F3B4D?logo=alteryx&logoColor=white) ![KNIME](https://img.shields.io/badge/ML-KNIME-F9A03C?logo=knime&logoColor=white) ![SageMaker](https://img.shields.io/badge/ML-SageMaker-232F3E?logo=amazon-aws&logoColor=white) ![Google Cloud AI](https://img.shields.io/badge/ML-Google%20Cloud%20AI-4285F4?logo=google-cloud&logoColor=white) ![Azure Machine Learning](https://img.shields.io/badge/ML-Azure%20Machine%20Learning-0078D4?logo=microsoft-azure&logoColor=white) |
 | Data Engineering | ![Apache Spark](https://img.shields.io/badge/Data%20Engineering-Apache%20Spark-E25A1C?logo=apachespark&logoColor=white) ![Apache Flink](https://img.shields.io/badge/Data%20Engineering-Apache%20Flink-E6526F?logo=apache-flink&logoColor=white) ![Apache Kafka](https://img.shields.io/badge/Data%20Engineering-Apache%20Kafka-231F20?logo=apache-kafka&logoColor=white) ![AWS Glue](https://img.shields.io/badge/Data%20Engineering-AWS%20Glue-FF9900?logo=amazon-aws&logoColor=white) ![Google Cloud Dataflow](https://img.shields.io/badge/Data%20Engineering-Google%20Cloud%20Dataflow-4285F4?logo=google-cloud&logoColor=white) ![Azure Data Factory](https://img.shields.io/badge/Data%20Engineering-Azure%20Data%20Factory-0078D4?logo=microsoft-azure&logoColor=white) | ![Data Ingestion](https://img.shields.io/badge/Data%20Engineering-Data%20Ingestion-4CAF50?logo=data-ingestion&logoColor=white) ![Data Processing](https://img.shields.io/badge/Data%20Engineering-Data%20Processing-2196F3?logo=data-processing&logoColor=white) ![Data Storage](https://img.shields.io/badge/Data%20Engineering-Data%20Storage-FF9800?logo=data-storage&logoColor=white) ![Data Transformation](https://img.shields.io/badge/Data%20Engineering-Data%20Transformation-9C27B0?logo=data-transformation&logoColor=white) ![Data Integration](https://img.shields.io/badge/Data%20Engineering-Data%20Integration-8BC34A?logo=data-integration&logoColor=white) ![ETL](https://img.shields.io/badge/Data%20Engineering-ETL-3F51B5?logo=etl&logoColor=white) ![Data Pipelines](https://img.shields.io/badge/Data%20Engineering-Data%20Pipelines-FF5722?logo=data-pipelines&logoColor=white) ![Data Quality](https://img.shields.io/badge/Data%20Engineering-Data%20Quality-795548?logo=data-quality&logoColor=white) ![Data Orchestration](https://img.shields.io/badge/Data%20Engineering-Data%20Orchestration-FFC107?logo=data-orchestration&logoColor=black) |
 
-
-### GitHub Stats
-
-<p align="center" >
-	<picture>
-	  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/night.svg" />
-	  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/day.svg" />
-	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/night.svg" />
-	</picture>
-</p>
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->

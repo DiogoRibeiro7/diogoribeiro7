@@ -6,12 +6,27 @@ I'm a **veteran Data Scientist** with over two decades of experience, proudly ha
 
 🔗 &nbsp;**Connect with me**
 
-[![Medium](https://img.shields.io/badge/Medium-Follow%20Me-2bbc8a?logo=medium)](https://medium.com/@neverforget-1975)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-007BFF?logo=github)](https://diogoribeiro7.github.io)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDD00)](https://buymeacoffee.com/diogoribeiro7)
-[![Support on Dagshub](https://img.shields.io/badge/Support%20on-Dagshub-9cf)](https://dagshub.com/DiogoRibeiro7)
-[![Follow on Dev.to](https://img.shields.io/badge/Follow%20on-Dev.to-blue)](https://dev.to/diogoribeiro7)
-[![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-blue)](https://www.linkedin.com/in/diogo-ribeiro-9094604a/)
+<div align="center">
+  <a href="https://medium.com/@neverforget-1975">
+    <img src="https://img.shields.io/badge/Medium-Follow%20Me-2bbc8a?logo=medium" alt="Medium" />
+  </a>
+  <a href="https://diogoribeiro7.github.io">
+    <img src="https://img.shields.io/badge/GitHub%20Pages-Deployed-007BFF?logo=github" alt="GitHub Pages" />
+  </a>
+  <a href="https://buymeacoffee.com/diogoribeiro7">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDD00" alt="Buy Me a Coffee" />
+  </a>
+  <a href="https://dagshub.com/DiogoRibeiro7">
+    <img src="https://img.shields.io/badge/Support%20on-Dagshub-9cf" alt="Support on Dagshub" />
+  </a>
+  <a href="https://dev.to/diogoribeiro7">
+    <img src="https://img.shields.io/badge/Follow%20on-Dev.to-blue" alt="Follow on Dev.to" />
+  </a>
+  <a href="https://www.linkedin.com/in/diogo-ribeiro-9094604a/">
+    <img src="https://img.shields.io/badge/Connect%20on-LinkedIn-blue" alt="Connect on LinkedIn" />
+  </a>
+</div>
+
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">

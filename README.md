@@ -27,6 +27,7 @@ I'm a **veteran Data Scientist** with over two decades of experience, proudly ha
   </a>
 </div>
 
+## GitHub Stats
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
@@ -39,8 +40,6 @@ I'm a **veteran Data Scientist** with over two decades of experience, proudly ha
     <img src="https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=highcontrast&hide_border=true" alt="GitHub Streak">
   </a>
 </p>
-
-### GitHub Stats
 
 <p align="center" >
 	<picture>

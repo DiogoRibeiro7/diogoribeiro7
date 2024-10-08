@@ -36,7 +36,6 @@ I'm a **veteran Data Scientist** with over two decades of experience, proudly ha
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=highcontrast&hide_border=true)](https://git.io/streak-stats)
 
-### GitHub Stats
 
 <p align="center" >
 	<picture>

@@ -150,7 +150,11 @@ Thank you for visiting my profile. I'm always open to connecting with fellow dat
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
-[GitHub Actions: Automate Your Development Workflow](https://neverforget-1975.medium.com/github-actions-automate-your-development-workflow-defb2d5393b4) - Sun, 06 Oct 2024
+[Optimization: The Science of Making Better Decisions](https://neverforget-1975.medium.com/optimization-the-science-of-making-better-decisions-a1bdac0b3343) - Wed, 09 Oct 2024
+
+[XGBoost: Seamless Integration with Python Libraries for Superior Machine Learning](https://neverforget-1975.medium.com/xgboost-seamless-integration-with-python-libraries-for-superior-machine-learning-a2e4322575f8) - Tue, 08 Oct 2024
+
+[GitHub Actions: Automate Your Development Workflow](https://medium.com/operations-research-bit/github-actions-automate-your-development-workflow-defb2d5393b4) - Sun, 06 Oct 2024
 
 [Operations Research in Financial Portfolio Optimization](https://medium.com/operations-research-bit/operations-research-in-financial-portfolio-optimization-2490e054118f) - Thu, 05 Sep 2024
 
@@ -165,8 +169,4 @@ Thank you for visiting my profile. I'm always open to connecting with fellow dat
 [Mastering Project Ownership and Management: Building Effective Teams and Processes](https://neverforget-1975.medium.com/mastering-project-ownership-and-management-building-effective-teams-and-processes-24fc98f73268) - Sat, 13 Jul 2024
 
 [Building a Data Team in an Evolving World](https://medium.com/data-and-beyond/building-a-data-team-in-an-evolving-world-8760c270ef7d) - Wed, 05 Jun 2024
-
-[Unsupervised Anomaly Detection](https://neverforget-1975.medium.com/unsupervised-anomaly-detection-ea5ee712bfc2) - Mon, 22 Apr 2024
-
-[A Comprehensive Guide to Structural Equation Modeling with Latent Variables](https://neverforget-1975.medium.com/a-comprehensive-guide-to-structural-equation-modeling-with-latent-variables-82d3e1c6de34) - Tue, 26 Mar 2024
 <!-- blog ends -->

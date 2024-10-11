@@ -150,7 +150,7 @@ Thank you for visiting my profile. I'm always open to connecting with fellow dat
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
-[Optimization: The Science of Making Better Decisions](https://neverforget-1975.medium.com/optimization-the-science-of-making-better-decisions-a1bdac0b3343) - Wed, 09 Oct 2024
+[Optimization: The Science of Making Better Decisions](https://medium.com/operations-research-bit/optimization-the-science-of-making-better-decisions-a1bdac0b3343) - Wed, 09 Oct 2024
 
 [XGBoost: Seamless Integration with Python Libraries for Superior Machine Learning](https://neverforget-1975.medium.com/xgboost-seamless-integration-with-python-libraries-for-superior-machine-learning-a2e4322575f8) - Tue, 08 Oct 2024
 

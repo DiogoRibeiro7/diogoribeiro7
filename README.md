@@ -150,6 +150,8 @@ Thank you for visiting my profile. I'm always open to connecting with fellow dat
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Essential PySpark Commands](https://neverforget-1975.medium.com/essential-pyspark-commands-ecffd57445c6) - Fri, 25 Oct 2024
+
 [Optimization: The Science of Making Better Decisions](https://medium.com/operations-research-bit/optimization-the-science-of-making-better-decisions-a1bdac0b3343) - Wed, 09 Oct 2024
 
 [XGBoost: Seamless Integration with Python Libraries for Superior Machine Learning](https://neverforget-1975.medium.com/xgboost-seamless-integration-with-python-libraries-for-superior-machine-learning-a2e4322575f8) - Tue, 08 Oct 2024
@@ -167,6 +169,4 @@ Thank you for visiting my profile. I'm always open to connecting with fellow dat
 [Establishing Best Practices for Data Science Teams](https://neverforget-1975.medium.com/establishing-best-practices-for-data-science-teams-38e501abca85) - Mon, 15 Jul 2024
 
 [Mastering Project Ownership and Management: Building Effective Teams and Processes](https://neverforget-1975.medium.com/mastering-project-ownership-and-management-building-effective-teams-and-processes-24fc98f73268) - Sat, 13 Jul 2024
-
-[Building a Data Team in an Evolving World](https://medium.com/data-and-beyond/building-a-data-team-in-an-evolving-world-8760c270ef7d) - Wed, 05 Jun 2024
 <!-- blog ends -->

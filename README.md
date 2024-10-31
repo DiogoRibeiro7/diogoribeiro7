@@ -68,7 +68,6 @@ I'm a **veteran Data Scientist** with over two decades of experience, proudly ha
 - **Mathematical Research**: Focusing on differential equations and partial differential equations to solve complex problems in epidemiology, economics, and sociology.
 - **Graph Theory**: Uncovering patterns and connections in social networks to provide valuable insights into human interactions.
 - **Big Data Analytics in Marketing**: Decoding customer behaviors and preferences to enhance business strategies.
-- **Quantum Computing**: Exploring its potential to revolutionize problem-solving in cryptography and optimization.
 - **Statistics & Probability**: Developing predictive models and risk assessment tools crucial for finance, insurance, and public policy.
 - **Sustainability Algorithms**: Creating algorithms that promote renewable energy use and reduce carbon footprints.
 

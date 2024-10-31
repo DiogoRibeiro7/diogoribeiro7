@@ -83,22 +83,52 @@ I'm a **veteran Data Scientist** with over two decades of experience, proudly ha
 ## 🔭 Current Research Interests
 
 1. **Machine Learning in Health**
-   - Applying advanced machine learning techniques to improve healthcare solutions and patient outcomes.
+   - Exploring machine learning techniques, such as neural networks, clustering, and anomaly detection, to enhance diagnostic accuracy, early disease detection, and patient monitoring. Special focus on real-time data analysis from wearable sensors and IoT devices to track and predict health events in non-hospital settings.
    
 2. **Mathematics & Differential Equations**
-   - Researching differential and partial differential equations to address challenges in various scientific and social domains.
+   - Ordinary differential equations (ODEs) and partial differential equations (PDEs) with applications across physics, biology, and epidemiology. Emphasis on numerical methods for solving high-dimensional PDEs and non-linear ODEs, which model complex, dynamic systems in both natural and social sciences.
    
 3. **Graph Theory in Social Networks**
-   - Analyzing social networks to identify patterns and connections that offer deeper insights into human interactions.
+   - Utilizing graph theory to analyze large-scale social networks for understanding community structure, information flow, and influence patterns. Interest in dynamic networks and how graph-based metrics can capture the evolution of social interactions over time, with applications in public health, misinformation detection, and sociological studies.
 
 4. **Big Data Analytics in Marketing**
-   - Utilizing big data to understand and predict customer behavior, enhancing marketing strategies and business decisions.
+   - Applying predictive modeling, clustering, and sentiment analysis on big data sources (e.g., social media, transaction logs) to find trends in customer behavior. The focus is on optimizing customer segmentation, personalized recommendations, and lifetime value predictions, which inform targeted marketing and strategic decision-making.
    
-5. **Quantum Computing**
-   - Investigating the transformative potential of quantum computing in fields like cryptography and optimization.
-   
-6. **Sustainability & Renewable Energy**
-   - Developing data-driven algorithms to support sustainable practices and renewable energy initiatives.
+5. **Sustainability & Renewable Energy**
+   - Developing and deploying machine learning models and optimization algorithms that facilitate sustainable practices in energy production, consumption, and conservation. This includes work on predictive maintenance for renewable energy sources, energy demand forecasting, and optimization of renewable energy grids to maximize efficiency and reduce environmental impact.
+
+6. **Precision Medicine & Genomics**
+   - Investigating the use of machine learning in genomics to personalize treatment plans based on individual genetic profiles. Focusing on predictive algorithms for assessing disease susceptibility, optimizing drug dosages, and minimizing adverse drug reactions.
+
+7. **Health Economics & Cost Optimization**
+   - Using statistical modeling and cost-benefit analysis to evaluate the economic impact of healthcare interventions. Research focuses on optimizing resource allocation in healthcare systems and assessing cost-effectiveness of preventive versus treatment-based approaches.
+
+8. **Mental Health Prediction Models**
+   - Developing models that analyze behavioral, physiological, and environmental data to predict and detect early signs of mental health disorders. Emphasis on using wearable sensor data and natural language processing of social media to assess mental well-being and provide timely interventions.
+
+9. **Chronic Disease Management & Monitoring**
+   - Building AI models to assist in the long-term monitoring and management of chronic diseases like diabetes, hypertension, and heart disease. Focusing on predictive algorithms for disease progression and remote monitoring tools for personalized healthcare management.
+
+10. **Public Health & Epidemiology**
+    - Applying data science to public health for modeling infectious disease outbreaks, understanding social determinants of health, and designing interventions to improve population health outcomes. Special interest in network-based models for tracking disease spread and optimizing vaccination strategies.
+
+11. **Behavioral Economics & Consumer Decision-Making**
+    - Analyzing how cognitive biases and psychological factors influence consumer behavior and economic decision-making. Research includes creating models to simulate decision-making processes and designing interventions to encourage better financial choices.
+
+12. **Macroeconomic Forecasting Using Big Data**
+    - Leveraging big data from diverse sources (social media, transaction data, global events) to improve macroeconomic forecasting models. Focus on using real-time data for more accurate predictions of economic indicators like GDP growth, inflation rates, and unemployment.
+
+13. **Inequality & Wealth Distribution**
+    - Investigating the mechanisms behind income and wealth inequality across different populations and regions. Utilizing machine learning to analyze complex, multi-generational economic data and identify structural barriers to equitable wealth distribution.
+
+15. **Environmental Economics & Sustainable Development**
+    - Developing economic models that integrate environmental sustainability and natural resource management. Focus on assessing the impact of climate policies on economic growth, as well as market-based approaches for carbon reduction, such as cap-and-trade systems.
+
+16. **Labor Economics & Future of Work**
+    - Exploring the impacts of automation, gig economy, and remote work on labor markets. Emphasis on predictive models for job displacement risk, skill transition paths, and the economic implications of workforce trends on income distribution and employment patterns.
+
+17. **Financial Risk Modeling & Crisis Prediction**
+    - Building models to assess and predict financial risks, particularly in volatile markets. Focus on stress testing and scenario analysis for financial institutions, as well as early warning systems for economic crises and stock market crashes using advanced statistical techniques.
 
 ---
 
@@ -123,7 +153,7 @@ Thank you for visiting my profile. I'm always open to connecting with fellow dat
 
 # Tags
 
-#DataScience #MachineLearning #Statistics #Mathematics #QuantumComputing #Sustainability #IoT #GraphTheory #BigData #Optimization #Healthcare #Finance #Python #R #GitHub
+#DataScience #MachineLearning #Statistics #Mathematics #Sustainability #IoT #GraphTheory #BigData #Optimization #Healthcare #Finance #Python #R #GitHub
 
 ---
 

@@ -138,6 +138,9 @@ I'm a **veteran Data Scientist** with over two decades of experience, proudly ha
 - **Sustainability & Energy Systems**  
   Machine learning and optimization in renewable energy forecasting and grid efficiency.
 
+- **Smart Environments & Sensor Networks**  
+  Sensor-based systems for smart homes, energy monitoring, urban mobility, and weather prediction. Focus on signal processing, localization, and adaptive models for context-aware decision-making.
+
 - **Behavioral & Labor Economics**  
   Modeling decision-making, skill transitions, and the impact of automation on work.
 

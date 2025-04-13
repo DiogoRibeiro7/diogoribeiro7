@@ -115,7 +115,7 @@ I'm a **veteran Data Scientist** with over two decades of experience, proudly ha
 
 ---
 
-## 🔭 Research Interests (Short Version)
+## 🔭 Research Interests
 
 - **Health Data Science**  
   Real-time monitoring, anomaly detection, and disease prediction using wearable and IoT data. Applications in chronic disease management, mental health, and public health.

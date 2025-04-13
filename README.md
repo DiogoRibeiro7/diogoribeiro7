@@ -56,62 +56,37 @@ I'm a **veteran Data Scientist** with over two decades of experience, proudly ha
 
 ## 🧠 Areas of Expertise
 
-### 🔍 **Data-Driven Decision Making**
-
-- **Supply Chain & Logistics**: Optimizing operations to enhance efficiency and reduce costs.
-- **Sustainability**: Promoting environmental responsibility through data-driven strategies.
-- **Finance & Health**: Leveraging data to improve financial models and healthcare outcomes.
-
-### 📊 **Machine Learning & Statistics**
-
-- **Health Applications**: Advancing healthcare solutions and outcomes using machine learning and statistical analysis.
-- **Mathematical Research**: Focusing on differential equations and partial differential equations to solve complex problems in epidemiology, economics, and sociology.
-- **Graph Theory**: Uncovering patterns and connections in social networks to provide valuable insights into human interactions.
-- **Big Data Analytics in Marketing**: Decoding customer behaviors and preferences to enhance business strategies.
-- **Statistics & Probability**: Developing predictive models and risk assessment tools crucial for finance, insurance, and public policy.
-- **Sustainability Algorithms**: Creating algorithms that promote renewable energy use and reduce carbon footprints.
+- **Machine Learning**: Supervised and unsupervised learning, anomaly detection, time series forecasting, and optimization.
+- **Graph & Network Analysis**: Modeling social and interaction networks using graph theory and dynamic metrics.
+- **Big Data Analytics**: Pattern discovery in marketing, logistics, and urban systems using structured and unstructured data.
+- **Mathematical Modeling**: Differential equations, statistical inference, and numerical methods for complex system analysis.
+- **Sustainability & Urban Systems**: Data-driven models for energy optimization, smart environments, and traffic prediction.
 
 ### 🛠️ **Technical Skills**
 
-- **Programming Languages**:
-  - **Python**: Expertise in data manipulation, statistical modeling, and machine learning, using libraries such as Pandas, NumPy, SciPy, and Scikit-Learn.
-  - **SQL**: Proficient in writing complex queries for data extraction, manipulation, and analysis, with experience in optimizing queries for large datasets.
-  - **R**: Skilled in statistical analysis and data visualization, leveraging packages such as dplyr, ggplot2, and caret for specialized analytics in health and logistics.
-  - **Bash/Zsh Scripting**: Knowledgeable in scripting for automation tasks, particularly in data processing pipelines and deployment workflows.
-  - **Additional Languages**: Familiar with **Fortran**, **Ruby**, **Rust**, and **TypeScript** for specialized applications, including numerical methods, IoT, and web development.
+- **Programming Languages**:  
+  Python, SQL, R, Bash/Zsh, Fortran, Ruby, Rust, TypeScript
 
-- **Data Science & Machine Learning Tools**:
-  - **Scikit-Learn** and **TensorFlow**: Experienced in developing and deploying machine learning models, including supervised and unsupervised learning for classification, regression, and clustering tasks.
-  - **XGBoost and LightGBM**: Specialized in gradient boosting methods for high-performance predictive modeling, particularly in structured datasets.
-  - **Time Series Analysis Libraries**: Proficient with **Statsmodels**, **Prophet**, and custom implementations in Python for forecasting and anomaly detection.
-  - **Visualization**: Expertise with **Matplotlib**, **Seaborn**, and **Plotly** for creating comprehensive visual reports that aid decision-making.
+- **ML & Data Tools**:  
+  Scikit-Learn, XGBoost, LightGBM, TensorFlow, Statsmodels, Prophet
 
-- **Big Data and Real-Time Processing**:
-  - **Apache Flink** and **Apache Kafka**: Skilled in setting up real-time data streaming and analytics pipelines, especially for IoT and industrial applications.
-  - **Apache Iceberg**: Experience building a data lake house to manage big data efficiently, reducing costs and improving access and query performance.
-  - **Hadoop Ecosystem**: Familiarity with **HDFS** and **Spark** for handling large datasets and parallel processing, especially for batch processing in ETL pipelines.
+- **Data Engineering & Streaming**:  
+  Apache Kafka, Flink, Iceberg, Spark, Hadoop
 
-- **IoT & Automation**:
-  - **Raspberry Pi & Sensors**: Experience integrating hardware and software for IoT applications, automating data collection, and monitoring in logistics and environmental control.
-  - **Edge Computing and Embedded Systems**: Implementing data processing on edge devices for real-time insights, utilizing Python and C for embedded system applications.
-  - **MQTT and HTTP Protocols**: Knowledgeable in IoT protocols to manage sensor data flow, ensuring reliable and efficient communication between devices and analytics platforms.
+- **Visualization**:  
+  Matplotlib, Seaborn, Plotly
 
-- **DevOps & Automation**:
-  - **GitHub Actions**: Proficient in developing CI/CD workflows for automated testing, deployment, and monitoring of machine learning and data processing pipelines.
-  - **Docker and Kubernetes**: Skilled in containerization and orchestration, facilitating scalable deployments of ML models and data processing systems.
-  - **Jenkins**: Experienced in setting up CI/CD pipelines for continuous integration, testing, and deployment.
+- **IoT & Automation**:  
+  Raspberry Pi, MQTT, edge computing, real-time sensor pipelines
 
-- **Database & Data Warehousing**:
-  - **PostgreSQL, MySQL, and DynamoDB**: Expertise in relational and NoSQL databases, proficient in database design, indexing, and query optimization.
-  - **Apache Iceberg**: Using Iceberg for data lake storage, allowing for efficient, schema-evolving, and real-time analytics solutions.
-  - **AWS S3 and Redshift**: Experience with cloud storage and data warehousing solutions, ensuring scalable data handling for analytics and machine learning applications.
+- **DevOps**:  
+  GitHub Actions, Docker, Jenkins
 
-- **Statistical & Analytical Skills**:
-  - **Survival and Cohort Analysis**: Statistical modeling for understanding customer retention, product lifespan, and behavior over time.
-  - **Optimization**: Linear and nonlinear programming for optimizing industrial and supply chain processes.
-  - **Predictive Modeling and Forecasting**: Time-series analysis and demand forecasting in logistics, supply chain, and health.
-  - **Health Outcomes Modeling**: Experience developing models to analyze patient outcomes and healthcare intervention efficacy.
+- **Databases**:  
+  PostgreSQL, MySQL, DynamoDB, AWS S3, Mongo DB, Iceberg
 
+- **Analytics & Modeling**:  
+  Cohort analysis, optimization, forecasting, and survival models
 
 ---
 

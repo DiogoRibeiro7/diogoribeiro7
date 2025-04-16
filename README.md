@@ -29,12 +29,6 @@ I'm a **veteran Data Scientist** with over two decades of experience, proudly ha
 
 ## GitHub Stats
 
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="trophy" />
-  </a>
-</div>
-
 <p align="center">
   <a href="https://git.io/streak-stats">
     <img src="https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=highcontrast&hide_border=true" alt="GitHub Streak">
@@ -48,6 +42,8 @@ I'm a **veteran Data Scientist** with over two decades of experience, proudly ha
 	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/night.svg" />
 	</picture>
 </p>
+
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=dark&hide_border=true&mode=weekly" alt="GitHub Streak" /></a>
 
 <!--START_SECTION_LINES_OF_CODE:readme-info-->
 <!--END_SECTION_LINES_OF_CODE:readme-info-->

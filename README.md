@@ -144,6 +144,8 @@ Thank you for visiting my profile. I'm always open to connecting with fellow dat
 
 📕 &nbsp;**Latest Blog Posts in Medium.com**
 <!-- blog starts -->
+[Choosing the Right Evaluation Metric for Imbalanced Data](https://neverforget-1975.medium.com/choosing-the-right-evaluation-metric-for-imbalanced-data-59d78b595b30) - Thu, 29 May 2025
+
 [Essential PySpark Commands](https://neverforget-1975.medium.com/essential-pyspark-commands-ecffd57445c6) - Fri, 25 Oct 2024
 
 [Optimization: The Science of Making Better Decisions](https://medium.com/operations-research-bit/optimization-the-science-of-making-better-decisions-a1bdac0b3343) - Wed, 09 Oct 2024
@@ -161,6 +163,4 @@ Thank you for visiting my profile. I'm always open to connecting with fellow dat
 [What is Metadata Management?](https://neverforget-1975.medium.com/what-is-metadata-management-4b37fa5792d6) - Thu, 18 Jul 2024
 
 [Establishing Best Practices for Data Science Teams](https://neverforget-1975.medium.com/establishing-best-practices-for-data-science-teams-38e501abca85) - Mon, 15 Jul 2024
-
-[Mastering Project Ownership and Management: Building Effective Teams and Processes](https://neverforget-1975.medium.com/mastering-project-ownership-and-management-building-effective-teams-and-processes-24fc98f73268) - Sat, 13 Jul 2024
 <!-- blog ends -->

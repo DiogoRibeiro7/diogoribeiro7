@@ -1,10 +1,12 @@
-# Hi there 👋, I'm Diogo Ribeiro
+# Hi there 👋, I’m Diogo Ribeiro
 
-## Welcome to My GitHub Profile!
+## Welcome to My GitHub Profile
 
-I'm a **veteran Data Scientist** with over two decades of experience, proudly hailing from the picturesque country of **Portugal**. My journey through diverse fields such as **computer science, economy, management, medicine, natural sciences, engineering, pure mathematics**, and **applied mathematics** has been a continuous source of fascination and inspiration. Welcome to my GitHub profile!
+I am a data scientist with over 20 years of experience, based in Portugal. Over the years, I have worked across computer science, economics, management, medicine, natural sciences, engineering, pure mathematics, and applied mathematics. This profile showcases my work, interests, and how to connect with me.
 
-🔗 &nbsp;**Connect with me**
+---
+
+## 🔗 Connect with Me
 
 <div align="center">
   <a href="https://medium.com/@neverforget-1975">
@@ -17,83 +19,85 @@ I'm a **veteran Data Scientist** with over two decades of experience, proudly ha
     <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDD00" alt="Buy Me a Coffee" />
   </a>
   <a href="https://dagshub.com/DiogoRibeiro7">
-    <img src="https://img.shields.io/badge/Support%20on-Dagshub-9cf" alt="Support on Dagshub" />
+    <img src="https://img.shields.io/badge/Dagshub-Support%20Me-9cf" alt="Dagshub" />
   </a>
   <a href="https://dev.to/diogoribeiro7">
-    <img src="https://img.shields.io/badge/Follow%20on-Dev.to-blue" alt="Follow on Dev.to" />
+    <img src="https://img.shields.io/badge/Dev.to-Follow-blue" alt="Dev.to" />
   </a>
   <a href="https://www.linkedin.com/in/diogo-ribeiro-9094604a/">
-    <img src="https://img.shields.io/badge/Connect%20on-LinkedIn-blue" alt="Connect on LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect%20with%20Me-blue" alt="LinkedIn" />
   </a>
 </div>
 
-## GitHub Stats
+---
+
+## 📊 GitHub Stats
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="trophy" />
+    <img src="https://github-profile-trophy.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="Trophy" />
   </a>
 </div>
 
 <p align="center">
   <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=dark&hide_border=true&mode=weekly)](https://git.io/streak-stats" alt="GitHub Streak">
+    <img src="https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=dark&hide_border=true&mode=weekly" alt="GitHub Streak" />
   </a>
 </p>
-
-<!-- <p align="center" >
-	<picture>
-	  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/night.svg" />
-	  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/day.svg" />
-	  <img alt="github profile contributions chart"    src="https://raw.githubusercontent.com/DiogoRibeiro7/diogoribeiro7/main/profile-3d-contrib/night.svg" />
-	</picture>
-</p> -->
-
-<!--START_SECTION_LINES_OF_CODE:readme-info-->
-<!--END_SECTION_LINES_OF_CODE:readme-info-->
 
 ---
 
 ## 🧠 Areas of Expertise
 
-- **Machine Learning**: Supervised and unsupervised learning, anomaly detection, time series forecasting, and optimization.
-- **Graph & Network Analysis**: Modeling social and interaction networks using graph theory and dynamic metrics.
-- **Big Data Analytics**: Pattern discovery in marketing, logistics, and urban systems using structured and unstructured data.
-- **Mathematical Modeling**: Differential equations, statistical inference, and numerical methods for complex system analysis.
-- **Sustainability & Urban Systems**: Data-driven models for energy optimization, smart environments, and traffic prediction.
+- **Machine Learning**  
+  Supervised and unsupervised learning, anomaly detection, time series forecasting, optimization.
 
-### 🛠️ **Technical Skills**
+- **Graph & Network Analysis**  
+  Modeling social and interaction networks using graph theory and dynamic metrics.
 
-- **Programming Languages**:  
+- **Big Data Analytics**  
+  Pattern discovery in marketing, logistics, and urban systems using structured and unstructured data.
+
+- **Mathematical Modeling**  
+  Differential equations, statistical inference, numerical methods for complex systems.
+
+- **Sustainability & Urban Systems**  
+  Data-driven models for energy optimization, smart environments, traffic prediction.
+
+---
+
+## 🛠️ Technical Skills
+
+- **Programming Languages**  
   Python, SQL, R, Bash/Zsh, Fortran, Ruby, Rust, TypeScript
 
-- **ML & Data Tools**:  
+- **ML & Data Tools**  
   Scikit-Learn, XGBoost, LightGBM, TensorFlow, Statsmodels, Prophet
 
-- **Data Engineering & Streaming**:  
+- **Data Engineering & Streaming**  
   Apache Kafka, Flink, Iceberg, Spark, Hadoop
 
-- **Visualization**:  
+- **Visualization**  
   Matplotlib, Seaborn, Plotly
 
-- **IoT & Automation**:  
+- **IoT & Automation**  
   Raspberry Pi, MQTT, edge computing, real-time sensor pipelines
 
-- **DevOps**:  
+- **DevOps**  
   GitHub Actions, Docker, Jenkins
 
-- **Databases**:  
-  PostgreSQL, MySQL, DynamoDB, AWS S3, Mongo DB, Iceberg
+- **Databases**  
+  PostgreSQL, MySQL, DynamoDB, AWS S3, MongoDB, Iceberg
 
-- **Analytics & Modeling**:  
-  Cohort analysis, optimization, forecasting, and survival models
+- **Analytics & Modeling**  
+  Cohort analysis, optimization, forecasting, survival models
 
 ---
 
 ## 🔭 Research Interests
 
 - **Health Data Science**  
-  Real-time monitoring, anomaly detection, and disease prediction using wearable and IoT data. Applications in chronic disease management, mental health, and public health.
+  Real-time monitoring, anomaly detection, disease prediction with wearable and IoT data. Applications in chronic disease management, mental health, and public health.
 
 - **Genomics & Precision Medicine**  
   Predictive models using genetic data for personalized treatment and drug response.
@@ -105,22 +109,22 @@ I'm a **veteran Data Scientist** with over two decades of experience, proudly ha
   Numerical solutions to ODEs and PDEs in physical and biological systems.
 
 - **Graph Theory & Social Networks**  
-  Dynamic network analysis for understanding information flow, influence, and disease spread.
+  Dynamic network analysis to understand information flow, influence, and disease spread.
 
 - **Big Data & Marketing Analytics**  
-  Behavioral modeling, segmentation, and sentiment analysis for strategic decision-making.
+  Behavioral modeling, segmentation, sentiment analysis for strategic decision-making.
 
 - **Sustainability & Energy Systems**  
   Machine learning and optimization in renewable energy forecasting and grid efficiency.
 
 - **Smart Environments & Sensor Networks**  
-  Sensor-based systems for smart homes, energy monitoring, urban mobility, and weather prediction. Focus on signal processing, localization, and adaptive models for context-aware decision-making.
+  Sensor-based systems for smart homes, energy monitoring, urban mobility, and weather prediction. Focus on signal processing, localization, adaptive models.
 
 - **Behavioral & Labor Economics**  
-  Modeling decision-making, skill transitions, and the impact of automation on work.
+  Modeling decision-making, skill transitions, and automation’s impact on work.
 
 - **Financial Risk & Economic Forecasting**  
-  Real-time models for risk assessment and macroeconomic prediction using diverse data sources.
+  Real-time risk assessment and macroeconomic prediction using diverse data sources.
 
 - **Inequality & Sustainable Development**  
   Studying income distribution and climate policy impacts using data-driven economic models.
@@ -129,15 +133,14 @@ I'm a **veteran Data Scientist** with over two decades of experience, proudly ha
 
 ## 🌟 Highlights
 
-- **Extensive Experience**: Over 20 years in data science, spanning multiple disciplines and industries.
-- **Interdisciplinary Approach**: Combining knowledge from computer science, mathematics, economics, and natural sciences to solve complex problems.
-- **Hands-On Projects**: Practical experience with IoT, automation, and environmental monitoring using Raspberry Pi and sensors.
-- **Advanced Research**: In-depth exploration of machine learning applications, mathematical modeling, and quantum computing.
+- Over 20 years in data science, spanning multiple disciplines and industries.
+- Interdisciplinary approach combining computer science, mathematics, economics, and natural sciences.
+- Practical projects in IoT, automation, and environmental monitoring using Raspberry Pi and sensors.
+- Advanced research in machine learning applications, mathematical modeling, and quantum computing.
 
 ---
 
-## 📈 Let's Connect and Collaborate!
+## 📈 Let’s Connect and Collaborate
 
-Thank you for visiting my profile. I'm always open to connecting with fellow data enthusiasts, researchers, and professionals. Whether you're interested in collaborating on a project, discussing innovative ideas, or exploring new opportunities, feel free to reach out!
+Thank you for visiting my profile. I welcome collaboration with data enthusiasts, researchers, and professionals. Feel free to explore my repositories and contributions. Let’s drive innovation and make impactful advancements together!
 
-*Feel free to explore my repositories and contributions. Let's drive innovation and make impactful advancements together!*

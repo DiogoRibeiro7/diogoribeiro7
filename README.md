@@ -144,3 +144,25 @@ I am a data scientist with over 20 years of experience, based in Portugal. Over 
 
 Thank you for visiting my profile. I welcome collaboration with data enthusiasts, researchers, and professionals. Feel free to explore my repositories and contributions. Let’s drive innovation and make impactful advancements together!
 
+
+<!-- blog starts -->
+[Custom Exceptions in Python Data Pipelines](https://neverforget-1975.medium.com/custom-exceptions-in-python-data-pipelines-7baa731f86f2) - Fri, 30 May 2025
+
+[Choosing the Right Evaluation Metric for Imbalanced Data](https://neverforget-1975.medium.com/choosing-the-right-evaluation-metric-for-imbalanced-data-59d78b595b30) - Thu, 29 May 2025
+
+[Essential PySpark Commands](https://neverforget-1975.medium.com/essential-pyspark-commands-ecffd57445c6) - Fri, 25 Oct 2024
+
+[Optimization: The Science of Making Better Decisions](https://medium.com/operations-research-bit/optimization-the-science-of-making-better-decisions-a1bdac0b3343) - Wed, 09 Oct 2024
+
+[XGBoost](https://medium.com/operations-research-bit/xgboost-seamless-integration-with-python-libraries-for-superior-machine-learning-a2e4322575f8) - Tue, 08 Oct 2024
+
+[GitHub Actions: Automate Your Development Workflow](https://medium.com/operations-research-bit/github-actions-automate-your-development-workflow-defb2d5393b4) - Sun, 06 Oct 2024
+
+[Operations Research in Financial Portfolio Optimization](https://medium.com/operations-research-bit/operations-research-in-financial-portfolio-optimization-2490e054118f) - Thu, 05 Sep 2024
+
+[Mastering Python Dataclasses](https://tutorials.botsfloor.com/mastering-python-dataclasses-743eeb6feaaa) - Fri, 19 Jul 2024
+
+[Guiding a Data Scientist Towards More Effective Communication](https://medium.com/operations-research-bit/guiding-a-data-scientist-towards-more-effective-communication-dff40aa4c143) - Thu, 18 Jul 2024
+
+[What is Metadata Management?](https://neverforget-1975.medium.com/what-is-metadata-management-4b37fa5792d6) - Thu, 18 Jul 2024
+<!-- blog ends -->

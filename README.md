@@ -3,6 +3,7 @@
 ## Welcome to My GitHub Profile
 
 [![committers.top badge](https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg)](https://user-badge.committers.top/portugal_private/DiogoRibeiro7)
+<a href="mailto:diogo.debastos.ribeiro@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Email"></a>
 
 I am a data scientist with over 20 years of experience, based in Portugal. Over the years, I have worked across computer science, economics, management, medicine, natural sciences, engineering, pure mathematics, and applied mathematics. This profile showcases my work, interests, and how to connect with me.
 

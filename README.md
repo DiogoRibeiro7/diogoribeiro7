@@ -33,6 +33,8 @@ I am a data scientist with over 20 years of experience, based in Portugal. Over 
 
 ## 📊 GitHub Stats
 
+[![committers.top badge](https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg)](https://user-badge.committers.top/portugal_private/DiogoRibeiro7)
+
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="Trophy" />

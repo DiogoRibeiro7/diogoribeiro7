@@ -27,7 +27,7 @@ I am a data scientist with over 20 years of experience, based in Portugal. Over 
     <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to" />
   </a>
   <a href="https://www.linkedin.com/in/diogo-ribeiro-9094604a/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect%20with%20Me-blue" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:diogo.debastos.ribeiro@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Email"></a>

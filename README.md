@@ -12,7 +12,7 @@ I am a data scientist with over 20 years of experience, based in Portugal. Over 
 
 <div align="center">
   <a href="https://medium.com/@neverforget-1975">
-    <img src="https://img.shields.io/badge/Medium-Follow%20Me-2bbc8a?logo=medium" alt="Medium" />
+    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
   </a>
   <a href="https://diogoribeiro7.github.io">
     <img src="https://img.shields.io/badge/GitHub%20Pages-Deployed-007BFF?logo=github" alt="GitHub Pages" />

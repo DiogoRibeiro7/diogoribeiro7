@@ -24,7 +24,7 @@ I am a data scientist with over 20 years of experience, based in Portugal. Over 
     <img src="https://img.shields.io/badge/Dagshub-Support%20Me-9cf" alt="Dagshub" />
   </a>
   <a href="https://dev.to/diogoribeiro7">
-    <img src="[https://img.shields.io/badge/Dev.to-Follow-blue](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)" alt="Dev.to" />
+    <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to" />
   </a>
   <a href="https://www.linkedin.com/in/diogo-ribeiro-9094604a/">
     <img src="https://img.shields.io/badge/LinkedIn-Connect%20with%20Me-blue" alt="LinkedIn" />

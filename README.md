@@ -150,6 +150,8 @@ Thank you for visiting my profile. I welcome collaboration with data enthusiasts
 
 
 <!-- blog starts -->
+[What Are Pre-Commit Hooks and Why They Matter](https://neverforget-1975.medium.com/what-are-pre-commit-hooks-and-why-they-matter-129ace430b06) - Tue, 10 Jun 2025
+
 [Custom Exceptions in Python Data Pipelines](https://neverforget-1975.medium.com/custom-exceptions-in-python-data-pipelines-7baa731f86f2) - Fri, 30 May 2025
 
 [Choosing the Right Evaluation Metric for Imbalanced Data](https://neverforget-1975.medium.com/choosing-the-right-evaluation-metric-for-imbalanced-data-59d78b595b30) - Thu, 29 May 2025
@@ -167,6 +169,4 @@ Thank you for visiting my profile. I welcome collaboration with data enthusiasts
 [Mastering Python Dataclasses](https://tutorials.botsfloor.com/mastering-python-dataclasses-743eeb6feaaa) - Fri, 19 Jul 2024
 
 [Guiding a Data Scientist Towards More Effective Communication](https://medium.com/operations-research-bit/guiding-a-data-scientist-towards-more-effective-communication-dff40aa4c143) - Thu, 18 Jul 2024
-
-[What is Metadata Management?](https://neverforget-1975.medium.com/what-is-metadata-management-4b37fa5792d6) - Thu, 18 Jul 2024
 <!-- blog ends -->

@@ -1,8 +1,6 @@
 ## Hi there, I’m Diogo Ribeiro 👋  
 **Senior Data Scientist • Mathematician • between United Kigdom and Portugal**
 
-[![committers.top badge](https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg)](https://user-badge.committers.top/portugal_private/DiogoRibeiro7)
-
 <table>
   <tr>
     <td align="center">

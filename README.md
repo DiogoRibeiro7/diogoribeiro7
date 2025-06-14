@@ -73,9 +73,6 @@ I am a data scientist with over 20 years of experience, based in Portugal. Over 
 - **Health Economics**  
   Cost-effectiveness analysis and resource optimization for healthcare systems.
 
-- **Mathematics & Differential Equations**  
-  Numerical solutions to ODEs and PDEs in physical and biological systems.
-
 - **Graph Theory & Social Networks**  
   Dynamic network analysis to understand information flow, influence, and disease spread.
 

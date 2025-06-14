@@ -3,6 +3,10 @@
 
 [![committers.top badge](https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg)](https://user-badge.committers.top/portugal_private/DiogoRibeiro7)
 
+<p align="center">
+  [![committers.top badge](https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg)](https://user-badge.committers.top/portugal_private/DiogoRibeiro7)
+</p>
+
 _I’m a data scientist with over 20 years of experience applying machine learning and statistical analysis across domains—from logistics and supply chains to healthcare and engineering—now focused on natural language processing and statistical modeling to extract insights from unstructured text and drive solutions for climate change and sustainability._
 
 ---

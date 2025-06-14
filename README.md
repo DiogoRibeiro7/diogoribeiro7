@@ -7,22 +7,6 @@ _I’m a data scientist with over 20 years of experience applying machine learni
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="Trophy" />
-  </a>
-</div>
-
-<p align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=dark&hide_border=true&mode=weekly" alt="GitHub Streak" />
-  </a>
-</p>
-
----
-
 ## 🧠 Areas of Expertise
 
 - **Machine Learning**  
@@ -97,6 +81,22 @@ _I’m a data scientist with over 20 years of experience applying machine learni
 - Interdisciplinary approach combining computer science, mathematics, economics, and natural sciences.
 - Practical projects in IoT, automation, and environmental monitoring using Raspberry Pi and sensors.
 - Advanced research in machine learning applications, mathematical modeling and statistics.
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="Trophy" />
+  </a>
+</div>
+
+<p align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=dark&hide_border=true&mode=weekly" alt="GitHub Streak" />
+  </a>
+</p>
 
 ---
 

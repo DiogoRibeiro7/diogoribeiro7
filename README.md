@@ -1,10 +1,10 @@
-# Hi there 👋, I’m Diogo Ribeiro
-
-## Welcome to My GitHub Profile
+## Hi there, I’m Diogo Ribeiro 👋  
+**Data Scientist Lead • Mathematician • Portugal**
 
 [![committers.top badge](https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg)](https://user-badge.committers.top/portugal_private/DiogoRibeiro7)
 
-I am a data scientist with over 20 years of experience, based in Portugal. Over the years, I have worked across pure mathematics, applied mathematics, economics, management, logistics and supply chain, medicine, natural sciences and engineering. This profile showcases my work, interests, and how to connect with me.
+_I’m a data scientist with over 20 years of experience in machine learning and statistical modeling, specializing in natural language processing to unlock insights from complex text data._
+
 
 ---
 

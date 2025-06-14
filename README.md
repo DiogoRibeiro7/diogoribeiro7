@@ -126,24 +126,3 @@ Thanks for visiting! I’m eager to partner with fellow data enthusiasts, resear
     <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Email"></a>
 </div>
 
-<!-- blog starts -->
-[What Are Pre-Commit Hooks and Why They Matter](https://neverforget-1975.medium.com/what-are-pre-commit-hooks-and-why-they-matter-129ace430b06) - Tue, 10 Jun 2025
-
-[Custom Exceptions in Python Data Pipelines](https://neverforget-1975.medium.com/custom-exceptions-in-python-data-pipelines-7baa731f86f2) - Fri, 30 May 2025
-
-[Choosing the Right Evaluation Metric for Imbalanced Data](https://neverforget-1975.medium.com/choosing-the-right-evaluation-metric-for-imbalanced-data-59d78b595b30) - Thu, 29 May 2025
-
-[Essential PySpark Commands](https://neverforget-1975.medium.com/essential-pyspark-commands-ecffd57445c6) - Fri, 25 Oct 2024
-
-[Optimization: The Science of Making Better Decisions](https://medium.com/operations-research-bit/optimization-the-science-of-making-better-decisions-a1bdac0b3343) - Wed, 09 Oct 2024
-
-[XGBoost](https://medium.com/operations-research-bit/xgboost-seamless-integration-with-python-libraries-for-superior-machine-learning-a2e4322575f8) - Tue, 08 Oct 2024
-
-[GitHub Actions: Automate Your Development Workflow](https://medium.com/operations-research-bit/github-actions-automate-your-development-workflow-defb2d5393b4) - Sun, 06 Oct 2024
-
-[Operations Research in Financial Portfolio Optimization](https://medium.com/operations-research-bit/operations-research-in-financial-portfolio-optimization-2490e054118f) - Thu, 05 Sep 2024
-
-[Mastering Python Dataclasses](https://tutorials.botsfloor.com/mastering-python-dataclasses-743eeb6feaaa) - Fri, 19 Jul 2024
-
-[Guiding a Data Scientist Towards More Effective Communication](https://medium.com/operations-research-bit/guiding-a-data-scientist-towards-more-effective-communication-dff40aa4c143) - Thu, 18 Jul 2024
-<!-- blog ends -->

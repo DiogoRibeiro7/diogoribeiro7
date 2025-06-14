@@ -8,33 +8,6 @@ I am a data scientist with over 20 years of experience, based in Portugal. Over 
 
 ---
 
-## 🔗 Connect with Me
-
-<div align="center">
-  <a href="https://medium.com/@neverforget-1975">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
-  </a>
-  <a href="https://diogoribeiro7.github.io">
-    <img src="https://img.shields.io/badge/GitHub%20Pages-Deployed-007BFF?logo=github" alt="GitHub Pages" />
-  </a>
-  <a href="https://buymeacoffee.com/diogoribeiro7">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDD00" alt="Buy Me a Coffee" />
-  </a>
-  <a href="https://dagshub.com/DiogoRibeiro7">
-    <img src="https://img.shields.io/badge/Dagshub-Support%20Me-9cf" alt="Dagshub" />
-  </a>
-  <a href="https://dev.to/diogoribeiro7">
-    <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to" />
-  </a>
-  <a href="https://www.linkedin.com/in/diogo-ribeiro-9094604a/">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:diogo.debastos.ribeiro@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Email"></a>
-</div>
-
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -79,22 +52,13 @@ I am a data scientist with over 20 years of experience, based in Portugal. Over 
   Scikit-Learn, XGBoost, LightGBM, TensorFlow, Statsmodels, Prophet
 
 - **Data Engineering & Streaming**  
-  Apache Kafka, Flink, Iceberg, Spark, Hadoop
-
-- **Visualization**  
-  Matplotlib, Seaborn, Plotly
-
-- **IoT & Automation**  
-  Raspberry Pi, MQTT, edge computing, real-time sensor pipelines
+  Apache Kafka, Flink, Spark, Databricks
 
 - **DevOps**  
   GitHub Actions, Docker, Jenkins
 
 - **Databases**  
-  PostgreSQL, MySQL, DynamoDB, AWS S3, MongoDB, Iceberg
-
-- **Analytics & Modeling**  
-  Cohort analysis, optimization, forecasting, survival models
+  PostgreSQL, MySQL, SQLite, DynamoDB, AWS S3, MongoDB, Iceberg, InfluxDb
 
 ---
 
@@ -127,9 +91,6 @@ I am a data scientist with over 20 years of experience, based in Portugal. Over 
 - **Behavioral & Labor Economics**  
   Modeling decision-making, skill transitions, and automation’s impact on work.
 
-- **Financial Risk & Economic Forecasting**  
-  Real-time risk assessment and macroeconomic prediction using diverse data sources.
-
 - **Inequality & Sustainable Development**  
   Studying income distribution and climate policy impacts using data-driven economic models.
 
@@ -137,17 +98,37 @@ I am a data scientist with over 20 years of experience, based in Portugal. Over 
 
 ## 🌟 Highlights
 
-- Over 20 years in data science, spanning multiple disciplines and industries.
 - Interdisciplinary approach combining computer science, mathematics, economics, and natural sciences.
 - Practical projects in IoT, automation, and environmental monitoring using Raspberry Pi and sensors.
-- Advanced research in machine learning applications, mathematical modeling, and quantum computing.
+- Advanced research in machine learning applications, mathematical modeling and statistics.
 
 ---
 
-## 📈 Let’s Connect and Collaborate
+## 📈 Let’s Connect and Collaborate  
+Thanks for visiting! I’m eager to partner with fellow data enthusiasts, researchers, and professionals. Browse my projects or get in touch—I’m always open to exploring ideas and driving impactful innovation together.
 
-Thank you for visiting my profile. I welcome collaboration with data enthusiasts, researchers, and professionals. Feel free to explore my repositories and contributions. Let’s drive innovation and make impactful advancements together!
-
+<div align="center">
+  <a href="https://medium.com/@neverforget-1975">
+    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+  </a>
+  <a href="https://diogoribeiro7.github.io">
+    <img src="https://img.shields.io/badge/GitHub%20Pages-Deployed-007BFF?logo=github" alt="GitHub Pages" />
+  </a>
+  <a href="https://buymeacoffee.com/diogoribeiro7">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDD00" alt="Buy Me a Coffee" />
+  </a>
+  <a href="https://dagshub.com/DiogoRibeiro7">
+    <img src="https://img.shields.io/badge/Dagshub-Support%20Me-9cf" alt="Dagshub" />
+  </a>
+  <a href="https://dev.to/diogoribeiro7">
+    <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to" />
+  </a>
+  <a href="https://www.linkedin.com/in/diogo-ribeiro-9094604a/">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:diogo.debastos.ribeiro@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Email"></a>
+</div>
 
 <!-- blog starts -->
 [What Are Pre-Commit Hooks and Why They Matter](https://neverforget-1975.medium.com/what-are-pre-commit-hooks-and-why-they-matter-129ace430b06) - Tue, 10 Jun 2025

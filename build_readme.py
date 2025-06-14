@@ -79,17 +79,17 @@ def extract_date_substring(input_str: str) -> str:
     return " ".join(input_str.split()[:4])
 
 
-if __name__ == "__main__":
-    readme = root / "README.md"
+# if __name__ == "__main__":
+#     readme = root / "README.md"
 
-    entries = fetch_blog_entries()
+#     entries = fetch_blog_entries()
 
-    for entry in entries:
-        entry["published"] = extract_date_substring(entry["published"])
+#     for entry in entries:
+#         entry["published"] = extract_date_substring(entry["published"])
 
-    entries_md = "\n\n".join(
-        ["[{title}]({url}) - {published}".format(**entry) for entry in entries]
-    )
-    readme_contents = readme.open().read()
-    rewritten = replace_chunk(readme_contents, "blog", entries_md)
-    readme.open("w").write(rewritten)
+#     entries_md = "\n\n".join(
+#         ["[{title}]({url}) - {published}".format(**entry) for entry in entries]
+#     )
+#     readme_contents = readme.open().read()
+#     rewritten = replace_chunk(readme_contents, "blog", entries_md)
+#     readme.open("w").write(rewritten)

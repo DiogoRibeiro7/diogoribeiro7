@@ -56,31 +56,14 @@ _I’m a data scientist with over 20 years of experience applying machine learni
 ## 🔭 Research Interests
 
 - **Health Data Science**  
-  Real-time monitoring, anomaly detection, disease prediction with wearable and IoT data. Applications in chronic disease management, mental health, and public health.
-
 - **Genomics & Precision Medicine**  
-  Predictive models using genetic data for personalized treatment and drug response.
-
 - **Health Economics**  
-  Cost-effectiveness analysis and resource optimization for healthcare systems.
-
 - **Graph Theory & Social Networks**  
-  Dynamic network analysis to understand information flow, influence, and disease spread.
-
 - **Big Data & Marketing Analytics**  
-  Behavioral modeling, segmentation, sentiment analysis for strategic decision-making.
-
 - **Sustainability & Energy Systems**  
-  Machine learning and optimization in renewable energy forecasting and grid efficiency.
-
 - **Smart Environments & Sensor Networks**  
-  Sensor-based systems for smart homes, energy monitoring, urban mobility, and weather prediction. Focus on signal processing, localization, adaptive models.
-
 - **Behavioral & Labor Economics**  
-  Modeling decision-making, skill transitions, and automation’s impact on work.
-
 - **Inequality & Sustainable Development**  
-  Studying income distribution and climate policy impacts using data-driven economic models.
 
 ---
 

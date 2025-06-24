@@ -37,7 +37,7 @@ _I’m a data scientist with over 20 years of experience applying machine learni
 ## 🛠️ Technical Skills
 
 - **Programming Languages**  
-  Python, SQL, R, Bash/Zsh, Fortran, C, Ruby, Rust, TypeScript
+  Python, SQL, R, Bash/Zsh, Fortran, C, TypeScript
 
 - **ML & Data Tools**  
   Scikit-Learn, XGBoost, LightGBM, TensorFlow, Statsmodels, PyTorch, Numpy, Pandas, Polars and FireDucks 

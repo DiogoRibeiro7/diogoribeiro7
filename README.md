@@ -98,15 +98,6 @@ Thanks for visiting! I’m eager to partner with fellow data enthusiasts, resear
   <a href="https://medium.com/@neverforget-1975">
     <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
   </a>
-  <a href="https://diogoribeiro7.github.io">
-    <img src="https://img.shields.io/badge/GitHub%20Pages-Deployed-007BFF?logo=github" alt="GitHub Pages" />
-  </a>
-  <a href="https://buymeacoffee.com/diogoribeiro7">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDD00" alt="Buy Me a Coffee" />
-  </a>
-  <a href="https://dagshub.com/DiogoRibeiro7">
-    <img src="https://img.shields.io/badge/Dagshub-Support%20Me-9cf" alt="Dagshub" />
-  </a>
   <a href="https://dev.to/diogoribeiro7">
     <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to" />
   </a>

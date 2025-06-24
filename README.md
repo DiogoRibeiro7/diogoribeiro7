@@ -83,12 +83,6 @@ _I’m a data scientist with over 20 years of experience applying machine learni
   </a>
 </div>
 
-<p align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=DiogoRibeiro7&theme=dark&hide_border=true&mode=weekly" alt="GitHub Streak" />
-  </a>
-</p>
-
 ---
 
 ## 📈 Let’s Connect and Collaborate  

@@ -13,6 +13,8 @@
 
 _I’m a data scientist with over 20 years of experience applying machine learning and statistical analysis across domains—from logistics and supply chains to healthcare and engineering—now focused on natural language processing and statistical modeling to extract insights from unstructured text and drive solutions for climate change and sustainability._
 
+![Data has a better idea](data_has_as_better_idea.png)
+
 ---
 
 ## 🧠 Areas of Expertise

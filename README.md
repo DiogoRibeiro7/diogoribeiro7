@@ -17,7 +17,7 @@ _I’m a data scientist with over 20 years of experience applying machine learni
 <img src="data_has_a_better_idea.png"
      alt="Data has a better idea"
      title="Data has a better idea"
-     width="50%" />
+     width="75%" />
 </p>
 
 ---

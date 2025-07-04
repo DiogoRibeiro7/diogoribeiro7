@@ -1,6 +1,10 @@
 ## Hi there, I’m Diogo Ribeiro 👋  
 **Senior Data Scientist • Mathematician • between United Kigdom and Portugal**
 
+> “Knowledge is knowing a tomato is a fruit; wisdom is not putting it in a fruit salad.”
+>
+> — Miles Kington
+
 <table>
   <tr>
     <td align="center">

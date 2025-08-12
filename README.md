@@ -66,9 +66,7 @@ _I’m a data scientist with over 20 years of experience applying machine learni
 
 ## 🔭 Research Interests
 
-- **Health Data Science**  
-- **Genomics & Precision Medicine**  
-- **Health Economics**  
+- **Health Data Science**   
 - **Graph Theory & Social Networks**  
 - **Big Data & Marketing Analytics**  
 - **Sustainability & Energy Systems**  

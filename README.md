@@ -92,11 +92,6 @@ _I’m a data scientist with over 20 years of experience applying machine learni
   </a>
 </div>
 
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="/https://trophygh.kolioaris.xyz/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="Trophy" />
-  </a>
-</div>
 ---
 
 ## 📈 Let’s Connect and Collaborate  

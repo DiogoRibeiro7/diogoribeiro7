@@ -85,30 +85,29 @@ _I build production systems that turn messy data into decisions. Two decades acr
 - **smart-todo-action** — GitHub Action that extracts TODOs, groups by semantic labels/tags/metadata, and opens issues/changelogs.  
   👉 [repo](https://github.com/DiogoRibeiro7/smart-todo-action) <!-- update if different -->
 
+- **navier-stokes-solvers** — CFD solvers for the 2D/3D Navier–Stokes equations (finite-difference & spectral variants), with buildable CLI targets and basic tests.  
+  👉 [repo](https://github.com/DiogoRibeiro7/navier-stokes-solvers)
+
+- **heavytails** — Utilities for heavy-tailed modelling and inference (tail index estimation, Pareto-like fits, EVT-style diagnostics).  
+  👉 [repo](https://github.com/DiogoRibeiro7/heavytails)
+
 ---
 
 ## 📚 Publications / Teaching (compact)
 
-### Teaching
-- **Introduction to Logic & Set Theory (7-day module)** — Bivalent logic, set theory, induction; notes and LaTeX materials.  
-  Slides/notes: _link_ <!-- add link -->
+### Teaching @ESMAD
+- **Introduction to Logic & Set Theory (15-week module)** — Bivalent logic, set theory, induction, integral calculus; notes and LaTeX materials.  
 
-- **NoSQL with MongoDB (5 × 3h)** — Data modelling, aggregation, indexing; mini-projects with IoT sensor data.  
-  Syllabus: _link_ · Beamer slides: _link_ <!-- add links -->
+- **NoSQL with MongoDB (6 × 4h)** — Data modelling, aggregation, indexing; mini-projects with IoT sensor data.  
 
 - **NLP & LLM mini-workshops** — Prompt design, evals, lightweight retrieval, and report generation with structured → narrative transforms.  
-  Materials: _link_ <!-- add link -->
 
 ### Selected Writings / Demos
 - **Streaming analytics with Iceberg + Flink + DynamoDB** — Architecture notes and example pipelines.  
-  Post/repo: _link_ <!-- add link -->
 
 - **Robust regression with IRLS** — ψ-functions, influence diagnostics, and uncertainty reporting.  
-  Article/notebook: _link_ <!-- add link -->
 
 - **Time-series anomaly detection** — EWMA variants, adaptive σ, and change-point alerts for sensors.  
-  Notebook/repo: _link_ <!-- add link -->
-
 
 ---
 

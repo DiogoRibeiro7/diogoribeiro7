@@ -86,21 +86,34 @@
 
 ---
 
-## 📚 Publications / Teaching (compact)
+## 📚 Publications / Teaching
 
 ### Teaching @ESMAD
-- **Introduction to Logic & Set Theory (15-week module)** — Bivalent logic, set theory, induction, integral calculus; notes and LaTeX materials.  
+- **Introduction to Logic & Set Theory (First Semester, 15 weeks)** — Logic (prop/FO), sets, induction, **differential & integral calculus**; notes + LaTeX.
 
-- **NoSQL with MongoDB (6 × 4h)** — Data modelling, aggregation, indexing; mini-projects with IoT sensor data.  
+- **Linear Algebra (Second Semester, 15 weeks)** — Vector spaces and linear maps; matrices and determinants; eigenvalues/eigenvectors, diagonalisation; orthogonality, projections, Gram–Schmidt; least squares; **SVD and PCA**; numerical stability & conditioning; applications to optimisation and data science.  
+  Syllabus: _link_ · Slides (Beamer): _link_
 
-- **NLP & LLM mini-workshops** — Prompt design, evals, lightweight retrieval, and report generation with structured → narrative transforms.  
+- **NLP & LLM mini-workshops** — Prompt design, evals, lightweight retrieval, and report generation with structured → narrative transforms.
+
+### Seminars & Workshops
+
+- **Data Science Seminars** — End-to-end ML pipelines, feature engineering for time series, evaluation under drift, MLOps (CI/CD, data/versioning), and reproducible research practices.  
+  Slides: _link_ · Notebooks: _link_
+
+- **Sensors & Dashboards** — IoT data ingestion (MQTT/Kafka), time-series storage (InfluxDB/Parquet), streaming analytics (Flink), and dashboards (Grafana/Plotly/Dash) with alerting & anomaly detection.  
+  Slides: _link_ · Demo repo: _link_
+
+- **Applications of Matrices to Computational Graphics** — Linear transforms in 2D/3D, homogeneous coordinates, rotations (Euler vs. quaternions), camera models & projections, shading basics; **SVD/PCA** for geometry processing.  
+  Slides: _link_ · Code samples: _link_
+
 
 ### Selected Writings / Demos
 - **Streaming analytics with Iceberg + Flink + DynamoDB** — Architecture notes and example pipelines.  
 
 - **Robust regression with IRLS** — ψ-functions, influence diagnostics, and uncertainty reporting.  
 
-- **Time-series anomaly detection** — EWMA variants, adaptive σ, and change-point alerts for sensors.  
+- **Time-series anomaly detection** — EWMA variants, adaptive σ, and change-point alerts for sensors.
 
 ---
 

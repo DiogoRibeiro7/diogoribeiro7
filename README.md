@@ -43,34 +43,27 @@
 
 ## 🛠️ Technical Skills
 
-- **Programming Languages**  
-  Python, SQL, R, Bash/Zsh, Fortran, C, TypeScript
-
-- **ML & Data Tools**  
-  NumPy, Pandas, Polars, FireDucks, scikit-learn, XGBoost, LightGBM, TensorFlow, PyTorch, Statsmodels
-
-- **Data Engineering & Streaming**  
-  Apache Kafka, Flink, Spark, Databricks
-
-- **DevOps**  
-  Docker, GitHub Actions, Jenkins, Poetry, pre-commit (ruff, mypy, pytest-cov)
-
-- **Databases & Storage**  
-  PostgreSQL, MySQL, SQLite, DynamoDB, MongoDB, AWS S3, Apache Iceberg, InfluxDB
+- **Programming** — Python (typed, NumPy-first), SQL, R, TypeScript, Bash/Zsh, C, Fortran
+- **ML / Data** — NumPy, Pandas, Polars, FireDucks; scikit-learn, XGBoost/LightGBM; PyTorch, TensorFlow; Statsmodels  
+  _Focus:_ time series, anomaly detection, GLMs/IRLS, robust statistics
+- **Data Eng & Streaming** — Apache Kafka, Flink, Spark, Databricks; Arrow/Parquet; Apache Iceberg lakehouse
+- **Cloud & Storage** — AWS S3, DynamoDB; PostgreSQL, MySQL, SQLite; MongoDB, InfluxDB
+- **DevEx & CI/CD** — Docker; GitHub Actions, Jenkins; Poetry; pre-commit (ruff, mypy, pytest-cov); semantic versioning
+- **Testing & Quality** — pytest, coverage, property-based tests (hypothesis); static typing; security linting (bandit)
 
 ---
 
 ## 🔭 Research Interests
 
-- **Health Data Science**  
-- **Graph Theory & Social Networks**  
-- **Big Data & Marketing Analytics**  
-- **Sustainability & Energy Systems**  
-- **Smart Environments & Sensor Networks**  
-- **Behavioural & Labour Economics**  
-- **Inequality & Sustainable Development**  
+- **Health Data Science** — real-time analytics from wearables/sensors, personalised baselines, clinical interpretability
+- **Graph Theory & Social Networks** — interaction graphs, diffusion/contagion models, community & role discovery
+- **Big Data & Marketing Analytics** — uplift modelling, sequence-aware attribution, lifetime value with drift control
+- **Sustainability & Energy Systems** — demand forecasting, optimisation under constraints, carbon-aware scheduling
+- **Smart Environments & Sensor Networks** — multimodal fusion (RSSI + activations), localisation, reliability modelling
+- **Behavioural & Labour Economics** — micro-behavioural patterns, incentive effects, heterogeneity and fairness
+- **Inequality & Sustainable Development** — distributional metrics, policy simulation, causal and counterfactual analysis
 
-> Current themes: real-time anomaly detection, Bayesian filtering for indoor localisation, robust regression/GLMs, and LLM-assisted reporting.
+> **Current themes:** real-time anomaly detection; Bayesian filtering/HMMs for indoor localisation; robust regression & GLMs (IRLS); LLM-assisted reporting with audit trails.
 
 ---
 

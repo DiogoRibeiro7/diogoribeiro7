@@ -74,6 +74,58 @@ _I build production systems that turn messy data into decisions. Two decades acr
 
 ---
 
+## 📌 Pinned Projects
+
+<!-- Replace the placeholder links with your repo URLs -->
+
+- **genSurvPy** — Survival-data generators (AFT/CPHM, censored data), reproducible simulations, and validation utilities.  
+  👉 [repo](https://github.com/DiogoRibeiro7/genSurvPy) <!-- update if different -->
+
+- **linmod** — Linear & Robust Regression toolkit (IRLS, ψ-functions, sandwich SEs), diagnostics, and LaTeX exports.  
+  👉 [repo](https://github.com/DiogoRibeiro7/linmod) <!-- update if different -->
+
+- **odtk** — Outlier Detection Toolkit focused on time-series and sensor data (EWMA variants, change points, adaptive σ).  
+  👉 [repo](https://github.com/DiogoRibeiro7/odtk) <!-- update if different -->
+
+- **volstats** — Volatility estimators & models (GARCH MLE, Parkinson/Yang–Zhang, forecasts, comparisons).  
+  👉 [repo](https://github.com/DiogoRibeiro7/volstats) <!-- update if different -->
+
+- **smart-todo-action** — GitHub Action that extracts TODOs, groups by semantic labels/tags/metadata, and opens issues/changelogs.  
+  👉 [repo](https://github.com/DiogoRibeiro7/smart-todo-action) <!-- update if different -->
+
+- **IoT-RPi Projects** — Raspberry Pi + sensors: streaming pipelines (Flink + Iceberg), anomaly detection, and environment monitoring.  
+  👉 [repo](https://github.com/DiogoRibeiro7/iot-rpi-projects) <!-- update if different -->
+
+> Prefer fewer items? Keep the top 3–4 that best match your current goals.
+
+---
+
+## 📚 Publications / Teaching (compact)
+
+### Teaching
+- **Introduction to Logic & Set Theory (7-day module)** — Bivalent logic, set theory, induction; notes and LaTeX materials.  
+  Slides/notes: _link_ <!-- add link -->
+
+- **NoSQL with MongoDB (5 × 3h)** — Data modelling, aggregation, indexing; mini-projects with IoT sensor data.  
+  Syllabus: _link_ · Beamer slides: _link_ <!-- add links -->
+
+- **NLP & LLM mini-workshops** — Prompt design, evals, lightweight retrieval, and report generation with structured → narrative transforms.  
+  Materials: _link_ <!-- add link -->
+
+### Selected Writings / Demos
+- **Streaming analytics with Iceberg + Flink + DynamoDB** — Architecture notes and example pipelines.  
+  Post/repo: _link_ <!-- add link -->
+
+- **Robust regression with IRLS** — ψ-functions, influence diagnostics, and uncertainty reporting.  
+  Article/notebook: _link_ <!-- add link -->
+
+- **Time-series anomaly detection** — EWMA variants, adaptive σ, and change-point alerts for sensors.  
+  Notebook/repo: _link_ <!-- add link -->
+
+> Tip: keep each item to one line with a single link (repo or article). If you want, I can auto-fill these with your actual URLs.
+
+---
+
 ## 🌟 Highlights
 
 - Interdisciplinary approach spanning computer science, mathematics, economics, and natural sciences.

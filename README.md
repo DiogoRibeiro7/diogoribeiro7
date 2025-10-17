@@ -11,7 +11,7 @@
   </a>
 </p>
 
-_I build production systems that turn messy data into decisions. Two decades across logistics, health, and engineering taught me the value of lean models, clean code, and reproducible pipelines. Lately, I’ve been shipping **NLP** and **statistical modelling** that helps teams reason about text and time series in real time._
+**I build production systems that turn messy data into decisions. Two decades across logistics, health, and engineering taught me the value of lean models, clean code, and reproducible pipelines. Lately, I’ve been shipping NLP and statistical modelling that helps teams reason about text and time series in real time.**
 
 <p align="center">
   <img src="data_has_a_better_idea.png"

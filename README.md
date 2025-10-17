@@ -15,7 +15,7 @@
   </tr>
 </table>
 
-_I’m a data scientist with over 20 years of experience applying machine learning and statistical analysis across domains—from logistics and supply chains to healthcare and engineering—now focused on natural language processing and statistical modeling to extract insights from unstructured text and drive solutions for climate change and sustainability._
+_I build production systems that turn messy data into decisions. Two decades across logistics, health, and engineering taught me the value of lean models, clean code, and reproducible pipelines. Lately, I’ve been shipping NLP and statistical modelling work that helps teams reason about text and time series in real time._
 
 <p align="center">
 <img src="data_has_a_better_idea.png"

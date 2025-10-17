@@ -1,27 +1,23 @@
 ## Hi there, I’m Diogo Ribeiro 👋  
-**Senior Data Scientist • Mathematician • between United Kigdom and Portugal**
+**Senior Data Scientist • Mathematician • based between the United Kingdom and Portugal**
 
 > “Knowledge is knowing a tomato is a fruit; wisdom is not putting it in a fruit salad.”
 >
 > — Miles Kington
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://user-badge.committers.top/portugal_private/DiogoRibeiro7">
-        <img src="https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg" alt="committers.top badge"/>
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://user-badge.committers.top/portugal_private/DiogoRibeiro7">
+    <img src="https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg" alt="committers.top badge"/>
+  </a>
+</p>
 
-_I build production systems that turn messy data into decisions. Two decades across logistics, health, and engineering taught me the value of lean models, clean code, and reproducible pipelines. Lately, I’ve been shipping NLP and statistical modelling work that helps teams reason about text and time series in real time._
+_I build production systems that turn messy data into decisions. Two decades across logistics, health, and engineering taught me the value of lean models, clean code, and reproducible pipelines. Lately, I’ve been shipping **NLP** and **statistical modelling** that helps teams reason about text and time series in real time._
 
 <p align="center">
-<img src="data_has_a_better_idea.png"
-     alt="Data has a better idea"
-     title="Data has a better idea"
-     width="75%" />
+  <img src="data_has_a_better_idea.png"
+       alt="Poster with the phrase 'Data has a better idea'"
+       title="Data has a better idea"
+       width="75%" />
 </p>
 
 ---
@@ -29,19 +25,19 @@ _I build production systems that turn messy data into decisions. Two decades acr
 ## 🧠 Areas of Expertise
 
 - **Machine Learning**  
-  Supervised and unsupervised learning, anomaly detection, time series forecasting, optimization.
+  Supervised & unsupervised learning, anomaly detection, time-series forecasting, optimisation.
 
 - **Graph & Network Analysis**  
-  Modeling social and interaction networks using graph theory and dynamic metrics.
+  Social/interaction networks, graph theory, dynamic metrics, community structure.
 
 - **Big Data Analytics**  
-  Pattern discovery in marketing, logistics, and urban systems using structured and unstructured data.
+  Pattern discovery in marketing, logistics, and urban systems (structured & unstructured data).
 
-- **Mathematical Modeling**  
+- **Mathematical Modelling**  
   Differential equations, statistical inference, numerical methods for complex systems.
 
 - **Sustainability & Urban Systems**  
-  Data-driven models for energy optimization, smart environments, traffic prediction.
+  Energy optimisation, smart environments, traffic prediction.
 
 ---
 
@@ -51,36 +47,38 @@ _I build production systems that turn messy data into decisions. Two decades acr
   Python, SQL, R, Bash/Zsh, Fortran, C, TypeScript
 
 - **ML & Data Tools**  
-  Scikit-Learn, XGBoost, LightGBM, TensorFlow, Statsmodels, PyTorch, Numpy, Pandas, Polars and FireDucks 
+  NumPy, Pandas, Polars, FireDucks, scikit-learn, XGBoost, LightGBM, TensorFlow, PyTorch, Statsmodels
 
 - **Data Engineering & Streaming**  
   Apache Kafka, Flink, Spark, Databricks
 
 - **DevOps**  
-  GitHub Actions, Docker, Jenkins
+  Docker, GitHub Actions, Jenkins, Poetry, pre-commit (ruff, mypy, pytest-cov)
 
-- **Databases**  
-  PostgreSQL, MySQL, SQLite, DynamoDB, AWS S3, MongoDB, Iceberg, InfluxDb
+- **Databases & Storage**  
+  PostgreSQL, MySQL, SQLite, DynamoDB, MongoDB, AWS S3, Apache Iceberg, InfluxDB
 
 ---
 
 ## 🔭 Research Interests
 
-- **Health Data Science**   
+- **Health Data Science**  
 - **Graph Theory & Social Networks**  
 - **Big Data & Marketing Analytics**  
 - **Sustainability & Energy Systems**  
 - **Smart Environments & Sensor Networks**  
-- **Behavioral & Labor Economics**  
+- **Behavioural & Labour Economics**  
 - **Inequality & Sustainable Development**  
+
+> Current themes: real-time anomaly detection, Bayesian filtering for indoor localisation, robust regression/GLMs, and LLM-assisted reporting.
 
 ---
 
 ## 🌟 Highlights
 
-- Interdisciplinary approach combining computer science, mathematics, economics, and natural sciences.
-- Practical projects in IoT, automation, and environmental monitoring using Raspberry Pi and sensors.
-- Advanced research in machine learning applications, mathematical modeling and statistics.
+- Interdisciplinary approach spanning computer science, mathematics, economics, and natural sciences.
+- Practical projects in **IoT**, automation, and environmental monitoring (Raspberry Pi + sensors).
+- Ongoing work in ML for time series, anomaly detection, and robust statistical modelling.
 
 ---
 
@@ -95,7 +93,7 @@ _I build production systems that turn messy data into decisions. Two decades acr
 ---
 
 ## 📈 Let’s Connect and Collaborate  
-Thanks for visiting! I’m eager to partner with fellow data enthusiasts, researchers, and professionals. Browse my projects or get in touch—I’m always open to exploring ideas and driving impactful innovation together.
+Thanks for visiting! I’m keen to partner with data enthusiasts, researchers, and product teams. Browse my projects or get in touch—happy to explore ideas and build useful things together.
 
 <div align="center">
   <a href="https://medium.com/@neverforget-1975">
@@ -110,4 +108,3 @@ Thanks for visiting! I’m eager to partner with fellow data enthusiasts, resear
   <a href="mailto:diogo.debastos.ribeiro@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white" alt="Email"></a>
 </div>
-

@@ -115,8 +115,8 @@ I build production systems that turn messy data into decisions. Two decades acro
 ## 📊 GitHub Stats
 
 <div align="center">
-  <a href="(https://github-profile-trophy-git-master-diogoribeiro7s-projects.vercel.app">
-    <img src="https://github-profile-trophy-git-master-diogoribeiro7s-projects.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="Trophy" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="Trophy" />
   </a>
 </div>
 

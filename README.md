@@ -87,6 +87,7 @@ I build production systems that turn messy data into decisions. Two decades acro
 - **Introduction to Logic & Set Theory (First Semester, 15 weeks)** — Logic (prop/FO), sets, induction, **differential & integral calculus**; notes + LaTeX.
 - **Linear Algebra (Second Semester, 15 weeks)** — Vector spaces and linear maps; matrices and determinants; eigenvalues/eigenvectors, diagonalisation; orthogonality, projections, Gram–Schmidt; least squares; **SVD and PCA**; numerical stability & conditioning; applications to optimisation and data science.  
   Syllabus: _link_ · Slides (Beamer): _link_
+- **NoSQL & MongoDB** — Non-relational data models, document-oriented design, indexing and aggregation in MongoDB, and practical work with real-world datasets.
 - **NLP & LLM mini-workshops** — Prompt design, evals, lightweight retrieval, and report generation with structured → narrative transforms.
 
 ### Seminars & Workshops

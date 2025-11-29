@@ -62,6 +62,19 @@ I build production systems that turn messy data into decisions. Two decades acro
 
 ---
 
+
+## 📊 Live Dashboards
+
+- **Portugal Economic Indicators Dashboard**  
+  Macroeconomic indicators for Portugal with historical context: GDP, inflation, labour market, external balance, and public finances, with interactive time-series views and comparisons.  
+  👉 [Open dashboard](https://portugal-econ-dashboard.vercel.app/)
+
+- **NASDAQ Stock Analytics Dashboard**  
+  Focused analytics for a subset of NASDAQ stocks: prices, returns, volatility, and technical indicators, with exploratory charts for screening and monitoring.  
+  👉 [Open dashboard](https://nasdaq-dashboard-sigma.vercel.app/)
+
+---
+
 ## 📌 Pinned Projects
 
 - **abx-next** — A/B experimentation utilities: CUPED/CUPAC hooks, triggered analysis, SRM guardrails, switchback helpers, and power simulations.  
@@ -85,7 +98,7 @@ I build production systems that turn messy data into decisions. Two decades acro
 
 ### Teaching @ESMAD
 - **Introduction to Logic & Set Theory (First Semester, 15 weeks)** — Logic (prop/FO), sets, induction, **differential & integral calculus**.
-- **Linear Algebra (Second Semester, 15 weeks)** — Vector spaces and linear maps; matrices and determinants; eigenvalues/eigenvectors, diagonalisation; orthogonality, projections, Gram–Schmidt; least squares; **SVD and PCA**; numerical stability & conditioning; applications to optimisation and data science.  
+- **Linear Algebra (Second Semester, 15 weeks, 15 weeks)** — Vector spaces and linear maps; matrices and determinants; eigenvalues/eigenvectors, diagonalisation; orthogonality, projections, Gram–Schmidt; least squares; **SVD and PCA**; numerical stability & conditioning; applications to optimisation and data science.  
 - **NoSQL & MongoDB** — Non-relational data models, document-oriented design, indexing and aggregation in MongoDB, and practical work with real-world datasets.
 - **NLP & LLM mini-workshops** — Prompt design, evals, lightweight retrieval, and report generation with structured → narrative transforms.
 

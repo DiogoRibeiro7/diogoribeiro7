@@ -4,12 +4,6 @@
 > “Knowledge is knowing a tomato is a fruit; wisdom is not putting it in a fruit salad.”  
 > — Miles Kington
 
-<p align="center">
-  <a href="https://user-badge.committers.top/portugal_private/DiogoRibeiro7">
-    <img src="https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg" alt="committers.top badge"/>
-  </a>
-</p>
-
 I build production systems that turn messy data into decisions. Two decades across logistics, health, and engineering taught me the value of lean models, clean code, and reproducible pipelines. Lately I’ve been shipping NLP and statistical modelling that helps teams reason about text and time series in real time.
 
 <p align="center">
@@ -126,6 +120,12 @@ I build production systems that turn messy data into decisions. Two decades acro
 ---
 
 ## 📊 GitHub Stats
+
+<p align="center">
+  <a href="https://user-badge.committers.top/portugal_private/DiogoRibeiro7">
+    <img src="https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg" alt="committers.top badge"/>
+  </a>
+</p>
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">

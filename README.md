@@ -164,7 +164,7 @@ Recognition and profile trophies from GitHub community metrics:
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy-kannan.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="Trophy" />
+    <img src="https://trophy.benkou.dev/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="Trophy" />
   </a>
 </div>
 

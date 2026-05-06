@@ -1,10 +1,10 @@
-## Hi there, I am Diogo Ribeiro
+## Diogo Ribeiro
 **Senior Data Scientist • Mathematician • Working between the United Kingdom and Portugal**
 
 > "Knowledge is knowing a tomato is a fruit; wisdom is not putting it in a fruit salad."
 > — Miles Kington
 
-I build production systems that turn messy data into clear decisions. Two decades across logistics, health, and engineering have reinforced the value of lean models, clean code, and reproducible pipelines. More recently, I have focused on NLP and statistical modelling solutions that help teams reason about text and time series in real time.
+I build production systems that turn complex data into reliable decisions. Work across logistics, health, and engineering has reinforced the value of lean models, robust software practices, and reproducible pipelines. Current work focuses on NLP and statistical modelling for real-time text and time-series reasoning.
 
 <p align="center">
   <img src="data_has_a_better_idea.png"
@@ -20,8 +20,10 @@ I build production systems that turn messy data into clear decisions. Two decade
 - [Areas of Expertise](#areas-of-expertise)
 - [Technical Skills](#technical-skills)
 - [Research Interests](#research-interests)
+- [Current Focus](#current-focus)
 - [Live Dashboards](#live-dashboards)
-- [Pinned Projects](#pinned-projects)
+- [Portfolio](#portfolio)
+- [Collaboration Interests](#collaboration-interests)
 - [Publications / Teaching](#publications--teaching)
 - [Highlights](#highlights)
 - [GitHub Stats](#github-stats)
@@ -66,7 +68,15 @@ I build production systems that turn messy data into clear decisions. Two decade
 - **Behavioural & Labour Economics** — Micro-behavioural patterns, incentive effects, heterogeneity, and fairness
 - **Inequality & Sustainable Development** — Distributional metrics, policy simulation, and causal or counterfactual analysis
 
-> **Now:** real-time anomaly detection; Bayesian filtering/HMMs for indoor localisation; robust regression and GLMs (IRLS); LLM-assisted reporting with audit trails; **abx-next** (modern A/B experimentation utilities).
+---
+
+## Current Focus
+
+- Real-time anomaly detection in sensor and operational environments
+- Bayesian filtering and HMMs for indoor localisation
+- Robust regression and GLM pipelines (including IRLS workflows)
+- LLM-assisted reporting with explicit audit trails
+- Experimentation tooling with **abx-next**
 
 ---
 
@@ -82,28 +92,44 @@ I build production systems that turn messy data into clear decisions. Two decade
 
 ---
 
-## Pinned Projects
+## Portfolio
 
-- **abx-next** — A/B experimentation utilities with CUPED/CUPAC hooks, triggered analysis, SRM guardrails, switchback helpers, and power simulations.  
-  [repo](https://github.com/DiogoRibeiro7/abx-next)
+A curated set of notebook-first repositories and practical analytics work.
 
-- **genSurvPy** — Survival-data generators for AFT/CPHM settings, censored data, reproducible simulations, and validation utilities.  
-  [repo](https://github.com/DiogoRibeiro7/genSurvPy)
+### Notebook Portfolio Items (Recent)
 
-- **smart-todo-action** — A GitHub Action that extracts TODOs, groups them by semantic labels, tags, and metadata, and opens issues or changelog entries.  
-  [repo](https://github.com/DiogoRibeiro7/smart-todo-action)
+- **interpretable-medical-cost-risk** — Interpretable modelling workflows for medical cost risk estimation with transparent feature reasoning and evaluation.  
+  [repo](https://github.com/DiogoRibeiro7/interpretable-medical-cost-risk)
 
-- **navier-stokes-solvers** — CFD solvers for the 2D and 3D Navier-Stokes equations, including finite-difference and spectral variants, with buildable CLI targets and basic tests.  
-  [repo](https://github.com/DiogoRibeiro7/navier-stokes-solvers)
+- **llm-etl-and-evaluation** — LLM-oriented ETL and evaluation workflows focused on structured processing, validation, and quality checks.  
+  [repo](https://github.com/DiogoRibeiro7/llm-etl-and-evaluation)
 
-- **heavytails** — Utilities for heavy-tailed modelling and inference, including tail-index estimation, Pareto-like fits, and EVT diagnostics.  
-  [repo](https://github.com/DiogoRibeiro7/heavytails)
+- **ai-incident-analysis-agent** — Agent-based incident analysis workflow for triage, investigation support, and operational reporting patterns.  
+  [repo](https://github.com/DiogoRibeiro7/ai-incident-analysis-agent)
+
+- **ons-mortality-counterfactual** — Counterfactual mortality analysis project using ONS-style data and modelling pipelines for policy-oriented interpretation.  
+  [repo](https://github.com/DiogoRibeiro7/ons-mortality-counterfactual)
+
+- **ds-projects-portfolio** — End-to-end data science projects with notebook workflows, analysis narratives, and reusable project structure.  
+  [repo](https://github.com/DiogoRibeiro7/ds-projects-portfolio)
+
+- **streaming-lakehouse-lab** — Lakehouse and streaming experiments with notebook-driven exploration (including Iceberg inspection workflows).  
+  [repo](https://github.com/DiogoRibeiro7/streaming-lakehouse-lab)
+
+- **calculus-with-python** — Applied mathematical computing with Python, including educational and exploratory notebook material.  
+  [repo](https://github.com/DiogoRibeiro7/calculus-with-python)
+
+- **Medium-Blog** — Notebook-backed analyses and experiments prepared as technical writing and reproducible walkthroughs.  
+  [repo](https://github.com/DiogoRibeiro7/Medium-Blog)
+
+- **ai-agents-for-beginners** — Hands-on agent workflows and experiments with practical, tutorial-style assets (including notebook content).  
+  [repo](https://github.com/DiogoRibeiro7/ai-agents-for-beginners)
 
 ---
 
 ## Collaboration Interests
 
-I am particularly interested in collaboration around:
+I am particularly interested in collaborations around:
 
 - Robust time-series modelling and anomaly detection in operational environments
 - A/B testing and measurement quality for product and policy decisions
@@ -128,19 +154,19 @@ Teaching and workshop work are a core part of how I contribute: not only by buil
 ### Seminars & Workshops
 
 - **Data Science Seminars** — End-to-end ML pipelines, feature engineering for time series, evaluation under drift, MLOps (CI/CD, data/versioning), and reproducible research practices.  
-  Slides: _link_ · Notebooks: _link_
+  Materials are prepared as slides plus reproducible notebooks when applicable.
 - **Sensors & Dashboards** — IoT data ingestion (MQTT/Kafka), time-series storage (InfluxDB/Parquet), streaming analytics (Flink), and dashboards (Grafana/Plotly/Dash) with alerting and anomaly detection.  
-  Slides: _link_ · Demo repo: _link_
+  Includes architecture walkthroughs and deployment-oriented demos.
 - **Applications of Matrices to Computational Graphics** — Linear transforms in 2D/3D, homogeneous coordinates, rotations (Euler vs. quaternions), camera models and projections, shading basics, and **SVD/PCA** for geometry processing.  
-  Slides: _link_ · Code samples: _link_
+  Taught with implementation-oriented code examples.
 - **Statistical Modelling & Experimentation** — Experimental design, metric definition, power analysis, variance reduction, SRM diagnostics, and translating empirical results into product or policy decisions.  
-  Notes: _link_ · Examples: _link_
+  Emphasis on practical interpretation and decision quality.
 - **Graph Analytics & Network Science** — Centrality, community detection, temporal networks, diffusion processes, and the use of graph-based thinking to understand complex interaction systems.  
-  Slides: _link_ · Code samples: _link_
+  Includes exploratory workflows over static and temporal graphs.
 - **Reproducible Analytics & MLOps** — Project structure, testing strategy, versioning, CI/CD, data quality checks, documentation, and the practical path from notebook exploration to maintainable production workflows.  
-  Notes: _link_ · Templates: _link_
+  Focused on repeatable team workflows and maintainable delivery.
 - **Time Series, Forecasting & Anomaly Detection** — Signal decomposition, baselines, residual analysis, adaptive thresholds, change-point detection, and monitoring strategies for operational or sensor-driven systems.  
-  Slides: _link_ · Demo repo: _link_
+  Framed around robust monitoring in real-world drift conditions.
 
 ### Selected Writings / Demos
 
@@ -158,24 +184,14 @@ Teaching and workshop work are a core part of how I contribute: not only by buil
 
 ## Highlights
 
-- Interdisciplinary work spanning computer science, mathematics, economics, and the natural sciences.
-- A strong mathematical foundation applied to practical machine learning, data science, and engineering problems.
-- Experience across logistics, health, engineering, analytics, and urban or environmental systems.
-- A consistent focus on turning noisy, incomplete, or high-volume data into usable decisions and reproducible workflows.
-- Practical projects in **IoT**, automation, and environmental monitoring using Raspberry Pi and sensor systems.
-- Ongoing work in machine learning for time series, anomaly detection, and robust statistical modelling.
-- Deep interest in models that are not only accurate, but also interpretable, auditable, and maintainable.
-- Comfortable across the full stack of data work: data collection, modelling, evaluation, deployment, and communication.
-- Strong interest in streaming systems, event-driven pipelines, and real-time analytics.
-- Applied work in sensor data, localisation, reliability, and multimodal signal fusion.
-- Experience building dashboards and analytical interfaces that make technical results easier to explore and act upon.
-- Ongoing development of open-source tools for experimentation, simulation, and scientific or statistical computing.
-- A bias toward clean code, clear abstractions, and research workflows that can be reproduced and extended.
-- Interest in experimentation methodology, causal reasoning, and measurement quality in product and research settings.
-- Teaching and workshop experience that bridges theory, computation, and practical problem-solving.
-- Comfortable working across statistics, numerical methods, machine learning, and software engineering without treating them as separate silos.
-- Interested in robust methods for high-variance, drifting, or imperfect real-world data.
-- Motivated by projects that combine technical depth with concrete usefulness for teams, researchers, or decision-makers.
+- Interdisciplinary practice across mathematics, computer science, economics, and applied analytics.
+- Strong focus on interpretable, auditable modelling under real-world noise and drift.
+- End-to-end delivery experience from ingestion and modelling to deployment and communication.
+- Applied work in time series, anomaly detection, streaming analytics, and sensor-driven systems.
+- Production-minded experimentation and measurement quality (power, SRM, variance reduction, guardrails).
+- Dashboard and reporting workflows designed for decision support, not only technical exploration.
+- Open-source orientation with reproducible project structures and testing-first habits.
+- Teaching and workshop track record translating theory into practical implementation.
 
 ---
 
@@ -201,9 +217,9 @@ Recognition and profile trophies from GitHub community metrics:
 
 ## Let’s Connect and Collaborate
 
-Thanks for visiting. I am always interested in connecting with data enthusiasts, researchers, and product teams working on meaningful problems. Feel free to browse the projects above or get in touch if you would like to explore an idea together.
+I welcome collaboration with researchers, technical teams, and product groups working on high-impact analytical problems.
 
-If you reach out, it helps to include a short note on your use case, constraints, and timeline so we can quickly assess fit and next steps.
+When reaching out, include a short note on your use case, constraints, and timeline so we can assess fit quickly.
 
 <div align="center">
   <a href="https://medium.com/@neverforget-1975">

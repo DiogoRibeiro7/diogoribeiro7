@@ -197,6 +197,16 @@ Teaching and workshop work are a core part of how I contribute: not only by buil
 
 ## GitHub Stats
 
+### 2026+ Highlights (Public + private projects)
+
+- **LLM systems & production AI:** deepened end-to-end LLM workflows (prompt contracts, structured outputs, evaluation loops, and audit-friendly narrative reporting).
+- **AGENTS evolution:** expanded `AGENTS`-style orchestration for reproducible and modular agent behaviour, including task decomposition, tool selection, and handoff consistency.
+- **Skills built over the last two years:** advanced into Bayesian filtering/HMMs, robust statistics, anomaly detection, streaming analytics, experiment design, CI/CD hardening, and scalable data engineering patterns.
+- **Project development cadence:**  
+  - strengthened `llm-etl-and-evaluation`, `ai-incident-analysis-agent`, and `abx-next` for operational readiness  
+  - reinforced `streaming-lakehouse-lab` quality gates and lakehouse reliability  
+  - extended interpretability and validation depth in `interpretable-medical-cost-risk` and `ons-mortality-counterfactual`
+
 Contribution activity across public and private work:
 
 <p align="center">

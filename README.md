@@ -98,6 +98,12 @@ Contribution activity across public and private work:
   </a>
 </p>
 
+<p align="center">
+  <a href="https://user-badge.committers.top/portugal_private/DiogoRibeiro7">
+    <img src="https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg" alt="committers.top badge"/>
+  </a>
+</p>
+
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://trophy.benkou.dev/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="Trophy" />

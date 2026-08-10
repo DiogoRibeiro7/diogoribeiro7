@@ -93,12 +93,6 @@ When reaching out, include a short note on your use case, constraints, and timel
 Contribution activity across public and private work:
 
 <p align="center">
-  <a href="https://user-badge.committers.top/uk_private/DiogoRibeiro7">
-    <img src="https://user-badge.committers.top/uk_private/DiogoRibeiro7.svg" alt="committers.top badge"/>
-  </a>
-</p>
-
-<p align="center">
   <a href="https://user-badge.committers.top/portugal_private/DiogoRibeiro7">
     <img src="https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg" alt="committers.top badge"/>
   </a>

@@ -18,6 +18,9 @@ The themes I actively research — and where I am most useful to researchers, te
 
 - **Inequality & political economy** — Wealth concentration, rentier dynamics, distributional metrics, and policy simulation under counterfactuals.
 - **Applied econometrics** — Panel models, synthetic control, event studies, structural breaks, and causal inference on open data.
+- **Economic history & public finance** — Long-run Portuguese and European series: minimum wages against productivity and inflation, the public-debt interest burden, and trade and growth linkages under changing territorial definitions.
+- **Configurational methods** — Crisp-set and fuzzy-set QCA as a first-class Python method: calibration, Boolean minimisation, and survey-design-aware applications where the question is which *combinations* of conditions produce an outcome.
+- **Replication & extension** — Rebuilding published empirical results with explicit provenance labels, frozen artifacts, and release gates that distinguish "the pattern reappears" from "this is an exact replication".
 - **Dynamical systems** — Attractor dynamics, crisis and contagion models, extreme-value methods, and rare-event simulation.
 - **Production AI** — Reliable RAG and agent systems, evaluation, observability, and audit-friendly LLM reporting.
 - **Time series & anomaly detection** — Robust monitoring, drift, and change-point detection in operational and sensor-driven systems.
@@ -34,7 +37,7 @@ Most of my research is organised as a **programme** rather than a one-off paper:
 - **Interpretability and calibration before accuracy** — a defensible interval beats an undefended point estimate.
 - **Policy-facing outputs** — scorecards, briefs, and simulations that a non-specialist can act on.
 
-Representative programmes: [poverty_neoliberalism_research_program](https://github.com/DiogoRibeiro7/poverty_neoliberalism_research_program), [wealth_rentier_dynamics](https://github.com/DiogoRibeiro7/wealth_rentier_dynamics), [eu_economy_decision_lab](https://github.com/DiogoRibeiro7/eu_economy_decision_lab), [il_supply_side_policy_tests](https://github.com/DiogoRibeiro7/il_supply_side_policy_tests). See [Projects](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md#economics-inequality--policy-research) for the full set.
+Representative programmes: [poverty_neoliberalism_research_program](https://github.com/DiogoRibeiro7/poverty_neoliberalism_research_program), [wealth_rentier_dynamics](https://github.com/DiogoRibeiro7/wealth_rentier_dynamics), [eu_economy_decision_lab](https://github.com/DiogoRibeiro7/eu_economy_decision_lab), [il_supply_side_policy_tests](https://github.com/DiogoRibeiro7/il_supply_side_policy_tests). See [Projects](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md#economics-finance--policy-research) for the full set.
 
 ---
 
@@ -44,6 +47,8 @@ Representative programmes: [poverty_neoliberalism_research_program](https://gith
 - Reproducible econometric and policy research on inequality, wealth, and public finance
 - Robust time-series modelling and anomaly detection in operational environments
 - Dynamical-systems modelling and rare-event simulation
+- Configurational (csQCA/fsQCA) designs, including survey-weighted and multi-region comparisons
+- Forecast-to-decision systems: inventory and replenishment policy, dispatch and unit commitment, and cost-weighted operating thresholds
 - Translating mathematically rigorous methods into maintainable team workflows
 
 I also enjoy the translation work itself: turning rigorous methods into workflows a team can actually maintain after the specialist has moved on.

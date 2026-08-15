@@ -22,6 +22,7 @@ The tools I build with, and the model families I reach for. I choose for interpr
 - **Programming** — Python (typed, NumPy-first), SQL, R, TypeScript, Bash/Zsh, C, Fortran
 - **AI / LLM** — RAG, agent orchestration, structured outputs, evaluation harnesses; HuggingFace fine-tuning; prompt contracts and audit trails
 - **ML / Data** — NumPy, Pandas, Polars, FireDucks; scikit-learn, XGBoost/LightGBM; PyTorch, TensorFlow; Statsmodels, PyMC, Pyomo
+- **Research packaging** — Publishing methods as installable, documented libraries (PyPI, Poetry) with Zenodo DOIs, validation against reference implementations, and release gates
 - **Data Eng & Streaming** — Apache Kafka, Flink, Spark, Databricks; Arrow/Parquet; Apache Iceberg (lakehouse)
 - **Cloud & Storage** — AWS S3, DynamoDB; PostgreSQL/PostGIS, MySQL, SQLite; MongoDB, InfluxDB, TimescaleDB
 - **DevEx & CI/CD** — Docker; GitHub Actions (incl. custom/composite actions), Jenkins; Poetry; pre-commit (ruff, mypy, pytest-cov); semantic versioning
@@ -39,6 +40,9 @@ The model families I reach for, organised by task.
 - **Time series & forecasting** — ARIMA/SARIMAX, ETS/Prophet, state-space and structural models, singular spectrum analysis, global gradient-boosting, and foundation models (Chronos, Nixtla, masked-patch transformers), with conformal prediction intervals and rolling-origin backtesting.
 - **Survival & event history** — Kaplan–Meier, Cox PH (incl. [distributionally robust](https://github.com/DiogoRibeiro7/drl-cox)), parametric AFT models, and count/actuarial regression.
 - **Causal & experimentation** — Uplift/heterogeneous treatment effects, IPW/AIPW, difference-in-differences, synthetic control, event studies, and A/B testing (power, variance reduction, SRM checks).
+- **Configurational & comparative** — Crisp-set and fuzzy-set QCA: calibration anchors, truth tables, consistency and coverage, and exact Boolean minimisation across conservative, parsimonious, and intermediate solutions — implemented natively in Python in my [setqca](https://github.com/DiogoRibeiro7/setqca-python) package and checked against the reference R implementation.
+- **Optimisation & decision modelling** — MILP unit commitment and dispatch, inventory and replenishment policy under censored demand, project scheduling with financial and fuzzy constraints (Pyomo), and cost-weighted threshold optimisation where false positives and false negatives carry different prices.
+- **Deep learning & scientific ML** — Modern architectures beyond MLPs and Transformers (including association-discrepancy anomaly detection and gated convolutional heads), physics-informed neural networks (including Runge–Kutta time-discrete formulations), custom optimisers, and spectral / finite-difference PDE solvers.
 - **Probabilistic & Bayesian** — Hierarchical models, MCMC (PyMC), conformal prediction, and uncertainty quantification / calibration throughout.
 
 Working code for most of these lives in [Projects](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md).

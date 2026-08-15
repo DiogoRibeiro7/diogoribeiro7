@@ -14,9 +14,11 @@ A curated slice of recent public repositories, grouped by the kind of problem th
 
 - [Production AI & LLM Systems](#production-ai--llm-systems)
 - [ML Engineering & MLOps](#ml-engineering--mlops)
+- [Deep Learning & Scientific Computing](#deep-learning--scientific-computing)
 - [Data Engineering & Streaming](#data-engineering--streaming)
 - [Statistical & Applied Data Science](#statistical--applied-data-science)
-- [Economics, Inequality & Policy Research](#economics-inequality--policy-research)
+- [Optimisation & Decision Systems](#optimisation--decision-systems)
+- [Economics, Finance & Policy Research](#economics-finance--policy-research)
 - [Mathematical Methods & Algorithms](#mathematical-methods--algorithms)
 - [Developer Tooling](#developer-tooling)
 - [Live Dashboards](#live-dashboards)
@@ -47,6 +49,17 @@ A curated slice of recent public repositories, grouped by the kind of problem th
 - **[time-series-foundation-models](https://github.com/DiogoRibeiro7/time-series-foundation-models)** — Time-series foundation models in PyTorch for masked patch modelling, forecasting, and anomaly detection.
 - **[research-to-product-ml-template](https://github.com/DiogoRibeiro7/research-to-product-ml-template)** — Reusable template for turning ML research papers into tested packages, benchmark suites, APIs, and product-oriented reports.
 
+## Deep Learning & Scientific Computing
+
+Architecture research and numerical solvers, run as reproducible experiments rather than one-off notebooks.
+
+- **[modern-neural-networks-agent-repo](https://github.com/DiogoRibeiro7/modern-neural-networks-agent-repo)** — Research lab for neural-network mechanisms beyond conventional MLPs and Transformers: eleven architecture tracks under one shared experimental contract, 987 validated experiment records, and reports regenerated from those records — with no aggregate leaderboard, by design.
+- **[anomaly-transformer-lab](https://github.com/DiogoRibeiro7/anomaly-transformer-lab)** — Compact PyTorch implementation of the Anomaly Transformer (series-vs-prior association discrepancy) for unsupervised time-series anomaly detection, with sparse-attention ablations and robust reconstruction losses.
+- **[pinn](https://github.com/DiogoRibeiro7/pinn)** — Modular PyTorch Physics-Informed Neural Networks for PDEs, with advanced sampling strategies, error analysis, and visualisation.
+- **[pinn-rk](https://github.com/DiogoRibeiro7/pinn-rk)** — Runge–Kutta Physics-Informed Neural Networks with time-discrete losses (Gauss, Radau, Lobatto).
+- **[torch-namo-optim](https://github.com/DiogoRibeiro7/torch-namo-optim)** — Production-ready PyTorch implementations of the NAMO and NAMO-D orthogonalised-momentum optimisers.
+- **[navier-stokes-solvers](https://github.com/DiogoRibeiro7/navier-stokes-solvers)** — 2D incompressible Navier–Stokes solvers (Newton–Raphson finite difference and Fourier spectral) with adaptive time stepping, convergence analysis, and turbulence diagnostics.
+
 ## Data Engineering & Streaming
 
 - **[llm-data-platform](https://github.com/DiogoRibeiro7/llm-data-platform)** — Python monorepo for the LLM data lifecycle: contract-linked ingestion, dataset curation, and observability.
@@ -61,6 +74,8 @@ A curated slice of recent public repositories, grouped by the kind of problem th
 
 Breadth across the core methods — causal, survival, Bayesian, calibration, and interpretability — with reproducible experiments.
 
+- **[setqca](https://github.com/DiogoRibeiro7/setqca-python)** — Native, typed Python implementation of crisp-set and fuzzy-set Qualitative Comparative Analysis with exact Boolean minimisation — not an R wrapper. Conservative, parsimonious, and intermediate solutions match the reference R `QCA` package on the canonical Lipset datasets, with the one divergence documented on the validation page; on PyPI (0.2.x alpha), with docs and a DOI.
+- **[scania-aps-cost](https://github.com/DiogoRibeiro7/scania-aps-cost)** — Cost-sensitive learning on the UCI *APS Failure at Scania Trucks* data: regularisation, imbalance handling, calibration, representation learning, and threshold choice all evaluated against an explicit 10×FP + 500×FN maintenance cost rather than accuracy.
 - **[causal-uplift-marketing-campaign](https://github.com/DiogoRibeiro7/causal-uplift-marketing-campaign)** — Causal uplift toolkit for incremental treatment-effect evaluation and campaign modelling.
 - **[effectbridge](https://github.com/DiogoRibeiro7/effectbridge)** — Test (un)confoundedness by comparing an RCT-like effect to the same estimand from observational data (IPW/AIPW, bootstrap CIs, transportability weighting).
 - **[genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy)** — Python package for simulating survival data under a range of models (inspired by R's genSurv).
@@ -70,7 +85,15 @@ Breadth across the core methods — causal, survival, Bayesian, calibration, and
 - **[interpretable-stroke-risk-screening](https://github.com/DiogoRibeiro7/interpretable-stroke-risk-screening)** — Transparent stroke-risk screening with actionable risk groups and fairness-aware evaluation.
 - **[PSOD](https://github.com/DiogoRibeiro7/PSOD)** — Pseudo-Supervised Outlier Detection: ensemble regression prediction errors as outlier scores for mixed-type tabular data.
 
-## Economics, Inequality & Policy Research
+## Optimisation & Decision Systems
+
+Models that end in a decision — a dispatch schedule, an order quantity, an operating threshold — not just a metric.
+
+- **[energy-system-simulator](https://github.com/DiogoRibeiro7/energy-system-simulator)** — Optimisation-based simulator for hybrid electricity systems: thermal unit commitment with ramp limits and minimum up/down times, battery and pumped storage, reservoir and run-of-river hydro, demand response, imports, and distribution constraints — explicit physics and economics rather than learned surrogates.
+- **[perishable-inventory-decision-lab](https://github.com/DiogoRibeiro7/perishable-inventory-decision-lab)** — Probabilistic demand forecasting and perishable inventory simulation: censored-demand separation, leakage-safe features, calibrated quantile forecasts, and replenishment-policy evaluation across the full decision loop.
+- **[rcpsp_cf_ivfth](https://github.com/DiogoRibeiro7/rcpsp_cf_ivfth)** — Multi-mode project scheduling under financial constraints and fuzzy uncertainty, with loans and resource limits (Python/Pyomo).
+
+## Economics, Finance & Policy Research
 
 Reproducible research programmes built on open data, with validation, econometric models, and policy-facing outputs.
 
@@ -80,6 +103,11 @@ Reproducible research programmes built on open data, with validation, econometri
 - **[il_supply_side_policy_tests](https://github.com/DiogoRibeiro7/il_supply_side_policy_tests)** — Econometric tests of supply-side liberalisation using event studies, synthetic control (Portugal 2011–2015), and OECD/EU panel models.
 - **[portugal_swf_sim](https://github.com/DiogoRibeiro7/portugal_swf_sim)** — Monte Carlo stress-testing framework for a Portuguese sovereign/strategic fund, modelling debt paths, pension coverage, and downside risk across six scenarios.
 - **[housing_future_work_etl](https://github.com/DiogoRibeiro7/housing_future_work_etl)** — Auditable municipality-year ETL and econometric platform extending a Portuguese housing-price paper into a multi-year panel (PORDATA/INE + GEO API PT) with spatial and causal models.
+- **[portugal-minimum-wage-inflation](https://github.com/DiogoRibeiro7/portugal-minimum-wage-inflation)** — Minimum wages, productivity, and consumer prices in Portugal since 1974: long-run growth accounting plus an exposure-based pass-through design across regions and industries, including the Madeira/Azores differentiation.
+- **[portugal-public-debt-interest](https://github.com/DiogoRibeiro7/portugal-public-debt-interest)** — Portugal's general-government interest burden in euros and as a share of GDP (Eurostat ESA 2010, with an optional AMECO extension), supporting two papers off one shared measurement layer with a byte-identical regression test as the contract between them.
+- **[portugal-external-growth-1960-1973](https://github.com/DiogoRibeiro7/portugal-external-growth-1960-1973)** — Data pipeline weighing colonial against European economic linkages in Portuguese growth, 1960–1973: historical trade classifications, territorial definitions, and cross-checks — deliberately code and data only, no narrative until the pipeline is stable.
+- **[short-rate-anomaly-regimes](https://github.com/DiogoRibeiro7/short-rate-anomaly-regimes)** — Replication and extension of Maio and Santa-Clara on short-rate innovations and equity anomalies: every table and figure generated from frozen artifacts, with provenance labels, an adversarial release gate, and a test that fails when a committed table stops matching its source.
+- **[europe-fsqca-innovation](https://github.com/DiogoRibeiro7/europe-fsqca-innovation)** — Survey-design-aware fsQCA of configurational pathways to firm innovation across the EU-27, asking whether capability configurations travel between Northern/Western, Southern, and Central/Eastern Europe — with a readiness gate that refuses to run a template design.
 - **[economic-pressure-democracy-europe](https://github.com/DiogoRibeiro7/economic-pressure-democracy-europe)** — Political data science on economic pressure, institutional decay, and anti-system voting in Europe.
 - **[us-gdp-regime-1920](https://github.com/DiogoRibeiro7/us-gdp-regime-1920)** / **[pt_gdp_regime_repo](https://github.com/DiogoRibeiro7/pt_gdp_regime_repo)** — Reproducible analyses of US and Portuguese real-GDP trends and growth regimes.
 
@@ -90,11 +118,14 @@ Reproducible research programmes built on open data, with validation, econometri
 - **[dynamical_systems_econometrics](https://github.com/DiogoRibeiro7/dynamical_systems_econometrics)** — Toolkit for simulation and econometric analysis of dynamical systems, including extreme-value and return-time workflows.
 - **[heavytails](https://github.com/DiogoRibeiro7/heavytails)** — Pure-Python library of heavy-tailed distributions (Pareto, Burr, LogNormal, …) built from first principles.
 - **[drl-cox](https://github.com/DiogoRibeiro7/drl-cox)** — Distributionally robust Cox regression with Wasserstein ambiguity sets, with baselines and reproducible experiments.
+- **[sml_diffusions_paper](https://github.com/DiogoRibeiro7/sml_diffusions_paper)** — Dimensional asymptotics of Euler-based simulated likelihood for multidimensional diffusions: two manuscripts, the code that generates every number in them, and the machinery that keeps the two in agreement.
+- **[dynamical-evt-pdm](https://github.com/DiogoRibeiro7/dynamical-evt-pdm)** — Regime-conditioned dynamical extreme-value theory for predictive maintenance: extremal indices, declustering, recurrence near periodic states, and lagged multivariate extremes turned into event-level alarms with measurable lead time.
 
 ## Developer Tooling
 
 - **[smart-todo-action](https://github.com/DiogoRibeiro7/smart-todo-action)** — GitHub Action that turns inline TODO/FIXME/BUG comments into issues, with labels, metadata parsing, and semantic enrichment.
 - **[git-actions-collection](https://github.com/DiogoRibeiro7/git-actions-collection)** — Curated library of reusable GitHub Actions, workflows, and composite helpers shared across projects.
+- **[repo-task-tracker](https://github.com/DiogoRibeiro7/repo-task-tracker)** — GitHub Action that syncs `tracker.json` tasks to issues and a central project board across repositories.
 - **[article-reminders](https://github.com/DiogoRibeiro7/article-reminders)** — Scheduled GitHub Action that syncs one reminder issue per unfinished article across tracked repos.
 
 ## Live Dashboards

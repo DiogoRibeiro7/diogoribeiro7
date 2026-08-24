@@ -12,6 +12,26 @@
 
 The themes I actively research — and where I am most useful to researchers, technical teams, and product groups.
 
+- [Current Focus](#current-focus)
+- [Research Themes](#research-themes)
+- [How I Work](#how-i-work)
+- [Open to Collaboration On](#open-to-collaboration-on)
+
+---
+
+## Current Focus
+
+- Production RAG and agentic systems with evaluation, observability, and CI baked in — including MCP-exposed data agents and parameter-efficient fine-tuning benchmarked on execution accuracy
+- Portuguese public finance under audit: the general-government balance by subsector since 1977, how the public pension promise (CGA, Social Security, and transferred banking-sector liabilities) was actually financed, and a methodological audit of the 2026 pension reform report
+- What official statistics measure: which population figure a published GDP-per-capita index is really divided by, how growth and productivity transmit into real wages, and what the Portuguese salary distribution looks like when fitted rather than averaged
+- Reproducible econometric research on inequality, wealth concentration, and public policy — including dynamical-systems models of rentier equilibria and crisis dynamics
+- Portuguese and European economic history: minimum wages against productivity and inflation since 1974, the public-debt interest burden, and external growth linkages in 1960–1973
+- Configurational methods in Python — a native, typed csQCA/fsQCA implementation validated against the reference R package, and a survey-design-aware fsQCA study of firm innovation across the EU-27
+- Replication-grade empirical work: rebuilding published results with provenance labels, frozen artifacts, and adversarial release gates rather than transcribed tables
+- Reliability under distribution shift: conformal coverage with explicit abstention, survival-model drift monitoring on replayable telemetry, and cost-weighted operating thresholds
+- Environmental and energy exposure: urban heat island exposure in Porto and Lisbon, refining capacity and fuel-price transmission, and neural-operator forecasting of real sea-surface temperature fields
+- Reusable research infrastructure: contract-linked ETL, GitHub Actions tooling, and reproducibility contracts across multi-paper programmes
+
 ---
 
 ## Research Themes

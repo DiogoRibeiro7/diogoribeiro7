@@ -12,8 +12,29 @@
 
 The tools I build with, and the model families I reach for. I choose for interpretability and calibration first, then accuracy — and I benchmark rather than assume.
 
+- [Domains](#domains)
 - [Technical Skills](#technical-skills)
 - [Modelling Toolbox](#modelling-toolbox)
+
+---
+
+## Domains
+
+- **Production AI & LLM systems**  
+  RAG pipelines, agentic workflows, MCP servers, structured outputs, evaluation loops, and audit-friendly narrative reporting — plus parameter-efficient fine-tuning (LoRA/QLoRA) judged on execution-grounded accuracy rather than text similarity, and guardrails for PII redaction and prompt injection. Designed for reliability, observability, and CI from the start.
+- **Data science & statistical modelling**  
+  The full toolkit: supervised and unsupervised learning, causal inference and experimentation, survival analysis, Bayesian modelling, and robust/heavy-tailed statistics.  
+  With a working emphasis on the parts most people skip — uncertainty quantification and calibration, class imbalance, cost-sensitive decision thresholds, power analysis and variance reduction, interpretability and fairness, leakage and drift checks, and honest model selection under real-world noise.
+- **Forecasting, anomaly detection & reliability under shift**  
+  Classical and foundation-model time series (SARIMAX/Prophet through Chronos and masked-patch transformers), conformal prediction intervals, change-point and rare-event detection, extreme-value methods for pre-failure signals, and drift monitoring for operational and sensor-driven systems — extending into selective prediction, where a model with poor source–target overlap abstains instead of guessing.
+- **Econometrics & reproducible policy research**  
+  Panel and causal models, event studies, synthetic control, configurational methods (csQCA/fsQCA), and Monte Carlo simulation over open economic data (Eurostat, OECD, AMECO, WID, INE/PORDATA, FRED) — including replication and extension of published results under explicit provenance labels, and methodological audits that separate accounting boundaries, cash flows, and actuarial liabilities before any number is called a deficit or a subsidy.
+- **Optimisation & decision systems**  
+  Turning forecasts into decisions: MILP unit commitment for hybrid power systems, perishable inventory and replenishment policy, project scheduling under financial and fuzzy uncertainty, and cost-weighted operating thresholds.
+- **Dynamical systems & scientific computing**  
+  Attractor dynamics, dynamical-systems econometrics, extreme-value and large-deviation methods, physics-informed neural networks and PDE solvers, neural operators for geophysical fields, and exact algorithmic solvers.
+- **Data & ML engineering**  
+  Contract-linked ingestion, dataset curation, streaming and lakehouse patterns, and reproducible project scaffolding.
 
 ---
 

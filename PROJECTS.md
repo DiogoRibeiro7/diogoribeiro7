@@ -12,6 +12,7 @@
 
 A curated slice of recent work, grouped by the kind of problem it solves. Linked entries are public repositories; entries marked *(private)* are active but not published, and are listed so the picture is complete. Full public list at [github.com/DiogoRibeiro7](https://github.com/DiogoRibeiro7?tab=repositories).
 
+- [2026 Highlights](#2026-highlights)
 - [Production AI & LLM Systems](#production-ai--llm-systems)
 - [ML Engineering & MLOps](#ml-engineering--mlops)
 - [Deep Learning & Scientific Computing](#deep-learning--scientific-computing)
@@ -22,6 +23,24 @@ A curated slice of recent work, grouped by the kind of problem it solves. Linked
 - [Mathematical Methods & Algorithms](#mathematical-methods--algorithms)
 - [Developer Tooling](#developer-tooling)
 - [Live Dashboards](#live-dashboards)
+
+---
+
+## 2026 Highlights
+
+What this year actually produced, across public and private work.
+
+- **Production AI:** shipped RAG and agent systems (`feedback-intelligence-agent`, `ragops-lab`, `ai-incident-analysis-agent`, `hf-data-agent`) — with evaluation, tracing, observability, and CI treated as first-class, and MCP as a first-class entrypoint alongside HTTP and Slack.
+- **LLM engineering beyond retrieval:** ran a controlled LoRA/QLoRA adaptation study on Qwen3.5-4B scored by execution accuracy against a live database rather than string overlap (`qwen-text2sql-lab`), and extracted offline-testable RAG engineering primitives — guardrails, PII redaction, injection checks, judge and telemetry helpers — into a standalone package (`genai-rag-engineering`).
+- **ML & data engineering:** built serving, MLOps, and lakehouse/streaming platforms (`fastapi-ml-platform`, `feature-store-lab`, `transaction-risk-lakehouse`, `pyflink-fraud-detection-streaming`, `llm-data-platform`) spanning inference, drift monitoring, feature parity, and contract-linked ingestion.
+- **Research programmes at scale:** launched a cluster of reproducible econometric and dynamical-systems projects on inequality, wealth, and policy, several sharing a single pipeline and reproducibility contract across many papers — extended this half into Portuguese economic history and public finance (`portugal-minimum-wage-inflation`, `portugal-public-debt-interest`, `portugal-external-growth-1960-1973`), replication-grade empirical asset pricing (`short-rate-anomaly-regimes`), and methodological work on simulated-likelihood asymptotics for multidimensional diffusions (`sml_diffusions_paper`).
+- **Public finance and official statistics under audit:** opened a Portuguese fiscal cluster that takes definitions as the object of study — the general-government balance by subsector 1977–2025 (`portugal-fiscal-balance`), the financing history of the pension promise (`portugal-public-pension-financing`), a chapter-by-chapter audit of the 2026 pension reform report (`portugal-pension-boundaries`), which of two official population figures a GDP-per-capita index is actually divided by (`portugal-gdp-bayesian-revision`), and growth-to-wage transmission and salary distributions (`gdp-wage-transmission`, `pt-salary-gamma-distribution`).
+- **Reliability under distribution shift:** built systems that decline to answer when the evidence runs out — overlap-aware conformal prediction with explicit abstention (`shiftguard`), survival-model drift monitoring on replayable Backblaze telemetry with rollout and rollback controls (`survdrift`), and cost-weighted maintenance thresholds (`scania-aps-cost`).
+- **Published research software:** `setqca` on PyPI — a native csQCA/fsQCA implementation validated against the reference R package — alongside `gen_surv` and typed, tested solvers and libraries (`bmssp`, `min_ratio_cycle`, `heavytails`, `dynamical_systems_econometrics`), with a growing set of repositories archived under Zenodo DOIs.
+- **Decision & optimisation systems:** built simulators and policy layers that end in a decision, not a metric (`energy-system-simulator` unit commitment, `perishable-inventory-decision-lab` replenishment policy, `experimentation-toolkit` power, CUPED and sample-ratio checks for experiment design).
+- **Scientific & deep-learning research:** ran reproducible architecture, PDE, and operator labs with baselines, ablations, and audited claims (`modern-neural-networks-agent-repo`, `anomaly-transformer-lab`, `pinn`, `pinn-rk`, `torch-namo-optim`, `oisst-fourier-neural-operator`) — the last asking the narrow, falsifiable question of when a Fourier Neural Operator actually beats persistence on real NOAA sea-surface temperatures, and at which spatial scales.
+- **Environment & energy exposure:** measured who is exposed and what cools them — urban heat island exposure across Porto and Lisbon population grids, where green cover correlates negatively with modelled UHI intensity in both cities (`porto-lisbon-uhi-exposure`) — alongside refining capacity, fuel-trade dependence, and price transmission (`portugal-refining-resilience`).
+- **Reusable infrastructure:** built developer tooling (`smart-todo-action`, `git-actions-collection`, `repo-task-tracker`, `article-reminders`) to keep a large, multi-repo research output reproducible and maintainable.
 
 ---
 

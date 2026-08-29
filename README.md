@@ -104,6 +104,6 @@ Open to collaboration on production AI, reproducible policy research, robust tim
     <img src="https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg" alt="committers.top badge"/>
   </a>
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://trophy.benkou.dev/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="Trophy" />
+    <img src="https://github-profile-trophy-unserori.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="Trophy" />
   </a>
 </div>

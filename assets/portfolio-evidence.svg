@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="628" viewBox="0 0 900 628" role="img" aria-labelledby="title desc">
+<title id="title">Flagship portfolio evidence metrics</title>
+<desc id="desc">Evidence metrics computed across 12 flagship repositories.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#c9d1d9}
+.title{font-size:24px;font-weight:700}.sub{font-size:13px;fill:#8b949e}
+.card{fill:#161b22;stroke:#30363d;stroke-width:1}.label{font-size:14px;font-weight:600}
+.value{font-size:24px;font-weight:700;fill:#58a6ff}.note{font-size:11px;fill:#8b949e}
+</style>
+<rect width="100%" height="100%" rx="12" fill="#0d1117"/>
+<text x="24" y="34" class="title">Flagship portfolio evidence</text>
+<text x="24" y="58" class="sub">Audited across 12 featured repositories · structural signals, not popularity metrics</text>
+<rect x="24" y="78" width="420" height="104" rx="10" class="card"/>
+<text x="42" y="105" class="label">CI-backed</text>
+<text x="42" y="137" class="value">12/12 · 100%</text>
+<text x="42" y="160" class="note">GitHub Actions workflow present</text>
+<rect x="464" y="78" width="420" height="104" rx="10" class="card"/>
+<text x="482" y="105" class="label">Automated tests</text>
+<text x="482" y="137" class="value">12/12 · 100%</text>
+<text x="482" y="160" class="note">tests/test/pytest/tox marker present</text>
+<rect x="24" y="202" width="420" height="104" rx="10" class="card"/>
+<text x="42" y="229" class="label">Dedicated documentation</text>
+<text x="42" y="261" class="value">11/12 · 92%</text>
+<text x="42" y="284" class="note">docs directory or docs config present</text>
+<rect x="464" y="202" width="420" height="104" rx="10" class="card"/>
+<text x="482" y="229" class="label">Citable / archived</text>
+<text x="482" y="261" class="value">10/12 · 83%</text>
+<text x="482" y="284" class="note">CITATION.cff or Zenodo metadata present</text>
+<rect x="24" y="326" width="420" height="104" rx="10" class="card"/>
+<text x="42" y="353" class="label">Reproducibility assets</text>
+<text x="42" y="385" class="value">8/12 · 67%</text>
+<text x="42" y="408" class="note">experiments/results/data/config-style artifacts present</text>
+<rect x="464" y="326" width="420" height="104" rx="10" class="card"/>
+<text x="482" y="353" class="label">Real-data / empirical</text>
+<text x="482" y="385" class="value">6/12 · 50%</text>
+<text x="482" y="408" class="note">explicit curated classification; never inferred from filenames</text>
+<rect x="24" y="450" width="420" height="104" rx="10" class="card"/>
+<text x="42" y="477" class="label">Research software / methods</text>
+<text x="42" y="509" class="value">4/12 · 33%</text>
+<text x="42" y="532" class="note">explicit flagship classification</text>
+<text x="24" y="610" class="sub">Generated from FEATURED.md + GitHub repository structure. Semantic classifications are explicit in scripts/generate_portfolio_metrics.py.</text>
+</svg>

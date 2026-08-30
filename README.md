@@ -6,6 +6,7 @@ Statistical modelling, production AI, decision systems, and reproducible researc
 <div align="center">
   <img src="https://img.shields.io/badge/Home-1F6FEB?style=for-the-badge" alt="Home (current page)" />
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md"><img src="https://img.shields.io/badge/Projects-30363D?style=for-the-badge" alt="Projects" /></a>
+  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/FEATURED.md"><img src="https://img.shields.io/badge/Featured-30363D?style=for-the-badge" alt="Featured" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/METHODS.md"><img src="https://img.shields.io/badge/Methods-30363D?style=for-the-badge" alt="Methods" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/RESEARCH.md"><img src="https://img.shields.io/badge/Research-30363D?style=for-the-badge" alt="Research" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/TEACHING.md"><img src="https://img.shields.io/badge/Teaching-30363D?style=for-the-badge" alt="Teaching" /></a>
@@ -38,7 +39,7 @@ The common thread is simple: start from the problem and the evidence, use the le
 | **[setqca](https://github.com/DiogoRibeiro7/setqca-python)** | Native typed Python csQCA/fsQCA with exact Boolean minimisation, validated against the reference R implementation and published with a DOI. |
 | **[qwen-text2sql-lab](https://github.com/DiogoRibeiro7/qwen-text2sql-lab)** | Controlled LoRA/QLoRA adaptation of Qwen for text-to-SQL, evaluated by execution accuracy against the target database rather than string overlap. |
 
-→ The broader catalogue is on **[Projects](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md)**.
+→ **[Featured](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/FEATURED.md)** gives a 12-project cross-section by reviewer interest. The broader catalogue remains on **[Projects](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md)**.
 
 ---
 
@@ -66,10 +67,9 @@ The common thread is simple: start from the problem and the evidence, use the le
 
 |  |  |
 | :-- | :-- |
-| **[Projects →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md)**<br>Curated production, research, modelling, optimisation, and data-engineering work. | **[Methods →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/METHODS.md)**<br>The modelling toolbox, technical stack, and methods I use by problem type. |
-| **[Research →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/RESEARCH.md)**<br>Current programmes, research themes, reproducibility standards, and collaboration interests. | **[Teaching →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/TEACHING.md)**<br>University teaching, seminars, workshops, and supporting material. |
-
-**[Statistics →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md)** — GitHub activity and profile widgets kept separate from the technical portfolio.
+| **[Featured →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/FEATURED.md)**<br>Twelve flagship projects, grouped by what a reviewer is looking for. | **[Projects →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md)**<br>The broader catalogue across production, research, modelling, optimisation, and data engineering. |
+| **[Methods →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/METHODS.md)**<br>The modelling toolbox, technical stack, and methods I use by problem type. | **[Research →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/RESEARCH.md)**<br>Current programmes, research themes, reproducibility standards, and collaboration interests. |
+| **[Teaching →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/TEACHING.md)**<br>University teaching, seminars, workshops, and supporting material. | **[Statistics →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md)**<br>GitHub activity and profile widgets kept separate from the technical portfolio. |
 
 ---
 

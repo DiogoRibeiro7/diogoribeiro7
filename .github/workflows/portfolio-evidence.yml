@@ -33,7 +33,7 @@ jobs:
 
       - name: Commit refreshed dashboard
         run: |
-          if git diff --quiet -- assets/portfolio-evidence.svg; then
+          if [ -z "$(git status --porcelain -- assets/portfolio-evidence.svg)" ]; then
             echo "Portfolio evidence dashboard is already current."
             exit 0
           fi

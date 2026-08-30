@@ -1,0 +1,66 @@
+name: Profile maintenance
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/portfolio.json"
+      - "PROJECTS.md"
+      - "README.md"
+      - "METHODS.md"
+      - "RESEARCH.md"
+      - "TEACHING.md"
+      - "STATISTICS.md"
+      - "scripts/profile_maintenance.py"
+      - "scripts/generate_topic_statistics.py"
+      - "scripts/generate_portfolio_metrics.py"
+      - ".github/workflows/profile-maintenance.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-maintenance-main
+  cancel-in-progress: false
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate manifest-backed pages and navigation
+        run: python scripts/profile_maintenance.py generate
+
+      - name: Regenerate topic statistics
+        run: python scripts/generate_topic_statistics.py
+
+      - name: Regenerate flagship evidence dashboard
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_portfolio_metrics.py
+
+      - name: Validate generated state
+        run: python scripts/profile_maintenance.py check
+
+      - name: Commit refreshed profile artifacts
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "Profile artifacts are already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md FEATURED.md PROJECTS.md METHODS.md RESEARCH.md OUTPUTS.md CASE_STUDIES.md TEACHING.md PYPI.md STATISTICS.md assets/
+          git commit -m "chore: refresh generated profile artifacts"
+          git pull --rebase origin main
+          git push

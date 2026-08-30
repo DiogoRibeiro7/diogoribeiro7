@@ -5,10 +5,12 @@ Statistical modelling, production AI, decision systems, and reproducible researc
 
 <div align="center">
   <img src="https://img.shields.io/badge/Home-1F6FEB?style=for-the-badge" alt="Home (current page)" />
-  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md"><img src="https://img.shields.io/badge/Projects-30363D?style=for-the-badge" alt="Projects" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/FEATURED.md"><img src="https://img.shields.io/badge/Featured-30363D?style=for-the-badge" alt="Featured" /></a>
+  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md"><img src="https://img.shields.io/badge/Projects-30363D?style=for-the-badge" alt="Projects" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/METHODS.md"><img src="https://img.shields.io/badge/Methods-30363D?style=for-the-badge" alt="Methods" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/RESEARCH.md"><img src="https://img.shields.io/badge/Research-30363D?style=for-the-badge" alt="Research" /></a>
+  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/OUTPUTS.md"><img src="https://img.shields.io/badge/Outputs-30363D?style=for-the-badge" alt="Outputs" /></a>
+  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/CASE_STUDIES.md"><img src="https://img.shields.io/badge/Case%20Studies-30363D?style=for-the-badge" alt="Case Studies" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/TEACHING.md"><img src="https://img.shields.io/badge/Teaching-30363D?style=for-the-badge" alt="Teaching" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PYPI.md"><img src="https://img.shields.io/badge/PyPI-30363D?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md"><img src="https://img.shields.io/badge/Statistics-30363D?style=for-the-badge" alt="Statistics" /></a>
@@ -21,7 +23,7 @@ I build data and AI systems where the difficult part starts after model fitting:
 The common thread is simple: start from the problem and the evidence, use the least complicated model that answers it well, and make the resulting claim inspectable.
 
 <p align="center">
-  <img src="data_has_a_better_idea.png"
+  <img src="assets/profile-poster.png"
        alt="Poster with the phrase 'Data has a better idea'"
        title="Data has a better idea"
        width="65%" />
@@ -68,7 +70,8 @@ The common thread is simple: start from the problem and the evidence, use the le
 
 |  |  |
 | :-- | :-- |
-| **[Featured →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/FEATURED.md)**<br>Twelve flagship projects, grouped by what a reviewer is looking for. | **[Projects →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md)**<br>The broader catalogue across production, research, modelling, optimisation, and data engineering. |
+| **[Featured →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/FEATURED.md)**<br>Twelve flagship projects with explicit maturity labels. | **[Projects →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md)**<br>The broader catalogue across production, research, modelling, optimisation, and data engineering. |
+| **[Outputs →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/OUTPUTS.md)**<br>Citable research software, paper programmes, empirical studies, and archived releases. | **[Case Studies →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/CASE_STUDIES.md)**<br>Five end-to-end examples from problem and constraints to method and outcome. |
 | **[Methods →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/METHODS.md)**<br>The modelling toolbox, technical stack, and methods I use by problem type. | **[Research →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/RESEARCH.md)**<br>Current programmes, research themes, reproducibility standards, and collaboration interests. |
 | **[Teaching →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/TEACHING.md)**<br>University teaching, seminars, workshops, and supporting material. | **[PyPI →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PYPI.md)**<br>Published Python packages with live version badges, install commands, and source links. |
 | **[Statistics →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md)**<br>Portfolio evidence, impact metrics, and topic distribution. |  |

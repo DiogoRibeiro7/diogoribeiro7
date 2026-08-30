@@ -18,6 +18,10 @@ Statistical modelling, production AI, decision systems, and reproducible researc
 
 I build data and AI systems where the difficult part starts after model fitting: defining the estimand, validating uncertainty, detecting distribution shift, choosing the operating policy, and keeping the result reproducible in production. My work moves between statistical modelling, machine learning, research software, production AI, optimisation, and applied quantitative research.
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=DiogoRibeiro7&label=Profile%20views&color=30363D&style=for-the-badge" alt="Profile views" />
+</p>
+
 **Selected delivery outcomes:** 80% reduction in reporting costs · 30% reduction in analytics processing time · €500K reduction in inventory value through forecasting and operational optimisation.
 
 The common thread is simple: start from the problem and the evidence, use the least complicated model that answers it well, and make the resulting claim inspectable.

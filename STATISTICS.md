@@ -15,19 +15,9 @@
 
 # Statistics
 
-Quantitative evidence about the portfolio: scale, maturity, empirical depth, publication/output depth, reproducibility controls and delivered impact. Each section states its denominator so unlike quantities are not silently mixed.
+Quantitative evidence about the portfolio: scale, maturity, empirical depth, publication/output depth, reproducibility controls and delivered impact.
 
-## Delivered Impact
-
-Professional outcomes are shown separately from repository metrics because GitHub activity is not a proxy for delivery.
-
-| Delivered outcome | Result |
-| :-- | --: |
-| Reporting cost reduction | **80%** |
-| Analytics processing-time reduction | **30%** |
-| Inventory-value reduction through forecasting and operational optimisation | **€500K** |
-
----
+**At a glance:** **35 manifest-backed public projects · 32 substantial outputs · 13 case studies across 11 domains · 12 flagship repositories · 87 curated catalogue entries.** These are different populations used for different questions; the detailed definitions are documented below.
 
 ## Portfolio-Wide Evidence
 
@@ -61,6 +51,18 @@ The **32 outputs** currently break down into:
 | Decision and engineering artifacts | **10** |
 
 This is an artifact count, not a repository count: a repository can legitimately produce more than one inspectable output.
+
+---
+
+## Delivered Impact
+
+Professional outcomes are kept separate from repository metrics because GitHub activity is not a proxy for delivery.
+
+| Delivered outcome | Result |
+| :-- | --: |
+| Reporting cost reduction | **80%** |
+| Analytics processing-time reduction | **30%** |
+| Inventory-value reduction through forecasting and operational optimisation | **€500K** |
 
 ---
 

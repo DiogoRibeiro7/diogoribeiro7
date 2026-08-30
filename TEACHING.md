@@ -17,19 +17,19 @@
 
 Teaching is a core part of how I contribute — translating mathematical and technical ideas into material teams and students can apply in practice.
 
-- [Courses @ESMAD](#courses-esmad-instituto-politécnico-do-porto)
+- [Courses @ Faculty of Media Arts and Design](#courses--faculty-of-media-arts-and-design-technical-university-of-porto)
 - [Seminars & Workshops](#seminars--workshops)
 
 ---
 
-## Courses @ESMAD (Instituto Politécnico do Porto)
+## Courses @ Faculty of Media Arts and Design, Technical University of Porto
 
 - **Introduction to Logic & Set Theory** — Logic (prop/FO), sets, induction, and differential & integral calculus, with an emphasis on rigorous reasoning and the transition from discrete foundations to continuous mathematics.
 - **Linear Algebra & Analytic Geometry** — Vector spaces and linear maps; matrices and determinants; eigenvalues, diagonalisation, orthogonality and least squares; SVD and PCA; numerical stability; applications to optimisation and data science. ([course repo](https://github.com/DiogoRibeiro7/linear-algebra-with-python))
 - **NoSQL & MongoDB** — Document-oriented modelling, indexing and aggregation, query patterns, and practical work with real datasets. ([labs](https://github.com/DiogoRibeiro7/nosql-databases-labs))
 - **NLP & LLM mini-workshops** — Prompt design, evaluation, lightweight retrieval, structured outputs, and report generation, with attention to reliability in production.
 
-Course material is developed in the open where possible, so students keep a working repository rather than a set of slides. The [linear-algebra-tutor](https://github.com/DiogoRibeiro7/linear-algebra-tutor) — a RAG-driven Socratic tutoring system — was built for ESMAD students alongside the linear algebra course.
+Course material is developed in the open where possible, so students keep a working repository rather than a set of slides. The [linear-algebra-tutor](https://github.com/DiogoRibeiro7/linear-algebra-tutor) — a RAG-driven Socratic tutoring system — was built for students at the Faculty of Media Arts and Design alongside the linear algebra course.
 
 ---
 

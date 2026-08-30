@@ -28,6 +28,7 @@ jobs:
       - name: Validate manifest schema and generated model
         run: |
           python scripts/profile_maintenance.py generate
+          python scripts/generate_portfolio_overview.py
           python scripts/generate_topic_statistics.py
           python scripts/profile_maintenance.py check
 
@@ -35,4 +36,4 @@ jobs:
         run: python scripts/check_external_inventory.py
 
       - name: Check Python syntax
-        run: python -m py_compile scripts/profile_maintenance.py scripts/check_external_inventory.py scripts/generate_topic_statistics.py scripts/generate_portfolio_metrics.py
+        run: python -m py_compile scripts/profile_maintenance.py scripts/check_external_inventory.py scripts/generate_portfolio_overview.py scripts/generate_topic_statistics.py scripts/generate_portfolio_metrics.py

@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/DiogoRibeiro7"><img src="https://img.shields.io/badge/Home-30363D?style=for-the-badge" alt="Home" /></a>
+  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/README.md"><img src="https://img.shields.io/badge/Home-30363D?style=for-the-badge" alt="Home" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/FEATURED.md"><img src="https://img.shields.io/badge/Featured-30363D?style=for-the-badge" alt="Featured" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md"><img src="https://img.shields.io/badge/Projects-30363D?style=for-the-badge" alt="Projects" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/METHODS.md"><img src="https://img.shields.io/badge/Methods-30363D?style=for-the-badge" alt="Methods" /></a>
@@ -24,16 +24,19 @@ Citable and reviewable outputs: research software, paper programmes, empirical s
 - **[heavytails](https://github.com/DiogoRibeiro7/heavytails)** — [PyPI](https://pypi.org/project/heavytails/) · DOI/archive metadata in repository
 - **[OversampleQA](https://github.com/DiogoRibeiro7/OversampleQA)** — [PyPI](https://pypi.org/project/oversampleqa/) · DOI/archive metadata in repository
 
-## Paper programmes
+## Paper programme
 
 - **[Failure-aware multimodal behavioural sensing](https://github.com/DiogoRibeiro7/behavioral-sensing-research/tree/develop/papers/failure-aware-multimodal-behavioural-sensing)**
+
+## Research programme
+
 - **[Survival discrimination versus calibration](https://github.com/DiogoRibeiro7/genSurvPy/tree/develop/research/discrimination-not-calibration)**
 
 ## Empirical research
 
 - **[Portuguese public pension financing](https://github.com/DiogoRibeiro7/portugal-public-pension-financing)**
+
+## Replication study
+
 - **[Short-rate anomaly regimes](https://github.com/DiogoRibeiro7/short-rate-anomaly-regimes)**
 
----
-
-This page is generated from `data/portfolio.json`; project prose remains in the individual repositories where the evidence lives.

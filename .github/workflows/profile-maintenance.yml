@@ -14,6 +14,7 @@ on:
       - "scripts/profile_maintenance.py"
       - "scripts/generate_topic_statistics.py"
       - "scripts/generate_portfolio_metrics.py"
+      - "scripts/generate_portfolio_overview.py"
       - ".github/workflows/profile-maintenance.yml"
   workflow_dispatch:
 
@@ -41,10 +42,13 @@ jobs:
       - name: Regenerate manifest-backed pages and navigation
         run: python scripts/profile_maintenance.py generate
 
+      - name: Regenerate portfolio-wide statistics
+        run: python scripts/generate_portfolio_overview.py
+
       - name: Regenerate topic statistics
         run: python scripts/generate_topic_statistics.py
 
-      - name: Regenerate flagship evidence dashboard
+      - name: Regenerate flagship engineering controls
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_portfolio_metrics.py

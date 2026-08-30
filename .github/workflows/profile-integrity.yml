@@ -1,0 +1,37 @@
+name: Profile integrity
+
+on:
+  pull_request:
+    paths:
+      - "*.md"
+      - "data/**"
+      - "scripts/**"
+      - "assets/**"
+      - ".github/workflows/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate manifest-backed content in working tree
+        run: |
+          python scripts/profile_maintenance.py generate
+          python scripts/generate_topic_statistics.py
+
+      - name: Check manifest and generated pages
+        run: python scripts/profile_maintenance.py check
+
+      - name: Fail on stale generated files or navigation
+        run: git diff --exit-code

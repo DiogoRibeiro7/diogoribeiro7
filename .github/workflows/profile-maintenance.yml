@@ -12,6 +12,7 @@ on:
       - "TEACHING.md"
       - "STATISTICS.md"
       - "scripts/profile_maintenance.py"
+      - "scripts/normalize_readme_layout.py"
       - "scripts/generate_topic_statistics.py"
       - "scripts/generate_portfolio_metrics.py"
       - "scripts/generate_portfolio_overview.py"
@@ -41,6 +42,9 @@ jobs:
 
       - name: Regenerate manifest-backed pages and navigation
         run: python scripts/profile_maintenance.py generate
+
+      - name: Normalize README layout
+        run: python scripts/normalize_readme_layout.py
 
       - name: Regenerate portfolio-wide statistics
         run: python scripts/generate_portfolio_overview.py

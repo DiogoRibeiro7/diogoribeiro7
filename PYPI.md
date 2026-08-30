@@ -15,6 +15,8 @@
 
 Python packages I maintain and publish on the Python Package Index. The version badges below are read directly from PyPI, so this page does not need a manual version update after each release.
 
+**Current audited inventory: 8 published packages.**
+
 ## Statistical & Research Software
 
 ### [`gen_surv`](https://pypi.org/project/gen-surv/)
@@ -42,6 +44,32 @@ pip install setqca
 ```
 
 **Source:** [DiogoRibeiro7/setqca-python](https://github.com/DiogoRibeiro7/setqca-python)
+
+### [`heavytails`](https://pypi.org/project/heavytails/)
+
+[![PyPI](https://img.shields.io/pypi/v/heavytails?label=PyPI)](https://pypi.org/project/heavytails/)
+[![Python](https://img.shields.io/pypi/pyversions/heavytails)](https://pypi.org/project/heavytails/)
+
+NumPy-backed heavy-tailed probability distributions, tail-index estimators, fitting and diagnostic utilities for risk, finance, insurance, simulation and extreme-value analysis.
+
+```bash
+pip install heavytails
+```
+
+**Source:** [DiogoRibeiro7/heavytails](https://github.com/DiogoRibeiro7/heavytails)
+
+### [`oversampleqa`](https://pypi.org/project/oversampleqa/)
+
+[![PyPI](https://img.shields.io/pypi/v/oversampleqa?label=PyPI)](https://pypi.org/project/oversampleqa/)
+[![Python](https://img.shields.io/pypi/pyversions/oversampleqa)](https://pypi.org/project/oversampleqa/)
+
+Diagnostic toolkit for validating, auditing and benchmarking oversampling methods for imbalanced classification, including hidden-majority error analysis and multiple distance metrics.
+
+```bash
+pip install oversampleqa
+```
+
+**Source:** [DiogoRibeiro7/OversampleQA](https://github.com/DiogoRibeiro7/OversampleQA)
 
 ---
 
@@ -107,4 +135,6 @@ pip install wifi-activity-recognition
 
 ## Verification
 
-These packages were included only where the PyPI project page identifies **DiogoRibeiro7 / Diogo Ribeiro** as maintainer or author and links the package to the corresponding source repository. The PyPI user-profile project count is currently stale, so this page uses the individual package records as the source of truth.
+This inventory is based on individual PyPI package records where those records are indexed, plus package-release metadata and explicit PyPI installation links in the corresponding source repositories. The public PyPI user-profile listing is currently stale, so it is not treated as the authoritative package count.
+
+Repositories that are merely configured for PyPI publication are not included unless there is evidence of an actual release. This is why package scaffolds such as `greeting-toolkit` are not counted here yet.

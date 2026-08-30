@@ -84,7 +84,7 @@ The common thread is simple: start from the problem and the evidence, use the le
 
 ## Work With Me
 
-I teach mathematics and data subjects at **ESMAD (Instituto Politécnico do Porto)** and work across statistical modelling, production AI, forecasting, optimisation, research software, and reproducible applied research.
+I teach mathematics and data subjects at the **Faculty of Media Arts and Design, Technical University of Porto** and work across statistical modelling, production AI, forecasting, optimisation, research software, and reproducible applied research.
 
 For collaboration, research, or professional enquiries, a short note describing the problem, constraints, and expected outcome is the best starting point.
 

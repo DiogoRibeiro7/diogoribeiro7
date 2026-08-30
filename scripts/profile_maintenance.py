@@ -19,6 +19,8 @@ PAGES = [
     "PYPI.md",
     "STATISTICS.md",
 ]
+MATURITY_START = "<!-- maturity:start -->"
+MATURITY_END = "<!-- maturity:end -->"
 
 
 def load_manifest() -> dict:
@@ -32,7 +34,8 @@ def nav_html(current: str, manifest: dict) -> str:
         colour = "1F6FEB" if active else "30363D"
         logo = "&logo=pypi&logoColor=white" if label == "PyPI" else ""
         alt = f"{label} (current page)" if active else label
-        img = f'<img src="https://img.shields.io/badge/{label.replace(" ", "%20")}-{colour}?style=for-the-badge{logo}" alt="{alt}" />'
+        badge_label = label.replace(" ", "%20")
+        img = f'<img src="https://img.shields.io/badge/{badge_label}-{colour}?style=for-the-badge{logo}" alt="{alt}" />'
         if active:
             chunks.append(f"  {img}")
         else:
@@ -51,9 +54,35 @@ def replace_nav(text: str, current: str, manifest: dict) -> str:
     return replacement + "\n\n---\n\n" + text.lstrip()
 
 
-def project_url(repo: str, path: str | None = None) -> str:
+def project_url(repo: str, path: str | None = None, ref: str = "main") -> str:
     base = f"https://github.com/DiogoRibeiro7/{repo}"
-    return f"{base}/tree/main/{path}" if path else base
+    return f"{base}/tree/{ref}/{path}" if path else base
+
+
+def maturity_legend(manifest: dict) -> str:
+    values = sorted({p["maturity"] for p in manifest["projects"]})
+    rows = "\n".join(f"- **{value}**" for value in values)
+    return (
+        f"{MATURITY_START}\n"
+        "## Maturity labels\n\n"
+        "Project maturity is kept separate from topic. A production-style system, an empirical study, a published package and an active research programme are not interchangeable signals. The manifest currently uses:\n\n"
+        f"{rows}\n"
+        f"{MATURITY_END}"
+    )
+
+
+def inject_maturity_legend(text: str, manifest: dict) -> str:
+    block = maturity_legend(manifest)
+    pattern = re.compile(
+        re.escape(MATURITY_START) + r".*?" + re.escape(MATURITY_END), re.DOTALL
+    )
+    if pattern.search(text):
+        return pattern.sub(block, text, count=1)
+    heading = re.search(r"^# .+$", text, re.MULTILINE)
+    if not heading:
+        return text + "\n\n" + block + "\n"
+    pos = heading.end()
+    return text[:pos] + "\n\n" + block + text[pos:]
 
 
 def render_featured(manifest: dict) -> str:
@@ -76,31 +105,44 @@ def render_featured(manifest: dict) -> str:
 
 def render_pypi(manifest: dict) -> str:
     packages = [p for p in manifest["projects"] if p.get("pypi")]
-    body = [nav_html("PYPI.md", manifest), "", "---", "", "# PyPI Packages", "", f"**Current audited inventory: {len(packages)} published packages.**", ""]
-    for p in packages:
-        pkg = p["pypi"]
-        body.extend([
-            f'## [`{pkg}`](https://pypi.org/project/{pkg}/)',
-            "",
-            f'[![PyPI](https://img.shields.io/pypi/v/{pkg}?label=PyPI)](https://pypi.org/project/{pkg}/) [![Python](https://img.shields.io/pypi/pyversions/{pkg})](https://pypi.org/project/{pkg}/)',
-            "",
-            p["summary"],
-            "",
-            "```bash",
-            f"pip install {pkg}",
-            "```",
-            "",
-            f'**Source:** [DiogoRibeiro7/{p["repo"]}]({project_url(p["repo"])})  ',
-            f'**Maturity:** {p["maturity"]}',
-            "",
-        ])
-    body.extend([
+    body = [
+        nav_html("PYPI.md", manifest),
+        "",
         "---",
         "",
-        "## Verification",
+        "# PyPI Packages",
         "",
-        "The manifest records only packages with evidence of an actual PyPI release. Repositories that merely contain packaging or release scaffolding are not counted.",
-    ])
+        f"**Current audited inventory: {len(packages)} published packages.**",
+        "",
+    ]
+    for p in packages:
+        pkg = p["pypi"]
+        body.extend(
+            [
+                f'## [`{pkg}`](https://pypi.org/project/{pkg}/)',
+                "",
+                f'[![PyPI](https://img.shields.io/pypi/v/{pkg}?label=PyPI)](https://pypi.org/project/{pkg}/) [![Python](https://img.shields.io/pypi/pyversions/{pkg})](https://pypi.org/project/{pkg}/)',
+                "",
+                p["summary"],
+                "",
+                "```bash",
+                f"pip install {pkg}",
+                "```",
+                "",
+                f'**Source:** [DiogoRibeiro7/{p["repo"]}]({project_url(p["repo"])})  ',
+                f'**Maturity:** {p["maturity"]}',
+                "",
+            ]
+        )
+    body.extend(
+        [
+            "---",
+            "",
+            "## Verification",
+            "",
+            "The manifest records only packages with evidence of an actual PyPI release. Repositories that merely contain packaging or release scaffolding are not counted.",
+        ]
+    )
     return "\n".join(body) + "\n"
 
 
@@ -108,38 +150,60 @@ def render_outputs(manifest: dict) -> str:
     groups: dict[str, list[dict]] = {}
     for item in manifest["outputs"]:
         groups.setdefault(item["type"], []).append(item)
-    body = [nav_html("OUTPUTS.md", manifest), "", "---", "", "# Outputs", "", "Citable and reviewable outputs: research software, paper programmes, empirical studies and archived releases. This page is intentionally about artifacts that can be inspected or cited, not activity counts.", ""]
+    body = [
+        nav_html("OUTPUTS.md", manifest),
+        "",
+        "---",
+        "",
+        "# Outputs",
+        "",
+        "Citable and reviewable outputs: research software, paper programmes, empirical studies and archived releases. This page is intentionally about artifacts that can be inspected or cited, not activity counts.",
+        "",
+    ]
     for kind, items in groups.items():
         body.extend([f"## {kind}", ""])
         for item in items:
-            url = project_url(item["repo"], item.get("path"))
+            url = project_url(item["repo"], item.get("path"), item.get("ref", "main"))
             suffix = []
             if item.get("pypi"):
                 suffix.append(f'[PyPI](https://pypi.org/project/{item["pypi"]}/)')
             if item.get("doi"):
                 suffix.append("DOI/archive metadata in repository")
             extra = " · ".join(suffix)
-            body.append(f'- **[{item["title"]}]({url})**' + (f" — {extra}" if extra else ""))
+            body.append(
+                f'- **[{item["title"]}]({url})**' + (f" — {extra}" if extra else "")
+            )
         body.append("")
     return "\n".join(body) + "\n"
 
 
 def render_case_studies(manifest: dict) -> str:
-    body = [nav_html("CASE_STUDIES.md", manifest), "", "---", "", "# Case Studies", "", "A small set of end-to-end examples showing the problem, constraints, method and resulting decision or system. These are deliberately more selective than the project catalogue.", ""]
+    body = [
+        nav_html("CASE_STUDIES.md", manifest),
+        "",
+        "---",
+        "",
+        "# Case Studies",
+        "",
+        "A small set of end-to-end examples showing the problem, constraints, method and resulting decision or system. These are deliberately more selective than the project catalogue.",
+        "",
+    ]
     for case in manifest["case_studies"]:
         repo = case["repo"]
-        body.extend([
-            f'## [{repo}]({project_url(repo)})',
-            "",
-            f'**Problem.** {case["problem"]}',
-            "",
-            f'**Constraints.** {case["constraints"]}',
-            "",
-            f'**Method.** {case["method"]}',
-            "",
-            f'**Outcome.** {case["outcome"]}',
-            "",
-        ])
+        body.extend(
+            [
+                f'## [{repo}]({project_url(repo)})',
+                "",
+                f'**Problem.** {case["problem"]}',
+                "",
+                f'**Constraints.** {case["constraints"]}',
+                "",
+                f'**Method.** {case["method"]}',
+                "",
+                f'**Outcome.** {case["outcome"]}',
+                "",
+            ]
+        )
     return "\n".join(body) + "\n"
 
 
@@ -161,6 +225,8 @@ def write_generated(manifest: dict) -> None:
             continue
         text = file_path.read_text(encoding="utf-8")
         updated = replace_nav(text, path, manifest)
+        if path == "PROJECTS.md":
+            updated = inject_maturity_legend(updated, manifest)
         file_path.write_text(updated, encoding="utf-8")
 
 
@@ -181,6 +247,9 @@ def check(manifest: dict) -> list[str]:
     repos = [p["repo"] for p in manifest["projects"]]
     if len(repos) != len(set(repos)):
         errors.append("duplicate project repositories")
+    maturities = {p.get("maturity") for p in manifest["projects"]}
+    if None in maturities or "" in maturities:
+        errors.append("all projects must have a maturity label")
     for path, expected in generated_files(manifest).items():
         actual_path = ROOT / path
         if actual_path.exists() and actual_path.read_text(encoding="utf-8") != expected:
@@ -193,6 +262,9 @@ def check(manifest: dict) -> list[str]:
         text = fp.read_text(encoding="utf-8")
         if not text.startswith(canonical_nav[path]):
             errors.append(f"navigation is stale: {path}")
+    projects_text = (ROOT / "PROJECTS.md").read_text(encoding="utf-8")
+    if MATURITY_START not in projects_text or MATURITY_END not in projects_text:
+        errors.append("PROJECTS.md maturity legend is missing")
     return errors
 
 

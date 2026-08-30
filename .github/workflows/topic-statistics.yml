@@ -1,0 +1,40 @@
+name: Topic statistics
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - PROJECTS.md
+      - scripts/generate_topic_statistics.py
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-widget:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate topic statistics
+        run: python scripts/generate_topic_statistics.py
+
+      - name: Commit updated widget
+        run: |
+          if git diff --quiet -- assets/topic-statistics.svg; then
+            echo "Topic statistics are already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/topic-statistics.svg
+          git commit -m "docs: refresh topic statistics"
+          git push

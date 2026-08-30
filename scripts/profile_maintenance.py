@@ -109,7 +109,7 @@ def render_featured(manifest: dict) -> str:
         + "A short list for reviewers who want the strongest cross-section of the portfolio without browsing the full catalogue. Maturity is explicit so finished software, production-style systems, empirical studies and active research programmes are not presented as the same thing.\n\n"
         + "| Project | Area | Maturity | Why inspect it |\n| :-- | :-- | :-- | :-- |\n"
         + "\n".join(rows)
-        + "\n\n---\n\nThe broader catalogue remains on **[Projects](PROJECTS.md)**. Published Python software is collected on **[PyPI](PYPI.md)**, while papers, software releases and other citable artifacts are collected on **[Outputs](OUTPUTS.md)**.\n"
+        + "\n\n---\n\nThe broader catalogue remains on **[Projects](PROJECTS.md)**. Published Python software is collected on **[PyPI](PYPI.md)**, while papers, software releases and other substantial artifacts are collected on **[Outputs](OUTPUTS.md)**.\n"
     )
 
 
@@ -167,7 +167,9 @@ def render_outputs(manifest: dict) -> str:
         "",
         "# Outputs",
         "",
-        "Citable and reviewable outputs: research software, paper programmes, empirical studies and archived releases. This page is intentionally about artifacts that can be inspected or cited, not activity counts.",
+        f'**{len(manifest["outputs"])} substantial public artifacts are indexed here.**',
+        "",
+        "This is the broad output index, not a second Featured page. It includes published research software, paper/research programmes, empirical and replication studies, and decision/engineering artifacts that have a substantial inspectable result.",
         "",
     ]
     for kind, items in groups.items():
@@ -178,16 +180,21 @@ def render_outputs(manifest: dict) -> str:
             if item.get("pypi"):
                 suffix.append(f'[PyPI](https://pypi.org/project/{item["pypi"]}/)')
             if item.get("doi"):
-                suffix.append("DOI/archive metadata in repository")
-            extra = " · ".join(suffix)
-            body.append(
-                f'- **[{item["title"]}]({url})**' + (f" — {extra}" if extra else "")
-            )
+                suffix.append("DOI/archive metadata")
+            meta = " · ".join(suffix)
+            description = item.get("summary", "")
+            tail = f" — {description}" if description else ""
+            if meta:
+                tail += f" *({meta})*"
+            body.append(f'- **[{item["title"]}]({url})**{tail}')
         body.append("")
     return "\n".join(body) + "\n"
 
 
 def render_case_studies(manifest: dict) -> str:
+    groups: dict[str, list[dict]] = {}
+    for case in manifest["case_studies"]:
+        groups.setdefault(case.get("domain", "Other"), []).append(case)
     body = [
         nav_html("CASE_STUDIES.md", manifest),
         "",
@@ -195,25 +202,31 @@ def render_case_studies(manifest: dict) -> str:
         "",
         "# Case Studies",
         "",
-        "A small set of end-to-end examples showing the problem, constraints, method and resulting decision or system. These are deliberately more selective than the project catalogue.",
+        f'**{len(manifest["case_studies"])} end-to-end cases across {len(groups)} domains.**',
+        "",
+        "Case studies are selective, but they are drawn from the full portfolio rather than only the flagship list. Each case has to show a genuine chain from problem and constraints through method to an inspectable outcome or decision.",
         "",
     ]
-    for case in manifest["case_studies"]:
-        repo = case["repo"]
-        body.extend(
-            [
-                f'## [{repo}]({project_url(repo)})',
-                "",
-                f'**Problem.** {case["problem"]}',
-                "",
-                f'**Constraints.** {case["constraints"]}',
-                "",
-                f'**Method.** {case["method"]}',
-                "",
-                f'**Outcome.** {case["outcome"]}',
-                "",
-            ]
-        )
+    for domain, cases in groups.items():
+        body.extend([f"## {domain}", ""])
+        for case in cases:
+            repo = case["repo"]
+            url = project_url(repo, case.get("path"), case.get("ref", "main"))
+            title = case.get("title", repo)
+            body.extend(
+                [
+                    f'### [{title}]({url})',
+                    "",
+                    f'**Problem.** {case["problem"]}',
+                    "",
+                    f'**Constraints.** {case["constraints"]}',
+                    "",
+                    f'**Method.** {case["method"]}',
+                    "",
+                    f'**Outcome.** {case["outcome"]}',
+                    "",
+                ]
+            )
     return "\n".join(body) + "\n"
 
 
@@ -260,6 +273,12 @@ def check(manifest: dict) -> list[str]:
     maturities = {p.get("maturity") for p in manifest["projects"]}
     if None in maturities or "" in maturities:
         errors.append("all projects must have a maturity label")
+    output_keys = [(item["repo"], item.get("path"), item["title"]) for item in manifest["outputs"]]
+    if len(output_keys) != len(set(output_keys)):
+        errors.append("duplicate output entries")
+    case_titles = [case.get("title", case["repo"]) for case in manifest["case_studies"]]
+    if len(case_titles) != len(set(case_titles)):
+        errors.append("duplicate case-study titles")
     for path, expected in generated_files(manifest).items():
         actual_path = ROOT / path
         if actual_path.exists() and actual_path.read_text(encoding="utf-8") != expected:

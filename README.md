@@ -14,9 +14,7 @@ Statistical modelling, production AI, decision systems, and reproducible researc
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/TEACHING.md"><img src="https://img.shields.io/badge/Teaching-30363D?style=for-the-badge" alt="Teaching" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PYPI.md"><img src="https://img.shields.io/badge/PyPI-30363D?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md"><img src="https://img.shields.io/badge/Statistics-30363D?style=for-the-badge" alt="Statistics" /></a>
-</div>
-
-I build data and AI systems where the difficult part starts after model fitting: defining the estimand, validating uncertainty, detecting distribution shift, choosing the operating policy, and keeping the result reproducible in production. My work moves between statistical modelling, machine learning, research software, production AI, optimisation, and applied quantitative research.
+</div>I build data and AI systems where the difficult part starts after model fitting: defining the estimand, validating uncertainty, detecting distribution shift, choosing the operating policy, and keeping the result reproducible in production. My work moves between statistical modelling, machine learning, research software, production AI, optimisation, and applied quantitative research.
 
 **Selected delivery outcomes:** 80% reduction in reporting costs · 30% reduction in analytics processing time · €500K reduction in inventory value through forecasting and operational optimisation.
 

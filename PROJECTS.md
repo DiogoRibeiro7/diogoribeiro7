@@ -20,11 +20,13 @@
 
 Project maturity is kept separate from topic. A production-style system, an empirical study, a published package and an active research programme are not interchangeable signals. The manifest currently uses:
 
+- **decision study**
 - **decision system**
 - **empirical study**
 - **production-style system**
 - **published software**
 - **replication study**
+- **research portfolio**
 - **research programme**
 - **research software**
 <!-- maturity:end -->

@@ -34,4 +34,4 @@ A short list for reviewers who want the strongest cross-section of the portfolio
 
 ---
 
-The broader catalogue remains on **[Projects](PROJECTS.md)**. Published Python software is collected on **[PyPI](PYPI.md)**, while papers, software releases and other citable artifacts are collected on **[Outputs](OUTPUTS.md)**.
+The broader catalogue remains on **[Projects](PROJECTS.md)**. Published Python software is collected on **[PyPI](PYPI.md)**, while papers, software releases and other substantial artifacts are collected on **[Outputs](OUTPUTS.md)**.

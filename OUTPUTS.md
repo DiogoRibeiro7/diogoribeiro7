@@ -62,3 +62,4 @@ This is the broad output index, not a second Featured page. It includes publishe
 - **[RAGOps lab](https://github.com/DiogoRibeiro7/ragops-lab)** — Evaluation-first RAG with tracing, regression testing and cost-aware experiments.
 - **[LLM data platform](https://github.com/DiogoRibeiro7/llm-data-platform)** — Contract-linked ingestion, curation and observability for LLM datasets.
 - **[PyFlink fraud detection streaming](https://github.com/DiogoRibeiro7/pyflink-fraud-detection-streaming)** — Stateful streaming features with explainable fraud-risk scoring.
+

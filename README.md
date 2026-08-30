@@ -9,6 +9,7 @@ Statistical modelling, production AI, decision systems, and reproducible researc
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/METHODS.md"><img src="https://img.shields.io/badge/Methods-30363D?style=for-the-badge" alt="Methods" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/RESEARCH.md"><img src="https://img.shields.io/badge/Research-30363D?style=for-the-badge" alt="Research" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/TEACHING.md"><img src="https://img.shields.io/badge/Teaching-30363D?style=for-the-badge" alt="Teaching" /></a>
+  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md"><img src="https://img.shields.io/badge/Statistics-30363D?style=for-the-badge" alt="Statistics" /></a>
 </div>
 
 I build data and AI systems where the difficult part starts after model fitting: defining the estimand, validating uncertainty, detecting distribution shift, choosing the operating policy, and keeping the result reproducible in production. My work moves between statistical modelling, machine learning, research software, production AI, optimisation, and applied quantitative research.
@@ -16,6 +17,13 @@ I build data and AI systems where the difficult part starts after model fitting:
 **Selected delivery outcomes:** 80% reduction in reporting costs · 30% reduction in analytics processing time · €500K reduction in inventory value through forecasting and operational optimisation.
 
 The common thread is simple: start from the problem and the evidence, use the least complicated model that answers it well, and make the resulting claim inspectable.
+
+<p align="center">
+  <img src="data_has_a_better_idea.png"
+       alt="Poster with the phrase 'Data has a better idea'"
+       title="Data has a better idea"
+       width="65%" />
+</p>
 
 ---
 
@@ -60,6 +68,8 @@ The common thread is simple: start from the problem and the evidence, use the le
 | :-- | :-- |
 | **[Projects →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md)**<br>Curated production, research, modelling, optimisation, and data-engineering work. | **[Methods →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/METHODS.md)**<br>The modelling toolbox, technical stack, and methods I use by problem type. |
 | **[Research →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/RESEARCH.md)**<br>Current programmes, research themes, reproducibility standards, and collaboration interests. | **[Teaching →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/TEACHING.md)**<br>University teaching, seminars, workshops, and supporting material. |
+
+**[Statistics →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md)** — GitHub activity and profile widgets kept separate from the technical portfolio.
 
 ---
 

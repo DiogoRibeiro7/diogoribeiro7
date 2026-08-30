@@ -15,13 +15,13 @@
 
 # Statistics
 
-Numbers that say something about the work itself: delivery impact, empirical depth, reproducibility, and the structure of the portfolio. Popularity metrics are deliberately secondary.
+Quantitative evidence about the portfolio: scale, maturity, empirical depth, publication/output depth, reproducibility controls and delivered impact. Each section states its denominator so unlike quantities are not silently mixed.
 
 ## Delivered Impact
 
-These are outcomes from professional delivery rather than repository activity.
+Professional outcomes are shown separately from repository metrics because GitHub activity is not a proxy for delivery.
 
-| Metric | Result |
+| Delivered outcome | Result |
 | :-- | --: |
 | Reporting cost reduction | **80%** |
 | Analytics processing-time reduction | **30%** |
@@ -29,43 +29,94 @@ These are outcomes from professional delivery rather than repository activity.
 
 ---
 
-## Flagship Evidence
+## Portfolio-Wide Evidence
 
-The denominator here is the **12 repositories in [`FEATURED.md`](FEATURED.md)**, not the entire GitHub account. Mechanical metrics are audited from repository structure; semantic classifications are explicit in the generator so they can be reviewed rather than guessed.
+**Denominator:** the **35 public projects represented in the canonical [`data/portfolio.json`](data/portfolio.json) manifest**. This is broader than the 12-project Featured subset and narrower than every repository ever created on the account.
 
 <p align="center">
-  <img src="assets/portfolio-evidence.svg" alt="Evidence dashboard for the twelve flagship repositories, covering CI, tests, documentation, citation metadata, reproducibility assets, empirical work, and research software" width="100%" />
+  <img src="assets/portfolio-overview.svg" alt="Portfolio-wide evidence dashboard showing project count, outputs, case studies, empirical work, research software, PyPI packages and maturity mix" width="100%" />
 </p>
 
-The evidence dashboard is regenerated from the flagship list. Its definitions live in [`scripts/generate_portfolio_metrics.py`](scripts/generate_portfolio_metrics.py). In particular, **real-data / empirical** and **research-software / methods** classifications are maintained explicitly because neither can be inferred reliably from filenames.
+### Research and output depth
 
-### Portfolio structure
+| Measure | Current scope | What it means |
+| :-- | --: | :-- |
+| Manifest-backed public projects | **35** | Projects with explicit category, maturity and evidence metadata |
+| Substantial outputs | **32** | Published software, research programmes, empirical/replication studies, and decision/engineering artifacts |
+| Published PyPI packages | **8** | Verified package releases, not merely package-ready repositories |
+| Real-data / empirical projects | **23 / 35 (66%)** | Explicitly classified in the manifest |
+| Research software / methods | **11 / 35 (31%)** | Explicitly classified libraries, methods and research tooling |
+| Case studies | **13 across 11 domains** | End-to-end problem → constraints → method → outcome narratives |
+| Curated flagship projects | **12** | Reviewer-oriented subset; deliberately not used as the portfolio denominator |
 
-| Measure | Current scope |
+### Output composition
+
+The **32 outputs** currently break down into:
+
+| Output class | Count |
 | :-- | --: |
-| Flagship repositories | **12** |
-| Curated catalogue entries | **87** |
-| Major topic families | **9** |
-| Flagships explicitly classified as real-data / empirical | **6 / 12** |
-| Flagships explicitly classified as research software / statistical methods | **4 / 12** |
+| Published research software | **8** |
+| Research and paper programmes | **5** |
+| Empirical and replication studies | **9** |
+| Decision and engineering artifacts | **10** |
+
+This is an artifact count, not a repository count: a repository can legitimately produce more than one inspectable output.
 
 ---
 
-## Topics I Work On
+## Flagship Engineering Controls
 
-This is a composition metric, not a quality metric. It shows where the curated project catalogue is concentrated.
+**Denominator:** the **12 projects in [`FEATURED.md`](FEATURED.md)**. This smaller set is used only for repository-structure auditing, where a consistent manual/automated check is useful.
 
 <p align="center">
-  <img src="assets/topic-statistics.svg" alt="Bar chart showing the distribution of curated projects across the topics Diogo works on" width="100%" />
+  <img src="assets/portfolio-evidence.svg" alt="Engineering-control audit for twelve flagship repositories covering CI, tests, documentation, citation metadata and reproducibility assets" width="100%" />
 </p>
 
-The topic chart is generated from the second-level sections in [`PROJECTS.md`](PROJECTS.md). Each listed project contributes one entry to its section, including explicitly marked private projects.
+Current structural evidence across those 12 flagships:
+
+| Control | Coverage |
+| :-- | --: |
+| CI workflow present | **12 / 12 (100%)** |
+| Automated-test marker present | **12 / 12 (100%)** |
+| Dedicated documentation | **11 / 12 (92%)** |
+| Citation / archive metadata | **10 / 12 (83%)** |
+| Reproducibility-style assets | **8 / 12 (67%)** |
+
+These are **structural controls**, not claims that every project is scientifically valid or production-ready. A test directory proves that tests exist, not that every possible failure mode is covered.
 
 ---
 
-## What I Do Not Use as a Quality Metric
+## Topic Composition
 
-Stars, follower counts, raw commit totals, contribution streaks, and profile trophies can be interesting activity signals, but they do not establish modelling quality, scientific validity, production reliability, or business impact. They are kept below for completeness rather than used as evidence of technical quality.
+**Denominator:** the **87 curated entries in [`PROJECTS.md`](PROJECTS.md)**. Unlike the manifest dashboard above, this measures breadth of the catalogue rather than the maturity or evidential strength of each project.
+
+<p align="center">
+  <img src="assets/topic-statistics.svg" alt="Bar chart showing the distribution of curated project entries across technical and research topics" width="100%" />
+</p>
+
+Topic counts are therefore a **composition metric**, not a quality score and not an estimate of time spent or expertise level.
+
+---
+
+## Definitions and Boundaries
+
+The page intentionally uses different denominators for different questions:
+
+| Question | Denominator |
+| :-- | :-- |
+| What does the serious public portfolio contain? | **35 manifest-backed public projects** |
+| What inspectable artifacts has it produced? | **32 output records** |
+| What can a reviewer inspect end-to-end? | **13 case studies across 11 domains** |
+| How strong are repository controls on the curated front page? | **12 flagship repositories** |
+| Where is the broad catalogue concentrated? | **87 PROJECTS.md entries** |
+
+Keeping those populations separate avoids a common portfolio-statistics mistake: presenting one convenient subset as if it described everything.
+
+---
+
+## Activity Metrics, Deliberately Secondary
+
+Stars, follower counts, raw commit totals, contribution streaks and profile trophies are activity/popularity signals. They do not establish modelling quality, scientific validity, production reliability, reproducibility or business impact.
 
 <details>
 <summary><strong>GitHub activity widgets</strong></summary>

@@ -10,6 +10,7 @@ Statistical modelling, production AI, decision systems, and reproducible researc
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/METHODS.md"><img src="https://img.shields.io/badge/Methods-30363D?style=for-the-badge" alt="Methods" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/RESEARCH.md"><img src="https://img.shields.io/badge/Research-30363D?style=for-the-badge" alt="Research" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/TEACHING.md"><img src="https://img.shields.io/badge/Teaching-30363D?style=for-the-badge" alt="Teaching" /></a>
+  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PYPI.md"><img src="https://img.shields.io/badge/PyPI-30363D?style=for-the-badge&logo=pypi&logoColor=white" alt="PyPI" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md"><img src="https://img.shields.io/badge/Statistics-30363D?style=for-the-badge" alt="Statistics" /></a>
 </div>
 
@@ -69,7 +70,8 @@ The common thread is simple: start from the problem and the evidence, use the le
 | :-- | :-- |
 | **[Featured →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/FEATURED.md)**<br>Twelve flagship projects, grouped by what a reviewer is looking for. | **[Projects →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md)**<br>The broader catalogue across production, research, modelling, optimisation, and data engineering. |
 | **[Methods →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/METHODS.md)**<br>The modelling toolbox, technical stack, and methods I use by problem type. | **[Research →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/RESEARCH.md)**<br>Current programmes, research themes, reproducibility standards, and collaboration interests. |
-| **[Teaching →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/TEACHING.md)**<br>University teaching, seminars, workshops, and supporting material. | **[Statistics →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md)**<br>GitHub activity and profile widgets kept separate from the technical portfolio. |
+| **[Teaching →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/TEACHING.md)**<br>University teaching, seminars, workshops, and supporting material. | **[PyPI →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PYPI.md)**<br>Published Python packages with live version badges, install commands, and source links. |
+| **[Statistics →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md)**<br>Portfolio evidence, impact metrics, and topic distribution. |  |
 
 ---
 

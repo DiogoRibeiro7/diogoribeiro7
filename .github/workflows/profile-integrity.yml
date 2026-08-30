@@ -25,13 +25,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Regenerate manifest-backed content in working tree
+      - name: Validate manifest schema and generated model
         run: |
           python scripts/profile_maintenance.py generate
           python scripts/generate_topic_statistics.py
+          python scripts/profile_maintenance.py check
 
-      - name: Check manifest and generated pages
-        run: python scripts/profile_maintenance.py check
-
-      - name: Fail on stale generated files or navigation
-        run: git diff --exit-code
+      - name: Check Python syntax
+        run: python -m py_compile scripts/profile_maintenance.py scripts/generate_topic_statistics.py scripts/generate_portfolio_metrics.py

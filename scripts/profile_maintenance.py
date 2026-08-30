@@ -21,6 +21,10 @@ PAGES = [
 ]
 MATURITY_START = "<!-- maturity:start -->"
 MATURITY_END = "<!-- maturity:end -->"
+NAV_PATTERN = re.compile(
+    r'<div align="center">\n(?=(?:(?!</div>)[\s\S])*img\.shields\.io/badge/Home-).*?</div>\n*',
+    re.DOTALL,
+)
 
 
 def load_manifest() -> dict:
@@ -48,10 +52,16 @@ def nav_html(current: str, manifest: dict) -> str:
 
 def replace_nav(text: str, current: str, manifest: dict) -> str:
     replacement = nav_html(current, manifest)
-    pattern = re.compile(r'^<div align="center">\n.*?</div>', re.DOTALL)
-    if pattern.search(text):
-        return pattern.sub(replacement, text, count=1)
-    return replacement + "\n\n---\n\n" + text.lstrip()
+    cleaned = NAV_PATTERN.sub("", text)
+
+    if current == "README.md":
+        anchor = "Statistical modelling, production AI, decision systems, and reproducible research · Python-first"
+        if anchor not in cleaned:
+            raise ValueError("README navigation anchor not found")
+        before, after = cleaned.split(anchor, 1)
+        return before + anchor + "\n\n" + replacement + after.lstrip("\n")
+
+    return replacement + "\n\n---\n\n" + cleaned.lstrip("\n- ")
 
 
 def project_url(repo: str, path: str | None = None, ref: str = "main") -> str:
@@ -260,8 +270,19 @@ def check(manifest: dict) -> list[str]:
         if not fp.exists():
             continue
         text = fp.read_text(encoding="utf-8")
-        if not text.startswith(canonical_nav[path]):
+        nav_blocks = NAV_PATTERN.findall(text)
+        if len(nav_blocks) != 1:
+            errors.append(f"expected exactly one navigation block in {path}, found {len(nav_blocks)}")
+            continue
+        if canonical_nav[path] not in text:
             errors.append(f"navigation is stale: {path}")
+        if path == "README.md":
+            title_pos = text.find("# Diogo Ribeiro")
+            nav_pos = text.find(canonical_nav[path])
+            if title_pos < 0 or nav_pos < title_pos:
+                errors.append("README navigation must appear below the profile title")
+        elif not text.startswith(canonical_nav[path]):
+            errors.append(f"navigation must be first on secondary page: {path}")
     projects_text = (ROOT / "PROJECTS.md").read_text(encoding="utf-8")
     if MATURITY_START not in projects_text or MATURITY_END not in projects_text:
         errors.append("PROJECTS.md maturity legend is missing")

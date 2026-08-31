@@ -20,7 +20,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#c9
 <text x="482" y="160" class="note">tests/test/pytest/tox marker present</text>
 <rect x="24" y="202" width="420" height="104" rx="10" class="card"/>
 <text x="42" y="229" class="label">Dedicated documentation</text>
-<text x="42" y="261" class="value">11/12 · 92%</text>
+<text x="42" y="261" class="value">12/12 · 100%</text>
 <text x="42" y="284" class="note">docs directory or docs config present</text>
 <rect x="464" y="202" width="420" height="104" rx="10" class="card"/>
 <text x="482" y="229" class="label">Citable / archived</text>
@@ -32,7 +32,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#c9
 <text x="42" y="408" class="note">experiments/results/data/config-style artifacts present</text>
 <rect x="464" y="326" width="420" height="104" rx="10" class="card"/>
 <text x="482" y="353" class="label">Real-data / empirical</text>
-<text x="482" y="385" class="value">6/12 · 50%</text>
+<text x="482" y="385" class="value">4/12 · 33%</text>
 <text x="482" y="408" class="note">explicit curated classification; never inferred from filenames</text>
 <rect x="24" y="450" width="420" height="104" rx="10" class="card"/>
 <text x="42" y="477" class="label">Research software / methods</text>

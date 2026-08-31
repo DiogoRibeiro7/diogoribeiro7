@@ -35,6 +35,11 @@ jobs:
           python scripts/profile_maintenance.py check
           python scripts/sync_statistics.py check
 
+      - name: Validate flagship engineering controls
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/generate_portfolio_metrics.py check
+
       - name: Check public GitHub and PyPI inventory
         run: python scripts/check_external_inventory.py
 

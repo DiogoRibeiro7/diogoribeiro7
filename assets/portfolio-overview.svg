@@ -37,7 +37,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#c9
 <rect x="24" y="322" width="278" height="102" rx="10" class="card"/>
 <text x="40" y="347" class="label">Curated flagships</text>
 <text x="40" y="379" class="value">12</text>
-<text x="40" y="402" class="note">reviewer-oriented subset, not the main denominator</text>
+<text x="40" y="402" class="note">reviewer-oriented subset from FEATURED.md</text>
 <text x="24" y="458" class="label">Maturity mix</text>
 <text x="24" y="479" class="sub">Counts are mutually exclusive manifest labels; topic and maturity are separate dimensions.</text>
 <text x="24" y="514" class="maturity">published software</text>

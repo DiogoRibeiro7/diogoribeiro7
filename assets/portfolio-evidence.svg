@@ -32,11 +32,11 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#c9
 <text x="42" y="408" class="note">experiments/results/data/config-style artifacts present</text>
 <rect x="464" y="326" width="420" height="104" rx="10" class="card"/>
 <text x="482" y="353" class="label">Real-data / empirical</text>
-<text x="482" y="385" class="value">4/12 · 33%</text>
-<text x="482" y="408" class="note">explicit curated classification; never inferred from filenames</text>
+<text x="482" y="385" class="value">6/12 · 50%</text>
+<text x="482" y="408" class="note">canonical manifest classification for the curated flagship set</text>
 <rect x="24" y="450" width="420" height="104" rx="10" class="card"/>
 <text x="42" y="477" class="label">Research software / methods</text>
-<text x="42" y="509" class="value">4/12 · 33%</text>
-<text x="42" y="532" class="note">explicit flagship classification</text>
-<text x="24" y="610" class="sub">Generated from FEATURED.md + GitHub repository structure. Semantic classifications are explicit in scripts/generate_portfolio_metrics.py.</text>
+<text x="42" y="509" class="value">5/12 · 42%</text>
+<text x="42" y="532" class="note">canonical manifest classification for the curated flagship set</text>
+<text x="24" y="610" class="sub">Generated from FEATURED.md + GitHub repository structure + canonical manifest classifications.</text>
 </svg>

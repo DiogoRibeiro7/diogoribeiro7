@@ -15,13 +15,28 @@
 
 # Statistics
 
-Quantitative evidence about the portfolio: scale, maturity, empirical depth, publication/output depth, reproducibility controls and delivered impact.
+Quantitative evidence about the portfolio: scale, empirical depth, publication/output depth, reproducibility controls, delivered impact and secondary GitHub activity signals.
 
-**At a glance:** **35 manifest-backed public projects · 32 substantial outputs · 13 case studies across 11 domains · 12 flagship repositories · 87 curated catalogue entries.** These are different populations used for different questions; the detailed definitions are documented below.
+## Portfolio Snapshot
+
+| Portfolio signal | Current value |
+| :-- | --: |
+| Manifest-backed public projects | **35** |
+| Substantial outputs | **32** |
+| Case studies | **13 across 11 domains** |
+| Published PyPI packages | **8** |
+| Real-data / empirical projects | **23 / 35 (66%)** |
+| Research software / methods | **11 / 35 (31%)** |
+| Curated flagship repositories | **12** |
+| Curated catalogue entries | **87** |
+
+These figures intentionally use different populations for different questions. The denominator rules are explicit below rather than blending repository counts, output counts and catalogue entries into one headline number.
+
+---
 
 ## Portfolio-Wide Evidence
 
-**Denominator:** the **35 public projects represented in the canonical [`data/portfolio.json`](data/portfolio.json) manifest**. This is broader than the 12-project Featured subset and narrower than every repository ever created on the account.
+**Primary denominator:** the **35 public projects represented in the canonical [`data/portfolio.json`](data/portfolio.json) manifest**. This is broader than the 12-project Featured subset and narrower than every repository ever created on the account.
 
 <p align="center">
   <img src="assets/portfolio-overview.svg" alt="Portfolio-wide evidence dashboard showing project count, outputs, case studies, empirical work, research software, PyPI packages and maturity mix" width="100%" />
@@ -116,12 +131,18 @@ Keeping those populations separate avoids a common portfolio-statistics mistake:
 
 ---
 
-## Activity Metrics, Deliberately Secondary
+## GitHub Activity and Reach
 
-Stars, follower counts, raw commit totals, contribution streaks and profile trophies are activity/popularity signals. They do not establish modelling quality, scientific validity, production reliability, reproducibility or business impact.
+Activity and popularity are useful context, but they are deliberately separated from the evidence above. Profile views, contribution badges and trophies do not establish modelling quality, scientific validity, production reliability, reproducibility or business impact.
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=DiogoRibeiro7&label=Profile%20views&color=30363D&style=for-the-badge" alt="Profile views" />
+</div>
+
+<br>
 
 <details>
-<summary><strong>GitHub activity widgets</strong></summary>
+<summary><strong>Additional GitHub activity widgets</strong></summary>
 
 <br>
 

@@ -1,22 +1,37 @@
-"""Generate portfolio-wide statistics from the canonical manifest."""
+"""Generate portfolio-wide statistics from canonical portfolio sources."""
 
 from __future__ import annotations
 
 import json
+import re
 from collections import Counter
 from pathlib import Path
 from xml.sax.saxutils import escape
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "data" / "portfolio.json"
+FEATURED = ROOT / "FEATURED.md"
 OUTPUT = ROOT / "assets" / "portfolio-overview.svg"
+FEATURED_REPO_PATTERN = re.compile(r"https://github\.com/DiogoRibeiro7/([^/)#]+)")
 
 
 def load_manifest() -> dict:
+    """Load the canonical portfolio manifest."""
     return json.loads(MANIFEST.read_text(encoding="utf-8"))
 
 
+def featured_total() -> int:
+    """Count the human-curated repositories listed in FEATURED.md."""
+    text = FEATURED.read_text(encoding="utf-8")
+    matches = FEATURED_REPO_PATTERN.findall(text)
+    repos = list(dict.fromkeys(repo for repo in matches if repo != "diogoribeiro7"))
+    if len(repos) != 12:
+        raise ValueError(f"Expected 12 curated Featured repositories, found {len(repos)}: {repos}")
+    return len(repos)
+
+
 def render(manifest: dict) -> str:
+    """Render the portfolio-wide SVG dashboard."""
     projects = manifest["projects"]
     outputs = manifest["outputs"]
     cases = manifest["case_studies"]
@@ -24,7 +39,7 @@ def render(manifest: dict) -> str:
     real_data = sum(bool(p.get("real_data")) for p in projects)
     research_software = sum(bool(p.get("research_software")) for p in projects)
     pypi = sum(bool(p.get("pypi")) for p in projects)
-    featured = sum(bool(p.get("featured")) for p in projects)
+    featured = featured_total()
     domains = len({c["domain"] for c in cases})
     maturity = Counter(p["maturity"] for p in projects)
 
@@ -35,7 +50,7 @@ def render(manifest: dict) -> str:
         ("Real-data / empirical", f"{real_data}/{total} · {100 * real_data / total:.0f}%", "explicit manifest classification"),
         ("Research software / methods", f"{research_software}/{total} · {100 * research_software / total:.0f}%", "explicit manifest classification"),
         ("Published PyPI packages", str(pypi), "verified package releases"),
-        ("Curated flagships", str(featured), "reviewer-oriented subset, not the main denominator"),
+        ("Curated flagships", str(featured), "reviewer-oriented subset from FEATURED.md"),
     ]
 
     maturity_order = [
@@ -110,6 +125,7 @@ def render(manifest: dict) -> str:
 
 
 def main() -> None:
+    """Write the portfolio-wide statistics SVG."""
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(render(load_manifest()), encoding="utf-8")
 

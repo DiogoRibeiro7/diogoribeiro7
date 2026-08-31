@@ -25,13 +25,16 @@ NAV_PATTERN = re.compile(
     r'<div align="center">\n(?=(?:(?!</div>)[\s\S])*img\.shields\.io/badge/Home-).*?</div>\n*',
     re.DOTALL,
 )
+FEATURED_REPO_PATTERN = re.compile(r"https://github\.com/DiogoRibeiro7/([^/)#]+)")
 
 
 def load_manifest() -> dict:
+    """Load the canonical portfolio manifest."""
     return json.loads(MANIFEST.read_text(encoding="utf-8"))
 
 
 def nav_html(current: str, manifest: dict) -> str:
+    """Render the canonical navigation badges for one page."""
     chunks = ['<div align="center">']
     for label, target in manifest["navigation"]:
         active = target == current
@@ -51,6 +54,7 @@ def nav_html(current: str, manifest: dict) -> str:
 
 
 def replace_nav(text: str, current: str, manifest: dict) -> str:
+    """Replace the navigation block without regenerating human-edited page content."""
     replacement = nav_html(current, manifest)
     cleaned = NAV_PATTERN.sub("", text)
 
@@ -65,11 +69,13 @@ def replace_nav(text: str, current: str, manifest: dict) -> str:
 
 
 def project_url(repo: str, path: str | None = None, ref: str = "main") -> str:
+    """Build a repository or subpath URL."""
     base = f"https://github.com/DiogoRibeiro7/{repo}"
     return f"{base}/tree/{ref}/{path}" if path else base
 
 
 def maturity_legend(manifest: dict) -> str:
+    """Render the project-maturity legend."""
     values = sorted({p["maturity"] for p in manifest["projects"]})
     rows = "\n".join(f"- **{value}**" for value in values)
     return (
@@ -82,6 +88,7 @@ def maturity_legend(manifest: dict) -> str:
 
 
 def inject_maturity_legend(text: str, manifest: dict) -> str:
+    """Insert or refresh the generated maturity legend."""
     block = maturity_legend(manifest)
     pattern = re.compile(
         re.escape(MATURITY_START) + r".*?" + re.escape(MATURITY_END), re.DOTALL
@@ -95,25 +102,16 @@ def inject_maturity_legend(text: str, manifest: dict) -> str:
     return text[:pos] + "\n\n" + block + text[pos:]
 
 
-def render_featured(manifest: dict) -> str:
-    rows = []
-    for p in manifest["projects"]:
-        if not p.get("featured"):
-            continue
-        rows.append(
-            f'| **[{p["title"]}]({project_url(p["repo"])})** | {p["category"]} | {p["maturity"]} | {p["summary"]} |'
-        )
-    return (
-        nav_html("FEATURED.md", manifest)
-        + "\n\n---\n\n# Featured Projects\n\n"
-        + "A short list for reviewers who want the strongest cross-section of the portfolio without browsing the full catalogue. Maturity is explicit so finished software, production-style systems, empirical studies and active research programmes are not presented as the same thing.\n\n"
-        + "| Project | Area | Maturity | Why inspect it |\n| :-- | :-- | :-- | :-- |\n"
-        + "\n".join(rows)
-        + "\n\n---\n\nThe broader catalogue remains on **[Projects](PROJECTS.md)**. Published Python software is collected on **[PyPI](PYPI.md)**, while papers, software releases and other substantial artifacts are collected on **[Outputs](OUTPUTS.md)**.\n"
-    )
+def featured_repos() -> list[str]:
+    """Return the twelve human-curated repositories listed on FEATURED.md."""
+    text = (ROOT / "FEATURED.md").read_text(encoding="utf-8")
+    excluded = {"diogoribeiro7"}
+    matches = FEATURED_REPO_PATTERN.findall(text)
+    return list(dict.fromkeys(repo for repo in matches if repo not in excluded))
 
 
 def render_pypi(manifest: dict) -> str:
+    """Render the generated PyPI page."""
     packages = [p for p in manifest["projects"] if p.get("pypi")]
     body = [
         nav_html("PYPI.md", manifest),
@@ -157,6 +155,7 @@ def render_pypi(manifest: dict) -> str:
 
 
 def render_outputs(manifest: dict) -> str:
+    """Render the generated outputs index."""
     groups: dict[str, list[dict]] = {}
     for item in manifest["outputs"]:
         groups.setdefault(item["type"], []).append(item)
@@ -192,6 +191,7 @@ def render_outputs(manifest: dict) -> str:
 
 
 def render_case_studies(manifest: dict) -> str:
+    """Render the generated case-studies page."""
     groups: dict[str, list[dict]] = {}
     for case in manifest["case_studies"]:
         groups.setdefault(case.get("domain", "Other"), []).append(case)
@@ -231,8 +231,13 @@ def render_case_studies(manifest: dict) -> str:
 
 
 def generated_files(manifest: dict) -> dict[str, str]:
+    """Return pages whose substantive content is generated from the manifest.
+
+    FEATURED.md is deliberately absent: its reviewer-oriented selection and order
+    are human-curated. Automation only normalizes its navigation and validates
+    that the twelve listed repositories belong to the canonical project inventory.
+    """
     return {
-        "FEATURED.md": render_featured(manifest),
         "PYPI.md": render_pypi(manifest),
         "OUTPUTS.md": render_outputs(manifest),
         "CASE_STUDIES.md": render_case_studies(manifest),
@@ -240,6 +245,7 @@ def generated_files(manifest: dict) -> dict[str, str]:
 
 
 def write_generated(manifest: dict) -> None:
+    """Refresh generated pages and canonical navigation."""
     for path, content in generated_files(manifest).items():
         (ROOT / path).write_text(content, encoding="utf-8")
     for path in PAGES:
@@ -254,6 +260,7 @@ def write_generated(manifest: dict) -> None:
 
 
 def check(manifest: dict) -> list[str]:
+    """Validate the profile publishing contract."""
     errors: list[str] = []
     nav_targets = [target for _, target in manifest["navigation"]]
     if len(nav_targets) != len(set(nav_targets)):
@@ -261,9 +268,15 @@ def check(manifest: dict) -> list[str]:
     for target in nav_targets:
         if not (ROOT / target).exists():
             errors.append(f"navigation target missing: {target}")
-    featured = [p for p in manifest["projects"] if p.get("featured")]
-    if len(featured) != 12:
-        errors.append(f"expected 12 featured projects, found {len(featured)}")
+
+    manifest_repos = {p["repo"] for p in manifest["projects"]}
+    curated_featured = featured_repos()
+    if len(curated_featured) != 12:
+        errors.append(f"expected 12 human-curated featured repositories, found {len(curated_featured)}")
+    unknown_featured = sorted(set(curated_featured) - manifest_repos)
+    if unknown_featured:
+        errors.append(f"featured repositories missing from manifest: {unknown_featured}")
+
     pypi_names = [p["pypi"] for p in manifest["projects"] if p.get("pypi")]
     if len(pypi_names) != len(set(pypi_names)):
         errors.append("duplicate PyPI package names")
@@ -279,10 +292,12 @@ def check(manifest: dict) -> list[str]:
     case_titles = [case.get("title", case["repo"]) for case in manifest["case_studies"]]
     if len(case_titles) != len(set(case_titles)):
         errors.append("duplicate case-study titles")
+
     for path, expected in generated_files(manifest).items():
         actual_path = ROOT / path
         if actual_path.exists() and actual_path.read_text(encoding="utf-8") != expected:
             errors.append(f"generated file is stale: {path}")
+
     canonical_nav = {path: nav_html(path, manifest) for path in PAGES}
     for path in PAGES:
         fp = ROOT / path
@@ -302,6 +317,7 @@ def check(manifest: dict) -> list[str]:
                 errors.append("README navigation must appear below the profile title")
         elif not text.startswith(canonical_nav[path]):
             errors.append(f"navigation must be first on secondary page: {path}")
+
     projects_text = (ROOT / "PROJECTS.md").read_text(encoding="utf-8")
     if MATURITY_START not in projects_text or MATURITY_END not in projects_text:
         errors.append("PROJECTS.md maturity legend is missing")
@@ -309,6 +325,7 @@ def check(manifest: dict) -> list[str]:
 
 
 def main() -> int:
+    """Generate or validate the profile publishing system."""
     parser = argparse.ArgumentParser()
     parser.add_argument("command", choices=["generate", "check"])
     args = parser.parse_args()

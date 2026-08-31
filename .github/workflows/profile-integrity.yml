@@ -31,10 +31,12 @@ jobs:
           python scripts/normalize_readme_layout.py
           python scripts/generate_portfolio_overview.py
           python scripts/generate_topic_statistics.py
+          python scripts/sync_statistics.py generate
           python scripts/profile_maintenance.py check
+          python scripts/sync_statistics.py check
 
       - name: Check public GitHub and PyPI inventory
         run: python scripts/check_external_inventory.py
 
       - name: Check Python syntax
-        run: python -m py_compile scripts/profile_maintenance.py scripts/normalize_readme_layout.py scripts/check_external_inventory.py scripts/generate_portfolio_overview.py scripts/generate_topic_statistics.py scripts/generate_portfolio_metrics.py
+        run: python -m py_compile scripts/profile_maintenance.py scripts/normalize_readme_layout.py scripts/check_external_inventory.py scripts/generate_portfolio_overview.py scripts/generate_topic_statistics.py scripts/generate_portfolio_metrics.py scripts/sync_statistics.py

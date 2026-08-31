@@ -39,12 +39,12 @@ The common thread is simple: start from the problem and the evidence, use the le
 
 | Project | What it demonstrates |
 | :-- | :-- |
-| **[feedback-intelligence-agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent)** | Production-style RAG with FastAPI, retrieval evaluation, observability, and CI. |
-| **[genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy)** | Typed survival-simulation software on PyPI: twelve model families, a general multistate engine, explicit ground truth, documentation, and parameter-recovery checks. |
-| **[behavioral-sensing-research](https://github.com/DiogoRibeiro7/behavioral-sensing-research)** | Failure-aware multimodal sensing: sensor health, uncertainty-aware fusion, abstention, adaptive baselines, change detection, and reproducible simulation experiments. |
-| **[clinic-forecasting-platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform)** | Healthcare demand forecasting with a 13-model benchmark, rolling-origin backtesting, conformal intervals, serving, and monitoring. |
-| **[setqca](https://github.com/DiogoRibeiro7/setqca-python)** | Native typed Python csQCA/fsQCA with exact Boolean minimisation, validated against the reference R implementation and published with a DOI. |
-| **[qwen-text2sql-lab](https://github.com/DiogoRibeiro7/qwen-text2sql-lab)** | Controlled LoRA/QLoRA adaptation of Qwen for text-to-SQL, evaluated by execution accuracy against the target database rather than string overlap. |
+| **[feedback-intelligence-agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent)** | Production-style RAG with guarded generation, retrieval evaluation, FastAPI serving, observability, and CI. |
+| **[ragops-lab](https://github.com/DiogoRibeiro7/ragops-lab)** | Evaluation-first RAG engineering with lexical, vector, and hybrid retrieval, grounded-generation checks, traceability, regression testing, and a reusable API/CLI package. |
+| **[clinic-forecasting-platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform)** | Forecast-to-decision systems: rolling-origin evaluation, conformal uncertainty, hierarchical forecasting, staffing optimisation, serving, monitoring, and model operations. |
+| **[transaction-risk-lakehouse](https://github.com/DiogoRibeiro7/transaction-risk-lakehouse)** | Production-oriented PySpark risk modelling with lakehouse layers, temporal validation, graph-derived features, cost-sensitive decisions, streaming scoring, and drift monitoring. |
+| **[pinn](https://github.com/DiogoRibeiro7/pinn)** | Scientific machine learning with a typed PyTorch PINN framework for forward and inverse PDE problems, exact-solution benchmarks, adaptive sampling, reproducible experiments, and a DOI-backed release. |
+| **[bmssp](https://github.com/DiogoRibeiro7/bmssp)** | Algorithm engineering through a typed and tested BMSSP-style single-source shortest-path implementation with exact distances, benchmarking, graph transforms, documentation, and DOI-backed research software. |
 
 → **[Featured](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/FEATURED.md)** gives a 12-project cross-section by reviewer interest. The broader catalogue remains on **[Projects](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md)**.
 

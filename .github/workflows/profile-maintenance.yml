@@ -59,12 +59,15 @@ jobs:
       - name: Regenerate flagship engineering controls
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/generate_portfolio_metrics.py
+        run: python scripts/generate_portfolio_metrics.py generate
 
       - name: Validate generated state
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python scripts/profile_maintenance.py check
           python scripts/sync_statistics.py check
+          python scripts/generate_portfolio_metrics.py check
 
       - name: Commit refreshed profile artifacts
         run: |

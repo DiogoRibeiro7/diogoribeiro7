@@ -19,6 +19,7 @@ Quantitative evidence about the portfolio: scale, empirical depth, publication/o
 
 ## Portfolio Snapshot
 
+<!-- statistics:snapshot:start -->
 | Portfolio signal | Current value |
 | :-- | --: |
 | Manifest-backed public projects | **35** |
@@ -29,6 +30,7 @@ Quantitative evidence about the portfolio: scale, empirical depth, publication/o
 | Research software / methods | **11 / 35 (31%)** |
 | Curated flagship repositories | **12** |
 | Curated catalogue entries | **87** |
+<!-- statistics:snapshot:end -->
 
 These figures intentionally use different populations for different questions. The denominator rules are explicit below rather than blending repository counts, output counts and catalogue entries into one headline number.
 
@@ -44,6 +46,7 @@ These figures intentionally use different populations for different questions. T
 
 ### Research and output depth
 
+<!-- statistics:depth:start -->
 | Measure | Current scope | What it means |
 | :-- | --: | :-- |
 | Manifest-backed public projects | **35** | Projects with explicit category, maturity and evidence metadata |
@@ -53,17 +56,20 @@ These figures intentionally use different populations for different questions. T
 | Research software / methods | **11 / 35 (31%)** | Explicitly classified libraries, methods and research tooling |
 | Case studies | **13 across 11 domains** | End-to-end problem → constraints → method → outcome narratives |
 | Curated flagship projects | **12** | Reviewer-oriented subset; deliberately not used as the portfolio denominator |
+<!-- statistics:depth:end -->
 
 ### Output composition
 
 The **32 outputs** currently break down into:
 
+<!-- statistics:outputs:start -->
 | Output class | Count |
 | :-- | --: |
 | Published research software | **8** |
 | Research and paper programmes | **5** |
 | Empirical and replication studies | **9** |
 | Decision and engineering artifacts | **10** |
+<!-- statistics:outputs:end -->
 
 This is an artifact count, not a repository count: a repository can legitimately produce more than one inspectable output.
 
@@ -119,6 +125,7 @@ Topic counts are therefore a **composition metric**, not a quality score and not
 
 The page intentionally uses different denominators for different questions:
 
+<!-- statistics:boundaries:start -->
 | Question | Denominator |
 | :-- | :-- |
 | What does the serious public portfolio contain? | **35 manifest-backed public projects** |
@@ -126,6 +133,7 @@ The page intentionally uses different denominators for different questions:
 | What can a reviewer inspect end-to-end? | **13 case studies across 11 domains** |
 | How strong are repository controls on the curated front page? | **12 flagship repositories** |
 | Where is the broad catalogue concentrated? | **87 PROJECTS.md entries** |
+<!-- statistics:boundaries:end -->
 
 Keeping those populations separate avoids a common portfolio-statistics mistake: presenting one convenient subset as if it described everything.
 

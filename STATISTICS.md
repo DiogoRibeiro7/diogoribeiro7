@@ -97,13 +97,15 @@ Professional outcomes are kept separate from repository metrics because GitHub a
 
 Current structural evidence across those 12 flagships:
 
+<!-- statistics:controls:start -->
 | Control | Coverage |
 | :-- | --: |
 | CI workflow present | **12 / 12 (100%)** |
 | Automated-test marker present | **12 / 12 (100%)** |
-| Dedicated documentation | **11 / 12 (92%)** |
+| Dedicated documentation | **12 / 12 (100%)** |
 | Citation / archive metadata | **10 / 12 (83%)** |
 | Reproducibility-style assets | **8 / 12 (67%)** |
+<!-- statistics:controls:end -->
 
 These are **structural controls**, not claims that every project is scientifically valid or production-ready. A test directory proves that tests exist, not that every possible failure mode is covered.
 

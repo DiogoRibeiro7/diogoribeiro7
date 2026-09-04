@@ -26,6 +26,10 @@ OUTPUTS_START = "<!-- statistics:outputs:start -->"
 OUTPUTS_END = "<!-- statistics:outputs:end -->"
 BOUNDARIES_START = "<!-- statistics:boundaries:start -->"
 BOUNDARIES_END = "<!-- statistics:boundaries:end -->"
+DENOMINATOR_START = "<!-- statistics:denominator:start -->"
+DENOMINATOR_END = "<!-- statistics:denominator:end -->"
+OUTPUTS_INTRO_START = "<!-- statistics:outputs-intro:start -->"
+OUTPUTS_INTRO_END = "<!-- statistics:outputs-intro:end -->"
 
 
 def load_manifest() -> dict[str, Any]:
@@ -141,6 +145,31 @@ def render_outputs(values: dict[str, Any]) -> str:
     return "\n".join(rows)
 
 
+def render_denominator(values: dict[str, Any]) -> str:
+    """Render the primary-denominator sentence.
+
+    The counts in this sentence and the outputs sentence below used to be prose
+    the generators did not own, so a manifest change left them silently wrong
+    while every generated table around them was correct.
+    """
+    return "\n".join([
+        DENOMINATOR_START,
+        f'**Primary denominator:** the **{values["projects"]} public projects represented in the canonical '
+        f'[`data/portfolio.json`](data/portfolio.json) manifest**. This is broader than the '
+        f'{values["featured"]}-project Featured subset and narrower than every repository ever created on the account.',
+        DENOMINATOR_END,
+    ])
+
+
+def render_outputs_intro(values: dict[str, Any]) -> str:
+    """Render the sentence introducing the output-composition table."""
+    return "\n".join([
+        OUTPUTS_INTRO_START,
+        f'The **{values["outputs"]} outputs** currently break down into:',
+        OUTPUTS_INTRO_END,
+    ])
+
+
 def render_boundaries(values: dict[str, Any]) -> str:
     """Render the denominator reference table."""
     return "\n".join([
@@ -170,6 +199,8 @@ def render_statistics(text: str, values: dict[str, Any]) -> str:
     updated = replace_block(text, SNAPSHOT_START, SNAPSHOT_END, render_snapshot(values))
     updated = replace_block(updated, DEPTH_START, DEPTH_END, render_depth(values))
     updated = replace_block(updated, OUTPUTS_START, OUTPUTS_END, render_outputs(values))
+    updated = replace_block(updated, DENOMINATOR_START, DENOMINATOR_END, render_denominator(values))
+    updated = replace_block(updated, OUTPUTS_INTRO_START, OUTPUTS_INTRO_END, render_outputs_intro(values))
     return replace_block(updated, BOUNDARIES_START, BOUNDARIES_END, render_boundaries(values))
 
 

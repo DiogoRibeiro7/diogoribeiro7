@@ -167,7 +167,7 @@ Stars record attention, not correctness, reliability or reproducibility. They si
 | [nosql-databases-labs](https://github.com/DiogoRibeiro7/nosql-databases-labs) | **3** |
 | [academic-presentations](https://github.com/DiogoRibeiro7/academic-presentations) | **2** |
 
-_Top 10 of 205 public non-fork repositories · counts fetched 2026-09-04 · ties broken alphabetically._
+_Top 10 of 206 public non-fork repositories · counts fetched 2026-09-04 · ties broken alphabetically._
 <!-- statistics:stars:end -->
 
 <div align="center">

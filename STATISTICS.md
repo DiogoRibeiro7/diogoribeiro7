@@ -22,12 +22,12 @@ Quantitative evidence about the portfolio: scale, empirical depth, publication/o
 <!-- statistics:snapshot:start -->
 | Portfolio signal | Current value |
 | :-- | --: |
-| Manifest-backed public projects | **35** |
-| Substantial outputs | **32** |
+| Manifest-backed public projects | **38** |
+| Substantial outputs | **35** |
 | Case studies | **13 across 11 domains** |
-| Published PyPI packages | **8** |
-| Real-data / empirical projects | **23 / 35 (66%)** |
-| Research software / methods | **11 / 35 (31%)** |
+| Published PyPI packages | **11** |
+| Real-data / empirical projects | **23 / 38 (61%)** |
+| Research software / methods | **13 / 38 (34%)** |
 | Curated flagship repositories | **12** |
 | Curated catalogue entries | **87** |
 <!-- statistics:snapshot:end -->
@@ -38,7 +38,9 @@ These figures intentionally use different populations for different questions. T
 
 ## Portfolio-Wide Evidence
 
-**Primary denominator:** the **35 public projects represented in the canonical [`data/portfolio.json`](data/portfolio.json) manifest**. This is broader than the 12-project Featured subset and narrower than every repository ever created on the account.
+<!-- statistics:denominator:start -->
+**Primary denominator:** the **38 public projects represented in the canonical [`data/portfolio.json`](data/portfolio.json) manifest**. This is broader than the 12-project Featured subset and narrower than every repository ever created on the account.
+<!-- statistics:denominator:end -->
 
 <p align="center">
   <img src="assets/portfolio-overview.svg" alt="Portfolio-wide evidence dashboard showing project count, outputs, case studies, empirical work, research software, PyPI packages and maturity mix" width="100%" />
@@ -49,23 +51,25 @@ These figures intentionally use different populations for different questions. T
 <!-- statistics:depth:start -->
 | Measure | Current scope | What it means |
 | :-- | --: | :-- |
-| Manifest-backed public projects | **35** | Projects with explicit category, maturity and evidence metadata |
-| Substantial outputs | **32** | Published software, research programmes, empirical/replication studies, and decision/engineering artifacts |
-| Published PyPI packages | **8** | Verified package releases, not merely package-ready repositories |
-| Real-data / empirical projects | **23 / 35 (66%)** | Explicitly classified in the manifest |
-| Research software / methods | **11 / 35 (31%)** | Explicitly classified libraries, methods and research tooling |
+| Manifest-backed public projects | **38** | Projects with explicit category, maturity and evidence metadata |
+| Substantial outputs | **35** | Published software, research programmes, empirical/replication studies, and decision/engineering artifacts |
+| Published PyPI packages | **11** | Verified package releases, not merely package-ready repositories |
+| Real-data / empirical projects | **23 / 38 (61%)** | Explicitly classified in the manifest |
+| Research software / methods | **13 / 38 (34%)** | Explicitly classified libraries, methods and research tooling |
 | Case studies | **13 across 11 domains** | End-to-end problem → constraints → method → outcome narratives |
 | Curated flagship projects | **12** | Reviewer-oriented subset; deliberately not used as the portfolio denominator |
 <!-- statistics:depth:end -->
 
 ### Output composition
 
-The **32 outputs** currently break down into:
+<!-- statistics:outputs-intro:start -->
+The **35 outputs** currently break down into:
+<!-- statistics:outputs-intro:end -->
 
 <!-- statistics:outputs:start -->
 | Output class | Count |
 | :-- | --: |
-| Published research software | **8** |
+| Published research software | **11** |
 | Research and paper programmes | **5** |
 | Empirical and replication studies | **9** |
 | Decision and engineering artifacts | **10** |
@@ -130,8 +134,8 @@ The page intentionally uses different denominators for different questions:
 <!-- statistics:boundaries:start -->
 | Question | Denominator |
 | :-- | :-- |
-| What does the serious public portfolio contain? | **35 manifest-backed public projects** |
-| What inspectable artifacts has it produced? | **32 output records** |
+| What does the serious public portfolio contain? | **38 manifest-backed public projects** |
+| What inspectable artifacts has it produced? | **35 output records** |
 | What can a reviewer inspect end-to-end? | **13 case studies across 11 domains** |
 | How strong are repository controls on the curated front page? | **12 flagship repositories** |
 | Where is the broad catalogue concentrated? | **87 PROJECTS.md entries** |

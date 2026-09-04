@@ -15,7 +15,7 @@
 
 # PyPI Packages
 
-**Current audited inventory: 8 published packages.**
+**Current audited inventory: 11 published packages.**
 
 ## [`gen-surv`](https://pypi.org/project/gen-surv/)
 
@@ -119,6 +119,45 @@ pip install wifi-activity-recognition
 ```
 
 **Source:** [DiogoRibeiro7/wifi-csi-activity-recognition](https://github.com/DiogoRibeiro7/wifi-csi-activity-recognition)  
+**Maturity:** published software
+
+## [`industrialstats`](https://pypi.org/project/industrialstats/)
+
+[![PyPI](https://img.shields.io/pypi/v/industrialstats?label=PyPI)](https://pypi.org/project/industrialstats/) [![Python](https://img.shields.io/pypi/pyversions/industrialstats)](https://pypi.org/project/industrialstats/)
+
+Design of experiments for Python: seedable design generators with analysis, diagnostics and power.
+
+```bash
+pip install industrialstats
+```
+
+**Source:** [DiogoRibeiro7/industrialstats](https://github.com/DiogoRibeiro7/industrialstats)  
+**Maturity:** published software
+
+## [`dataexcept`](https://pypi.org/project/dataexcept/)
+
+[![PyPI](https://img.shields.io/pypi/v/dataexcept?label=PyPI)](https://pypi.org/project/dataexcept/) [![Python](https://img.shields.io/pypi/pyversions/dataexcept)](https://pypi.org/project/dataexcept/)
+
+Hierarchical exception types for data, ML and pipeline failures, with error context and picklable errors.
+
+```bash
+pip install dataexcept
+```
+
+**Source:** [DiogoRibeiro7/DataExcept](https://github.com/DiogoRibeiro7/DataExcept)  
+**Maturity:** published software
+
+## [`anomalybench`](https://pypi.org/project/anomalybench/)
+
+[![PyPI](https://img.shields.io/pypi/v/anomalybench?label=PyPI)](https://pypi.org/project/anomalybench/) [![Python](https://img.shields.io/pypi/pyversions/anomalybench)](https://pypi.org/project/anomalybench/)
+
+Anomaly-detection algorithms, benchmark dataset loaders and a CLI comparing detectors under one protocol.
+
+```bash
+pip install anomalybench
+```
+
+**Source:** [DiogoRibeiro7/anomalybench](https://github.com/DiogoRibeiro7/anomalybench)  
 **Maturity:** published software
 
 ---

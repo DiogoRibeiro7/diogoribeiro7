@@ -15,7 +15,7 @@
 
 # Outputs
 
-**32 substantial public artifacts are indexed here.**
+**35 substantial public artifacts are indexed here.**
 
 This is the broad output index, not a second Featured page. It includes published research software, paper/research programmes, empirical and replication studies, and decision/engineering artifacts that have a substantial inspectable result.
 
@@ -29,6 +29,9 @@ This is the broad output index, not a second Featured page. It includes publishe
 - **[pinn-rk](https://github.com/DiogoRibeiro7/pinn-rk)** — Runge-Kutta PINNs for time-discrete PDE learning. *([PyPI](https://pypi.org/project/pinn-rk/))*
 - **[tscv-vision](https://github.com/DiogoRibeiro7/tscv-vision)** — Computer-vision-inspired feature engineering for time series. *([PyPI](https://pypi.org/project/tscv-vision/))*
 - **[wifi-activity-recognition](https://github.com/DiogoRibeiro7/wifi-csi-activity-recognition)** — CSI-based human-activity recognition tooling. *([PyPI](https://pypi.org/project/wifi-activity-recognition/))*
+- **[industrialstats](https://github.com/DiogoRibeiro7/industrialstats)** — Reproducible experimental designs with analysis, diagnostics and power, validated against reference results. *([PyPI](https://pypi.org/project/industrialstats/) · DOI/archive metadata)*
+- **[DataExcept / dataexcept](https://github.com/DiogoRibeiro7/DataExcept)** — Structured exception layer for data-loading, export and operational failures in data and ML pipelines. *([PyPI](https://pypi.org/project/dataexcept/))*
+- **[anomalybench](https://github.com/DiogoRibeiro7/anomalybench)** — Detectors, benchmark dataset loaders and a CLI for comparing anomaly detection under one evaluation protocol. *([PyPI](https://pypi.org/project/anomalybench/) · DOI/archive metadata)*
 
 ## Research and paper programmes
 

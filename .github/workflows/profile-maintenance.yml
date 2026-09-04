@@ -1,6 +1,9 @@
 name: Profile maintenance
 
 on:
+  schedule:
+    # Weekly refresh so star counts and audits do not go stale between profile edits.
+    - cron: "17 6 * * 1"
   push:
     branches: [main]
     paths:

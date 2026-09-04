@@ -241,8 +241,11 @@ def check() -> int:
             errors.append(f"footnote claims a top {footnote.group('top')} but {TOP_N} rows are published")
         if int(footnote.group("total")) < TOP_N:
             errors.append("footnote denominator is smaller than the number of published rows")
-        if entries and CHART_PATH.read_text(encoding="utf-8") != render_svg(entries, int(footnote.group("total"))):
-            errors.append(f"{CHART_PATH} does not match the published table")
+        if entries:
+            if not CHART_PATH.exists():
+                errors.append(f"{CHART_PATH} is missing; regenerate it from the published table")
+            elif CHART_PATH.read_text(encoding="utf-8") != render_svg(entries, int(footnote.group("total"))):
+                errors.append(f"{CHART_PATH} does not match the published table")
 
     if errors:
         for error in errors:

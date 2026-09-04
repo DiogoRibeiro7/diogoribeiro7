@@ -305,7 +305,9 @@ def generate(result: AuditResult) -> None:
 def check(result: AuditResult) -> int:
     """Fail when either committed audit-derived output is stale."""
     errors: list[str] = []
-    if OUTPUT_PATH.read_text(encoding="utf-8") != _render_svg(result):
+    if not OUTPUT_PATH.exists():
+        errors.append(f"{OUTPUT_PATH} is missing; run this script with 'generate'")
+    elif OUTPUT_PATH.read_text(encoding="utf-8") != _render_svg(result):
         errors.append("assets/portfolio-evidence.svg is stale")
     if STATISTICS_PATH.read_text(encoding="utf-8") != _expected_statistics(result):
         errors.append("STATISTICS.md flagship engineering-control table is stale")

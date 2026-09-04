@@ -104,7 +104,7 @@ Current structural evidence across those 12 flagships:
 | Automated-test marker present | **12 / 12 (100%)** |
 | Dedicated documentation | **12 / 12 (100%)** |
 | Citation / archive metadata | **10 / 12 (83%)** |
-| Reproducibility-style assets | **8 / 12 (67%)** |
+| Reproducibility-style assets | **9 / 12 (75%)** |
 <!-- statistics:controls:end -->
 
 These are **structural controls**, not claims that every project is scientifically valid or production-ready. A test directory proves that tests exist, not that every possible failure mode is covered.

@@ -69,10 +69,10 @@ The **35 outputs** currently break down into:
 <!-- statistics:outputs:start -->
 | Output class | Count |
 | :-- | --: |
-| Published research software | **11** |
+| Published research software | **10** |
 | Research and paper programmes | **5** |
 | Empirical and replication studies | **9** |
-| Decision and engineering artifacts | **10** |
+| Decision and engineering artifacts | **11** |
 <!-- statistics:outputs:end -->
 
 This is an artifact count, not a repository count: a repository can legitimately produce more than one inspectable output.

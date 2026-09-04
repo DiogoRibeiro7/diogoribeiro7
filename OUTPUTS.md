@@ -30,7 +30,6 @@ This is the broad output index, not a second Featured page. It includes publishe
 - **[tscv-vision](https://github.com/DiogoRibeiro7/tscv-vision)** — Computer-vision-inspired feature engineering for time series. *([PyPI](https://pypi.org/project/tscv-vision/))*
 - **[wifi-activity-recognition](https://github.com/DiogoRibeiro7/wifi-csi-activity-recognition)** — CSI-based human-activity recognition tooling. *([PyPI](https://pypi.org/project/wifi-activity-recognition/))*
 - **[industrialstats](https://github.com/DiogoRibeiro7/industrialstats)** — Reproducible experimental designs with analysis, diagnostics and power, validated against reference results. *([PyPI](https://pypi.org/project/industrialstats/) · DOI/archive metadata)*
-- **[DataExcept / dataexcept](https://github.com/DiogoRibeiro7/DataExcept)** — Structured exception layer for data-loading, export and operational failures in data and ML pipelines. *([PyPI](https://pypi.org/project/dataexcept/))*
 - **[anomalybench](https://github.com/DiogoRibeiro7/anomalybench)** — Detectors, benchmark dataset loaders and a CLI for comparing anomaly detection under one evaluation protocol. *([PyPI](https://pypi.org/project/anomalybench/) · DOI/archive metadata)*
 
 ## Research and paper programmes
@@ -65,4 +64,5 @@ This is the broad output index, not a second Featured page. It includes publishe
 - **[RAGOps lab](https://github.com/DiogoRibeiro7/ragops-lab)** — Evaluation-first RAG with tracing, regression testing and cost-aware experiments.
 - **[LLM data platform](https://github.com/DiogoRibeiro7/llm-data-platform)** — Contract-linked ingestion, curation and observability for LLM datasets.
 - **[PyFlink fraud detection streaming](https://github.com/DiogoRibeiro7/pyflink-fraud-detection-streaming)** — Stateful streaming features with explainable fraud-risk scoring.
+- **[DataExcept / dataexcept](https://github.com/DiogoRibeiro7/DataExcept)** — Structured exception layer for data-loading, export and operational failures in data and ML pipelines. *([PyPI](https://pypi.org/project/dataexcept/))*
 

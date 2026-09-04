@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 860 474" role="img" aria-labelledby="title desc">
+<title id="title">Most-starred repositories</title>
+<desc id="desc">Star counts for the 10 most-starred of 205 public non-fork repositories.</desc>
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#c9d1d9}
+.muted{fill:#8b949e}.label{font-size:13px}.value{font-size:13px;font-weight:600}
+.title{font-size:20px;font-weight:700}.subtitle{font-size:13px}
+.track{fill:#21262d}.bar{fill:#58a6ff}
+@media (prefers-color-scheme: light){text{fill:#24292f}.muted{fill:#57606a}.track{fill:#d8dee4}.bar{fill:#0969da}}
+</style>
+<text x="24" y="30" class="title">Most-starred repositories</text>
+<text x="24" y="52" class="subtitle muted">Top 10 of 205 public non-fork repositories · 65 stars across them · attention, not evidence</text>
+<text x="24" y="88" class="label">bmssp</text>
+<rect x="300" y="74" width="496" height="18" rx="9" class="track"/>
+<rect x="300" y="74" width="496.0" height="18" rx="9" class="bar"/>
+<text x="842" y="88" text-anchor="end" class="value">26</text>
+<text x="24" y="126" class="label">esmad_public</text>
+<rect x="300" y="112" width="496" height="18" rx="9" class="track"/>
+<rect x="300" y="112" width="133.5" height="18" rx="9" class="bar"/>
+<text x="842" y="126" text-anchor="end" class="value">7</text>
+<text x="24" y="164" class="label">genSurvPy</text>
+<rect x="300" y="150" width="496" height="18" rx="9" class="track"/>
+<rect x="300" y="150" width="114.5" height="18" rx="9" class="bar"/>
+<text x="842" y="164" text-anchor="end" class="value">6</text>
+<text x="24" y="202" class="label">min_ratio_cycle</text>
+<rect x="300" y="188" width="496" height="18" rx="9" class="track"/>
+<rect x="300" y="188" width="114.5" height="18" rx="9" class="bar"/>
+<text x="842" y="202" text-anchor="end" class="value">6</text>
+<text x="24" y="240" class="label">heavytails</text>
+<rect x="300" y="226" width="496" height="18" rx="9" class="track"/>
+<rect x="300" y="226" width="76.3" height="18" rx="9" class="bar"/>
+<text x="842" y="240" text-anchor="end" class="value">4</text>
+<text x="24" y="278" class="label">Medium-Blog</text>
+<rect x="300" y="264" width="496" height="18" rx="9" class="track"/>
+<rect x="300" y="264" width="76.3" height="18" rx="9" class="bar"/>
+<text x="842" y="278" text-anchor="end" class="value">4</text>
+<text x="24" y="316" class="label">smart-todo-action</text>
+<rect x="300" y="302" width="496" height="18" rx="9" class="track"/>
+<rect x="300" y="302" width="76.3" height="18" rx="9" class="bar"/>
+<text x="842" y="316" text-anchor="end" class="value">4</text>
+<text x="24" y="354" class="label">causal-uplift-marketing-campaign</text>
+<rect x="300" y="340" width="496" height="18" rx="9" class="track"/>
+<rect x="300" y="340" width="57.2" height="18" rx="9" class="bar"/>
+<text x="842" y="354" text-anchor="end" class="value">3</text>
+<text x="24" y="392" class="label">nosql-databases-labs</text>
+<rect x="300" y="378" width="496" height="18" rx="9" class="track"/>
+<rect x="300" y="378" width="57.2" height="18" rx="9" class="bar"/>
+<text x="842" y="392" text-anchor="end" class="value">3</text>
+<text x="24" y="430" class="label">academic-presentations</text>
+<rect x="300" y="416" width="496" height="18" rx="9" class="track"/>
+<rect x="300" y="416" width="38.2" height="18" rx="9" class="bar"/>
+<text x="842" y="430" text-anchor="end" class="value">2</text>
+</svg>

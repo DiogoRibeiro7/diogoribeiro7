@@ -6,6 +6,7 @@ import argparse
 import json
 import os
 import re
+import time
 import urllib.error
 import urllib.request
 from dataclasses import dataclass
@@ -21,6 +22,8 @@ OUTPUT_PATH: Final[Path] = Path("assets/portfolio-evidence.svg")
 API_ROOT: Final[str] = "https://api.github.com"
 CONTROLS_START: Final[str] = "<!-- statistics:controls:start -->"
 CONTROLS_END: Final[str] = "<!-- statistics:controls:end -->"
+RETRYABLE_STATUS: Final[frozenset[int]] = frozenset({404, 429, 500, 502, 503, 504})
+FETCH_ATTEMPTS: Final[int] = 4
 
 
 @dataclass(frozen=True)
@@ -63,15 +66,30 @@ def _headers() -> dict[str, str]:
 
 
 def _get_json(url: str) -> object:
-    """Fetch and decode a GitHub API JSON response."""
-    request = urllib.request.Request(url, headers=_headers())
-    try:
-        with urllib.request.urlopen(request, timeout=30) as response:
-            return json.loads(response.read().decode("utf-8"))
-    except urllib.error.HTTPError as exc:
-        if exc.code == 404:
-            return []
-        raise RuntimeError(f"GitHub API request failed: {url} ({exc.code})") from exc
+    """Fetch and decode a GitHub API JSON response, retrying transient failures.
+
+    The contents endpoint answers both 5xx and spurious 404s during GitHub
+    incidents, including for repository roots that plainly exist. A 404 is
+    therefore retried rather than read as "this path is absent": every call site
+    here asks for a path already known to exist, so treating a blip as absence
+    silently publishes a repository as having no CI, tests or documentation.
+    A 404 that survives every attempt is a real anomaly and must fail loudly.
+    """
+    last_error: Exception | None = None
+    for attempt in range(FETCH_ATTEMPTS):
+        request = urllib.request.Request(url, headers=_headers())
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                return json.loads(response.read().decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            if exc.code not in RETRYABLE_STATUS:
+                raise RuntimeError(f"GitHub API request failed: {url} ({exc.code})") from exc
+            last_error = exc
+        except (urllib.error.URLError, TimeoutError) as exc:
+            last_error = exc
+        if attempt + 1 < FETCH_ATTEMPTS:
+            time.sleep(1.5 * (attempt + 1))
+    raise RuntimeError(f"GitHub API request failed after {FETCH_ATTEMPTS} attempts: {url} ({last_error})")
 
 
 def _contents(repo: str, path: str = "") -> list[dict[str, object]]:

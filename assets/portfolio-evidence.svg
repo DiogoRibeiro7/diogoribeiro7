@@ -28,7 +28,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#c9
 <text x="482" y="284" class="note">CITATION.cff or Zenodo metadata present</text>
 <rect x="24" y="326" width="420" height="104" rx="10" class="card"/>
 <text x="42" y="353" class="label">Reproducibility assets</text>
-<text x="42" y="385" class="value">8/12 · 67%</text>
+<text x="42" y="385" class="value">9/12 · 75%</text>
 <text x="42" y="408" class="note">experiments/results/data/config-style artifacts present</text>
 <rect x="464" y="326" width="420" height="104" rx="10" class="card"/>
 <text x="482" y="353" class="label">Real-data / empirical</text>

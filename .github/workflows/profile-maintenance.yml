@@ -17,6 +17,7 @@ on:
       - "scripts/generate_portfolio_metrics.py"
       - "scripts/generate_portfolio_overview.py"
       - "scripts/sync_statistics.py"
+      - "scripts/generate_star_metrics.py"
       - ".github/workflows/profile-maintenance.yml"
   workflow_dispatch:
 
@@ -56,6 +57,11 @@ jobs:
       - name: Synchronise Statistics tables
         run: python scripts/sync_statistics.py generate
 
+      - name: Refresh most-starred repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_star_metrics.py generate
+
       - name: Regenerate flagship engineering controls
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -68,6 +74,7 @@ jobs:
           python scripts/profile_maintenance.py check
           python scripts/sync_statistics.py check
           python scripts/generate_portfolio_metrics.py check
+          python scripts/generate_star_metrics.py check
 
       - name: Commit refreshed profile artifacts
         run: |

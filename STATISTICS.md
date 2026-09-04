@@ -145,6 +145,27 @@ Keeping those populations separate avoids a common portfolio-statistics mistake:
 
 Activity and popularity are useful context, but they are deliberately separated from the evidence above. Profile views, contribution badges and trophies do not establish modelling quality, scientific validity, production reliability, reproducibility or business impact.
 
+### Most-starred repositories
+
+Stars record attention, not correctness, reliability or reproducibility. They sit in this section, outside the evidence tables above, for reach context only.
+
+<!-- statistics:stars:start -->
+| Repository | Stars |
+| :-- | --: |
+| [bmssp](https://github.com/DiogoRibeiro7/bmssp) | **26** |
+| [esmad_public](https://github.com/DiogoRibeiro7/esmad_public) | **7** |
+| [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy) | **6** |
+| [min_ratio_cycle](https://github.com/DiogoRibeiro7/min_ratio_cycle) | **6** |
+| [heavytails](https://github.com/DiogoRibeiro7/heavytails) | **4** |
+| [Medium-Blog](https://github.com/DiogoRibeiro7/Medium-Blog) | **4** |
+| [smart-todo-action](https://github.com/DiogoRibeiro7/smart-todo-action) | **4** |
+| [causal-uplift-marketing-campaign](https://github.com/DiogoRibeiro7/causal-uplift-marketing-campaign) | **3** |
+| [nosql-databases-labs](https://github.com/DiogoRibeiro7/nosql-databases-labs) | **3** |
+| [academic-presentations](https://github.com/DiogoRibeiro7/academic-presentations) | **2** |
+
+_Top 10 of 205 public non-fork repositories · counts fetched 2026-09-04 · ties broken alphabetically._
+<!-- statistics:stars:end -->
+
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=DiogoRibeiro7&label=Profile%20views&color=30363D&style=for-the-badge" alt="Profile views" />
 </div>

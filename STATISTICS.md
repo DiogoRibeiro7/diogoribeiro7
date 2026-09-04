@@ -149,6 +149,10 @@ Activity and popularity are useful context, but they are deliberately separated 
 
 Stars record attention, not correctness, reliability or reproducibility. They sit in this section, outside the evidence tables above, for reach context only.
 
+<p align="center">
+  <img src="assets/star-metrics.svg" alt="Bar chart of star counts for the ten most-starred public repositories" width="100%" />
+</p>
+
 <!-- statistics:stars:start -->
 | Repository | Stars |
 | :-- | --: |

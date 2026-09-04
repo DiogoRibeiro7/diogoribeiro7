@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import html
 import json
 import os
 import re
@@ -17,6 +18,7 @@ from typing import Final
 OWNER: Final[str] = "DiogoRibeiro7"
 TOP_N: Final[int] = 10
 STATISTICS_PATH: Final[Path] = Path("STATISTICS.md")
+CHART_PATH: Final[Path] = Path("assets/star-metrics.svg")
 API_ROOT: Final[str] = "https://api.github.com"
 STARS_START: Final[str] = "<!-- statistics:stars:start -->"
 STARS_END: Final[str] = "<!-- statistics:stars:end -->"
@@ -121,6 +123,59 @@ def render_table(top: list[Repository], total: int, fetched_on: dt.date) -> str:
     return "\n".join(rows)
 
 
+def render_svg(top: list[Repository], total: int) -> str:
+    """Render the most-starred repositories as a horizontal-bar chart.
+
+    Drawn from the published table rather than from live data, so the chart and
+    the table can never disagree, and so the check below stays offline.
+    """
+    if not top:
+        raise ValueError("Cannot render a star chart with no repositories.")
+
+    width = 860
+    left = 300
+    right = 64
+    header = 74
+    row_height = 38
+    bar_height = 18
+    chart_width = width - left - right
+    height = header + len(top) * row_height + 20
+    maximum = max(repo.stars for repo in top)
+    counted = sum(repo.stars for repo in top)
+
+    elements = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
+        '<title id="title">Most-starred repositories</title>',
+        f'<desc id="desc">Star counts for the {len(top)} most-starred of {total} public non-fork repositories.</desc>',
+        '<style>',
+        'text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#c9d1d9}',
+        '.muted{fill:#8b949e}.label{font-size:13px}.value{font-size:13px;font-weight:600}',
+        '.title{font-size:20px;font-weight:700}.subtitle{font-size:13px}',
+        '.track{fill:#21262d}.bar{fill:#58a6ff}',
+        '@media (prefers-color-scheme: light){text{fill:#24292f}.muted{fill:#57606a}'
+        '.track{fill:#d8dee4}.bar{fill:#0969da}}',
+        '</style>',
+        '<text x="24" y="30" class="title">Most-starred repositories</text>',
+        f'<text x="24" y="52" class="subtitle muted">Top {len(top)} of {total} public non-fork repositories · '
+        f'{counted} stars across them · attention, not evidence</text>',
+    ]
+
+    for index, repo in enumerate(top):
+        y = header + index * row_height
+        bar_width = chart_width * repo.stars / maximum if maximum else 0
+        elements.extend(
+            [
+                f'<text x="24" y="{y + 14}" class="label">{html.escape(repo.name)}</text>',
+                f'<rect x="{left}" y="{y}" width="{chart_width}" height="{bar_height}" rx="9" class="track"/>',
+                f'<rect x="{left}" y="{y}" width="{bar_width:.1f}" height="{bar_height}" rx="9" class="bar"/>',
+                f'<text x="{width - 18}" y="{y + 14}" text-anchor="end" class="value">{repo.stars}</text>',
+            ]
+        )
+
+    elements.append("</svg>")
+    return "\n".join(elements) + "\n"
+
+
 def _replace_stars(text: str, replacement: str) -> str:
     """Replace exactly one generated most-starred block."""
     pattern = re.compile(re.escape(STARS_START) + r".*?" + re.escape(STARS_END), re.DOTALL)
@@ -140,10 +195,13 @@ def _extract_block(text: str) -> list[str]:
 
 
 def generate() -> None:
-    """Fetch live star counts and rewrite the committed table."""
+    """Fetch live star counts and rewrite the committed table and chart."""
     repositories = fetch_repositories()
-    table = render_table(top_repositories(repositories), len(repositories), dt.date.today())
+    top = top_repositories(repositories)
+    table = render_table(top, len(repositories), dt.date.today())
     STATISTICS_PATH.write_text(_replace_stars(STATISTICS_PATH.read_text(encoding="utf-8"), table), encoding="utf-8")
+    CHART_PATH.parent.mkdir(parents=True, exist_ok=True)
+    CHART_PATH.write_text(render_svg(top, len(repositories)), encoding="utf-8")
 
 
 def check() -> int:
@@ -183,13 +241,18 @@ def check() -> int:
             errors.append(f"footnote claims a top {footnote.group('top')} but {TOP_N} rows are published")
         if int(footnote.group("total")) < TOP_N:
             errors.append("footnote denominator is smaller than the number of published rows")
+        if entries:
+            if not CHART_PATH.exists():
+                errors.append(f"{CHART_PATH} is missing; regenerate it from the published table")
+            elif CHART_PATH.read_text(encoding="utf-8") != render_svg(entries, int(footnote.group("total"))):
+                errors.append(f"{CHART_PATH} does not match the published table")
 
     if errors:
         for error in errors:
             print(f"ERROR: {error}")
         return 1
 
-    print(f"Most-starred repository table is well-formed ({TOP_N} rows, correctly ordered).")
+    print(f"Most-starred repository table is well-formed ({TOP_N} rows, correctly ordered) and matches its chart.")
     return 0
 
 

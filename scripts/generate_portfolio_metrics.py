@@ -227,7 +227,7 @@ def _render_svg(result: AuditResult) -> str:
     height = 90 + rows * (card_h + gap) + 42
 
     parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">',
         '<title id="title">Flagship portfolio evidence metrics</title>',
         f'<desc id="desc">Evidence metrics computed across {result.total} flagship repositories.</desc>',
         '<style>',
@@ -235,8 +235,9 @@ def _render_svg(result: AuditResult) -> str:
         '.title{font-size:24px;font-weight:700}.sub{font-size:13px;fill:#8b949e}',
         '.card{fill:#161b22;stroke:#30363d;stroke-width:1}.label{font-size:14px;font-weight:600}',
         '.value{font-size:24px;font-weight:700;fill:#58a6ff}.note{font-size:11px;fill:#8b949e}',
+        '@media (prefers-color-scheme: light){text{fill:#24292f}.sub,.note{fill:#57606a}'
+        '.card{fill:#f6f8fa;stroke:#d0d7de}.value{fill:#0969da}}',
         '</style>',
-        '<rect width="100%" height="100%" rx="12" fill="#0d1117"/>',
         '<text x="24" y="34" class="title">Flagship portfolio evidence</text>',
         f'<text x="24" y="58" class="sub">Audited across {result.total} featured repositories · structural signals, not popularity metrics</text>',
     ]
@@ -304,7 +305,9 @@ def generate(result: AuditResult) -> None:
 def check(result: AuditResult) -> int:
     """Fail when either committed audit-derived output is stale."""
     errors: list[str] = []
-    if OUTPUT_PATH.read_text(encoding="utf-8") != _render_svg(result):
+    if not OUTPUT_PATH.exists():
+        errors.append(f"{OUTPUT_PATH} is missing; run this script with 'generate'")
+    elif OUTPUT_PATH.read_text(encoding="utf-8") != _render_svg(result):
         errors.append("assets/portfolio-evidence.svg is stale")
     if STATISTICS_PATH.read_text(encoding="utf-8") != _expected_statistics(result):
         errors.append("STATISTICS.md flagship engineering-control table is stale")

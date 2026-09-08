@@ -186,8 +186,50 @@ _Top 10 of 208 public non-fork repositories · counts fetched 2026-09-07 · ties
 <br>
 
 <div align="center">
+  <a href="https://user-badge.committers.top/portugal/DiogoRibeiro7">
+    <img src="https://user-badge.committers.top/portugal/DiogoRibeiro7.svg" alt="committers.top Portugal public-contribution rank" />
+  </a>
   <a href="https://user-badge.committers.top/portugal_private/DiogoRibeiro7">
-    <img src="https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg" alt="committers.top badge"/>
+    <img src="https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg" alt="committers.top Portugal total-contribution rank" />
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <a href="https://gitranks.com/profile/DiogoRibeiro7">
+    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=s&context=global&type=position&meta=none&label=Global%20Stars&cornerStyle=rounded" alt="GitRanks global stars rank" />
+  </a>
+  <a href="https://gitranks.com/profile/DiogoRibeiro7">
+    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=s&context=country&type=position&meta=none&label=Portugal%20Stars&cornerStyle=rounded" alt="GitRanks Portugal stars rank" />
+  </a>
+  <a href="https://gitranks.com/profile/DiogoRibeiro7">
+    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=c&context=global&type=position&meta=none&label=Global%20Contributor&cornerStyle=rounded" alt="GitRanks global contributor rank" />
+  </a>
+  <a href="https://gitranks.com/profile/DiogoRibeiro7">
+    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=c&context=country&type=position&meta=none&label=Portugal%20Contributor&cornerStyle=rounded" alt="GitRanks Portugal contributor rank" />
+  </a>
+  <a href="https://gitranks.com/profile/DiogoRibeiro7">
+    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=f&context=global&type=position&meta=none&label=Global%20Followers&cornerStyle=rounded" alt="GitRanks global followers rank" />
+  </a>
+  <a href="https://gitranks.com/profile/DiogoRibeiro7">
+    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=f&context=country&type=position&meta=none&label=Portugal%20Followers&cornerStyle=rounded" alt="GitRanks Portugal followers rank" />
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <a href="https://github-ranked.vercel.app/DiogoRibeiro7">
+    <img src="https://github-ranked.vercel.app/api/rank/DiogoRibeiro7?theme=minimal" alt="GitHub Ranked competitive tier" />
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <a href="https://gitscore.mateusz-szostak1.workers.dev/?u=DiogoRibeiro7">
+    <img src="https://gitscore.mateusz-szostak1.workers.dev/api/badge/DiogoRibeiro7" alt="GitScore profile score" />
   </a>
 </div>
 

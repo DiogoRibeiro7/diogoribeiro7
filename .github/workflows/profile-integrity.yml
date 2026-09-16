@@ -30,11 +30,13 @@ jobs:
           python scripts/profile_maintenance.py generate
           python scripts/normalize_readme_layout.py
           python scripts/sync_readme_snapshot.py generate
+          python scripts/sync_projects_index.py generate
           python scripts/generate_portfolio_overview.py
           python scripts/generate_topic_statistics.py
           python scripts/sync_statistics.py generate
           python scripts/profile_maintenance.py check
           python scripts/sync_readme_snapshot.py check
+          python scripts/sync_projects_index.py check
           python scripts/sync_statistics.py check
 
       - name: Validate flagship engineering controls
@@ -51,4 +53,4 @@ jobs:
         run: python scripts/check_external_inventory.py
 
       - name: Check Python syntax
-        run: python -m py_compile scripts/profile_maintenance.py scripts/normalize_readme_layout.py scripts/sync_readme_snapshot.py scripts/check_external_inventory.py scripts/generate_portfolio_overview.py scripts/generate_topic_statistics.py scripts/generate_portfolio_metrics.py scripts/sync_statistics.py scripts/generate_star_metrics.py
+        run: python -m py_compile scripts/profile_maintenance.py scripts/normalize_readme_layout.py scripts/sync_readme_snapshot.py scripts/sync_projects_index.py scripts/check_external_inventory.py scripts/generate_portfolio_overview.py scripts/generate_topic_statistics.py scripts/generate_portfolio_metrics.py scripts/sync_statistics.py scripts/generate_star_metrics.py

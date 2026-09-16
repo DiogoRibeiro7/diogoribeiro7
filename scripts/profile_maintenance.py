@@ -49,6 +49,21 @@ CASE_STUDY_ROUTES = {
     },
 }
 
+OUTPUT_TYPE_PURPOSE = {
+    "Published research software": (
+        "Installable methods and research tooling with inspectable release evidence."
+    ),
+    "Research and paper programmes": (
+        "Active research questions with public code, data pipelines or manuscript evidence."
+    ),
+    "Empirical and replication studies": (
+        "Falsifiable analyses built around real data, explicit baselines and provenance."
+    ),
+    "Decision and engineering artifacts": (
+        "Systems where modelling is connected to serving, operations or an explicit decision rule."
+    ),
+}
+
 
 def load_manifest() -> dict:
     """Load the canonical portfolio manifest."""
@@ -176,11 +191,35 @@ def render_pypi(manifest: dict) -> str:
     return "\n".join(body) + "\n"
 
 
+def output_evidence(item: dict) -> str:
+    """Summarise concrete public evidence attached to an output record."""
+    signals: list[str] = []
+    if item.get("pypi"):
+        signals.append(f'[PyPI](https://pypi.org/project/{item["pypi"]}/)')
+    if item.get("doi"):
+        signals.append("DOI/archive metadata")
+    if item.get("path"):
+        signals.append("dedicated research path")
+    if not signals:
+        signals.append("repository artifact")
+    return " · ".join(signals)
+
+
 def render_outputs(manifest: dict) -> str:
-    """Render the generated outputs index."""
+    """Render outputs as an evidence index rather than a flat artifact list."""
     groups: dict[str, list[dict]] = {}
     for item in manifest["outputs"]:
         groups.setdefault(item["type"], []).append(item)
+
+    projects = {project["repo"]: project for project in manifest["projects"]}
+    unknown_output_repos = sorted(
+        {item["repo"] for item in manifest["outputs"]} - set(projects)
+    )
+    if unknown_output_repos:
+        raise ValueError(
+            f"Output repositories missing project metadata: {unknown_output_repos}"
+        )
+
     body = [
         nav_html("OUTPUTS.md", manifest),
         "",
@@ -190,25 +229,58 @@ def render_outputs(manifest: dict) -> str:
         "",
         f'**{len(manifest["outputs"])} substantial public artifacts are indexed here.**',
         "",
-        "This is the broad output index, not a second Featured page. It includes published research software, paper/research programmes, empirical and replication studies, and decision/engineering artifacts that have a substantial inspectable result.",
+        "This page answers a narrower question than Projects: **what inspectable thing did the work produce?** Output class, repository maturity and release evidence are kept separate so a published package, an empirical study, an active research programme and a production-style system are not presented as equivalent signals.",
         "",
+        "## Evidence index",
+        "",
+        "| Output class | Count | What to inspect |",
+        "| :-- | --: | :-- |",
     ]
+
     for kind, items in groups.items():
-        body.extend([f"## {kind}", ""])
+        purpose = OUTPUT_TYPE_PURPOSE.get(
+            kind, "Inspectable public artifacts in this output class."
+        )
+        body.append(f"| **{kind}** | **{len(items)}** | {purpose} |")
+
+    body.extend(
+        [
+            "",
+            "The sections below remain generated from `data/portfolio.json`. Maturity comes from the corresponding project record; release signals come from the output record itself.",
+            "",
+        ]
+    )
+
+    for kind, items in groups.items():
+        body.extend(
+            [
+                f"## {kind}",
+                "",
+                OUTPUT_TYPE_PURPOSE.get(
+                    kind, "Inspectable public artifacts in this output class."
+                ),
+                "",
+                "| Artifact | Repository maturity | Public evidence | What it demonstrates |",
+                "| :-- | :-- | :-- | :-- |",
+            ]
+        )
         for item in items:
+            project = projects[item["repo"]]
             url = project_url(item["repo"], item.get("path"), item.get("ref", "main"))
-            suffix = []
-            if item.get("pypi"):
-                suffix.append(f'[PyPI](https://pypi.org/project/{item["pypi"]}/)')
-            if item.get("doi"):
-                suffix.append("DOI/archive metadata")
-            meta = " · ".join(suffix)
+            evidence = output_evidence(item)
             description = item.get("summary", "")
-            tail = f" — {description}" if description else ""
-            if meta:
-                tail += f" *({meta})*"
-            body.append(f'- **[{item["title"]}]({url})**{tail}')
+            body.append(
+                f'| **[{item["title"]}]({url})** | {project["maturity"]} | {evidence} | {description} |'
+            )
         body.append("")
+
+    body.extend(
+        [
+            "---",
+            "",
+            "For a shorter reviewer-oriented cross-section, start with **[Featured](FEATURED.md)**. For end-to-end reasoning from problem to outcome, use **[Case Studies](CASE_STUDIES.md)**. Published Python packages are collected separately on **[PyPI](PYPI.md)**.",
+        ]
+    )
     return "\n".join(body) + "\n"
 
 
@@ -257,7 +329,7 @@ def render_case_studies(manifest: dict) -> str:
             title = case.get("title", repo)
             body.extend(
                 [
-                    f'### [{title}]({url})',
+                    f"### [{title}]({url})",
                     "",
                     f'**Domain.** {case.get("domain", "Other")}',
                     "",
@@ -333,6 +405,11 @@ def check(manifest: dict) -> list[str]:
     output_keys = [(item["repo"], item.get("path"), item["title"]) for item in manifest["outputs"]]
     if len(output_keys) != len(set(output_keys)):
         errors.append("duplicate output entries")
+    unknown_output_repos = sorted(
+        {item["repo"] for item in manifest["outputs"]} - set(repos)
+    )
+    if unknown_output_repos:
+        errors.append(f"output repositories missing from project inventory: {unknown_output_repos}")
     case_titles = [case.get("title", case["repo"]) for case in manifest["case_studies"]]
     if len(case_titles) != len(set(case_titles)):
         errors.append("duplicate case-study titles")

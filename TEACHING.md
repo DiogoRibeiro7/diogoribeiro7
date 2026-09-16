@@ -53,7 +53,7 @@ The public repositories are not decorative companions to the courses. They conta
 
 I also teach shorter sessions where the objective is to connect mathematical or statistical ideas to an operational workflow. Typical subjects include statistical modelling and experimentation, forecasting and anomaly detection, data science and MLOps, graph analytics, sensor data systems, and reliable LLM/RAG evaluation.
 
-For guest lectures, workshops, course collaboration, or supervision enquiries, contact me by [email](mailto:diogo.debastos.ribeiro@gmail.com) or [LinkedIn](https://www.linkedin.com/in/diogo-ribeiro-9094604a/).
+For guest lectures, workshops, course collaboration, or supervision enquiries: [Email](mailto:diogo.debastos.ribeiro@gmail.com) · [LinkedIn](https://www.linkedin.com/in/diogo-ribeiro-9094604a/) · [Website](https://diogoribeiro7.github.io) · [ORCID](https://orcid.org/0009-0001-2022-7072).
 
 ---
 

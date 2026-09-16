@@ -88,16 +88,19 @@ These figures are generated from the same canonical portfolio data used by [Stat
 
 I teach mathematics and data subjects at the **Faculty of Media Arts and Design, Technical University of Porto** and work across statistical modelling, production AI, forecasting, optimisation, research software, and reproducible applied research.
 
-For collaboration, research, or professional enquiries, a short note describing the problem, constraints, and expected outcome is the best starting point.
+For collaboration, research, or professional enquiries, a short note describing the problem, constraints, and expected outcome is the best starting point. Longer-form technical writing and research notes live on my **[website](https://diogoribeiro7.github.io)**.
 
 <div align="center">
   <a href="mailto:diogo.debastos.ribeiro@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
   <a href="https://www.linkedin.com/in/diogo-ribeiro-9094604a/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://medium.com/@neverforget-1975">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium" />
+  <a href="https://diogoribeiro7.github.io">
+    <img src="https://img.shields.io/badge/Website-181717?style=for-the-badge&logo=githubpages&logoColor=white" alt="Website" />
+  </a>
+  <a href="https://orcid.org/0009-0001-2022-7072">
+    <img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" />
   </a>
 </div>

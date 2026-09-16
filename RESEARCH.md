@@ -71,7 +71,7 @@ That usually means typed pipelines, tests for transformations, CI, fixed experim
 
 Public examples include [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy), [setqca](https://github.com/DiogoRibeiro7/setqca-python), [behavioral-sensing-research](https://github.com/DiogoRibeiro7/behavioral-sensing-research), [portugal-public-pension-financing](https://github.com/DiogoRibeiro7/portugal-public-pension-financing), and [short-rate-anomaly-regimes](https://github.com/DiogoRibeiro7/short-rate-anomaly-regimes).
 
-For released software and citable artifacts, see **[Outputs](OUTPUTS.md)** and **[PyPI](PYPI.md)**. For the modelling choices behind the work, see **[Methods](METHODS.md)**.
+For released software and citable artifacts, see **[Outputs](OUTPUTS.md)** and **[PyPI](PYPI.md)**. For the modelling choices behind the work, see **[Methods](METHODS.md)**. Longer-form notes and essays live on my **[website](https://diogoribeiro7.github.io)**.
 
 ---
 
@@ -81,7 +81,7 @@ I am most interested in collaborations where the technical problem is clear enou
 
 The best starting point is a short description of the research question, available data, constraints, and what would count as convincing evidence.
 
-**Contact:** [diogo.debastos.ribeiro@gmail.com](mailto:diogo.debastos.ribeiro@gmail.com) · [LinkedIn](https://www.linkedin.com/in/diogo-ribeiro-9094604a/)
+**Contact:** [Email](mailto:diogo.debastos.ribeiro@gmail.com) · [LinkedIn](https://www.linkedin.com/in/diogo-ribeiro-9094604a/) · [Website](https://diogoribeiro7.github.io) · [ORCID](https://orcid.org/0009-0001-2022-7072)
 
 ---
 

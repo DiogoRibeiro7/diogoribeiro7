@@ -27,6 +27,22 @@ NAV_PATTERN = re.compile(
 )
 FEATURED_REPO_PATTERN = re.compile(r"https://github\.com/DiogoRibeiro7/([^/)#]+)")
 
+PRIMARY_NAVIGATION = (
+    ("Home", "README.md"),
+    ("Featured", "FEATURED.md"),
+    ("Projects", "PROJECTS.md"),
+    ("Methods", "METHODS.md"),
+    ("Research", "RESEARCH.md"),
+    ("Evidence", "STATISTICS.md"),
+)
+
+SECONDARY_PAGE_LABELS = {
+    "OUTPUTS.md": "Outputs",
+    "CASE_STUDIES.md": "Case Studies",
+    "TEACHING.md": "Teaching",
+    "PYPI.md": "PyPI",
+}
+
 CASE_STUDY_ROUTES = {
     "System reliability & production": {
         "Production AI",
@@ -70,22 +86,40 @@ def load_manifest() -> dict:
     return json.loads(MANIFEST.read_text(encoding="utf-8"))
 
 
+def _nav_badge(label: str, target: str, *, active: bool) -> str:
+    """Render one navigation badge."""
+    colour = "1F6FEB" if active else "30363D"
+    logo = "&logo=pypi&logoColor=white" if label == "PyPI" else ""
+    alt = f"{label} (current page)" if active else label
+    badge_label = label.replace(" ", "%20")
+    img = (
+        f'<img src="https://img.shields.io/badge/{badge_label}-{colour}'
+        f'?style=for-the-badge{logo}" alt="{alt}" />'
+    )
+    if active:
+        return img
+    return (
+        f'<a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/{target}">'
+        f"{img}</a>"
+    )
+
+
 def nav_html(current: str, manifest: dict) -> str:
-    """Render the canonical navigation badges for one page."""
+    """Render compact primary navigation plus secondary current-page context."""
+    page_targets = {target for _, target in manifest["navigation"]}
+    primary_targets = {target for _, target in PRIMARY_NAVIGATION}
+    if not primary_targets.issubset(page_targets):
+        missing = sorted(primary_targets - page_targets)
+        raise ValueError(f"Primary navigation targets missing from manifest: {missing}")
+
     chunks = ['<div align="center">']
-    for label, target in manifest["navigation"]:
-        active = target == current
-        colour = "1F6FEB" if active else "30363D"
-        logo = "&logo=pypi&logoColor=white" if label == "PyPI" else ""
-        alt = f"{label} (current page)" if active else label
-        badge_label = label.replace(" ", "%20")
-        img = f'<img src="https://img.shields.io/badge/{badge_label}-{colour}?style=for-the-badge{logo}" alt="{alt}" />'
-        if active:
-            chunks.append(f"  {img}")
-        else:
-            chunks.append(
-                f'  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/{target}">{img}</a>'
-            )
+    for label, target in PRIMARY_NAVIGATION:
+        chunks.append(f"  {_nav_badge(label, target, active=target == current)}")
+
+    if current in SECONDARY_PAGE_LABELS:
+        label = SECONDARY_PAGE_LABELS[current]
+        chunks.append(f"  {_nav_badge(label, current, active=True)}")
+
     chunks.append("</div>")
     return "\n".join(chunks)
 

@@ -7,22 +7,10 @@ on:
   push:
     branches: [main]
     paths:
-      - "data/portfolio.json"
-      - "PROJECTS.md"
-      - "README.md"
-      - "METHODS.md"
-      - "RESEARCH.md"
-      - "TEACHING.md"
-      - "STATISTICS.md"
-      - "scripts/profile_maintenance.py"
-      - "scripts/normalize_readme_layout.py"
-      - "scripts/sync_readme_snapshot.py"
-      - "scripts/sync_projects_index.py"
-      - "scripts/generate_topic_statistics.py"
-      - "scripts/generate_portfolio_metrics.py"
-      - "scripts/generate_portfolio_overview.py"
-      - "scripts/sync_statistics.py"
-      - "scripts/generate_star_metrics.py"
+      - "*.md"
+      - "data/**"
+      - "scripts/**"
+      - "assets/**"
       - ".github/workflows/profile-maintenance.yml"
   workflow_dispatch:
 
@@ -78,7 +66,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_portfolio_metrics.py generate
 
-      - name: Validate generated state
+      - name: Validate generated and public state
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -88,6 +76,7 @@ jobs:
           python scripts/sync_statistics.py check
           python scripts/generate_portfolio_metrics.py check
           python scripts/generate_star_metrics.py check
+          python scripts/check_external_inventory.py
 
       - name: Commit refreshed profile artifacts
         run: |

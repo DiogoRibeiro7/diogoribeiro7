@@ -13,95 +13,131 @@
 
 ---
 
-# Skills & Modelling Toolbox
+# Methods
 
-The tools I build with, and the model families I reach for. I choose for interpretability and calibration first, then accuracy — and I benchmark rather than assume.
+I do not start from a preferred algorithm. I start from the question, the data-generating process, the decision that follows from the estimate, and the failure modes that would make the result misleading.
 
-- [Domains](#domains)
-- [Technical Skills](#technical-skills)
-- [Modelling Toolbox](#modelling-toolbox)
+My default sequence is:
 
----
+1. define the estimand or decision target;
+2. establish the simplest defensible baseline;
+3. choose validation that matches the data-generating process;
+4. quantify uncertainty, calibration and failure modes;
+5. add complexity only when it improves the decision or the scientific claim;
+6. make the result reproducible enough that another person can inspect the chain.
 
-## Domains
-
-- **Production AI & LLM systems**  
-  RAG pipelines, agentic workflows, MCP servers, structured outputs, evaluation loops, and audit-friendly narrative reporting — plus parameter-efficient fine-tuning (LoRA/QLoRA) judged on execution-grounded accuracy rather than text similarity, and guardrails for PII redaction and prompt injection. Designed for reliability, observability, and CI from the start.
-- **Data science & statistical modelling**  
-  The full toolkit: supervised and unsupervised learning, causal inference and experimentation, survival analysis, Bayesian modelling, and robust/heavy-tailed statistics.  
-  With a working emphasis on the parts most people skip — uncertainty quantification and calibration, class imbalance, cost-sensitive decision thresholds, power analysis and variance reduction, interpretability and fairness, leakage and drift checks, and honest model selection under real-world noise.
-- **Forecasting, anomaly detection & reliability under shift**  
-  Classical and foundation-model time series (SARIMAX/Prophet through Chronos and masked-patch transformers), conformal prediction intervals, change-point and rare-event detection, extreme-value methods for pre-failure signals, and drift monitoring for operational and sensor-driven systems — extending into selective prediction, where a model with poor source–target overlap abstains instead of guessing.
-- **Econometrics & reproducible policy research**  
-  Panel and causal models, event studies, synthetic control, configurational methods (csQCA/fsQCA), and Monte Carlo simulation over open economic data (Eurostat, OECD, AMECO, WID, INE/PORDATA, FRED) — including replication and extension of published results under explicit provenance labels, and methodological audits that separate accounting boundaries, cash flows, and actuarial liabilities before any number is called a deficit or a subsidy.
-- **Optimisation & decision systems**  
-  Turning forecasts into decisions: MILP unit commitment for hybrid power systems, perishable inventory and replenishment policy, project scheduling under financial and fuzzy uncertainty, and cost-weighted operating thresholds.
-- **Dynamical systems & scientific computing**  
-  Attractor dynamics, dynamical-systems econometrics, extreme-value and large-deviation methods, physics-informed neural networks and PDE solvers, neural operators for geophysical fields, and exact algorithmic solvers.
-- **Data & ML engineering**  
-  Contract-linked ingestion, dataset curation, streaming and lakehouse patterns, and reproducible project scaffolding.
+The sections below map common problem types to the modelling approaches I usually consider, the checks I care about, and public work where those choices are visible.
 
 ---
 
-## Technical Skills
+## Problem → method → evidence
 
-- **Programming** — Python (typed, NumPy-first), SQL, R, TypeScript, Bash/Zsh, C, Fortran
-- **AI / LLM** — RAG, agent orchestration, structured outputs, evaluation harnesses; HuggingFace fine-tuning; prompt contracts and audit trails
-- **ML / Data** — NumPy, Pandas, Polars, FireDucks; scikit-learn, XGBoost/LightGBM; PyTorch, TensorFlow; Statsmodels, PyMC, Pyomo
-- **Research packaging** — Publishing methods as installable, documented libraries (PyPI, Poetry) with Zenodo DOIs, validation against reference implementations, and release gates
-- **Data Eng & Streaming** — Apache Kafka, Flink, Spark, Databricks; Arrow/Parquet; Apache Iceberg (lakehouse)
-- **Cloud & Storage** — AWS S3, DynamoDB; PostgreSQL/PostGIS, MySQL, SQLite; MongoDB, InfluxDB, TimescaleDB
-- **DevEx & CI/CD** — Docker; GitHub Actions (incl. custom/composite actions), Jenkins; Poetry; pre-commit (ruff, mypy, pytest-cov); semantic versioning
-- **Testing & Quality** — pytest, coverage, property-based tests (hypothesis); static typing; security linting (bandit)
+| Problem | Default modelling direction | Reliability checks | Public evidence |
+| :-- | :-- | :-- | :-- |
+| **Probabilistic forecasting** | Classical time-series and state-space baselines first; global ML or foundation models only when they earn the additional complexity | rolling-origin evaluation, interval calibration, leakage checks, regime sensitivity, decision-level validation | [clinic-forecasting-platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform), [csp_forecast_package](https://github.com/DiogoRibeiro7/csp_forecast_package), [ds-projects-portfolio](https://github.com/DiogoRibeiro7/ds-projects-portfolio) |
+| **Risk classification under asymmetric costs** | Calibrated probabilistic models and explicit operating thresholds rather than accuracy-first classification | temporal validation, class imbalance, calibration, cost curves, drift and threshold stability | [transaction-risk-lakehouse](https://github.com/DiogoRibeiro7/transaction-risk-lakehouse), [scania-aps-cost](https://github.com/DiogoRibeiro7/scania-aps-cost), [fastapi-ml-platform](https://github.com/DiogoRibeiro7/fastapi-ml-platform) |
+| **Survival and event-history modelling** | Kaplan–Meier and Cox as structural baselines, then parametric, multistate or robust alternatives when the estimand requires them | censoring assumptions, calibration versus discrimination, known-truth simulation, model misspecification | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy), [drl-cox](https://github.com/DiogoRibeiro7/drl-cox) |
+| **Causal and policy questions** | Identification strategy before estimator; panel, event-study, synthetic-control or weighting methods chosen from design constraints | pre-trends, overlap, placebo and falsification tests, sensitivity to specification and measurement definitions | [portugal-minimum-wage-inflation](https://github.com/DiogoRibeiro7/portugal-minimum-wage-inflation), [gdp-wage-transmission](https://github.com/DiogoRibeiro7/gdp-wage-transmission), [causal-uplift-marketing-campaign](https://github.com/DiogoRibeiro7/causal-uplift-marketing-campaign) |
+| **Configurational / comparative inference** | csQCA or fsQCA when conjunctural causation and equifinality are part of the question | calibration sensitivity, consistency and coverage, exact minimisation, cross-checks against reference implementations | [setqca](https://github.com/DiogoRibeiro7/setqca-python), [europe-fsqca-innovation](https://github.com/DiogoRibeiro7/europe-fsqca-innovation) |
+| **Anomaly, change and failure detection** | Robust statistical or change-point methods first; representation learning only when the signal structure justifies it | false-alarm control, rare-event behaviour, contamination robustness, shift sensitivity, abstention | [anomalybench](https://github.com/DiogoRibeiro7/anomalybench), [behavioral-sensing-research](https://github.com/DiogoRibeiro7/behavioral-sensing-research), [PSOD](https://github.com/DiogoRibeiro7/PSOD) |
+| **RAG / LLM systems** | Retrieval quality and task-grounded evaluation before prompt complexity or agent orchestration | groundedness, retrieval recall, execution accuracy, regression suites, prompt injection and PII controls, tracing and cost | [feedback-intelligence-agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent), [ragops-lab](https://github.com/DiogoRibeiro7/ragops-lab), [qwen-text2sql-lab](https://github.com/DiogoRibeiro7/qwen-text2sql-lab) |
+| **Optimisation and decision systems** | Separate prediction from policy; formulate the actual constraints and objective explicitly | feasibility, sensitivity to forecasts and costs, scenario stress tests, out-of-sample decision quality | [energy-system-simulator](https://github.com/DiogoRibeiro7/energy-system-simulator), [perishable-inventory-decision-lab](https://github.com/DiogoRibeiro7/perishable-inventory-decision-lab), [rcpsp_cf_ivfth](https://github.com/DiogoRibeiro7/rcpsp_cf_ivfth) |
+| **Scientific machine learning** | Exact or numerical baseline first; neural approximations only when they solve a real computational or inverse problem | known-solution benchmarks, discretisation error, convergence, sensitivity to sampling and optimisation | [pinn](https://github.com/DiogoRibeiro7/pinn), [pinn-rk](https://github.com/DiogoRibeiro7/pinn-rk), [oisst-fourier-neural-operator](https://github.com/DiogoRibeiro7/oisst-fourier-neural-operator) |
+| **Research software and statistical methods** | Explicit mathematical contract, typed API, reference tests and reproducible release process | deterministic fixtures, property tests, cross-implementation validation, package metadata and release gates | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy), [setqca](https://github.com/DiogoRibeiro7/setqca-python), [industrialstats](https://github.com/DiogoRibeiro7/industrialstats), [heavytails](https://github.com/DiogoRibeiro7/heavytails) |
 
 ---
 
-## Modelling Toolbox
+## How I choose models
 
-The model families I reach for, organised by task.
+### Start with the estimand
+
+Before fitting anything, I want to know what quantity the model is supposed to estimate or what decision it is meant to support. A ranking problem, a calibrated probability problem and a resource-allocation problem can all use the same input data and still require different models, losses and validation.
+
+### Match validation to the data-generating process
+
+Random cross-validation is not a default when time, groups, censoring or treatment assignment matter. I use blocked, grouped, nested or rolling-origin designs when those structures are part of the problem. For simulation studies, I prefer known-truth designs that let bias, coverage and failure probability be measured directly.
+
+### Prefer interpretable structure when performance is comparable
+
+Linear, generalized linear, state-space, survival, rule-based and optimisation models remain strong defaults when their assumptions are defensible. More complex models need to demonstrate an empirical gain that matters to the final decision, not just a better benchmark score.
+
+### Treat uncertainty as part of the model
+
+Prediction intervals, posterior uncertainty, conformal coverage, calibration, decision thresholds and abstention are not presentation layers. They determine what the system is allowed to claim or do.
+
+### Make failure visible
+
+I care about leakage, missing evidence, distribution shift, contamination, weak overlap, unstable thresholds, bad calibration and external-service failure. In production systems, observability and structured failure modes matter as much as the central model.
+
+---
+
+## Reliability toolkit
+
+| Reliability question | Typical checks |
+| :-- | :-- |
+| **Can the validation be trusted?** | leakage-safe pipelines, grouped or temporal splits, nested CV, rolling-origin backtests, frozen test sets |
+| **Are probabilities meaningful?** | reliability curves, Brier/log loss, Platt or isotonic calibration, interval coverage, calibration by subgroup |
+| **Does the result survive shift?** | PSI, KS, MMD, regime analysis, sensitivity grids, source–target overlap checks |
+| **Does class imbalance distort the conclusion?** | PR curves, class weighting, resampling audits, cost-sensitive metrics, threshold curves |
+| **Is the model actually helping the decision?** | explicit utility or cost functions, optimisation downstream of forecasts, policy simulation, scenario stress tests |
+| **Can someone reproduce the claim?** | typed code, frozen configurations, tests, CI, provenance, machine-readable outputs, package/release metadata |
+
+---
+
+## Engineering principles
+
+The same modelling discipline carries into software:
+
+- typed Python where practical;
+- explicit interfaces between data, model, decision and reporting layers;
+- reproducible environments and dependency management;
+- `pytest`, static typing and linting in CI;
+- structured outputs rather than fragile free text when systems integrate with other systems;
+- observability, retries, timeouts and failure semantics for production services;
+- versioned artifacts and release gates for research software.
+
+Common tools include Python, SQL, R, C/C++, Fortran, NumPy, Pandas, Polars, scikit-learn, Statsmodels, PyMC, PyTorch, TensorFlow, Pyomo, Spark, Flink, Kafka, FastAPI, PostgreSQL/PostGIS, MongoDB, AWS services, Docker, Poetry and GitHub Actions.
+
+---
+
+<details>
+<summary><strong>Technical reference — model families and methods</strong></summary>
+
+<br>
 
 ### Supervised learning
 
-- **Regression** — OLS/GLS, regularised linear (Ridge, Lasso, Elastic Net), GLMs (Poisson, Negative Binomial, Gamma, logistic) and IRLS, robust/M-estimators, quantile regression, GAMs/splines, mixed-effects (MixedLM), gradient boosting (XGBoost/LightGBM/CatBoost), Gaussian processes, and Bayesian regression (PyMC).
-- **Classification** — Logistic regression, regularised linear models, SVM, k-NN, decision trees, random forests, gradient-boosted trees, naïve Bayes, and neural nets — including multiclass and multilabel settings, with the imbalance, calibration, and threshold work below treated as part of the model rather than a post-hoc fix.
-- **Ensembles & model combination** — Bagging and random forests, gradient boosting (XGBoost/LightGBM/CatBoost) with early stopping and monotonic constraints where the domain demands them, stacking and blending on out-of-fold predictions, and plain model averaging when no single candidate generalises cleanly.
+OLS/GLS, Ridge, Lasso, Elastic Net, GLMs, robust regression, quantile regression, GAMs and splines, mixed-effects models, Gaussian processes, Bayesian regression, logistic regression, SVMs, k-NN, trees, random forests, gradient boosting, CatBoost/XGBoost/LightGBM and neural networks.
 
-### The learning workflow
+### Unsupervised and representation learning
 
-The parts that decide whether a model survives contact with production.
+k-means, hierarchical clustering, DBSCAN/HDBSCAN, Gaussian mixtures, fuzzy c-means, PCA/SVD, t-SNE, UMAP, density estimation, Isolation Forest, LOF, One-Class SVM, autoencoders and persistent-homology methods.
 
-- **Feature engineering & selection** — Leakage-safe pipelines (every transform fitted inside the fold, never on the full frame), categorical encodings including cross-fold-smoothed target encoding, lag/rolling/calendar features for temporal and sensor data, interaction and spline terms, and filter, wrapper, and embedded selection (mutual information, recursive elimination, L1 paths, permutation and SHAP importance) — with train/serve feature parity treated as an engineering requirement rather than an afterthought.
-- **Model selection, tuning & validation** — Cross-validation matched to the data-generating process (stratified, grouped, nested, blocked, and rolling-origin splits), hyperparameter search from grid and random through Bayesian optimisation and Hyperband/Optuna, learning and validation curves, early stopping, and explicit leakage and target-definition audits before any score is believed.
-- **Imbalanced & cost-sensitive learning** — Resampling (SMOTE and variants), class weighting and focal losses, precision–recall and cost-weighted metrics instead of accuracy, threshold and cost-curve analysis where a false positive and a false negative carry different prices, and probability calibration (Platt, isotonic) so that a predicted 0.2 means 20%.
-- **Interpretability & explainability** — SHAP and permutation importance, partial dependence and ICE curves, global surrogate models, counterfactual explanations, and per-segment error and fairness analysis — with interpretable-by-construction models (GLMs, GAMs, shallow trees, rule sets) preferred whenever they cost little accuracy.
-- **Drift, monitoring & post-deployment** — Covariate, label, and concept drift tests (PSI, KS, MMD), performance decay tracked against matured outcomes rather than proxies, champion–challenger rollout with rollback controls, and selective prediction that abstains when source–target overlap is too poor to justify an answer.
+### Time series and event data
 
-### Unsupervised & representation learning
+ARIMA/SARIMAX, ETS, Prophet, state-space and structural models, singular spectrum analysis, global gradient-boosting models, foundation models such as Chronos, conformal intervals, change-point detection, Kaplan–Meier, Cox PH, parametric AFT and multistate survival models.
 
-- **Unsupervised learning** — Clustering (k-means, hierarchical, DBSCAN/HDBSCAN, GMMs, fuzzy c-means); dimensionality reduction and manifold learning (PCA, SVD, t-SNE, UMAP); anomaly/outlier detection (Isolation Forest, LOF, One-Class SVM, autoencoders, and my own [PSOD](https://github.com/DiogoRibeiro7/PSOD)); density estimation; and topological methods (persistent homology).
-- **NLP & text representation** — Classical text features and topic models through sentence embeddings and transformer encoders: text classification, similarity and semantic search, entity extraction, and the chunking, indexing, and reranking strategies that decide whether grounded question answering actually works.
+### Causal, comparative and experimental methods
 
-### Sequential & event data
+IPW/AIPW, uplift and heterogeneous-treatment-effect models, difference-in-differences, event studies, synthetic control, A/B testing, power analysis, variance reduction, csQCA/fsQCA and exact Boolean minimisation.
 
-- **Time series & forecasting** — ARIMA/SARIMAX, ETS/Prophet, state-space and structural models, singular spectrum analysis, global gradient-boosting, and foundation models (Chronos, Nixtla, masked-patch transformers), with conformal prediction intervals and rolling-origin backtesting.
-- **Survival & event history** — Kaplan–Meier, Cox PH (incl. [distributionally robust](https://github.com/DiogoRibeiro7/drl-cox)), parametric AFT models, and count/actuarial regression.
+### Optimisation and decision modelling
 
-### Inference & decision
+MILP, unit commitment and dispatch, inventory and replenishment policy, project scheduling, fuzzy constraints, cost-weighted threshold optimisation and scenario analysis.
 
-- **Causal & experimentation** — Uplift/heterogeneous treatment effects, IPW/AIPW, difference-in-differences, synthetic control, event studies, and A/B testing (power, variance reduction, SRM checks).
-- **Configurational & comparative** — Crisp-set and fuzzy-set QCA: calibration anchors, truth tables, consistency and coverage, and exact Boolean minimisation across conservative, parsimonious, and intermediate solutions — implemented natively in Python in my [setqca](https://github.com/DiogoRibeiro7/setqca-python) package and checked against the reference R implementation.
-- **Optimisation & decision modelling** — MILP unit commitment and dispatch, inventory and replenishment policy under censored demand, project scheduling with financial and fuzzy constraints (Pyomo), and cost-weighted threshold optimisation where false positives and false negatives carry different prices.
-- **Probabilistic & Bayesian** — Hierarchical models, MCMC (PyMC), conformal prediction, and uncertainty quantification / calibration throughout.
+### Deep learning, LLMs and scientific ML
 
-### Deep learning & foundation models
+Transformers, recurrent and convolutional sequence models, LoRA/QLoRA, RAG, reranking, structured generation, agent/tool orchestration, LLM evaluation, PINNs, Runge–Kutta PINNs, neural operators, finite-difference and spectral PDE methods.
 
-- **Deep learning & scientific ML** — Modern architectures beyond MLPs and Transformers (including association-discrepancy anomaly detection and gated convolutional heads), physics-informed neural networks (including Runge–Kutta time-discrete formulations), custom optimisers, and spectral / finite-difference PDE solvers.
-- **Neural networks for tabular & sequence data** — MLPs, 1D convolutional and recurrent encoders, and attention-based sequence models for sensor and telemetry streams, with embeddings for high-cardinality categoricals — benchmarked honestly against gradient boosting rather than assumed to win.
-- **LLM adaptation & evaluation** — Prompt contracts and structured outputs, retrieval design and reranking for RAG, parameter-efficient fine-tuning (LoRA/QLoRA), and evaluation that is grounded rather than cosmetic: execution accuracy against a live system, LLM-as-judge with calibration checks, and regression suites that run in CI.
+### Robustness, calibration and monitoring
 
-Working code for most of these lives in [Projects](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md).
+Conformal prediction, Bayesian uncertainty, Platt and isotonic calibration, leakage audits, drift detection, class-imbalance methods, cost curves, selective prediction and abstention, SHAP, permutation importance, PDP/ICE and counterfactual explanations.
+
+</details>
 
 ---
+
+Working examples are indexed in **[Featured](FEATURED.md)**, **[Case Studies](CASE_STUDIES.md)** and the broader **[Projects](PROJECTS.md)** catalogue.
 
 <div align="center">
   <a href="https://github.com/DiogoRibeiro7"><img src="https://img.shields.io/badge/%E2%86%90%20Back%20to%20profile-30363D?style=for-the-badge" alt="Back to profile" /></a>

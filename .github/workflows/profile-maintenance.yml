@@ -16,6 +16,7 @@ on:
       - "STATISTICS.md"
       - "scripts/profile_maintenance.py"
       - "scripts/normalize_readme_layout.py"
+      - "scripts/sync_readme_snapshot.py"
       - "scripts/generate_topic_statistics.py"
       - "scripts/generate_portfolio_metrics.py"
       - "scripts/generate_portfolio_overview.py"
@@ -51,6 +52,9 @@ jobs:
       - name: Normalize README layout
         run: python scripts/normalize_readme_layout.py
 
+      - name: Synchronise README portfolio snapshot
+        run: python scripts/sync_readme_snapshot.py generate
+
       - name: Regenerate portfolio-wide statistics
         run: python scripts/generate_portfolio_overview.py
 
@@ -75,6 +79,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python scripts/profile_maintenance.py check
+          python scripts/sync_readme_snapshot.py check
           python scripts/sync_statistics.py check
           python scripts/generate_portfolio_metrics.py check
           python scripts/generate_star_metrics.py check

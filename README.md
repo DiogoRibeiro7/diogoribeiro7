@@ -16,44 +16,52 @@ Statistical modelling, production AI, decision systems, and reproducible researc
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md"><img src="https://img.shields.io/badge/Statistics-30363D?style=for-the-badge" alt="Statistics" /></a>
 </div>
 
-I build data and AI systems where the difficult part starts after model fitting: defining the estimand, validating uncertainty, detecting distribution shift, choosing the operating policy, and keeping the result reproducible in production. My work moves between statistical modelling, machine learning, research software, production AI, optimisation, and applied quantitative research.
-
-**Selected delivery outcomes:** 80% reduction in reporting costs · 30% reduction in analytics processing time · €500K reduction in inventory value through forecasting and operational optimisation.
+I build data and AI systems where the difficult part starts before and after model fitting: defining the estimand, choosing the decision rule, validating uncertainty, detecting distribution shift, and making the whole chain reproducible. My work spans statistical modelling, machine learning, forecasting, optimisation, data systems, research software, and production AI.
 
 The common thread is simple: start from the problem and the evidence, use the least complicated model that answers it well, and make the resulting claim inspectable.
 
-<p align="center">
-  <img src="assets/profile-poster.png"
-       alt="Poster with the phrase 'Data has a better idea'"
-       title="Data has a better idea"
-       width="65%" />
-</p>
+## Portfolio at a glance
+
+<!-- readme:portfolio-snapshot:start -->
+| Evidence | Current scope |
+| :-- | --: |
+| Manifest-backed public projects | **38** |
+| Substantial outputs | **35** |
+| Published PyPI packages | **11** |
+| Case studies | **13 across 11 domains** |
+| Real-data / empirical projects | **23 / 38 (61%)** |
+| Curated flagship repositories | **12** |
+<!-- readme:portfolio-snapshot:end -->
+
+These figures are generated from the same canonical portfolio data used by [Statistics](STATISTICS.md), so the front page and the detailed evidence page share one source of truth.
+
+**Selected professional delivery outcomes:** 80% reduction in reporting costs · 30% reduction in analytics processing time · €500K reduction in inventory value through forecasting and operational optimisation.
 
 ---
 
 ## Selected Work
 
-| Project | What it demonstrates |
-| :-- | :-- |
-| **[feedback-intelligence-agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent)** | Production-style RAG with guarded generation, retrieval evaluation, FastAPI serving, observability, and CI. |
-| **[ragops-lab](https://github.com/DiogoRibeiro7/ragops-lab)** | Evaluation-first RAG engineering with lexical, vector, and hybrid retrieval, grounded-generation checks, traceability, regression testing, and a reusable API/CLI package. |
-| **[clinic-forecasting-platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform)** | Forecast-to-decision systems: rolling-origin evaluation, conformal uncertainty, hierarchical forecasting, staffing optimisation, serving, monitoring, and model operations. |
-| **[transaction-risk-lakehouse](https://github.com/DiogoRibeiro7/transaction-risk-lakehouse)** | Production-oriented PySpark risk modelling with lakehouse layers, temporal validation, graph-derived features, cost-sensitive decisions, streaming scoring, and drift monitoring. |
-| **[pinn](https://github.com/DiogoRibeiro7/pinn)** | Scientific machine learning with a typed PyTorch PINN framework for forward and inverse PDE problems, exact-solution benchmarks, adaptive sampling, reproducible experiments, and a DOI-backed release. |
-| **[bmssp](https://github.com/DiogoRibeiro7/bmssp)** | Algorithm engineering through a typed and tested BMSSP-style single-source shortest-path implementation with exact distances, benchmarking, graph transforms, documentation, and DOI-backed research software. |
+| Project | Focus | What to inspect |
+| :-- | :-- | :-- |
+| **[feedback-intelligence-agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent)** | Production AI / RAG | Guarded generation, retrieval evaluation, FastAPI serving, observability, and CI. |
+| **[clinic-forecasting-platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform)** | Forecasting → decisions | Rolling-origin evaluation, conformal uncertainty, hierarchical forecasting, staffing optimisation, serving, and monitoring. |
+| **[transaction-risk-lakehouse](https://github.com/DiogoRibeiro7/transaction-risk-lakehouse)** | Data engineering / risk | PySpark lakehouse layers, temporal validation, graph-derived features, cost-sensitive decisions, streaming scoring, and drift monitoring. |
+| **[genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy)** | Statistical research software | Known-truth survival simulation, twelve model families, a general multistate engine, typed APIs, and published package releases. |
+| **[pinn](https://github.com/DiogoRibeiro7/pinn)** | Scientific machine learning | Typed PyTorch PINNs for forward and inverse PDEs, exact-solution benchmarks, adaptive sampling, and reproducible experiments. |
+| **[bmssp](https://github.com/DiogoRibeiro7/bmssp)** | Algorithms | Typed and tested BMSSP-style single-source shortest paths with exact distances, benchmarking, graph transforms, and research-software documentation. |
 
-→ **[Featured](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/FEATURED.md)** gives a 12-project cross-section by reviewer interest. The broader catalogue remains on **[Projects](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md)**.
+→ **[Featured](FEATURED.md)** gives the 12-project reviewer cross-section. **[Projects](PROJECTS.md)** contains the broader curated catalogue.
 
 ---
 
-## Current Work
+## Current Focus
 
 - **Failure-aware behavioural sensing** — separating sensor failure, missing evidence, occupancy ambiguity, and genuine behavioural change before an alert is allowed to mean anything. The current paper programme lives in [behavioral-sensing-research](https://github.com/DiogoRibeiro7/behavioral-sensing-research/tree/develop/papers/failure-aware-multimodal-behavioural-sensing).
 - **Forecast → decision systems** — probabilistic demand forecasts evaluated by the decisions they support, including constrained fleet allocation on real mobility data in [ds-projects-portfolio](https://github.com/DiogoRibeiro7/ds-projects-portfolio/tree/main/projects/mobility_demand_optimization).
 - **Survival-model evaluation** — using known-truth simulation to study when ranking metrics, probability accuracy, censoring, and model misspecification tell different stories, built on [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy).
 - **Reproducible economic and policy research** — treating definitions, measurement boundaries, identification, and provenance as part of the model rather than preprocessing details.
 
-→ More active research threads on **[Research](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/RESEARCH.md#current-focus)**.
+→ More active research threads on **[Research](RESEARCH.md#current-focus)**.
 
 ---
 
@@ -66,15 +74,17 @@ The common thread is simple: start from the problem and the evidence, use the le
 
 ---
 
-## Explore
+## Explore by Question
 
-|  |  |
+| If you want to inspect… | Start here |
 | :-- | :-- |
-| **[Featured →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/FEATURED.md)**<br>Twelve flagship projects with explicit maturity labels. | **[Projects →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md)**<br>The broader catalogue across production, research, modelling, optimisation, and data engineering. |
-| **[Outputs →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/OUTPUTS.md)**<br>Citable research software, paper programmes, empirical studies, and archived releases. | **[Case Studies →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/CASE_STUDIES.md)**<br>Thirteen end-to-end examples across eleven domains, from problem and constraints to method and outcome. |
-| **[Methods →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/METHODS.md)**<br>The modelling toolbox, technical stack, and methods I use by problem type. | **[Research →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/RESEARCH.md)**<br>Current programmes, research themes, reproducibility standards, and collaboration interests. |
-| **[Teaching →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/TEACHING.md)**<br>University teaching, seminars, workshops, and supporting material. | **[PyPI →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PYPI.md)**<br>Published Python packages with live version badges, install commands, and source links. |
-| **[Statistics →](https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md)**<br>Portfolio evidence, impact metrics, and topic distribution. |  |
+| The strongest cross-section of the portfolio | **[Featured](FEATURED.md)** |
+| End-to-end problem → constraints → method → outcome reasoning | **[Case Studies](CASE_STUDIES.md)** |
+| Modelling methods, statistical tools, and engineering stack | **[Methods](METHODS.md)** |
+| Active research programmes and reproducibility standards | **[Research](RESEARCH.md)** |
+| Citable software, studies, and released packages | **[Outputs](OUTPUTS.md)** · **[PyPI](PYPI.md)** |
+| Full catalogue breadth and quantitative portfolio evidence | **[Projects](PROJECTS.md)** · **[Statistics](STATISTICS.md)** |
+| University teaching and supporting material | **[Teaching](TEACHING.md)** |
 
 ---
 

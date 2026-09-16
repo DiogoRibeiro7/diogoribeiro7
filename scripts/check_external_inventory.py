@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import sys
 import time
 import urllib.error
@@ -10,11 +11,32 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "data" / "portfolio.json"
 USER_AGENT = "diogoribeiro7-profile-integrity/1.0"
+GITHUB_API_PREFIX = "https://api.github.com/"
+
+
+def request_headers(url: str) -> dict[str, str]:
+    """Build request headers, authenticating GitHub API calls when possible."""
+    headers = {"User-Agent": USER_AGENT}
+    token = os.environ.get("GITHUB_TOKEN")
+
+    if url.startswith(GITHUB_API_PREFIX):
+        headers.update(
+            {
+                "Accept": "application/vnd.github+json",
+                "X-GitHub-Api-Version": "2022-11-28",
+            }
+        )
+        if token:
+            headers["Authorization"] = f"Bearer {token}"
+
+    return headers
 
 
 def get(url: str, attempts: int = 3) -> tuple[int, bytes]:
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    """Fetch a public metadata endpoint with bounded retries."""
+    request = urllib.request.Request(url, headers=request_headers(url))
     last_error: Exception | None = None
+
     for attempt in range(attempts):
         try:
             with urllib.request.urlopen(request, timeout=20) as response:
@@ -23,10 +45,12 @@ def get(url: str, attempts: int = 3) -> tuple[int, bytes]:
             last_error = exc
             if attempt + 1 < attempts:
                 time.sleep(1.5 * (attempt + 1))
+
     raise RuntimeError(f"request failed after {attempts} attempts: {url}: {last_error}")
 
 
 def main() -> int:
+    """Verify that manifest repositories and declared PyPI packages are public."""
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     errors: list[str] = []
 

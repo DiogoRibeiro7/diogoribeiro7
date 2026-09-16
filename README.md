@@ -52,7 +52,7 @@ These figures are generated from the same canonical portfolio data used by [Stat
 
 ## Current Focus
 
-- **Failure-aware behavioural sensing** — separating sensor failure, missing evidence, occupancy ambiguity, and genuine behavioural change before an alert is allowed to mean anything. The current paper programme lives in [behavioral-sensing-research](https://github.com/DiogoRibeiro7/behavioral-sensing-research/tree/develop/papers/failure-aware-multimodal-behavioural-sensing).
+- **Failure-aware behavioural sensing** — separating sensor failure, missing evidence, occupancy ambiguity, and genuine behavioural change before an alert is allowed to mean anything. The public research programme lives in [behavioral-sensing-research](https://github.com/DiogoRibeiro7/behavioral-sensing-research); manuscript work is maintained separately from that repository.
 - **Forecast → decision systems** — probabilistic demand forecasts evaluated by the decisions they support, including constrained fleet allocation on real mobility data in [ds-projects-portfolio](https://github.com/DiogoRibeiro7/ds-projects-portfolio/tree/main/projects/mobility_demand_optimization).
 - **Survival-model evaluation** — using known-truth simulation to study when ranking metrics, probability accuracy, censoring, and model misspecification tell different stories, built on [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy).
 - **Reproducible economic and policy research** — treating definitions, measurement boundaries, identification, and provenance as part of the model rather than preprocessing details.

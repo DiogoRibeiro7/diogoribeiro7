@@ -2,16 +2,17 @@ from __future__ import annotations
 
 import json
 import os
-import sys
 import time
 import urllib.error
 import urllib.request
 from pathlib import Path
+from urllib.parse import quote
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "data" / "portfolio.json"
 USER_AGENT = "diogoribeiro7-profile-integrity/1.0"
 GITHUB_API_PREFIX = "https://api.github.com/"
+OWNER = "DiogoRibeiro7"
 
 
 def request_headers(url: str) -> dict[str, str]:
@@ -49,14 +50,66 @@ def get(url: str, attempts: int = 3) -> tuple[int, bytes]:
     raise RuntimeError(f"request failed after {attempts} attempts: {url}: {last_error}")
 
 
+def manifest_deep_links(manifest: dict) -> list[tuple[str, str, str, tuple[str, ...]]]:
+    """Return unique repository ref/path links used by generated public pages."""
+    labels_by_link: dict[tuple[str, str, str], list[str]] = {}
+
+    for collection in ("outputs", "case_studies"):
+        for item in manifest.get(collection, []):
+            path = item.get("path")
+            if not path:
+                continue
+            repo = item["repo"]
+            ref = item.get("ref", "main")
+            key = (repo, ref, path)
+            label = f'{collection}:{item.get("title", repo)}'
+            labels_by_link.setdefault(key, []).append(label)
+
+    return [
+        (repo, ref, path, tuple(labels))
+        for (repo, ref, path), labels in labels_by_link.items()
+    ]
+
+
+def check_deep_link(
+    repo: str,
+    ref: str,
+    path: str,
+    labels: tuple[str, ...],
+) -> str | None:
+    """Verify that a manifest-backed GitHub ref/path resolves publicly."""
+    encoded_path = quote(path, safe="/")
+    encoded_ref = quote(ref, safe="")
+    url = (
+        f"https://api.github.com/repos/{OWNER}/{repo}/contents/"
+        f"{encoded_path}?ref={encoded_ref}"
+    )
+    context = ", ".join(labels)
+
+    try:
+        status, _ = get(url)
+    except Exception as exc:
+        return (
+            f"manifest deep link unavailable: {repo}@{ref}/{path} "
+            f"({context}): {exc}"
+        )
+
+    if status != 200:
+        return (
+            f"manifest deep link unavailable ({status}): "
+            f"{repo}@{ref}/{path} ({context})"
+        )
+    return None
+
+
 def main() -> int:
-    """Verify that manifest repositories and declared PyPI packages are public."""
+    """Verify public repositories, packages, and manifest-backed deep links."""
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     errors: list[str] = []
 
     for project in manifest["projects"]:
         repo = project["repo"]
-        url = f"https://api.github.com/repos/DiogoRibeiro7/{repo}"
+        url = f"https://api.github.com/repos/{OWNER}/{repo}"
         try:
             status, payload = get(url)
             if status != 200:
@@ -83,12 +136,17 @@ def main() -> int:
             except Exception as exc:
                 errors.append(str(exc))
 
+    for repo, ref, path, labels in manifest_deep_links(manifest):
+        error = check_deep_link(repo, ref, path, labels)
+        if error:
+            errors.append(error)
+
     if errors:
         for error in errors:
             print(f"ERROR: {error}")
         return 1
 
-    print("All manifest repositories and PyPI packages resolve publicly.")
+    print("All manifest repositories, PyPI packages, and deep links resolve publicly.")
     return 0
 
 

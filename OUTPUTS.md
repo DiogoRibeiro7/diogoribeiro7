@@ -17,52 +17,82 @@
 
 **35 substantial public artifacts are indexed here.**
 
-This is the broad output index, not a second Featured page. It includes published research software, paper/research programmes, empirical and replication studies, and decision/engineering artifacts that have a substantial inspectable result.
+This page answers a narrower question than Projects: **what inspectable thing did the work produce?** Output class, repository maturity and release evidence are kept separate so a published package, an empirical study, an active research programme and a production-style system are not presented as equivalent signals.
+
+## Evidence index
+
+| Output class | Count | What to inspect |
+| :-- | --: | :-- |
+| **Published research software** | **10** | Installable methods and research tooling with inspectable release evidence. |
+| **Research and paper programmes** | **5** | Active research questions with public code, data pipelines or manuscript evidence. |
+| **Empirical and replication studies** | **9** | Falsifiable analyses built around real data, explicit baselines and provenance. |
+| **Decision and engineering artifacts** | **11** | Systems where modelling is connected to serving, operations or an explicit decision rule. |
+
+The sections below remain generated from `data/portfolio.json`. Maturity comes from the corresponding project record; release signals come from the output record itself.
 
 ## Published research software
 
-- **[genSurvPy / gen_surv](https://github.com/DiogoRibeiro7/genSurvPy)** — Known-truth survival simulation for method validation across multiple event-history families. *([PyPI](https://pypi.org/project/gen-surv/) · DOI/archive metadata)*
-- **[setqca](https://github.com/DiogoRibeiro7/setqca-python)** — Native Python csQCA/fsQCA with exact Boolean minimisation and R-reference validation. *([PyPI](https://pypi.org/project/setqca/) · DOI/archive metadata)*
-- **[heavytails](https://github.com/DiogoRibeiro7/heavytails)** — Heavy-tail distributions, estimation, fitting and diagnostics. *([PyPI](https://pypi.org/project/heavytails/) · DOI/archive metadata)*
-- **[OversampleQA](https://github.com/DiogoRibeiro7/OversampleQA)** — Diagnostic toolkit for auditing oversampling methods. *([PyPI](https://pypi.org/project/oversampleqa/) · DOI/archive metadata)*
-- **[PINNLab](https://github.com/DiogoRibeiro7/pinn)** — Physics-Informed Neural Network toolkit for PDEs and inverse problems. *([PyPI](https://pypi.org/project/pinnlab/))*
-- **[pinn-rk](https://github.com/DiogoRibeiro7/pinn-rk)** — Runge-Kutta PINNs for time-discrete PDE learning. *([PyPI](https://pypi.org/project/pinn-rk/))*
-- **[tscv-vision](https://github.com/DiogoRibeiro7/tscv-vision)** — Computer-vision-inspired feature engineering for time series. *([PyPI](https://pypi.org/project/tscv-vision/))*
-- **[wifi-activity-recognition](https://github.com/DiogoRibeiro7/wifi-csi-activity-recognition)** — CSI-based human-activity recognition tooling. *([PyPI](https://pypi.org/project/wifi-activity-recognition/))*
-- **[industrialstats](https://github.com/DiogoRibeiro7/industrialstats)** — Reproducible experimental designs with analysis, diagnostics and power, validated against reference results. *([PyPI](https://pypi.org/project/industrialstats/) · DOI/archive metadata)*
-- **[anomalybench](https://github.com/DiogoRibeiro7/anomalybench)** — Detectors, benchmark dataset loaders and a CLI for comparing anomaly detection under one evaluation protocol. *([PyPI](https://pypi.org/project/anomalybench/) · DOI/archive metadata)*
+Installable methods and research tooling with inspectable release evidence.
+
+| Artifact | Repository maturity | Public evidence | What it demonstrates |
+| :-- | :-- | :-- | :-- |
+| **[genSurvPy / gen_surv](https://github.com/DiogoRibeiro7/genSurvPy)** | published software | [PyPI](https://pypi.org/project/gen-surv/) · DOI/archive metadata | Known-truth survival simulation for method validation across multiple event-history families. |
+| **[setqca](https://github.com/DiogoRibeiro7/setqca-python)** | published software | [PyPI](https://pypi.org/project/setqca/) · DOI/archive metadata | Native Python csQCA/fsQCA with exact Boolean minimisation and R-reference validation. |
+| **[heavytails](https://github.com/DiogoRibeiro7/heavytails)** | published software | [PyPI](https://pypi.org/project/heavytails/) · DOI/archive metadata | Heavy-tail distributions, estimation, fitting and diagnostics. |
+| **[OversampleQA](https://github.com/DiogoRibeiro7/OversampleQA)** | published software | [PyPI](https://pypi.org/project/oversampleqa/) · DOI/archive metadata | Diagnostic toolkit for auditing oversampling methods. |
+| **[PINNLab](https://github.com/DiogoRibeiro7/pinn)** | published software | [PyPI](https://pypi.org/project/pinnlab/) | Physics-Informed Neural Network toolkit for PDEs and inverse problems. |
+| **[pinn-rk](https://github.com/DiogoRibeiro7/pinn-rk)** | published software | [PyPI](https://pypi.org/project/pinn-rk/) | Runge-Kutta PINNs for time-discrete PDE learning. |
+| **[tscv-vision](https://github.com/DiogoRibeiro7/tscv-vision)** | published software | [PyPI](https://pypi.org/project/tscv-vision/) | Computer-vision-inspired feature engineering for time series. |
+| **[wifi-activity-recognition](https://github.com/DiogoRibeiro7/wifi-csi-activity-recognition)** | published software | [PyPI](https://pypi.org/project/wifi-activity-recognition/) | CSI-based human-activity recognition tooling. |
+| **[industrialstats](https://github.com/DiogoRibeiro7/industrialstats)** | published software | [PyPI](https://pypi.org/project/industrialstats/) · DOI/archive metadata | Reproducible experimental designs with analysis, diagnostics and power, validated against reference results. |
+| **[anomalybench](https://github.com/DiogoRibeiro7/anomalybench)** | published software | [PyPI](https://pypi.org/project/anomalybench/) · DOI/archive metadata | Detectors, benchmark dataset loaders and a CLI for comparing anomaly detection under one evaluation protocol. |
 
 ## Research and paper programmes
 
-- **[Failure-aware multimodal behavioural sensing](https://github.com/DiogoRibeiro7/behavioral-sensing-research/tree/develop/papers/failure-aware-multimodal-behavioural-sensing)** — Research programme on separating sensor failure, missing evidence and genuine behavioural change.
-- **[Survival discrimination versus calibration](https://github.com/DiogoRibeiro7/genSurvPy/tree/develop/research/discrimination-not-calibration)** — Known-truth simulation study of ranking metrics, probability accuracy and censoring.
-- **[Portuguese public pension financing](https://github.com/DiogoRibeiro7/portugal-public-pension-financing)** — Legal, accounting and actuarial reconstruction of pension financing regimes.
-- **[GDP–wage transmission](https://github.com/DiogoRibeiro7/gdp-wage-transmission)** — Long-run, state-space and structural-break analysis of productivity-to-wage transmission.
-- **[Portugal external growth, 1960–1973](https://github.com/DiogoRibeiro7/portugal-external-growth-1960-1973)** — Historical measurement programme comparing colonial and European growth linkages.
+Active research questions with public code, data pipelines or manuscript evidence.
+
+| Artifact | Repository maturity | Public evidence | What it demonstrates |
+| :-- | :-- | :-- | :-- |
+| **[Failure-aware multimodal behavioural sensing](https://github.com/DiogoRibeiro7/behavioral-sensing-research/tree/develop/papers/failure-aware-multimodal-behavioural-sensing)** | research programme | dedicated research path | Research programme on separating sensor failure, missing evidence and genuine behavioural change. |
+| **[Survival discrimination versus calibration](https://github.com/DiogoRibeiro7/genSurvPy/tree/develop/research/discrimination-not-calibration)** | published software | dedicated research path | Known-truth simulation study of ranking metrics, probability accuracy and censoring. |
+| **[Portuguese public pension financing](https://github.com/DiogoRibeiro7/portugal-public-pension-financing)** | research programme | repository artifact | Legal, accounting and actuarial reconstruction of pension financing regimes. |
+| **[GDP–wage transmission](https://github.com/DiogoRibeiro7/gdp-wage-transmission)** | research programme | repository artifact | Long-run, state-space and structural-break analysis of productivity-to-wage transmission. |
+| **[Portugal external growth, 1960–1973](https://github.com/DiogoRibeiro7/portugal-external-growth-1960-1973)** | research programme | repository artifact | Historical measurement programme comparing colonial and European growth linkages. |
 
 ## Empirical and replication studies
 
-- **[Short-rate anomaly regimes](https://github.com/DiogoRibeiro7/short-rate-anomaly-regimes)** — Replication and extension of short-rate innovation effects with frozen evidence artifacts.
-- **[Portugal general-government balance](https://github.com/DiogoRibeiro7/portugal-fiscal-balance)** — Subsector accounting of Central, Regional/Local and Social Security balances from 1977 onward.
-- **[Minimum wage, productivity and inflation](https://github.com/DiogoRibeiro7/portugal-minimum-wage-inflation)** — Long-run and exposure-based pass-through analysis for Portugal.
-- **[Public-debt interest burden](https://github.com/DiogoRibeiro7/portugal-public-debt-interest)** — Eurostat/AMECO measurement layer supporting reproducible public-finance papers.
-- **[Official GDP-per-capita denominator audit](https://github.com/DiogoRibeiro7/portugal-gdp-bayesian-revision)** — Checks which official population series actually underlies the published index.
-- **[Portuguese salary distribution modelling](https://github.com/DiogoRibeiro7/pt-salary-gamma-distribution)** — Compares positive-support distributions on grouped administrative earnings data.
-- **[European innovation configurations](https://github.com/DiogoRibeiro7/europe-fsqca-innovation)** — Survey-design-aware fsQCA across EU-27 innovation regimes.
-- **[FNO versus persistence on NOAA OISST](https://github.com/DiogoRibeiro7/oisst-fourier-neural-operator)** — Tests whether operator learning earns its complexity at different spatial scales.
-- **[Qwen text-to-SQL adaptation](https://github.com/DiogoRibeiro7/qwen-text2sql-lab)** — LoRA/QLoRA experiment scored by database execution accuracy rather than string overlap.
+Falsifiable analyses built around real data, explicit baselines and provenance.
+
+| Artifact | Repository maturity | Public evidence | What it demonstrates |
+| :-- | :-- | :-- | :-- |
+| **[Short-rate anomaly regimes](https://github.com/DiogoRibeiro7/short-rate-anomaly-regimes)** | replication study | repository artifact | Replication and extension of short-rate innovation effects with frozen evidence artifacts. |
+| **[Portugal general-government balance](https://github.com/DiogoRibeiro7/portugal-fiscal-balance)** | empirical study | repository artifact | Subsector accounting of Central, Regional/Local and Social Security balances from 1977 onward. |
+| **[Minimum wage, productivity and inflation](https://github.com/DiogoRibeiro7/portugal-minimum-wage-inflation)** | empirical study | repository artifact | Long-run and exposure-based pass-through analysis for Portugal. |
+| **[Public-debt interest burden](https://github.com/DiogoRibeiro7/portugal-public-debt-interest)** | empirical study | repository artifact | Eurostat/AMECO measurement layer supporting reproducible public-finance papers. |
+| **[Official GDP-per-capita denominator audit](https://github.com/DiogoRibeiro7/portugal-gdp-bayesian-revision)** | empirical study | repository artifact | Checks which official population series actually underlies the published index. |
+| **[Portuguese salary distribution modelling](https://github.com/DiogoRibeiro7/pt-salary-gamma-distribution)** | empirical study | repository artifact | Compares positive-support distributions on grouped administrative earnings data. |
+| **[European innovation configurations](https://github.com/DiogoRibeiro7/europe-fsqca-innovation)** | empirical study | repository artifact | Survey-design-aware fsQCA across EU-27 innovation regimes. |
+| **[FNO versus persistence on NOAA OISST](https://github.com/DiogoRibeiro7/oisst-fourier-neural-operator)** | empirical study | repository artifact | Tests whether operator learning earns its complexity at different spatial scales. |
+| **[Qwen text-to-SQL adaptation](https://github.com/DiogoRibeiro7/qwen-text2sql-lab)** | empirical study | repository artifact | LoRA/QLoRA experiment scored by database execution accuracy rather than string overlap. |
 
 ## Decision and engineering artifacts
 
-- **[Healthcare demand forecasting platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform)** — Thirteen-model rolling-origin benchmark with conformal intervals, serving and monitoring.
-- **[Energy-system simulator](https://github.com/DiogoRibeiro7/energy-system-simulator)** — Unit commitment, storage, hydro, imports and demand response under explicit constraints.
-- **[Perishable inventory decision lab](https://github.com/DiogoRibeiro7/perishable-inventory-decision-lab)** — Forecasting linked directly to replenishment-policy simulation.
-- **[Scania APS cost-sensitive maintenance](https://github.com/DiogoRibeiro7/scania-aps-cost)** — Model and threshold selection against explicit false-positive/false-negative maintenance costs.
-- **[Mobility demand optimisation](https://github.com/DiogoRibeiro7/ds-projects-portfolio/tree/main/projects/mobility_demand_optimization)** — Probabilistic demand forecasts evaluated through constrained fleet allocation on real mobility data.
-- **[Transaction risk lakehouse](https://github.com/DiogoRibeiro7/transaction-risk-lakehouse)** — Temporal risk modelling on a production-style PySpark lakehouse.
-- **[Fraud-risk FastAPI platform](https://github.com/DiogoRibeiro7/fastapi-ml-platform)** — Real-time inference with drift monitoring and observability.
-- **[RAGOps lab](https://github.com/DiogoRibeiro7/ragops-lab)** — Evaluation-first RAG with tracing, regression testing and cost-aware experiments.
-- **[LLM data platform](https://github.com/DiogoRibeiro7/llm-data-platform)** — Contract-linked ingestion, curation and observability for LLM datasets.
-- **[PyFlink fraud detection streaming](https://github.com/DiogoRibeiro7/pyflink-fraud-detection-streaming)** — Stateful streaming features with explainable fraud-risk scoring.
-- **[DataExcept / dataexcept](https://github.com/DiogoRibeiro7/DataExcept)** — Structured exception layer for data-loading, export and operational failures in data and ML pipelines. *([PyPI](https://pypi.org/project/dataexcept/))*
+Systems where modelling is connected to serving, operations or an explicit decision rule.
 
+| Artifact | Repository maturity | Public evidence | What it demonstrates |
+| :-- | :-- | :-- | :-- |
+| **[Healthcare demand forecasting platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform)** | production-style system | repository artifact | Thirteen-model rolling-origin benchmark with conformal intervals, serving and monitoring. |
+| **[Energy-system simulator](https://github.com/DiogoRibeiro7/energy-system-simulator)** | decision system | repository artifact | Unit commitment, storage, hydro, imports and demand response under explicit constraints. |
+| **[Perishable inventory decision lab](https://github.com/DiogoRibeiro7/perishable-inventory-decision-lab)** | decision system | repository artifact | Forecasting linked directly to replenishment-policy simulation. |
+| **[Scania APS cost-sensitive maintenance](https://github.com/DiogoRibeiro7/scania-aps-cost)** | decision study | repository artifact | Model and threshold selection against explicit false-positive/false-negative maintenance costs. |
+| **[Mobility demand optimisation](https://github.com/DiogoRibeiro7/ds-projects-portfolio/tree/main/projects/mobility_demand_optimization)** | research portfolio | dedicated research path | Probabilistic demand forecasts evaluated through constrained fleet allocation on real mobility data. |
+| **[Transaction risk lakehouse](https://github.com/DiogoRibeiro7/transaction-risk-lakehouse)** | production-style system | repository artifact | Temporal risk modelling on a production-style PySpark lakehouse. |
+| **[Fraud-risk FastAPI platform](https://github.com/DiogoRibeiro7/fastapi-ml-platform)** | production-style system | repository artifact | Real-time inference with drift monitoring and observability. |
+| **[RAGOps lab](https://github.com/DiogoRibeiro7/ragops-lab)** | production-style system | repository artifact | Evaluation-first RAG with tracing, regression testing and cost-aware experiments. |
+| **[LLM data platform](https://github.com/DiogoRibeiro7/llm-data-platform)** | production-style system | repository artifact | Contract-linked ingestion, curation and observability for LLM datasets. |
+| **[PyFlink fraud detection streaming](https://github.com/DiogoRibeiro7/pyflink-fraud-detection-streaming)** | production-style system | repository artifact | Stateful streaming features with explainable fraud-risk scoring. |
+| **[DataExcept / dataexcept](https://github.com/DiogoRibeiro7/DataExcept)** | published software | [PyPI](https://pypi.org/project/dataexcept/) | Structured exception layer for data-loading, export and operational failures in data and ML pipelines. |
+
+---
+
+For a shorter reviewer-oriented cross-section, start with **[Featured](FEATURED.md)**. For end-to-end reasoning from problem to outcome, use **[Case Studies](CASE_STUDIES.md)**. Published Python packages are collected separately on **[PyPI](PYPI.md)**.

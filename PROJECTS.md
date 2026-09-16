@@ -15,7 +15,7 @@
 <!-- projects:public-index:start -->
 ## Public portfolio index
 
-The canonical manifest currently contains **38 public projects**. This index groups them by evidence state rather than subject area, so a reviewer can choose the right depth quickly. The broader catalogue below also includes additional historical, exploratory and private work.
+The canonical manifest currently contains **38 public projects**. This index groups them by evidence state rather than subject area, so a reviewer can choose the right depth quickly. The broader catalogue below contains additional historical and exploratory **public** work.
 
 | Reviewer path | Public projects | What that evidence means | Inspect next |
 | :-- | --: | :-- | :-- |
@@ -47,7 +47,7 @@ Project maturity is kept separate from topic. A production-style system, an empi
 </details>
 <!-- maturity:end -->
 
-A curated slice of recent work, grouped by the kind of problem it solves. Linked entries are public repositories; entries marked *(private)* are active but not published, and are listed so the picture is complete. Full public list at [github.com/DiogoRibeiro7](https://github.com/DiogoRibeiro7?tab=repositories).
+A curated slice of public work, grouped by the kind of problem it solves. Every named catalogue entry below is publicly inspectable. Full public list at [github.com/DiogoRibeiro7](https://github.com/DiogoRibeiro7?tab=repositories).
 
 - [2026 Highlights](#2026-highlights)
 - [Production AI & LLM Systems](#production-ai--llm-systems)
@@ -65,14 +65,14 @@ A curated slice of recent work, grouped by the kind of problem it solves. Linked
 
 ## 2026 Highlights
 
-What this year actually produced, across public and private work.
+What this year produced across the public portfolio.
 
 - **Production AI:** shipped RAG and agent systems (`feedback-intelligence-agent`, `ragops-lab`, `ai-incident-analysis-agent`, `hf-data-agent`) — with evaluation, tracing, observability, and CI treated as first-class, and MCP as a first-class entrypoint alongside HTTP and Slack.
 - **LLM engineering beyond retrieval:** ran a controlled LoRA/QLoRA adaptation study on Qwen3.5-4B scored by execution accuracy against a live database rather than string overlap (`qwen-text2sql-lab`), and extracted offline-testable RAG engineering primitives — guardrails, PII redaction, injection checks, judge and telemetry helpers — into a standalone package (`genai-rag-engineering`).
-- **ML & data engineering:** built serving, MLOps, and lakehouse/streaming platforms (`fastapi-ml-platform`, `feature-store-lab`, `transaction-risk-lakehouse`, `pyflink-fraud-detection-streaming`, `llm-data-platform`) spanning inference, drift monitoring, feature parity, and contract-linked ingestion.
+- **ML & data engineering:** built serving, MLOps, and lakehouse/streaming platforms (`fastapi-ml-platform`, private work, `transaction-risk-lakehouse`, `pyflink-fraud-detection-streaming`, `llm-data-platform`) spanning inference, drift monitoring, feature parity, and contract-linked ingestion.
 - **Research programmes at scale:** launched a cluster of reproducible econometric and dynamical-systems projects on inequality, wealth, and policy, several sharing a single pipeline and reproducibility contract across many papers — extended this half into Portuguese economic history and public finance (`portugal-minimum-wage-inflation`, `portugal-public-debt-interest`, `portugal-external-growth-1960-1973`), replication-grade empirical asset pricing (`short-rate-anomaly-regimes`), and methodological work on simulated-likelihood asymptotics for multidimensional diffusions (`sml_diffusions_paper`).
-- **Public finance and official statistics under audit:** opened a Portuguese fiscal cluster that takes definitions as the object of study — the general-government balance by subsector 1977–2025 (`portugal-fiscal-balance`), the financing history of the pension promise (`portugal-public-pension-financing`), a chapter-by-chapter audit of the 2026 pension reform report (`portugal-pension-boundaries`), which of two official population figures a GDP-per-capita index is actually divided by (`portugal-gdp-bayesian-revision`), and growth-to-wage transmission and salary distributions (`gdp-wage-transmission`, `pt-salary-gamma-distribution`).
-- **Reliability under distribution shift:** built systems that decline to answer when the evidence runs out — overlap-aware conformal prediction with explicit abstention (`shiftguard`), survival-model drift monitoring on replayable Backblaze telemetry with rollout and rollback controls (`survdrift`), and cost-weighted maintenance thresholds (`scania-aps-cost`).
+- **Public finance and official statistics under audit:** opened a Portuguese fiscal cluster that takes definitions as the object of study — the general-government balance by subsector 1977–2025 (`portugal-fiscal-balance`), the financing history of the pension promise (`portugal-public-pension-financing`), a chapter-by-chapter audit of the 2026 pension reform report (private work), which of two official population figures a GDP-per-capita index is actually divided by (`portugal-gdp-bayesian-revision`), and growth-to-wage transmission and salary distributions (`gdp-wage-transmission`, `pt-salary-gamma-distribution`).
+- **Reliability under distribution shift:** built systems that decline to answer when the evidence runs out — overlap-aware conformal prediction with explicit abstention (private work), survival-model drift monitoring on replayable Backblaze telemetry with rollout and rollback controls (private work), and cost-weighted maintenance thresholds (`scania-aps-cost`).
 - **Published research software:** `setqca` on PyPI — a native csQCA/fsQCA implementation validated against the reference R package — alongside `gen_surv` and typed, tested solvers and libraries (`bmssp`, `min_ratio_cycle`, `heavytails`, `dynamical_systems_econometrics`), with a growing set of repositories archived under Zenodo DOIs.
 - **Decision & optimisation systems:** built simulators and policy layers that end in a decision, not a metric (`energy-system-simulator` unit commitment, `perishable-inventory-decision-lab` replenishment policy, `experimentation-toolkit` power, CUPED and sample-ratio checks for experiment design).
 - **Scientific & deep-learning research:** ran reproducible architecture, PDE, and operator labs with baselines, ablations, and audited claims (`modern-neural-networks-agent-repo`, `anomaly-transformer-lab`, `pinn`, `pinn-rk`, `torch-namo-optim`, `oisst-fourier-neural-operator`) — the last asking the narrow, falsifiable question of when a Fourier Neural Operator actually beats persistence on real NOAA sea-surface temperatures, and at which spatial scales.
@@ -88,11 +88,9 @@ What this year actually produced, across public and private work.
 - **[hf-data-agent](https://github.com/DiogoRibeiro7/hf-data-agent)** — Internal data agent where a UI, an HTTP API, local and remote MCP, and Slack all funnel into one Agent API, grounding an open-source Hugging Face model in a company knowledge base while pulling fresh numbers from the data platform.
 - **[genai-rag-engineering](https://github.com/DiogoRibeiro7/genai-rag-engineering)** — Standalone RAG and LLM engineering primitives: chunking, prompt registry, retrieval and reranking, guardrails with PII redaction and prompt-injection checks, judge helpers, and cost/latency/trace telemetry — with a deterministic fake client so CI runs offline without API keys.
 - **[qwen-text2sql-lab](https://github.com/DiogoRibeiro7/qwen-text2sql-lab)** — Controlled LoRA/QLoRA adaptation study on Qwen3.5-4B for text-to-SQL, asking how much data and adapter capacity fine-tuning actually needs before it beats the base model. Scored on execution accuracy against the target database; string equality is kept only as a secondary diagnostic.
-- **rag-showcase** *(private)* — End-to-end RAG Q&A reshaped from prototype into a production FastAPI service on Azure (pgvector, Azure OpenAI, Bicep, GitHub Actions).
 - **[ai-incident-analysis-agent](https://github.com/DiogoRibeiro7/ai-incident-analysis-agent)** — Incident analysis agent over logs and metrics with anomaly detection, correlation, root-cause analysis, and LLM-assisted reporting.
 - **[agentic-qa-lab](https://github.com/DiogoRibeiro7/agentic-qa-lab)** — Autonomous UI/game-testing agent: vision-language reasoning, browser control, action planning, failure recovery, and evaluation.
 - **[llm-etl-and-evaluation](https://github.com/DiogoRibeiro7/llm-etl-and-evaluation)** — ETL + evaluation harness for structured LLM outputs: schema-guided prompting, tolerant parsing, validation, and an error taxonomy.
-- **rag-eval-framework** *(private)* — Framework for evaluating RAG answer quality, relevance, and retrieval metrics.
 - **[huggingface-finetuning-lab](https://github.com/DiogoRibeiro7/huggingface-finetuning-lab)** — HuggingFace fine-tuning and NLP experimentation lab.
 - **[ds-workspace-mcp](https://github.com/DiogoRibeiro7/ds-workspace-mcp)** — Model Context Protocol server for safely inspecting and profiling local analytical datasets.
 - **[linear-algebra-tutor](https://github.com/DiogoRibeiro7/linear-algebra-tutor)** — RAG-driven Socratic tutoring system (FastAPI, React, Claude) built for ESMAD students.
@@ -104,12 +102,6 @@ What this year actually produced, across public and private work.
 - **[clinic-forecasting-platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform)** — Healthcare demand-forecasting and staffing platform: a 13-model benchmark (SARIMAX, Prophet, gradient boosting, Nixtla, Chronos) with conformal intervals, rolling-origin backtesting, FastAPI serving, and monitoring.
 - **[sensor-intelligence-platform](https://github.com/DiogoRibeiro7/sensor-intelligence-platform)** — Production-style time-series ML platform: forecasting, anomaly detection, drift monitoring, and predictive maintenance behind a FastAPI inference service.
 - **[enterprise-ml-platform](https://github.com/DiogoRibeiro7/enterprise-ml-platform)** — Reference implementation of a production ML platform: reproducible training, versioned features, a model registry with alias-based promotion, an HTTP serving layer, and controlled SageMaker deployment — with an explicit statement of which parts are tested and which are scaffolding.
-- **ml-portfolio-showcase** *(private)* — End-to-end ML engineering: FinBERT fine-tuning with production MLOps on AWS (SageMaker, MWAA, Athena), Docker deployment, monitoring, and automated retraining.
-- **feature-store-lab** *(private)* — Local feature-store workbench for point-in-time pipelines, offline/online serving parity, and training-serving skew detection.
-- **time-series-foundation-models** *(private)* — Time-series foundation models in PyTorch for masked patch modelling, forecasting, and anomaly detection.
-- **research-to-product-ml-template** *(private)* — Reusable template for turning ML research papers into tested packages, benchmark suites, APIs, and product-oriented reports.
-- **survdrift** *(private)* — Survival-model drift monitoring on replayed Backblaze drive telemetry: idempotent ingestion, explicit censoring semantics, a model registry, FastAPI serving with prediction logging, matured-outcome monitoring, and Kubernetes rollout/rollback.
-- **shiftguard** *(private)* — Overlap-aware conformal prediction and selective risk control under covariate shift: hold a target coverage guarantee, detect poor source–target overlap, and abstain when the evidence stops supporting a prediction.
 
 ## Deep Learning & Scientific Computing
 
@@ -130,8 +122,6 @@ Architecture research and numerical solvers, run as reproducible experiments rat
 - **[iceberg-lakehouse-portfolio](https://github.com/DiogoRibeiro7/iceberg-lakehouse-portfolio)** — Apache Iceberg lakehouse engineering with Spark, MinIO, and Nessie.
 - **[pyflink-fraud-detection-streaming](https://github.com/DiogoRibeiro7/pyflink-fraud-detection-streaming)** — PyFlink streaming fraud detection with stateful features and explainable risk scoring.
 - **[carbon-transition-duckdb-lab](https://github.com/DiogoRibeiro7/carbon-transition-duckdb-lab)** — Local DuckDB lakehouse for climate and energy-transition analytics with transparent risk scoring and forecasting.
-- **online-concept-drift-electricity-market** *(private)* — Online concept-drift monitoring for electricity-market streaming data with adaptive retraining and alerting.
-- **displacement-risk-lab-dynamodb** *(private)* — DynamoDB-based lab for public-data ingestion, scoring, and reproducible analytics workflows.
 
 ## Statistical & Applied Data Science
 
@@ -145,10 +135,7 @@ Breadth across the core methods — causal, survival, Bayesian, calibration, and
 - **[customer-analytics](https://github.com/DiogoRibeiro7/customer-analytics)** — Churn, segmentation, retention, and uplift in one place: feature engineering, model orchestration, evaluation, and a production wrapper with lightweight MLOps helpers.
 - **[effectbridge](https://github.com/DiogoRibeiro7/effectbridge)** — Test (un)confoundedness by comparing an RCT-like effect to the same estimand from observational data (IPW/AIPW, bootstrap CIs, transportability weighting).
 - **[genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy)** — Python package for simulating survival data under a range of models (inspired by R's genSurv).
-- **probml-lab** *(private)* — Probabilistic machine-learning lab covering Bayesian modelling and inference workflows.
-- **calibrated-ml-lab** *(private)* — ML calibration and uncertainty-quantification toolkit.
 - **[csp_forecast_package](https://github.com/DiogoRibeiro7/csp_forecast_package)** — Training-free probabilistic forecasting with Conformal Seasonal Pools: quantiles, prediction intervals, and rolling-origin backtesting.
-- **interpretable-stroke-risk-screening** *(private)* — Transparent stroke-risk screening with actionable risk groups and fairness-aware evaluation.
 - **[PSOD](https://github.com/DiogoRibeiro7/PSOD)** — Pseudo-Supervised Outlier Detection: ensemble regression prediction errors as outlier scores for mixed-type tabular data.
 
 ## Optimisation & Decision Systems
@@ -165,22 +152,14 @@ Reproducible research programmes built on open data, with validation, econometri
 
 - **[portugal-public-pension-financing](https://github.com/DiogoRibeiro7/portugal-public-pension-financing)** — How the public pension promise was actually financed, tracing CGA, Social Security, and the 2009–2012 transfer of banking-sector liabilities through the legal sequence that produced them. Separates legal obligations, cash accounting, consolidated flows, actuarial liabilities, and counterfactual financing regimes before any balance is read as a deficit, a surplus, or a subsidy.
 - **[portugal-fiscal-balance](https://github.com/DiogoRibeiro7/portugal-fiscal-balance)** — How Portugal's general-government balance is formed across Central Government, Regional and Local Government, and Social Security Funds, 1977–2025 — restricted by design to accounting, statistical, and economic analysis, with no inference of intent or responsibility.
-- **portugal-pension-boundaries** *(private)* — Methodological audit of the 2026 Portuguese pension reform report across all nineteen chapters: accounting boundaries, a claim registry, and a systematic inference, tax-treatment, and validation-provenance protocol. The founding case is the report's treatment of post-2005 public-worker contributions in the RGSS/CGA comparison.
 - **[portugal-gdp-bayesian-revision](https://github.com/DiogoRibeiro7/portugal-gdp-bayesian-revision)** — Portugal has two official population figures for 2025 that differ by 5.6%. Before asking what INE's revision does to GDP per capita, this asks the prior question of fact: which population is the published index actually divided by?
 - **[gdp-wage-transmission](https://github.com/DiogoRibeiro7/gdp-wage-transmission)** — How growth and labour productivity transmit into real wages, how fast, and whether the relationship has changed — Portugal first, built from the start to support cross-country robustness checks, with a frozen reference audit.
 - **[pt-salary-gamma-distribution](https://github.com/DiogoRibeiro7/pt-salary-gamma-distribution)** — Monthly earnings in Portugal from the GEP/MTSSS *Quadros de Pessoal* grouped tables. Does not assume the Gamma family fits; tests it against alternative positive-support models on the grouped data the workbooks actually publish.
-- **poverty_neoliberalism_research_program** *(private)* — Agent-first scaffold for a ten-paper empirical programme on poverty, wages, taxes, and asset power in the US and UK since 1950, sharing one pipeline and reproducibility contract across all papers.
-- **eu_economy_decision_lab** *(private)* — Policy-facing framework for diagnosing the European economy (growth, wage-productivity gaps, fiscal stance, inequality) producing reproducible country scorecards and a Portugal-vs-EU brief.
-- **wealth_rentier_dynamics** *(private)* — Modelling modern inequality as ownership and rent extraction: a dynamical system tending toward a rentier equilibrium, tested against WID, OECD, Eurostat, and ECB data.
-- **il_supply_side_policy_tests** *(private)* — Econometric tests of supply-side liberalisation using event studies, synthetic control (Portugal 2011–2015), and OECD/EU panel models.
-- **portugal_swf_sim** *(private)* — Monte Carlo stress-testing framework for a Portuguese sovereign/strategic fund, modelling debt paths, pension coverage, and downside risk across six scenarios.
-- **housing_future_work_etl** *(private)* — Auditable municipality-year ETL and econometric platform extending a Portuguese housing-price paper into a multi-year panel (PORDATA/INE + GEO API PT) with spatial and causal models.
 - **[portugal-minimum-wage-inflation](https://github.com/DiogoRibeiro7/portugal-minimum-wage-inflation)** — Minimum wages, productivity, and consumer prices in Portugal since 1974: long-run growth accounting plus an exposure-based pass-through design across regions and industries, including the Madeira/Azores differentiation.
 - **[portugal-public-debt-interest](https://github.com/DiogoRibeiro7/portugal-public-debt-interest)** — Portugal's general-government interest burden in euros and as a share of GDP (Eurostat ESA 2010, with an optional AMECO extension), supporting two papers off one shared measurement layer with a byte-identical regression test as the contract between them.
 - **[portugal-external-growth-1960-1973](https://github.com/DiogoRibeiro7/portugal-external-growth-1960-1973)** — Data pipeline weighing colonial against European economic linkages in Portuguese growth, 1960–1973: historical trade classifications, territorial definitions, and cross-checks — deliberately code and data only, no narrative until the pipeline is stable.
 - **[short-rate-anomaly-regimes](https://github.com/DiogoRibeiro7/short-rate-anomaly-regimes)** — Replication and extension of Maio and Santa-Clara on short-rate innovations and equity anomalies: every table and figure generated from frozen artifacts, with provenance labels, an adversarial release gate, and a test that fails when a committed table stops matching its source.
 - **[europe-fsqca-innovation](https://github.com/DiogoRibeiro7/europe-fsqca-innovation)** — Survey-design-aware fsQCA of configurational pathways to firm innovation across the EU-27, asking whether capability configurations travel between Northern/Western, Southern, and Central/Eastern Europe — with a readiness gate that refuses to run a template design.
-- **economic-pressure-democracy-europe** *(private)* — Political data science on economic pressure, institutional decay, and anti-system voting in Europe.
 - **[portugal-refining-resilience](https://github.com/DiogoRibeiro7/portugal-refining-resilience)** — Portugal's petroleum-product system around two events: the Sines hydrocracker entering production in 2013 and the end of refining at Matosinhos in 2021. Does not assume closure raised pump prices — it separates and tests four candidate mechanisms.
 - **[porto-lisbon-uhi-exposure](https://github.com/DiogoRibeiro7/porto-lisbon-uhi-exposure)** — Urban heat island exposure rebuilt from Eurostat GISCO census grids, Urban Audit boundaries, the EEA/Copernicus UrbClim model, and OpenStreetMap green cover, to answer two separate questions: what makes cells hot, and who lives in them.
 - **[city-wage-cost-global](https://github.com/DiogoRibeiro7/city-wage-cost-global)** — Does the higher nominal income in big, expensive cities survive adjustment for what it costs to live there? Tested across US, UK, and EU cities on public data, with all notebooks executed end to end and the findings read off committed outputs.

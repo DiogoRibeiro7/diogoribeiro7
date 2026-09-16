@@ -25,7 +25,7 @@ Quantitative evidence about the portfolio: scale, empirical depth, publication/o
 | Real-data / empirical projects | **23 / 38 (61%)** |
 | Research software / methods | **13 / 38 (34%)** |
 | Curated flagship repositories | **12** |
-| Curated catalogue entries | **87** |
+| Curated catalogue entries | **66** |
 <!-- statistics:snapshot:end -->
 
 These figures intentionally use different populations for different questions. The denominator rules are explicit below rather than blending repository counts, output counts and catalogue entries into one headline number.
@@ -134,7 +134,7 @@ The page intentionally uses different denominators for different questions:
 | What inspectable artifacts has it produced? | **35 output records** |
 | What can a reviewer inspect end-to-end? | **13 case studies across 11 domains** |
 | How strong are repository controls on the curated front page? | **12 flagship repositories** |
-| Where is the broad catalogue concentrated? | **87 PROJECTS.md entries** |
+| Where is the broad catalogue concentrated? | **66 PROJECTS.md entries** |
 <!-- statistics:boundaries:end -->
 
 Keeping those populations separate avoids a common portfolio-statistics mistake: presenting one convenient subset as if it described everything.
@@ -167,7 +167,7 @@ Stars record attention, not correctness, reliability or reproducibility. They si
 | [nosql-databases-labs](https://github.com/DiogoRibeiro7/nosql-databases-labs) | **3** |
 | [academic-presentations](https://github.com/DiogoRibeiro7/academic-presentations) | **2** |
 
-_Top 10 of 209 public non-fork repositories · counts fetched 2026-09-16 · ties broken alphabetically._
+_Top 10 of 210 public non-fork repositories · counts fetched 2026-09-16 · ties broken alphabetically._
 <!-- statistics:stars:end -->
 
 <div align="center">

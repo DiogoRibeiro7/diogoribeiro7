@@ -15,13 +15,22 @@
 
 # Case Studies
 
-**13 end-to-end cases across 11 domains.**
+**13 end-to-end cases across 11 domains, organised into four reviewer routes.**
 
-Case studies are selective, but they are drawn from the full portfolio rather than only the flagship list. Each case has to show a genuine chain from problem and constraints through method to an inspectable outcome or decision.
+These cases are selective. They are grouped by the kind of judgement they demonstrate rather than by application domain, so recurring patterns are easier to compare across the portfolio.
 
-## Production AI
+| Reviewer route | What it demonstrates |
+| :-- | :-- |
+| **System reliability & production** | Whether the data, model, serving and monitoring chain can be trusted together. |
+| **Model selection & falsification** | Whether complexity earns its place against strong baselines and decision-relevant evaluation. |
+| **Forecast-to-decision systems** | Whether predictive uncertainty is carried through to an explicit operational decision. |
+| **Measurement & inference** | Whether definitions, identification and provenance support the claim being made. |
+
+## System reliability & production
 
 ### [Feedback intelligence agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent)
+
+**Domain.** Production AI
 
 **Problem.** Turn unstructured customer feedback into traceable, queryable evidence.
 
@@ -31,21 +40,9 @@ Case studies are selective, but they are drawn from the full portfolio rather th
 
 **Outcome.** A production-style feedback intelligence system whose answer quality can be tested rather than asserted.
 
-## LLM adaptation
-
-### [Qwen text-to-SQL adaptation](https://github.com/DiogoRibeiro7/qwen-text2sql-lab)
-
-**Problem.** Determine whether parameter-efficient fine-tuning actually improves text-to-SQL execution.
-
-**Constraints.** Avoid string-match evaluation, control data volume and adapter capacity, and compare against the untouched base model.
-
-**Method.** Controlled LoRA/QLoRA experiments scored by execution accuracy against the target database.
-
-**Outcome.** A falsifiable model-adaptation study showing where fine-tuning earns its cost.
-
-## Forecasting & MLOps
-
 ### [Clinic forecasting platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform)
+
+**Domain.** Forecasting & MLOps
 
 **Problem.** Forecast healthcare demand while supporting staffing decisions under uncertainty.
 
@@ -55,9 +52,9 @@ Case studies are selective, but they are drawn from the full portfolio rather th
 
 **Outcome.** A full forecast-to-operation workflow rather than a single accuracy leaderboard.
 
-## Data engineering
-
 ### [Transaction risk lakehouse](https://github.com/DiogoRibeiro7/transaction-risk-lakehouse)
+
+**Domain.** Data engineering
 
 **Problem.** Build a reproducible risk/fraud modelling pipeline on transaction data.
 
@@ -67,9 +64,23 @@ Case studies are selective, but they are drawn from the full portfolio rather th
 
 **Outcome.** An end-to-end risk platform where model evidence is tied to the data pipeline that produced it.
 
-## Scientific ML
+## Model selection & falsification
+
+### [Qwen text-to-SQL adaptation](https://github.com/DiogoRibeiro7/qwen-text2sql-lab)
+
+**Domain.** LLM adaptation
+
+**Problem.** Determine whether parameter-efficient fine-tuning actually improves text-to-SQL execution.
+
+**Constraints.** Avoid string-match evaluation, control data volume and adapter capacity, and compare against the untouched base model.
+
+**Method.** Controlled LoRA/QLoRA experiments scored by execution accuracy against the target database.
+
+**Outcome.** A falsifiable model-adaptation study showing where fine-tuning earns its cost.
 
 ### [FNO versus persistence on NOAA OISST](https://github.com/DiogoRibeiro7/oisst-fourier-neural-operator)
+
+**Domain.** Scientific ML
 
 **Problem.** Test whether an FNO materially improves seven-day SST field forecasts over persistence.
 
@@ -79,33 +90,9 @@ Case studies are selective, but they are drawn from the full portfolio rather th
 
 **Outcome.** A falsifiable scientific-ML comparison centred on where the complex model actually earns its place.
 
-## Optimisation
-
-### [Energy-system dispatch](https://github.com/DiogoRibeiro7/energy-system-simulator)
-
-**Problem.** Choose feasible electricity dispatch under intertemporal physical and economic constraints.
-
-**Constraints.** Unit commitment, ramping, minimum up/down time, storage, hydro, imports and demand response.
-
-**Method.** Explicit optimisation rather than a learned surrogate.
-
-**Outcome.** A decision system that produces operational schedules and exposes the constraints driving them.
-
-## Decision science
-
-### [Perishable inventory replenishment](https://github.com/DiogoRibeiro7/perishable-inventory-decision-lab)
-
-**Problem.** Convert uncertain demand forecasts into replenishment decisions for perishable goods.
-
-**Constraints.** Censoring, spoilage, leakage-safe forecasting and asymmetric inventory costs.
-
-**Method.** Calibrated probabilistic forecasting coupled to inventory simulation and policy comparison.
-
-**Outcome.** Forecast quality is judged through the downstream replenishment policy rather than forecast error alone.
-
-## Industrial ML
-
 ### [Scania APS maintenance decisions](https://github.com/DiogoRibeiro7/scania-aps-cost)
+
+**Domain.** Industrial ML
 
 **Problem.** Detect costly truck failures without optimising the wrong classification metric.
 
@@ -115,9 +102,35 @@ Case studies are selective, but they are drawn from the full portfolio rather th
 
 **Outcome.** Model selection becomes an operating-cost decision rather than an accuracy contest.
 
-## Mobility decision systems
+## Forecast-to-decision systems
+
+### [Energy-system dispatch](https://github.com/DiogoRibeiro7/energy-system-simulator)
+
+**Domain.** Optimisation
+
+**Problem.** Choose feasible electricity dispatch under intertemporal physical and economic constraints.
+
+**Constraints.** Unit commitment, ramping, minimum up/down time, storage, hydro, imports and demand response.
+
+**Method.** Explicit optimisation rather than a learned surrogate.
+
+**Outcome.** A decision system that produces operational schedules and exposes the constraints driving them.
+
+### [Perishable inventory replenishment](https://github.com/DiogoRibeiro7/perishable-inventory-decision-lab)
+
+**Domain.** Decision science
+
+**Problem.** Convert uncertain demand forecasts into replenishment decisions for perishable goods.
+
+**Constraints.** Censoring, spoilage, leakage-safe forecasting and asymmetric inventory costs.
+
+**Method.** Calibrated probabilistic forecasting coupled to inventory simulation and policy comparison.
+
+**Outcome.** Forecast quality is judged through the downstream replenishment policy rather than forecast error alone.
 
 ### [Probabilistic taxi fleet allocation](https://github.com/DiogoRibeiro7/ds-projects-portfolio/tree/main/projects/mobility_demand_optimization)
+
+**Domain.** Mobility decision systems
 
 **Problem.** Allocate a finite taxi fleet spatially under uncertain hourly demand.
 
@@ -127,9 +140,11 @@ Case studies are selective, but they are drawn from the full portfolio rather th
 
 **Outcome.** Forecasts are evaluated by service level, regret and operating cost, exposing when better uncertainty modelling does not imply a better decision policy.
 
-## Public finance
+## Measurement & inference
 
 ### [Portuguese public pension financing](https://github.com/DiogoRibeiro7/portugal-public-pension-financing)
+
+**Domain.** Public finance
 
 **Problem.** Determine how Portugal's public pension promise was financed across institutional regimes.
 
@@ -141,6 +156,8 @@ Case studies are selective, but they are drawn from the full portfolio rather th
 
 ### [Portugal general-government balance](https://github.com/DiogoRibeiro7/portugal-fiscal-balance)
 
+**Domain.** Public finance
+
 **Problem.** Measure how the general-government balance is formed across institutional subsectors over time.
 
 **Constraints.** Changing statistical definitions, intra-government transfers and long historical coverage.
@@ -149,9 +166,9 @@ Case studies are selective, but they are drawn from the full portfolio rather th
 
 **Outcome.** A reproducible decomposition of the balance without inferring political intent from accounting aggregates.
 
-## Labour economics
-
 ### [Minimum wage and price pass-through](https://github.com/DiogoRibeiro7/portugal-minimum-wage-inflation)
+
+**Domain.** Labour economics
 
 **Problem.** Estimate how minimum-wage changes interact with productivity and consumer prices in Portugal.
 
@@ -163,6 +180,8 @@ Case studies are selective, but they are drawn from the full portfolio rather th
 
 ### [GDP–wage transmission](https://github.com/DiogoRibeiro7/gdp-wage-transmission)
 
+**Domain.** Labour economics
+
 **Problem.** Estimate how growth and productivity transmit into real wages and whether that relationship changes.
 
 **Constraints.** Non-stationarity, measurement mismatch, structural breaks and time-varying transmission.
@@ -170,4 +189,3 @@ Case studies are selective, but they are drawn from the full portfolio rather th
 **Method.** ECM, state-space modelling, break analysis and cross-country robustness checks.
 
 **Outcome.** A layered estimate of long-run and evolving wage transmission rather than a single correlation.
-

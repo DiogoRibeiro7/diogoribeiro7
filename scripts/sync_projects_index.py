@@ -15,6 +15,8 @@ PROJECTS_PATH = ROOT / "PROJECTS.md"
 
 INDEX_START = "<!-- projects:public-index:start -->"
 INDEX_END = "<!-- projects:public-index:end -->"
+MATURITY_START = "<!-- maturity:start -->"
+MATURITY_END = "<!-- maturity:end -->"
 TITLE_PATTERN = re.compile(r"^# Selected Work\s*$", re.MULTILINE)
 
 # The routes aggregate canonical maturity labels; they do not create a second
@@ -138,9 +140,45 @@ def replace_or_insert(text: str, replacement: str) -> str:
     return text[:insert_at] + "\n\n" + replacement + text[insert_at:]
 
 
+def collapse_maturity_legend(text: str) -> str:
+    """Keep canonical maturity labels available without letting them dominate the page."""
+    pattern = re.compile(
+        re.escape(MATURITY_START) + r"(.*?)" + re.escape(MATURITY_END),
+        re.DOTALL,
+    )
+    match = pattern.search(text)
+    if not match:
+        raise ValueError("PROJECTS.md maturity legend block was not found.")
+
+    inner = match.group(1).strip()
+    if inner.startswith("<details>"):
+        return text
+
+    lines = inner.splitlines()
+    if lines and lines[0].strip() == "## Maturity labels":
+        lines = lines[1:]
+        while lines and not lines[0].strip():
+            lines.pop(0)
+    body = "\n".join(lines).strip()
+    replacement = "\n".join(
+        [
+            MATURITY_START,
+            "<details>",
+            "<summary><strong>Canonical maturity labels</strong></summary>",
+            "",
+            body,
+            "",
+            "</details>",
+            MATURITY_END,
+        ]
+    )
+    return pattern.sub(replacement, text, count=1)
+
+
 def render_projects(text: str, manifest: dict[str, Any]) -> str:
-    """Return PROJECTS.md with the public index synchronised."""
-    return replace_or_insert(text, render_index(manifest))
+    """Return PROJECTS.md with the public index and compact maturity reference."""
+    indexed = replace_or_insert(text, render_index(manifest))
+    return collapse_maturity_legend(indexed)
 
 
 def main() -> int:

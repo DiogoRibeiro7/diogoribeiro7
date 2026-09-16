@@ -50,7 +50,7 @@ Active research questions with public code, data pipelines or manuscript evidenc
 
 | Artifact | Repository maturity | Public evidence | What it demonstrates |
 | :-- | :-- | :-- | :-- |
-| **[Failure-aware multimodal behavioural sensing](https://github.com/DiogoRibeiro7/behavioral-sensing-research/tree/develop/papers/failure-aware-multimodal-behavioural-sensing)** | research programme | dedicated research path | Research programme on separating sensor failure, missing evidence and genuine behavioural change. |
+| **[Failure-aware multimodal behavioural sensing](https://github.com/DiogoRibeiro7/behavioral-sensing-research)** | research programme | repository artifact | Research programme on separating sensor failure, missing evidence and genuine behavioural change. |
 | **[Survival discrimination versus calibration](https://github.com/DiogoRibeiro7/genSurvPy/tree/develop/research/discrimination-not-calibration)** | published software | dedicated research path | Known-truth simulation study of ranking metrics, probability accuracy and censoring. |
 | **[Portuguese public pension financing](https://github.com/DiogoRibeiro7/portugal-public-pension-financing)** | research programme | repository artifact | Legal, accounting and actuarial reconstruction of pension financing regimes. |
 | **[GDP–wage transmission](https://github.com/DiogoRibeiro7/gdp-wage-transmission)** | research programme | repository artifact | Long-run, state-space and structural-break analysis of productivity-to-wage transmission. |
@@ -87,7 +87,7 @@ Systems where modelling is connected to serving, operations or an explicit decis
 | **[Fraud-risk FastAPI platform](https://github.com/DiogoRibeiro7/fastapi-ml-platform)** | production-style system | repository artifact | Real-time inference with drift monitoring and observability. |
 | **[RAGOps lab](https://github.com/DiogoRibeiro7/ragops-lab)** | production-style system | repository artifact | Evaluation-first RAG with tracing, regression testing and cost-aware experiments. |
 | **[LLM data platform](https://github.com/DiogoRibeiro7/llm-data-platform)** | production-style system | repository artifact | Contract-linked ingestion, curation and observability for LLM datasets. |
-| **[PyFlink fraud detection streaming](https://github.com/DiogoRibeiro7/pyflink-fraud-detection-streaming)** | production-style system | repository artifact | Stateful streaming features with explainable fraud-risk scoring. |
+| **[PyFlink fraud detection streaming](https://github.com/DiogoRibeiro7/pyflink-fraud-detection-streaming)** | production-style system | repository artifact | Stateful streaming features with explainable risk scoring. |
 | **[DataExcept / dataexcept](https://github.com/DiogoRibeiro7/DataExcept)** | published software | [PyPI](https://pypi.org/project/dataexcept/) | Structured exception layer for data-loading, export and operational failures in data and ML pipelines. |
 
 ---

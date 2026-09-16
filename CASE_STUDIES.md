@@ -189,3 +189,4 @@ These cases are selective. They are grouped by the kind of judgement they demons
 **Method.** ECM, state-space modelling, break analysis and cross-country robustness checks.
 
 **Outcome.** A layered estimate of long-run and evolving wage transmission rather than a single correlation.
+

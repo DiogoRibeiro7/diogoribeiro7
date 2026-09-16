@@ -18,6 +18,23 @@ INDEX_END = "<!-- projects:public-index:end -->"
 MATURITY_START = "<!-- maturity:start -->"
 MATURITY_END = "<!-- maturity:end -->"
 TITLE_PATTERN = re.compile(r"^# Selected Work\s*$", re.MULTILINE)
+PRIVATE_ENTRY_PATTERN = re.compile(
+    r"^- \*\*(?P<name>[^*]+)\*\* \*\(private\)\* — .*\n?",
+    re.MULTILINE,
+)
+HEADING_PATTERN = re.compile(r"^##\s+(.+?)\s*$")
+
+CATALOGUE_HEADINGS = {
+    "Production AI & LLM Systems",
+    "ML Engineering & MLOps",
+    "Deep Learning & Scientific Computing",
+    "Data Engineering & Streaming",
+    "Statistical & Applied Data Science",
+    "Optimisation & Decision Systems",
+    "Economics, Finance & Policy Research",
+    "Mathematical Methods & Algorithms",
+    "Developer Tooling",
+}
 
 # The routes aggregate canonical maturity labels; they do not create a second
 # project taxonomy. Every manifest project must resolve to exactly one route.
@@ -107,7 +124,7 @@ def render_index(manifest: dict[str, Any]) -> str:
         INDEX_START,
         "## Public portfolio index",
         "",
-        f"The canonical manifest currently contains **{total} public projects**. This index groups them by evidence state rather than subject area, so a reviewer can choose the right depth quickly. The broader catalogue below also includes additional historical, exploratory and private work.",
+        f"The canonical manifest currently contains **{total} public projects**. This index groups them by evidence state rather than subject area, so a reviewer can choose the right depth quickly. The broader catalogue below contains additional historical and exploratory **public** work.",
         "",
         "| Reviewer path | Public projects | What that evidence means | Inspect next |",
         "| :-- | --: | :-- | :-- |",
@@ -175,14 +192,58 @@ def collapse_maturity_legend(text: str) -> str:
     return pattern.sub(replacement, text, count=1)
 
 
+def strip_private_catalogue_entries(text: str) -> str:
+    """Remove named private projects from the public catalogue and prose."""
+    private_names = [match.group("name") for match in PRIVATE_ENTRY_PATTERN.finditer(text)]
+    cleaned = PRIVATE_ENTRY_PATTERN.sub("", text)
+
+    for name in private_names:
+        cleaned = cleaned.replace(f"`{name}`", "private work")
+
+    cleaned = re.sub(r"(?:private work,\s*){2,}", "private work, ", cleaned)
+    cleaned = cleaned.replace(
+        "A curated slice of recent work, grouped by the kind of problem it solves. Linked entries are public repositories; entries marked *(private)* are active but not published, and are listed so the picture is complete. Full public list at",
+        "A curated slice of public work, grouped by the kind of problem it solves. Every named catalogue entry below is publicly inspectable. Full public list at",
+    )
+    cleaned = cleaned.replace(
+        "What this year actually produced, across public and private work.",
+        "What this year produced across the public portfolio.",
+    )
+
+    if "*(private)*" in cleaned:
+        raise ValueError("PROJECTS.md still contains an explicit private-project marker.")
+    for name in private_names:
+        if name in cleaned:
+            raise ValueError(f"PROJECTS.md still exposes a private repository name: {name}")
+    return cleaned
+
+
+def validate_catalogue_links(text: str) -> None:
+    """Require project bullets in counted catalogue sections to be public links."""
+    active_heading: str | None = None
+    for line_number, raw_line in enumerate(text.splitlines(), start=1):
+        heading_match = HEADING_PATTERN.match(raw_line)
+        if heading_match:
+            heading = heading_match.group(1).strip()
+            active_heading = heading if heading in CATALOGUE_HEADINGS else None
+            continue
+        if active_heading and raw_line.startswith("- **") and not raw_line.startswith("- **["):
+            raise ValueError(
+                f"Unlinked project entry in public catalogue at line {line_number}: {raw_line}"
+            )
+
+
 def render_projects(text: str, manifest: dict[str, Any]) -> str:
-    """Return PROJECTS.md with the public index and compact maturity reference."""
-    indexed = replace_or_insert(text, render_index(manifest))
-    return collapse_maturity_legend(indexed)
+    """Return PROJECTS.md with public-only catalogue and reviewer index."""
+    public_only = strip_private_catalogue_entries(text)
+    indexed = replace_or_insert(public_only, render_index(manifest))
+    collapsed = collapse_maturity_legend(indexed)
+    validate_catalogue_links(collapsed)
+    return collapsed
 
 
 def main() -> int:
-    """Generate the public index, or fail if the committed page is stale."""
+    """Generate the public catalogue/index, or fail when committed state is stale."""
     parser = argparse.ArgumentParser()
     parser.add_argument("command", choices=("generate", "check"))
     args = parser.parse_args()
@@ -196,10 +257,10 @@ def main() -> int:
         return 0
 
     if current != expected:
-        print("ERROR: PROJECTS.md public portfolio index is stale.")
+        print("ERROR: PROJECTS.md public catalogue/index is stale.")
         return 1
 
-    print("PROJECTS.md public portfolio index is consistent with canonical portfolio data.")
+    print("PROJECTS.md public catalogue/index is consistent with canonical portfolio data.")
     return 0
 
 

@@ -13,35 +13,50 @@
 
 ---
 
-# Teaching
+# Teaching & Course Design
 
-Teaching is a core part of how I contribute — translating mathematical and technical ideas into material teams and students can apply in practice.
+I teach mathematics and data subjects at the **Faculty of Media Arts and Design, Technical University of Porto**. My teaching work is built around the same principles as my research and engineering work: make assumptions explicit, connect theory to executable examples, and make the learning process reproducible rather than slide-dependent.
 
-- [Courses @ Faculty of Media Arts and Design](#courses--faculty-of-media-arts-and-design-technical-university-of-porto)
-- [Seminars & Workshops](#seminars--workshops)
+## Recent university teaching
 
----
+| Course / activity | Main focus | Public evidence |
+| :-- | :-- | :-- |
+| **Mathematics I** | Logic, sets, rigorous reasoning, differential and integral calculus, and the transition from symbolic work to computational intuition. | [calculus-with-python](https://github.com/DiogoRibeiro7/calculus-with-python) · [esmad_public](https://github.com/DiogoRibeiro7/esmad_public) |
+| **Mathematics II / Linear Algebra & Analytic Geometry** | Matrices, linear systems, vector spaces, linear maps, determinants, geometry, numerical stability, and links to data analysis. | [linear-algebra-with-python](https://github.com/DiogoRibeiro7/linear-algebra-with-python) · [linear-algebra-tutor](https://github.com/DiogoRibeiro7/linear-algebra-tutor) |
+| **NoSQL Databases** | Document modelling, CRUD, indexing, aggregation, replication, performance, and modern MongoDB features. | [nosql-databases-labs](https://github.com/DiogoRibeiro7/nosql-databases-labs) |
+| **Project I** | Project supervision, technical reasoning, problem decomposition, evidence, and communication of implementation choices. | Supervision and assessment work rather than a single public course repository. |
 
-## Courses @ Faculty of Media Arts and Design, Technical University of Porto
-
-- **Introduction to Logic & Set Theory** — Logic (prop/FO), sets, induction, and differential & integral calculus, with an emphasis on rigorous reasoning and the transition from discrete foundations to continuous mathematics.
-- **Linear Algebra & Analytic Geometry** — Vector spaces and linear maps; matrices and determinants; eigenvalues, diagonalisation, orthogonality and least squares; SVD and PCA; numerical stability; applications to optimisation and data science. ([course repo](https://github.com/DiogoRibeiro7/linear-algebra-with-python))
-- **NoSQL & MongoDB** — Document-oriented modelling, indexing and aggregation, query patterns, and practical work with real datasets. ([labs](https://github.com/DiogoRibeiro7/nosql-databases-labs))
-- **NLP & LLM mini-workshops** — Prompt design, evaluation, lightweight retrieval, structured outputs, and report generation, with attention to reliability in production.
-
-Course material is developed in the open where possible, so students keep a working repository rather than a set of slides. The [linear-algebra-tutor](https://github.com/DiogoRibeiro7/linear-algebra-tutor) — a RAG-driven Socratic tutoring system — was built for students at the Faculty of Media Arts and Design alongside the linear algebra course.
+The public repositories are not decorative companions to the courses. They contain executable exercises, reference implementations, tests, submission workflows, datasets, and documentation intended to survive beyond a single semester.
 
 ---
 
-## Seminars & Workshops
+## Teaching artifacts worth inspecting
 
-- **Data Science & MLOps** — End-to-end ML pipelines, feature engineering for time series, evaluation under drift, CI/CD, and reproducible research practices.
-- **Sensors & Dashboards** — IoT ingestion (MQTT/Kafka), time-series storage (InfluxDB/Parquet), streaming analytics (Flink), and dashboards (Grafana/Plotly/Dash) with alerting and anomaly detection.
-- **Statistical Modelling & Experimentation** — Experimental design, power analysis, variance reduction, SRM diagnostics, and translating results into decisions.
-- **Graph Analytics & Network Science** — Centrality, community detection, temporal networks, and diffusion processes.
-- **Time Series, Forecasting & Anomaly Detection** — Decomposition, baselines, adaptive thresholds, and change-point detection for operational systems.
+| Artifact | What it contains | What it demonstrates |
+| :-- | :-- | :-- |
+| **[Linear Algebra with Python](https://github.com/DiogoRibeiro7/linear-algebra-with-python)** | Seven practical assignments, lesson notebooks, exercise/solution material, tested Python and TypeScript implementations, PR-based student submissions, grading structure, release history, and a Zenodo DOI. | A mathematics course treated as maintained software and reproducible teaching material, not a folder of slides. |
+| **[NoSQL Databases Labs](https://github.com/DiogoRibeiro7/nosql-databases-labs)** | Labs on modelling, queries, aggregation, replication and modern MongoDB features; datasets, automated tests, CI, validation scripts, performance expectations, and self-paced paths. | Hands-on database teaching with engineering-quality feedback and reproducible environments. |
+| **[Calculus with Python](https://github.com/DiogoRibeiro7/calculus-with-python)** | Guided notebooks on functions, numerical differentiation and integration, visual demonstrations, tested numerical helpers, a CLI, and symbolic extensions. | Using computation to expose approximation error and mathematical structure rather than replacing the mathematics. |
+| **[Linear Algebra Tutor](https://github.com/DiogoRibeiro7/linear-algebra-tutor)** | A RAG-driven Socratic tutoring system built around linear-algebra learning material. | An experiment in augmenting teaching with retrieval and guided questioning while keeping the course material as the source of truth. |
+| **[esmad_public](https://github.com/DiogoRibeiro7/esmad_public)** | Open mathematics material including linear algebra, Python-and-mathematics examples, numerical-integration utilities, and geometric visualisations. | Long-lived public teaching material across multiple mathematical topics. |
 
-Available for guest lectures, team workshops, and seminar series on any of the above — [get in touch](mailto:diogo.debastos.ribeiro@gmail.com).
+---
+
+## How I design technical teaching
+
+- **Theory must survive execution.** Mathematical statements are paired with code, numerical examples, counterexamples, or experiments where that improves understanding.
+- **Assessment should reveal reasoning.** Assignments are structured around method, evidence, reflection, and reproducibility rather than only a final numeric answer.
+- **Tooling is part of the course.** Git, pull requests, tests, CI, datasets, and documented environments are used where they support the learning objective.
+- **Automation should improve feedback, not replace judgement.** Validation scripts catch structural mistakes quickly; conceptual and mathematical assessment remains a human task.
+- **Open material compounds.** Course repositories can be reused, reviewed, cited, extended, and improved across cohorts instead of being rebuilt from private slides each year.
+
+---
+
+## Seminars & workshops
+
+I also teach shorter sessions where the objective is to connect mathematical or statistical ideas to an operational workflow. Typical subjects include statistical modelling and experimentation, forecasting and anomaly detection, data science and MLOps, graph analytics, sensor data systems, and reliable LLM/RAG evaluation.
+
+For guest lectures, workshops, course collaboration, or supervision enquiries, contact me by [email](mailto:diogo.debastos.ribeiro@gmail.com) or [LinkedIn](https://www.linkedin.com/in/diogo-ribeiro-9094604a/).
 
 ---
 

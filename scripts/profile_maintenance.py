@@ -27,6 +27,28 @@ NAV_PATTERN = re.compile(
 )
 FEATURED_REPO_PATTERN = re.compile(r"https://github\.com/DiogoRibeiro7/([^/)#]+)")
 
+CASE_STUDY_ROUTES = {
+    "System reliability & production": {
+        "Production AI",
+        "Forecasting & MLOps",
+        "Data engineering",
+    },
+    "Model selection & falsification": {
+        "LLM adaptation",
+        "Scientific ML",
+        "Industrial ML",
+    },
+    "Forecast-to-decision systems": {
+        "Optimisation",
+        "Decision science",
+        "Mobility decision systems",
+    },
+    "Measurement & inference": {
+        "Public finance",
+        "Labour economics",
+    },
+}
+
 
 def load_manifest() -> dict:
     """Load the canonical portfolio manifest."""
@@ -190,11 +212,23 @@ def render_outputs(manifest: dict) -> str:
     return "\n".join(body) + "\n"
 
 
+def case_study_route(domain: str) -> str:
+    """Map a case-study domain to a reviewer-oriented reasoning route."""
+    matches = [route for route, domains in CASE_STUDY_ROUTES.items() if domain in domains]
+    if len(matches) != 1:
+        raise ValueError(f"Case-study domain must map to exactly one reviewer route: {domain!r}")
+    return matches[0]
+
+
 def render_case_studies(manifest: dict) -> str:
-    """Render the generated case-studies page."""
-    groups: dict[str, list[dict]] = {}
-    for case in manifest["case_studies"]:
-        groups.setdefault(case.get("domain", "Other"), []).append(case)
+    """Render case studies by recurring reasoning pattern rather than sparse domain headings."""
+    cases = manifest["case_studies"]
+    routes: dict[str, list[dict]] = {route: [] for route in CASE_STUDY_ROUTES}
+    domains = {case.get("domain", "Other") for case in cases}
+
+    for case in cases:
+        routes[case_study_route(case.get("domain", "Other"))].append(case)
+
     body = [
         nav_html("CASE_STUDIES.md", manifest),
         "",
@@ -202,20 +236,30 @@ def render_case_studies(manifest: dict) -> str:
         "",
         "# Case Studies",
         "",
-        f'**{len(manifest["case_studies"])} end-to-end cases across {len(groups)} domains.**',
+        f'**{len(cases)} end-to-end cases across {len(domains)} domains, organised into four reviewer routes.**',
         "",
-        "Case studies are selective, but they are drawn from the full portfolio rather than only the flagship list. Each case has to show a genuine chain from problem and constraints through method to an inspectable outcome or decision.",
+        "These cases are selective. They are grouped by the kind of judgement they demonstrate rather than by application domain, so recurring patterns are easier to compare across the portfolio.",
+        "",
+        "| Reviewer route | What it demonstrates |",
+        "| :-- | :-- |",
+        "| **System reliability & production** | Whether the data, model, serving and monitoring chain can be trusted together. |",
+        "| **Model selection & falsification** | Whether complexity earns its place against strong baselines and decision-relevant evaluation. |",
+        "| **Forecast-to-decision systems** | Whether predictive uncertainty is carried through to an explicit operational decision. |",
+        "| **Measurement & inference** | Whether definitions, identification and provenance support the claim being made. |",
         "",
     ]
-    for domain, cases in groups.items():
-        body.extend([f"## {domain}", ""])
-        for case in cases:
+
+    for route, route_cases in routes.items():
+        body.extend([f"## {route}", ""])
+        for case in route_cases:
             repo = case["repo"]
             url = project_url(repo, case.get("path"), case.get("ref", "main"))
             title = case.get("title", repo)
             body.extend(
                 [
                     f'### [{title}]({url})',
+                    "",
+                    f'**Domain.** {case.get("domain", "Other")}',
                     "",
                     f'**Problem.** {case["problem"]}',
                     "",
@@ -292,6 +336,11 @@ def check(manifest: dict) -> list[str]:
     case_titles = [case.get("title", case["repo"]) for case in manifest["case_studies"]]
     if len(case_titles) != len(set(case_titles)):
         errors.append("duplicate case-study titles")
+    case_domains = {case.get("domain", "Other") for case in manifest["case_studies"]}
+    mapped_domains = set().union(*CASE_STUDY_ROUTES.values())
+    unknown_case_domains = sorted(case_domains - mapped_domains)
+    if unknown_case_domains:
+        errors.append(f"case-study domains missing reviewer routes: {unknown_case_domains}")
 
     for path, expected in generated_files(manifest).items():
         actual_path = ROOT / path

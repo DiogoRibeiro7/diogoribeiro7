@@ -17,6 +17,7 @@ on:
       - "scripts/profile_maintenance.py"
       - "scripts/normalize_readme_layout.py"
       - "scripts/sync_readme_snapshot.py"
+      - "scripts/sync_projects_index.py"
       - "scripts/generate_topic_statistics.py"
       - "scripts/generate_portfolio_metrics.py"
       - "scripts/generate_portfolio_overview.py"
@@ -55,6 +56,9 @@ jobs:
       - name: Synchronise README portfolio snapshot
         run: python scripts/sync_readme_snapshot.py generate
 
+      - name: Synchronise Projects public index
+        run: python scripts/sync_projects_index.py generate
+
       - name: Regenerate portfolio-wide statistics
         run: python scripts/generate_portfolio_overview.py
 
@@ -80,6 +84,7 @@ jobs:
         run: |
           python scripts/profile_maintenance.py check
           python scripts/sync_readme_snapshot.py check
+          python scripts/sync_projects_index.py check
           python scripts/sync_statistics.py check
           python scripts/generate_portfolio_metrics.py check
           python scripts/generate_star_metrics.py check

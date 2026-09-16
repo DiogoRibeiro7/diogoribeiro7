@@ -87,7 +87,7 @@ Systems where modelling is connected to serving, operations or an explicit decis
 | **[Fraud-risk FastAPI platform](https://github.com/DiogoRibeiro7/fastapi-ml-platform)** | production-style system | repository artifact | Real-time inference with drift monitoring and observability. |
 | **[RAGOps lab](https://github.com/DiogoRibeiro7/ragops-lab)** | production-style system | repository artifact | Evaluation-first RAG with tracing, regression testing and cost-aware experiments. |
 | **[LLM data platform](https://github.com/DiogoRibeiro7/llm-data-platform)** | production-style system | repository artifact | Contract-linked ingestion, curation and observability for LLM datasets. |
-| **[PyFlink fraud detection streaming](https://github.com/DiogoRibeiro7/pyflink-fraud-detection-streaming)** | production-style system | repository artifact | Stateful streaming features with explainable risk scoring. |
+| **[PyFlink fraud detection streaming](https://github.com/DiogoRibeiro7/pyflink-fraud-detection-streaming)** | production-style system | repository artifact | Stateful streaming features with explainable fraud-risk scoring. |
 | **[DataExcept / dataexcept](https://github.com/DiogoRibeiro7/DataExcept)** | published software | [PyPI](https://pypi.org/project/dataexcept/) | Structured exception layer for data-loading, export and operational failures in data and ML pipelines. |
 
 ---

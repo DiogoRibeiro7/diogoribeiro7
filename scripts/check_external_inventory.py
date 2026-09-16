@@ -109,6 +109,12 @@ def main() -> int:
 
     for project in manifest["projects"]:
         repo = project["repo"]
+        if "featured" in project:
+            errors.append(
+                f"legacy featured field is not allowed in project metadata: {repo}; "
+                "FEATURED.md is the sole Featured source of truth"
+            )
+
         url = f"https://api.github.com/repos/{OWNER}/{repo}"
         try:
             status, payload = get(url)

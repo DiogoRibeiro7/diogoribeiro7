@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import time
 import urllib.error
 import urllib.request
@@ -13,6 +14,21 @@ MANIFEST = ROOT / "data" / "portfolio.json"
 USER_AGENT = "diogoribeiro7-profile-integrity/1.0"
 GITHUB_API_PREFIX = "https://api.github.com/"
 OWNER = "DiogoRibeiro7"
+PUBLIC_PAGES = (
+    "README.md",
+    "FEATURED.md",
+    "PROJECTS.md",
+    "METHODS.md",
+    "RESEARCH.md",
+    "OUTPUTS.md",
+    "CASE_STUDIES.md",
+    "TEACHING.md",
+    "PYPI.md",
+    "STATISTICS.md",
+)
+REPOSITORY_LINK_PATTERN = re.compile(
+    rf"https://github\.com/{re.escape(OWNER)}/([A-Za-z0-9_.-]+)"
+)
 
 
 def request_headers(url: str) -> dict[str, str]:
@@ -50,6 +66,21 @@ def get(url: str, attempts: int = 3) -> tuple[int, bytes]:
     raise RuntimeError(f"request failed after {attempts} attempts: {url}: {last_error}")
 
 
+def linked_repositories() -> dict[str, tuple[str, ...]]:
+    """Return same-owner repositories linked from reviewer-facing Markdown pages."""
+    pages_by_repo: dict[str, list[str]] = {}
+
+    for relative_path in PUBLIC_PAGES:
+        text = (ROOT / relative_path).read_text(encoding="utf-8")
+        for repo in REPOSITORY_LINK_PATTERN.findall(text):
+            pages_by_repo.setdefault(repo, []).append(relative_path)
+
+    return {
+        repo: tuple(dict.fromkeys(pages))
+        for repo, pages in sorted(pages_by_repo.items())
+    }
+
+
 def manifest_deep_links(manifest: dict) -> list[tuple[str, str, str, tuple[str, ...]]]:
     """Return unique repository ref/path links used by generated public pages."""
     labels_by_link: dict[tuple[str, str, str], list[str]] = {}
@@ -69,6 +100,25 @@ def manifest_deep_links(manifest: dict) -> list[tuple[str, str, str, tuple[str, 
         (repo, ref, path, tuple(labels))
         for (repo, ref, path), labels in labels_by_link.items()
     ]
+
+
+def check_repository_public(repo: str, contexts: tuple[str, ...]) -> str | None:
+    """Verify that a referenced repository exists and is publicly inspectable."""
+    url = f"https://api.github.com/repos/{OWNER}/{repo}"
+    context = ", ".join(contexts)
+
+    try:
+        status, payload = get(url)
+    except Exception as exc:
+        return f"GitHub repository unavailable: {repo} ({context}): {exc}"
+
+    if status != 200:
+        return f"GitHub repository unavailable ({status}): {repo} ({context})"
+
+    metadata = json.loads(payload)
+    if metadata.get("private"):
+        return f"public profile exposes a private repository: {repo} ({context})"
+    return None
 
 
 def check_deep_link(
@@ -106,26 +156,16 @@ def main() -> int:
     """Verify public repositories, packages, and manifest-backed deep links."""
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     errors: list[str] = []
+    contexts_by_repo: dict[str, list[str]] = {}
 
     for project in manifest["projects"]:
         repo = project["repo"]
+        contexts_by_repo.setdefault(repo, []).append("manifest:projects")
         if "featured" in project:
             errors.append(
                 f"legacy featured field is not allowed in project metadata: {repo}; "
                 "FEATURED.md is the sole Featured source of truth"
             )
-
-        url = f"https://api.github.com/repos/{OWNER}/{repo}"
-        try:
-            status, payload = get(url)
-            if status != 200:
-                errors.append(f"GitHub repository unavailable ({status}): {repo}")
-                continue
-            metadata = json.loads(payload)
-            if metadata.get("private"):
-                errors.append(f"manifest exposes a private repository: {repo}")
-        except Exception as exc:  # network errors should be visible, not silently ignored
-            errors.append(str(exc))
 
         package = project.get("pypi")
         if package:
@@ -142,6 +182,15 @@ def main() -> int:
             except Exception as exc:
                 errors.append(str(exc))
 
+    for repo, pages in linked_repositories().items():
+        contexts_by_repo.setdefault(repo, []).extend(f"page:{page}" for page in pages)
+
+    for repo, contexts in sorted(contexts_by_repo.items()):
+        deduplicated = tuple(dict.fromkeys(contexts))
+        error = check_repository_public(repo, deduplicated)
+        if error:
+            errors.append(error)
+
     for repo, ref, path, labels in manifest_deep_links(manifest):
         error = check_deep_link(repo, ref, path, labels)
         if error:
@@ -152,7 +201,10 @@ def main() -> int:
             print(f"ERROR: {error}")
         return 1
 
-    print("All manifest repositories, PyPI packages, and deep links resolve publicly.")
+    print(
+        "All referenced repositories, manifest PyPI packages, and deep links "
+        "resolve publicly."
+    )
     return 0
 
 

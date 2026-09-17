@@ -9,6 +9,7 @@ Statistical modelling, production AI, decision systems, and reproducible researc
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md"><img src="https://img.shields.io/badge/Projects-30363D?style=for-the-badge" alt="Projects" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/METHODS.md"><img src="https://img.shields.io/badge/Methods-30363D?style=for-the-badge" alt="Methods" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/RESEARCH.md"><img src="https://img.shields.io/badge/Research-30363D?style=for-the-badge" alt="Research" /></a>
+  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/RUST.md"><img src="https://img.shields.io/badge/Rust-30363D?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md"><img src="https://img.shields.io/badge/Evidence-30363D?style=for-the-badge" alt="Evidence" /></a>
 </div>
 
@@ -78,6 +79,7 @@ These figures are generated from the same canonical portfolio data used by [Stat
 | End-to-end problem → constraints → method → outcome reasoning | **[Case Studies](CASE_STUDIES.md)** |
 | Modelling methods, statistical tools, and engineering stack | **[Methods](METHODS.md)** |
 | Active research programmes and reproducibility standards | **[Research](RESEARCH.md)** |
+| Rust packages for statistics, numerical methods, and validation | **[Rust](RUST.md)** |
 | Citable software, studies, and released packages | **[Outputs](OUTPUTS.md)** · **[PyPI](PYPI.md)** |
 | Full catalogue breadth and quantitative portfolio evidence | **[Projects](PROJECTS.md)** · **[Statistics](STATISTICS.md)** |
 | University teaching and supporting material | **[Teaching](TEACHING.md)** |

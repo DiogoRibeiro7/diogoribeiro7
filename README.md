@@ -1,10 +1,12 @@
-# Diogo Ribeiro
+# Diogo Ribeiro (@DiogoRibeiro7)
 
-**Lead Data Scientist · Mathematician · AI/ML Engineer · Researcher & Lecturer**  
-Statistical modelling, production AI, decision systems, and reproducible research · Python-first
+**Lead Data Scientist · Machine Learning Engineer · Professor**  
+**Statistical ML · Time Series · Causal Inference · Applied AI**  
+[Technical writing, research notes, and open-source software](https://diogoribeiro7.github.io)
 
 <div align="center">
   <img src="https://img.shields.io/badge/Home-1F6FEB?style=for-the-badge" alt="Home (current page)" />
+  <a href="https://diogoribeiro7.github.io"><img src="https://img.shields.io/badge/Website-181717?style=for-the-badge&logo=githubpages&logoColor=white" alt="Diogo Ribeiro website" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/FEATURED.md"><img src="https://img.shields.io/badge/Featured-30363D?style=for-the-badge" alt="Featured" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md"><img src="https://img.shields.io/badge/Projects-30363D?style=for-the-badge" alt="Projects" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/METHODS.md"><img src="https://img.shields.io/badge/Methods-30363D?style=for-the-badge" alt="Methods" /></a>
@@ -12,7 +14,7 @@ Statistical modelling, production AI, decision systems, and reproducible researc
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md"><img src="https://img.shields.io/badge/Evidence-30363D?style=for-the-badge" alt="Evidence" /></a>
 </div>
 
-I build data and AI systems where the difficult part starts before and after model fitting: defining the estimand, choosing the decision rule, validating uncertainty, detecting distribution shift, and making the whole chain reproducible. My work spans statistical modelling, machine learning, forecasting, optimisation, data systems, research software, and production AI.
+I build data and AI systems where the difficult part starts before and after model fitting: defining the estimand, choosing the decision rule, validating uncertainty, detecting distribution shift, and making the whole chain reproducible. My work spans statistical ML, time series, causal inference, forecasting, optimisation, data systems, research software, and applied AI.
 
 The common thread is simple: start from the problem and the evidence, use the least complicated model that answers it well, and make the resulting claim inspectable.
 
@@ -87,7 +89,7 @@ These figures are generated from the same canonical portfolio data used by [Stat
 
 ## Work With Me
 
-I teach mathematics and data subjects at the **Faculty of Media Arts and Design, Technical University of Porto** and work across statistical modelling, production AI, forecasting, optimisation, research software, and reproducible applied research.
+I am a **Lead Data Scientist, Machine Learning Engineer and Professor** at the **Faculty of Media Arts and Design, Technical University of Porto**. My work spans statistical ML, time series, causal inference, applied AI, forecasting, optimisation, research software, and reproducible applied research.
 
 For collaboration, research, or professional enquiries, a short note describing the problem, constraints, and expected outcome is the best starting point. Longer-form technical writing and research notes live on my **[website](https://diogoribeiro7.github.io)**.
 

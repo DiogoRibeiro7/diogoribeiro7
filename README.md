@@ -2,11 +2,12 @@
 
 **Lead Data Scientist · Machine Learning Engineer · Professor**  
 **Statistical ML · Time Series · Causal Inference · Applied AI**  
+Statistical modelling, production AI, decision systems, and reproducible research · Python-first
+
 [Technical writing, research notes, and open-source software](https://diogoribeiro7.github.io)
 
 <div align="center">
   <img src="https://img.shields.io/badge/Home-1F6FEB?style=for-the-badge" alt="Home (current page)" />
-  <a href="https://diogoribeiro7.github.io"><img src="https://img.shields.io/badge/Website-181717?style=for-the-badge&logo=githubpages&logoColor=white" alt="Diogo Ribeiro website" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/FEATURED.md"><img src="https://img.shields.io/badge/Featured-30363D?style=for-the-badge" alt="Featured" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md"><img src="https://img.shields.io/badge/Projects-30363D?style=for-the-badge" alt="Projects" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/METHODS.md"><img src="https://img.shields.io/badge/Methods-30363D?style=for-the-badge" alt="Methods" /></a>

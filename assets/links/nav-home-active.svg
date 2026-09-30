@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="40" viewBox="0 0 96 40" role="img" aria-labelledby="title">
   <title id="title">Home (current page)</title>
-  <rect x="0.5" y="2.5" width="95" height="35" rx="8" fill="#FCA326" stroke="#E58B13"/>
-  <g transform="translate(12 11)" fill="none" stroke="#211A12" color="#211A12" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m1 8 8-7 8 7M3 7v10h12V7M7 17v-6h4v6"/></g>
-  <text x="39" y="24.5" fill="#211A12" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Home</text>
+  <rect x="0.5" y="2.5" width="95" height="35" rx="8" fill="#0969DA" stroke="#0550AE"/>
+  <g transform="translate(12 11)" fill="none" stroke="#FFFFFF" color="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m1 8 8-7 8 7M3 7v10h12V7M7 17v-6h4v6"/></g>
+  <text x="39" y="24.5" fill="#FFFFFF" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Home</text>
 </svg>

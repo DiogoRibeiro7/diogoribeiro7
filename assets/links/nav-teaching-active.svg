@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 120 40" role="img" aria-labelledby="title">
+  <title id="title">Teaching (current page)</title>
+  <rect x="0.5" y="2.5" width="119" height="35" rx="8" fill="#FCA326" stroke="#E58B13"/>
+  <g transform="translate(12 11)" fill="none" stroke="#211A12" color="#211A12" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3c-2-2-5-2-8-1v13c3-1 6-1 8 1m0-13c2-2 5-2 8-1v13c-3-1-6-1-8 1M9 3v13"/></g>
+  <text x="39" y="24.5" fill="#211A12" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Teaching</text>
+</svg>

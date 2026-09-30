@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -22,7 +23,9 @@ PAGES = [
 MATURITY_START = "<!-- maturity:start -->"
 MATURITY_END = "<!-- maturity:end -->"
 NAV_PATTERN = re.compile(
-    r'<div align="center">\n(?=(?:(?!</div>)[\s\S])*img\.shields\.io/badge/Home-).*?</div>\n*',
+    r'<div align="center">\n'
+    r'(?=(?:(?!</div>)[\s\S])*(?:img\.shields\.io/badge/Home-|assets/links/nav-home))'
+    r'.*?</div>\n*',
     re.DOTALL,
 )
 FEATURED_REPO_PATTERN = re.compile(r"https://github\.com/DiogoRibeiro7/([^/)#]+)")
@@ -41,6 +44,19 @@ SECONDARY_PAGE_LABELS = {
     "CASE_STUDIES.md": "Case Studies",
     "TEACHING.md": "Teaching",
     "PYPI.md": "PyPI",
+}
+
+NAV_BUTTON_WIDTHS = {
+    "Home": 96,
+    "Featured": 116,
+    "Projects": 112,
+    "Methods": 112,
+    "Research": 120,
+    "Evidence": 120,
+    "Outputs": 112,
+    "Case Studies": 144,
+    "Teaching": 120,
+    "PyPI": 96,
 }
 
 CASE_STUDY_ROUTES = {
@@ -87,14 +103,13 @@ def load_manifest() -> dict:
 
 
 def _nav_badge(label: str, target: str, *, active: bool) -> str:
-    """Render one navigation badge."""
-    colour = "1F6FEB" if active else "30363D"
-    logo = "&logo=pypi&logoColor=white" if label == "PyPI" else ""
+    """Render a local SVG button matching the GitLab profile navigation."""
     alt = f"{label} (current page)" if active else label
-    badge_label = label.replace(" ", "%20")
+    slug = label.lower().replace(" ", "-")
+    suffix = "-active" if active else ""
     img = (
-        f'<img src="https://img.shields.io/badge/{badge_label}-{colour}'
-        f'?style=for-the-badge{logo}" alt="{alt}" />'
+        f'<img src="assets/links/nav-{slug}{suffix}.svg" alt="{alt}" '
+        f'width="{NAV_BUTTON_WIDTHS[label]}" height="40" />'
     )
     if active:
         return img
@@ -134,7 +149,7 @@ def replace_nav(text: str, current: str, manifest: dict) -> str:
         if anchor not in cleaned:
             raise ValueError("README navigation anchor not found")
         before, after = cleaned.split(anchor, 1)
-        return before + anchor + "\n\n" + replacement + after.lstrip("\n")
+        return before + anchor + "\n\n" + replacement + "\n\n" + after.lstrip("\n")
 
     return replacement + "\n\n---\n\n" + cleaned.lstrip("\n- ")
 
@@ -464,6 +479,23 @@ def check(manifest: dict) -> list[str]:
         if not fp.exists():
             continue
         text = fp.read_text(encoding="utf-8")
+        for image in re.findall(r'<img\b[^>]*>', text):
+            source = re.search(r'src="(assets/links/[^"]+\.svg)"', image)
+            if source is None:
+                continue
+            asset = ROOT / source.group(1)
+            if not asset.is_file():
+                errors.append(f"button asset missing in {path}: {source.group(1)}")
+                continue
+            try:
+                svg = ET.parse(asset).getroot()
+            except ET.ParseError:
+                errors.append(f"invalid SVG button in {path}: {source.group(1)}")
+                continue
+            for dimension in ("width", "height"):
+                declared = re.search(rf'{dimension}="([0-9]+)"', image)
+                if declared is None or declared.group(1) != svg.get(dimension):
+                    errors.append(f"button {dimension} mismatch in {path}: {source.group(1)}")
         nav_blocks = NAV_PATTERN.findall(text)
         if len(nav_blocks) != 1:
             errors.append(f"expected exactly one navigation block in {path}, found {len(nav_blocks)}")

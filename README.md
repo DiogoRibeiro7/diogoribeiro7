@@ -7,12 +7,12 @@
 Statistical modelling, production AI, decision systems, and reproducible research · Python-first
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Home-1F6FEB?style=for-the-badge" alt="Home (current page)" />
-  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/FEATURED.md"><img src="https://img.shields.io/badge/Featured-30363D?style=for-the-badge" alt="Featured" /></a>
-  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md"><img src="https://img.shields.io/badge/Projects-30363D?style=for-the-badge" alt="Projects" /></a>
-  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/METHODS.md"><img src="https://img.shields.io/badge/Methods-30363D?style=for-the-badge" alt="Methods" /></a>
-  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/RESEARCH.md"><img src="https://img.shields.io/badge/Research-30363D?style=for-the-badge" alt="Research" /></a>
-  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md"><img src="https://img.shields.io/badge/Evidence-30363D?style=for-the-badge" alt="Evidence" /></a>
+  <img src="assets/links/nav-home-active.svg" alt="Home (current page)" width="96" height="40" />
+  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/FEATURED.md"><img src="assets/links/nav-featured.svg" alt="Featured" width="116" height="40" /></a>
+  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/PROJECTS.md"><img src="assets/links/nav-projects.svg" alt="Projects" width="112" height="40" /></a>
+  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/METHODS.md"><img src="assets/links/nav-methods.svg" alt="Methods" width="112" height="40" /></a>
+  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/RESEARCH.md"><img src="assets/links/nav-research.svg" alt="Research" width="120" height="40" /></a>
+  <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md"><img src="assets/links/nav-evidence.svg" alt="Evidence" width="120" height="40" /></a>
 </div>
 
 I build data and AI systems where the difficult part starts before and after model fitting: defining the estimand, choosing the decision rule, validating uncertainty, detecting distribution shift, and making the whole chain reproducible. My work spans statistical ML, time series, causal inference, forecasting, optimisation, data systems, research software, and applied AI.
@@ -96,15 +96,15 @@ For collaboration, research, or professional enquiries, a short note describing 
 
 <div align="center">
   <a href="mailto:diogo.debastos.ribeiro@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+    <img src="assets/links/email.svg" alt="Email Diogo Ribeiro" width="120" height="40" />
   </a>
   <a href="https://www.linkedin.com/in/diogo-ribeiro-9094604a/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="assets/links/linkedin.svg" alt="LinkedIn profile" width="118" height="40" />
   </a>
   <a href="https://diogoribeiro7.github.io">
-    <img src="https://img.shields.io/badge/Website-181717?style=for-the-badge&logo=githubpages&logoColor=white" alt="Website" />
+    <img src="assets/links/website.svg" alt="Personal website" width="118" height="40" />
   </a>
   <a href="https://orcid.org/0009-0001-2022-7072">
-    <img src="https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" />
+    <img src="assets/links/orcid.svg" alt="ORCID researcher profile" width="104" height="40" />
   </a>
 </div>

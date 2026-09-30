@@ -107,4 +107,7 @@ For collaboration, research, or professional enquiries, a short note describing 
   <a href="https://orcid.org/0009-0001-2022-7072">
     <img src="assets/links/orcid.svg" alt="ORCID researcher profile" width="104" height="40" />
   </a>
+  <a href="https://gitlab.com/DiogoRibeiro7">
+    <img src="assets/links/gitlab.svg" alt="GitLab profile" width="104" height="40" />
+  </a>
 </div>

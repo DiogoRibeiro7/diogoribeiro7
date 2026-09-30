@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 120 40" role="img" aria-labelledby="title">
+  <title id="title">Evidence</title>
+  <rect x="0.5" y="2.5" width="119" height="35" rx="8" fill="#202631" stroke="#414A59"/>
+  <g transform="translate(12 11)" fill="none" stroke="#FFB45B" color="#FFB45B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="2" width="13" height="15" rx="2"/><path d="M6 1h7v3H6Zm0 7 2 2 4-4M6 13h7"/></g>
+  <text x="39" y="24.5" fill="#F3F4F6" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Evidence</text>
+</svg>

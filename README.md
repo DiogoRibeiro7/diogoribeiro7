@@ -1,10 +1,12 @@
 # Diogo Ribeiro (@DiogoRibeiro7)
 
-**Lead Data Scientist · Machine Learning Engineer · Professor**  
-**Statistical ML · Time Series · Causal Inference · Applied AI**  
+**Lead Data Scientist · Researcher · Invited Assistant Professor**  
+**Statistical ML · Time Series · Causal Inference · Applied AI · Research Software**  
 [Technical writing, research notes, and open-source software](https://diogoribeiro7.github.io)
 
-Statistical modelling, production AI, decision systems, and reproducible research · Python-first
+I build data and AI systems where the difficult part starts before and after model fitting: defining the estimand, choosing the decision rule, validating uncertainty, detecting distribution shift, and making the whole chain reproducible.
+
+My default is not “use more ML.” It is to start from the problem, the evidence, and the decision being supported; establish strong statistical or mathematical baselines; and add complexity only when it earns its place empirically.
 
 <div align="center">
   <img src="assets/links/nav-home-active.svg" alt="Home (current page)" width="96" height="40" />
@@ -15,11 +17,16 @@ Statistical modelling, production AI, decision systems, and reproducible researc
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md"><img src="assets/links/nav-evidence.svg" alt="Evidence" width="120" height="40" /></a>
 </div>
 
-I build data and AI systems where the difficult part starts before and after model fitting: defining the estimand, choosing the decision rule, validating uncertainty, detecting distribution shift, and making the whole chain reproducible. My work spans statistical ML, time series, causal inference, forecasting, optimisation, data systems, research software, and applied AI.
+## What I Work On
 
-The common thread is simple: start from the problem and the evidence, use the least complicated model that answers it well, and make the resulting claim inspectable.
+My work spans statistical machine learning, time series, forecasting, causal inference, optimisation, behavioural sensing, research software, data engineering, and applied AI. Across those areas, I care most about four things:
 
-## Portfolio at a glance
+- **Decision-aware modelling** — evaluate a model by the decisions it supports, not only by an aggregate predictive score.
+- **Uncertainty and failure modes** — calibration, missingness, drift, censoring, abstention, leakage, and operating thresholds are part of the model.
+- **Reproducible evidence** — typed code, tests, CI, frozen configurations, provenance, and machine-readable outputs are part of the research contract.
+- **Methods that remain inspectable** — prefer the least complicated model that answers the question well and make the resulting claim auditable.
+
+## Portfolio at a Glance
 
 <!-- readme:portfolio-snapshot:start -->
 | Evidence | Current scope |
@@ -44,21 +51,25 @@ These figures are generated from the same canonical portfolio data used by [Stat
 | :-- | :-- | :-- |
 | **[feedback-intelligence-agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent)** | Production AI / RAG | Guarded generation, retrieval evaluation, FastAPI serving, observability, and CI. |
 | **[clinic-forecasting-platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform)** | Forecasting → decisions | Rolling-origin evaluation, conformal uncertainty, hierarchical forecasting, staffing optimisation, serving, and monitoring. |
-| **[transaction-risk-lakehouse](https://github.com/DiogoRibeiro7/transaction-risk-lakehouse)** | Data engineering / risk | PySpark lakehouse layers, temporal validation, graph-derived features, cost-sensitive decisions, streaming scoring, and drift monitoring. |
-| **[genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy)** | Statistical research software | Known-truth survival simulation, twelve model families, a general multistate engine, typed APIs, and published package releases. |
+| **[lisbon-spatial-dynamics](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics)** | Spatial analysis / urban economics | Official public data, parish-level housing change, local-accommodation pressure, spatial statistics, and regression. |
+| **[population-resemblance](https://github.com/DiogoRibeiro7/population-resemblance)** | Drift / statistical monitoring | Population Resemblance Statistic, sample-size-aware thresholds, PSI and discrete KS benchmarks, and Monte Carlo simulation. |
+| **[DataConsistencyChecker](https://github.com/DiogoRibeiro7/DataConsistencyChecker)** | Data quality / anomaly detection | Interpretable pattern discovery, outlier scoring, explanations, mixed data types, and synthetic validation examples. |
+| **[genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy)** | Statistical research software | Known-truth survival simulation, multiple model families, multistate simulation, typed APIs, and published releases. |
+| **[ChangePointLab](https://github.com/DiogoRibeiro7/ChangePointLab)** | Time series / changepoints | Offline, online, Bayesian, kernel, state-space, and point-process change detection. |
 | **[pinn](https://github.com/DiogoRibeiro7/pinn)** | Scientific machine learning | Typed PyTorch PINNs for forward and inverse PDEs, exact-solution benchmarks, adaptive sampling, and reproducible experiments. |
-| **[bmssp](https://github.com/DiogoRibeiro7/bmssp)** | Algorithms | Typed and tested BMSSP-style single-source shortest paths with exact distances, benchmarking, graph transforms, and research-software documentation. |
 
-→ **[Featured](FEATURED.md)** gives the 12-project reviewer cross-section. **[Projects](PROJECTS.md)** contains the broader curated catalogue.
+→ **[Featured](FEATURED.md)** gives the curated reviewer cross-section. **[Projects](PROJECTS.md)** contains the broader catalogue.
 
 ---
 
 ## Current Focus
 
-- **Failure-aware behavioural sensing** — separating sensor failure, missing evidence, occupancy ambiguity, and genuine behavioural change before an alert is allowed to mean anything. The public research programme lives in [behavioral-sensing-research](https://github.com/DiogoRibeiro7/behavioral-sensing-research); manuscript work is maintained separately from that repository.
-- **Forecast → decision systems** — probabilistic demand forecasts evaluated by the decisions they support, including constrained fleet allocation on real mobility data in [ds-projects-portfolio](https://github.com/DiogoRibeiro7/ds-projects-portfolio/tree/main/projects/mobility_demand_optimization).
-- **Survival-model evaluation** — using known-truth simulation to study when ranking metrics, probability accuracy, censoring, and model misspecification tell different stories, built on [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy).
-- **Reproducible economic and policy research** — treating definitions, measurement boundaries, identification, and provenance as part of the model rather than preprocessing details.
+- **Failure-aware behavioural sensing** — separating sensor failure, missing evidence, occupancy ambiguity, and genuine behavioural change before an alert is allowed to mean anything. The public programme lives in [behavioral-sensing-research](https://github.com/DiogoRibeiro7/behavioral-sensing-research).
+- **Forecast → decision systems** — probabilistic forecasts evaluated by downstream decisions, constraints, and operating cost rather than forecasting metrics alone.
+- **Causal inference and econometrics** — identification, counterfactual construction, synthetic control, difference-in-differences, treatment-effect estimation, and reproducible policy analysis.
+- **Statistical monitoring and change detection** — population drift, changepoints, calibration, and the distinction between data-quality failures and real distributional change.
+- **Research data infrastructure** — provenance, metadata validation, integrity checks, and reproducible dataset registries in [data](https://github.com/DiogoRibeiro7/data).
+- **Research and teaching infrastructure** — reusable LaTeX/Beamer material in [academic-presentations](https://github.com/DiogoRibeiro7/academic-presentations), alongside open-source tooling across GitHub and [GitLab](https://gitlab.com/DiogoRibeiro7).
 
 → More active research threads on **[Research](RESEARCH.md#current-focus)**.
 
@@ -68,6 +79,7 @@ These figures are generated from the same canonical portfolio data used by [Stat
 
 - **Model the question before the algorithm.** Define the estimand, failure modes, constraints, and decision rule first.
 - **Use strong baselines.** Classical statistical and mathematical models are often the right starting point; complexity has to earn its place empirically.
+- **Validate in the regime that matters.** Temporal splits, rolling-origin evaluation, realistic missingness, censoring, imbalance, and deployment constraints matter more than convenient random splits.
 - **Treat reliability as part of modelling.** Calibration, uncertainty, leakage, missingness, drift, abstention, and operating thresholds belong in the design, not in an appendix.
 - **Make claims reproducible.** Typed code, tests, CI, frozen configurations, provenance, and machine-readable outputs are part of the research and engineering contract.
 
@@ -88,11 +100,13 @@ These figures are generated from the same canonical portfolio data used by [Stat
 
 ---
 
-## Work With Me
+## Professional and Academic Work
 
-I am a **Lead Data Scientist, Machine Learning Engineer and Professor** at the **Faculty of Media Arts and Design, Technical University of Porto**. My work spans statistical ML, time series, causal inference, applied AI, forecasting, optimisation, research software, and reproducible applied research.
+I am a data scientist and researcher with more than 15 years of experience across software, statistical modelling, machine learning, and data-intensive research. I have led data-science work in health technology and currently teach as an **Invited Assistant Professor at the Faculty of Media Arts and Design, Technical University of Porto (FMAD–UTP)**.
 
-For collaboration, research, or professional enquiries, a short note describing the problem, constraints, and expected outcome is the best starting point. Longer-form technical writing and research notes live on my **[website](https://diogoribeiro7.github.io)**.
+I am particularly interested in remote senior, lead, and principal-level work where statistical reasoning, engineering quality, and decision-making under uncertainty matter. I also collaborate on research, technical mentoring, and open-source scientific software.
+
+For collaboration or professional enquiries, a short note describing the problem, constraints, and expected outcome is the best starting point. Longer-form technical writing and research notes live on my **[website](https://diogoribeiro7.github.io)**.
 
 <div align="center">
   <a href="mailto:diogo.debastos.ribeiro@gmail.com">

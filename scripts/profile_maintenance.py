@@ -64,6 +64,8 @@ CASE_STUDY_ROUTES = {
         "Production AI",
         "Forecasting & MLOps",
         "Data engineering",
+        "Statistical monitoring",
+        "Data quality",
     },
     "Model selection & falsification": {
         "LLM adaptation",
@@ -78,6 +80,7 @@ CASE_STUDY_ROUTES = {
     "Measurement & inference": {
         "Public finance",
         "Labour economics",
+        "Spatial analysis",
     },
 }
 

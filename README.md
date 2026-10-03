@@ -8,6 +8,8 @@ I build data and AI systems where the difficult part starts before and after mod
 
 My default is not “use more ML.” It is to start from the problem, the evidence, and the decision being supported; establish strong statistical or mathematical baselines; and add complexity only when it earns its place empirically.
 
+Statistical modelling, production AI, decision systems, and reproducible research · Python-first
+
 <div align="center">
   <img src="assets/links/nav-home-active.svg" alt="Home (current page)" width="96" height="40" />
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/FEATURED.md"><img src="assets/links/nav-featured.svg" alt="Featured" width="116" height="40" /></a>

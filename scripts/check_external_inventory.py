@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "data" / "portfolio.json"
 USER_AGENT = "diogoribeiro7-profile-integrity/1.0"
 GITHUB_API_PREFIX = "https://api.github.com/"
+GITLAB_API_PREFIX = "https://gitlab.com/api/v4/"
 OWNER = "DiogoRibeiro7"
 PUBLIC_PAGES = (
     "README.md",
@@ -28,6 +29,9 @@ PUBLIC_PAGES = (
 )
 REPOSITORY_LINK_PATTERN = re.compile(
     rf"https://github\.com/{re.escape(OWNER)}/([A-Za-z0-9_.-]+)"
+)
+GITLAB_LINK_PATTERN = re.compile(
+    rf"https://gitlab\.com/{re.escape(OWNER)}/([A-Za-z0-9_.-]+)"
 )
 
 
@@ -81,6 +85,21 @@ def linked_repositories() -> dict[str, tuple[str, ...]]:
     }
 
 
+def linked_gitlab_repositories() -> dict[str, tuple[str, ...]]:
+    """Return same-owner GitLab repositories linked from public Markdown pages."""
+    pages_by_repo: dict[str, list[str]] = {}
+
+    for relative_path in PUBLIC_PAGES:
+        text = (ROOT / relative_path).read_text(encoding="utf-8")
+        for repo in GITLAB_LINK_PATTERN.findall(text):
+            pages_by_repo.setdefault(repo, []).append(relative_path)
+
+    return {
+        repo: tuple(dict.fromkeys(pages))
+        for repo, pages in sorted(pages_by_repo.items())
+    }
+
+
 def manifest_deep_links(manifest: dict) -> list[tuple[str, str, str, tuple[str, ...]]]:
     """Return unique repository ref/path links used by generated public pages."""
     labels_by_link: dict[tuple[str, str, str], list[str]] = {}
@@ -118,6 +137,26 @@ def check_repository_public(repo: str, contexts: tuple[str, ...]) -> str | None:
     metadata = json.loads(payload)
     if metadata.get("private"):
         return f"public profile exposes a private repository: {repo} ({context})"
+    return None
+
+
+def check_gitlab_repository_public(repo: str, contexts: tuple[str, ...]) -> str | None:
+    """Verify that a linked GitLab repository is publicly visible."""
+    encoded = quote(f"{OWNER}/{repo}", safe="")
+    url = f"{GITLAB_API_PREFIX}projects/{encoded}"
+    context = ", ".join(contexts)
+
+    try:
+        status, payload = get(url)
+    except Exception as exc:
+        return f"GitLab repository unavailable: {repo} ({context}): {exc}"
+
+    if status != 200:
+        return f"GitLab repository unavailable ({status}): {repo} ({context})"
+
+    metadata = json.loads(payload)
+    if metadata.get("visibility") != "public":
+        return f"GitLab repository is not public: {repo} ({context})"
     return None
 
 
@@ -191,6 +230,14 @@ def main() -> int:
         if error:
             errors.append(error)
 
+    for repo, pages in linked_gitlab_repositories().items():
+        error = check_gitlab_repository_public(
+            repo,
+            tuple(f"page:{page}" for page in pages),
+        )
+        if error:
+            errors.append(error)
+
     for repo, ref, path, labels in manifest_deep_links(manifest):
         error = check_deep_link(repo, ref, path, labels)
         if error:
@@ -202,8 +249,8 @@ def main() -> int:
         return 1
 
     print(
-        "All referenced repositories, manifest PyPI packages, and deep links "
-        "resolve publicly."
+        "All referenced GitHub/GitLab repositories, manifest PyPI packages, "
+        "and deep links resolve publicly."
     )
     return 0
 

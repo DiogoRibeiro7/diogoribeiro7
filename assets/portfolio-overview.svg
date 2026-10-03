@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 920 799" role="img" aria-labelledby="title desc">
 <title id="title">Portfolio-wide evidence dashboard</title>
-<desc id="desc">Statistics across 38 manifest-backed public projects, 35 outputs and 13 case studies.</desc>
+<desc id="desc">Statistics across 43 manifest-backed public projects, 39 outputs and 13 case studies.</desc>
 <style>
 text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#c9d1d9}
 .title{font-size:23px;font-weight:700}.sub{font-size:13px;fill:#8b949e}
@@ -9,14 +9,14 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#c9
 @media (prefers-color-scheme: light){text{fill:#24292f}.sub,.note{fill:#57606a}.card{fill:#f6f8fa;stroke:#d0d7de}.track{fill:#d8dee4}.bar,.value{fill:#0969da}}
 </style>
 <text x="24" y="31" class="title">Portfolio-wide evidence</text>
-<text x="24" y="54" class="sub">Canonical manifest · 38 public projects · derived metrics, not popularity signals</text>
+<text x="24" y="54" class="sub">Canonical manifest · 43 public projects · derived metrics, not popularity signals</text>
 <rect x="24" y="82" width="278" height="102" rx="10" class="card"/>
 <text x="40" y="107" class="label">Manifest-backed projects</text>
-<text x="40" y="139" class="value">38</text>
+<text x="40" y="139" class="value">43</text>
 <text x="40" y="162" class="note">public projects with explicit portfolio metadata</text>
 <rect x="320" y="82" width="278" height="102" rx="10" class="card"/>
 <text x="336" y="107" class="label">Substantial outputs</text>
-<text x="336" y="139" class="value">35</text>
+<text x="336" y="139" class="value">39</text>
 <text x="336" y="162" class="note">software, research, empirical and decision artifacts</text>
 <rect x="616" y="82" width="278" height="102" rx="10" class="card"/>
 <text x="632" y="107" class="label">Case studies</text>
@@ -24,11 +24,11 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#c9
 <text x="632" y="162" class="note">end-to-end problem → method → outcome narratives</text>
 <rect x="24" y="202" width="278" height="102" rx="10" class="card"/>
 <text x="40" y="227" class="label">Real-data / empirical</text>
-<text x="40" y="259" class="value">23/38 · 61%</text>
+<text x="40" y="259" class="value">25/43 · 58%</text>
 <text x="40" y="282" class="note">explicit manifest classification</text>
 <rect x="320" y="202" width="278" height="102" rx="10" class="card"/>
 <text x="336" y="227" class="label">Research software / methods</text>
-<text x="336" y="259" class="value">13/38 · 34%</text>
+<text x="336" y="259" class="value">17/43 · 40%</text>
 <text x="336" y="282" class="note">explicit manifest classification</text>
 <rect x="616" y="202" width="278" height="102" rx="10" class="card"/>
 <text x="632" y="227" class="label">Published PyPI packages</text>
@@ -43,37 +43,37 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#c9
 <text x="24" y="514" class="maturity">published software</text>
 <rect x="260" y="500" width="600" height="17" rx="8.5" class="track"/>
 <rect x="260" y="500" width="600.0" height="17" rx="8.5" class="bar"/>
-<text x="896" y="514" text-anchor="end" class="label">11</text>
+<text x="896" y="514" text-anchor="end" class="label">12</text>
 <text x="24" y="545" class="maturity">empirical study</text>
 <rect x="260" y="531" width="600" height="17" rx="8.5" class="track"/>
-<rect x="260" y="531" width="436.4" height="17" rx="8.5" class="bar"/>
-<text x="896" y="545" text-anchor="end" class="label">8</text>
+<rect x="260" y="531" width="450.0" height="17" rx="8.5" class="bar"/>
+<text x="896" y="545" text-anchor="end" class="label">9</text>
 <text x="24" y="576" class="maturity">production-style system</text>
 <rect x="260" y="562" width="600" height="17" rx="8.5" class="track"/>
-<rect x="260" y="562" width="381.8" height="17" rx="8.5" class="bar"/>
+<rect x="260" y="562" width="350.0" height="17" rx="8.5" class="bar"/>
 <text x="896" y="576" text-anchor="end" class="label">7</text>
 <text x="24" y="607" class="maturity">research programme</text>
 <rect x="260" y="593" width="600" height="17" rx="8.5" class="track"/>
-<rect x="260" y="593" width="218.2" height="17" rx="8.5" class="bar"/>
+<rect x="260" y="593" width="200.0" height="17" rx="8.5" class="bar"/>
 <text x="896" y="607" text-anchor="end" class="label">4</text>
 <text x="24" y="638" class="maturity">decision system</text>
 <rect x="260" y="624" width="600" height="17" rx="8.5" class="track"/>
-<rect x="260" y="624" width="163.6" height="17" rx="8.5" class="bar"/>
+<rect x="260" y="624" width="150.0" height="17" rx="8.5" class="bar"/>
 <text x="896" y="638" text-anchor="end" class="label">3</text>
 <text x="24" y="669" class="maturity">research software</text>
 <rect x="260" y="655" width="600" height="17" rx="8.5" class="track"/>
-<rect x="260" y="655" width="109.1" height="17" rx="8.5" class="bar"/>
-<text x="896" y="669" text-anchor="end" class="label">2</text>
+<rect x="260" y="655" width="250.0" height="17" rx="8.5" class="bar"/>
+<text x="896" y="669" text-anchor="end" class="label">5</text>
 <text x="24" y="700" class="maturity">replication study</text>
 <rect x="260" y="686" width="600" height="17" rx="8.5" class="track"/>
-<rect x="260" y="686" width="54.5" height="17" rx="8.5" class="bar"/>
+<rect x="260" y="686" width="50.0" height="17" rx="8.5" class="bar"/>
 <text x="896" y="700" text-anchor="end" class="label">1</text>
 <text x="24" y="731" class="maturity">decision study</text>
 <rect x="260" y="717" width="600" height="17" rx="8.5" class="track"/>
-<rect x="260" y="717" width="54.5" height="17" rx="8.5" class="bar"/>
+<rect x="260" y="717" width="50.0" height="17" rx="8.5" class="bar"/>
 <text x="896" y="731" text-anchor="end" class="label">1</text>
 <text x="24" y="762" class="maturity">research portfolio</text>
 <rect x="260" y="748" width="600" height="17" rx="8.5" class="track"/>
-<rect x="260" y="748" width="54.5" height="17" rx="8.5" class="bar"/>
+<rect x="260" y="748" width="50.0" height="17" rx="8.5" class="bar"/>
 <text x="896" y="762" text-anchor="end" class="label">1</text>
 </svg>

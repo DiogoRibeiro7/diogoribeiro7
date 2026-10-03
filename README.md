@@ -33,11 +33,11 @@ My work spans statistical machine learning, time series, forecasting, causal inf
 <!-- readme:portfolio-snapshot:start -->
 | Evidence | Current scope |
 | :-- | --: |
-| Manifest-backed public projects | **38** |
-| Substantial outputs | **35** |
+| Manifest-backed public projects | **43** |
+| Substantial outputs | **39** |
 | Published PyPI packages | **11** |
 | Case studies | **13 across 11 domains** |
-| Real-data / empirical projects | **23 / 38 (61%)** |
+| Real-data / empirical projects | **25 / 43 (58%)** |
 | Curated flagship repositories | **12** |
 <!-- readme:portfolio-snapshot:end -->
 

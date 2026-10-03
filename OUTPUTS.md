@@ -12,7 +12,7 @@
 
 # Outputs
 
-**35 substantial public artifacts are indexed here.**
+**39 substantial public artifacts are indexed here.**
 
 This page answers a narrower question than Projects: **what inspectable thing did the work produce?** Output class, repository maturity and release evidence are kept separate so a published package, an empirical study, an active research programme and a production-style system are not presented as equivalent signals.
 
@@ -20,10 +20,10 @@ This page answers a narrower question than Projects: **what inspectable thing di
 
 | Output class | Count | What to inspect |
 | :-- | --: | :-- |
-| **Published research software** | **10** | Installable methods and research tooling with inspectable release evidence. |
+| **Published research software** | **11** | Installable methods and research tooling with inspectable release evidence. |
 | **Research and paper programmes** | **5** | Active research questions with public code, data pipelines or manuscript evidence. |
-| **Empirical and replication studies** | **9** | Falsifiable analyses built around real data, explicit baselines and provenance. |
-| **Decision and engineering artifacts** | **11** | Systems where modelling is connected to serving, operations or an explicit decision rule. |
+| **Empirical and replication studies** | **10** | Falsifiable analyses built around real data, explicit baselines and provenance. |
+| **Decision and engineering artifacts** | **13** | Systems where modelling is connected to serving, operations or an explicit decision rule. |
 
 The sections below remain generated from `data/portfolio.json`. Maturity comes from the corresponding project record; release signals come from the output record itself.
 
@@ -43,6 +43,7 @@ Installable methods and research tooling with inspectable release evidence.
 | **[wifi-activity-recognition](https://github.com/DiogoRibeiro7/wifi-csi-activity-recognition)** | published software | [PyPI](https://pypi.org/project/wifi-activity-recognition/) | CSI-based human-activity recognition tooling. |
 | **[industrialstats](https://github.com/DiogoRibeiro7/industrialstats)** | published software | [PyPI](https://pypi.org/project/industrialstats/) · DOI/archive metadata | Reproducible experimental designs with analysis, diagnostics and power, validated against reference results. |
 | **[anomalybench](https://github.com/DiogoRibeiro7/anomalybench)** | published software | [PyPI](https://pypi.org/project/anomalybench/) · DOI/archive metadata | Detectors, benchmark dataset loaders and a CLI for comparing anomaly detection under one evaluation protocol. |
+| **[ChangePointLab](https://github.com/DiogoRibeiro7/ChangePointLab)** | published software | DOI/archive metadata | Unified changepoint-detection toolkit with offline, online, Bayesian, kernel and state-space methods, released with archive metadata. |
 
 ## Research and paper programmes
 
@@ -71,6 +72,7 @@ Falsifiable analyses built around real data, explicit baselines and provenance.
 | **[European innovation configurations](https://github.com/DiogoRibeiro7/europe-fsqca-innovation)** | empirical study | repository artifact | Survey-design-aware fsQCA across EU-27 innovation regimes. |
 | **[FNO versus persistence on NOAA OISST](https://github.com/DiogoRibeiro7/oisst-fourier-neural-operator)** | empirical study | repository artifact | Tests whether operator learning earns its complexity at different spatial scales. |
 | **[Qwen text-to-SQL adaptation](https://github.com/DiogoRibeiro7/qwen-text2sql-lab)** | empirical study | repository artifact | LoRA/QLoRA experiment scored by database execution accuracy rather than string overlap. |
+| **[Lisbon housing and local-accommodation dynamics](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics)** | empirical study | repository artifact | Parish-level spatial analysis of housing-value change and local-accommodation pressure using official Portuguese public data. |
 
 ## Decision and engineering artifacts
 
@@ -89,6 +91,8 @@ Systems where modelling is connected to serving, operations or an explicit decis
 | **[LLM data platform](https://github.com/DiogoRibeiro7/llm-data-platform)** | production-style system | repository artifact | Contract-linked ingestion, curation and observability for LLM datasets. |
 | **[PyFlink fraud detection streaming](https://github.com/DiogoRibeiro7/pyflink-fraud-detection-streaming)** | production-style system | repository artifact | Stateful streaming features with explainable fraud-risk scoring. |
 | **[DataExcept / dataexcept](https://github.com/DiogoRibeiro7/DataExcept)** | published software | [PyPI](https://pypi.org/project/dataexcept/) | Structured exception layer for data-loading, export and operational failures in data and ML pipelines. |
+| **[Research data registry](https://github.com/DiogoRibeiro7/data)** | research software | repository artifact | Provenance-aware registry separating canonical datasets, external-source records and legacy quarantine with integrity validation. |
+| **[DataConsistencyChecker](https://github.com/DiogoRibeiro7/DataConsistencyChecker)** | research software | repository artifact | Interpretable data-quality and anomaly-detection toolkit with 158 explainable checks, structured reports and CI-backed documentation. |
 
 ---
 

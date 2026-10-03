@@ -15,16 +15,16 @@
 <!-- projects:public-index:start -->
 ## Public portfolio index
 
-The canonical manifest currently contains **38 public projects**. This index groups them by evidence state rather than subject area, so a reviewer can choose the right depth quickly. The broader catalogue below contains additional historical and exploratory **public** work.
+The canonical manifest currently contains **43 public projects**. This index groups them by evidence state rather than subject area, so a reviewer can choose the right depth quickly. The broader catalogue below contains additional historical and exploratory **public** work.
 
 | Reviewer path | Public projects | What that evidence means | Inspect next |
 | :-- | --: | :-- | :-- |
-| **Released software** | **11** | Installable public software with release evidence. | [PyPI](PYPI.md) · [Outputs](OUTPUTS.md) |
+| **Released software** | **12** | Installable public software with release evidence. | [PyPI](PYPI.md) · [Outputs](OUTPUTS.md) |
 | **Production systems** | **7** | Serving, observability, data contracts, streaming or operational monitoring. | [Featured](FEATURED.md) · [Case Studies](CASE_STUDIES.md) |
-| **Empirical & replication evidence** | **9** | Real-data experiments, replications and falsifiable comparative studies. | [Outputs](OUTPUTS.md) · [Case Studies](CASE_STUDIES.md) |
+| **Empirical & replication evidence** | **10** | Real-data experiments, replications and falsifiable comparative studies. | [Outputs](OUTPUTS.md) · [Case Studies](CASE_STUDIES.md) |
 | **Decision systems** | **4** | Optimisation, policy simulation and cost-sensitive operating decisions. | [Case Studies](CASE_STUDIES.md) |
 | **Research programmes** | **5** | Active multi-stage research with explicit questions, provenance and validation. | [Research](RESEARCH.md) |
-| **Research software & methods** | **2** | Reusable algorithms or methods whose evidence is broader than a package release. | [Methods](METHODS.md) · [Outputs](OUTPUTS.md) |
+| **Research software & methods** | **5** | Reusable algorithms or methods whose evidence is broader than a package release. | [Methods](METHODS.md) · [Outputs](OUTPUTS.md) |
 
 Topic and application area remain separate from maturity. Use the detailed catalogue below when the question is *what domain does this project address?*; use this index when the question is *what kind of evidence does this project provide?*
 <!-- projects:public-index:end -->

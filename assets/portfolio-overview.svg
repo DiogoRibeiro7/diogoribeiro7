@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 920 799" role="img" aria-labelledby="title desc">
 <title id="title">Portfolio-wide evidence dashboard</title>
-<desc id="desc">Statistics across 43 manifest-backed public projects, 39 outputs and 13 case studies.</desc>
+<desc id="desc">Statistics across 43 manifest-backed public projects, 39 outputs and 16 case studies.</desc>
 <style>
 text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#c9d1d9}
 .title{font-size:23px;font-weight:700}.sub{font-size:13px;fill:#8b949e}
@@ -20,7 +20,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#c9
 <text x="336" y="162" class="note">software, research, empirical and decision artifacts</text>
 <rect x="616" y="82" width="278" height="102" rx="10" class="card"/>
 <text x="632" y="107" class="label">Case studies</text>
-<text x="632" y="139" class="value">13 · 11 domains</text>
+<text x="632" y="139" class="value">16 · 14 domains</text>
 <text x="632" y="162" class="note">end-to-end problem → method → outcome narratives</text>
 <rect x="24" y="202" width="278" height="102" rx="10" class="card"/>
 <text x="40" y="227" class="label">Real-data / empirical</text>

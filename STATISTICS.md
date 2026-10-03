@@ -20,7 +20,7 @@ Quantitative evidence about the portfolio: scale, empirical depth, publication/o
 | :-- | --: |
 | Manifest-backed public projects | **43** |
 | Substantial outputs | **39** |
-| Case studies | **13 across 11 domains** |
+| Case studies | **16 across 14 domains** |
 | Published PyPI packages | **11** |
 | Real-data / empirical projects | **25 / 43 (58%)** |
 | Research software / methods | **17 / 43 (40%)** |
@@ -52,7 +52,7 @@ These figures intentionally use different populations for different questions. T
 | Published PyPI packages | **11** | Verified package releases, not merely package-ready repositories |
 | Real-data / empirical projects | **25 / 43 (58%)** | Explicitly classified in the manifest |
 | Research software / methods | **17 / 43 (40%)** | Explicitly classified libraries, methods and research tooling |
-| Case studies | **13 across 11 domains** | End-to-end problem → constraints → method → outcome narratives |
+| Case studies | **16 across 14 domains** | End-to-end problem → constraints → method → outcome narratives |
 | Curated flagship projects | **12** | Reviewer-oriented subset; deliberately not used as the portfolio denominator |
 <!-- statistics:depth:end -->
 
@@ -132,7 +132,7 @@ The page intentionally uses different denominators for different questions:
 | :-- | :-- |
 | What does the serious public portfolio contain? | **43 manifest-backed public projects** |
 | What inspectable artifacts has it produced? | **39 output records** |
-| What can a reviewer inspect end-to-end? | **13 case studies across 11 domains** |
+| What can a reviewer inspect end-to-end? | **16 case studies across 14 domains** |
 | How strong are repository controls on the curated front page? | **12 flagship repositories** |
 | Where is the broad catalogue concentrated? | **66 PROJECTS.md entries** |
 <!-- statistics:boundaries:end -->

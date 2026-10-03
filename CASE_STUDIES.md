@@ -12,7 +12,7 @@
 
 # Case Studies
 
-**13 end-to-end cases across 11 domains, organised into four reviewer routes.**
+**16 end-to-end cases across 14 domains, organised into four reviewer routes.**
 
 These cases are selective. They are grouped by the kind of judgement they demonstrate rather than by application domain, so recurring patterns are easier to compare across the portfolio.
 
@@ -60,6 +60,30 @@ These cases are selective. They are grouped by the kind of judgement they demons
 **Method.** PySpark lakehouse with temporal model evaluation and production-style data contracts.
 
 **Outcome.** An end-to-end risk platform where model evidence is tied to the data pipeline that produced it.
+
+### [Population drift monitoring](https://github.com/DiogoRibeiro7/population-resemblance)
+
+**Domain.** Statistical monitoring
+
+**Problem.** Detect meaningful categorical population shift without confusing sample-size effects or a distribution discrepancy with predictive-model failure.
+
+**Constraints.** A fixed reference distribution, sample-size-dependent thresholds, sparse categories, repeated temporal monitoring and benchmark statistics with different decision semantics.
+
+**Method.** Population Resemblance Statistic with calibrated decision regions, PSI and discrete-KS benchmarks, contribution diagnostics and Monte Carlo sensitivity checks.
+
+**Outcome.** An auditable monitoring workflow that separates the statistical evidence of distribution shift from the downstream claim that a model has failed.
+
+### [Interpretable tabular consistency checking](https://github.com/DiogoRibeiro7/DataConsistencyChecker)
+
+**Domain.** Data quality
+
+**Problem.** Find unusual rows and structural inconsistencies in heterogeneous tabular data without replacing data-quality reasoning with an opaque anomaly score.
+
+**Constraints.** Numeric, categorical, string and datetime columns; many possible cross-column relationships; configurable contamination; and a need for row-level explanations.
+
+**Method.** A library of 158 explainable consistency checks, structured findings, row-level exception aggregation, synthetic validation cases and automation-friendly reports.
+
+**Outcome.** A data-quality layer where every flagged anomaly is tied to an inspectable pattern and violated expectation rather than only a black-box score.
 
 ## Model selection & falsification
 
@@ -186,4 +210,16 @@ These cases are selective. They are grouped by the kind of judgement they demons
 **Method.** ECM, state-space modelling, break analysis and cross-country robustness checks.
 
 **Outcome.** A layered estimate of long-run and evolving wage transmission rather than a single correlation.
+
+### [Lisbon housing and local-accommodation dynamics](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics)
+
+**Domain.** Spatial analysis
+
+**Problem.** Measure how housing-value change is associated with local-accommodation pressure across Lisbon's 24 parishes without overstating a small-area observational study as causal evidence.
+
+**Constraints.** Only 24 spatial units, spatial dependence, registry-completeness uncertainty, disputed parish labels near boundaries and changing source snapshots.
+
+**Method.** Official-data provenance, comparable parish panels, Pearson/Spearman associations, Moran's I and LISA, HC3-robust regression, influence diagnostics and leave-one-parish-out sensitivity.
+
+**Outcome.** A reproducible spatial study that reports association, spatial structure and source uncertainty explicitly, and keeps causal claims outside the evidence supported by the design.
 

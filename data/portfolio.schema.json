@@ -1,0 +1,208 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/data/portfolio.schema.json",
+  "title": "Diogo Ribeiro public portfolio manifest",
+  "description": "Canonical contract for reviewer-facing projects, outputs, case studies, and profile navigation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "navigation",
+    "projects",
+    "outputs",
+    "case_studies"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "enum": [1]
+    },
+    "navigation": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 2,
+        "prefixItems": [
+          {
+            "type": "string",
+            "minLength": 1
+          },
+          {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^[A-Za-z0-9_.-]+\\.md$"
+          }
+        ]
+      }
+    },
+    "projects": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/project"
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/output"
+      }
+    },
+    "case_studies": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/caseStudy"
+      }
+    }
+  },
+  "$defs": {
+    "repoName": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9_.-]+$"
+    },
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "project": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repo",
+        "title",
+        "category",
+        "maturity",
+        "real_data",
+        "research_software",
+        "summary"
+      ],
+      "properties": {
+        "repo": {
+          "$ref": "#/$defs/repoName"
+        },
+        "title": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "category": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "maturity": {
+          "type": "string",
+          "enum": [
+            "decision study",
+            "decision system",
+            "empirical study",
+            "production-style system",
+            "published software",
+            "replication study",
+            "research portfolio",
+            "research programme",
+            "research software"
+          ]
+        },
+        "real_data": {
+          "type": "boolean"
+        },
+        "research_software": {
+          "type": "boolean"
+        },
+        "summary": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "pypi": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "doi": {
+          "type": "boolean"
+        }
+      }
+    },
+    "output": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "title",
+        "repo",
+        "summary"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "Decision and engineering artifacts",
+            "Empirical and replication studies",
+            "Published research software",
+            "Research and paper programmes"
+          ]
+        },
+        "title": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "repo": {
+          "$ref": "#/$defs/repoName"
+        },
+        "summary": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "ref": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "path": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "pypi": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "doi": {
+          "type": "boolean"
+        }
+      }
+    },
+    "caseStudy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "domain",
+        "title",
+        "repo",
+        "problem",
+        "constraints",
+        "method",
+        "outcome"
+      ],
+      "properties": {
+        "domain": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "title": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "repo": {
+          "$ref": "#/$defs/repoName"
+        },
+        "problem": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "constraints": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "method": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "outcome": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "ref": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "path": {
+          "$ref": "#/$defs/nonEmptyString"
+        }
+      }
+    }
+  }
+}

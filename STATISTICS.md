@@ -139,7 +139,7 @@ The page intentionally uses different denominators for different questions:
 | Where is the broad catalogue concentrated? | **71 PROJECTS.md entries** |
 <!-- statistics:boundaries:end -->
 
-Keeping those populations separate avoids a common portfolio-statistics mistake: presenting one convenient subset as if it described everything.
+Keeping those populations separate avoids a common portfolio-statistics mistake: presenting one convenient subset as if it described everything. Inclusion rules and the distinction between the canonical portfolio, Featured set, curated catalogue, and full account are documented in **[Portfolio Policy](PORTFOLIO_POLICY.md)**.
 
 ---
 

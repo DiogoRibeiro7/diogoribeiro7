@@ -113,7 +113,9 @@ These are **structural controls**, not claims that every project is scientifical
 
 ## Topic Composition
 
-**Denominator:** the **87 curated entries in [`PROJECTS.md`](PROJECTS.md)**. Unlike the manifest dashboard above, this measures breadth of the catalogue rather than the maturity or evidential strength of each project.
+<!-- statistics:topic-intro:start -->
+**Denominator:** the **71 curated entries in [`PROJECTS.md`](PROJECTS.md)**. Unlike the manifest dashboard above, this measures breadth of the catalogue rather than the maturity or evidential strength of each project.
+<!-- statistics:topic-intro:end -->
 
 <p align="center">
   <img src="assets/topic-statistics.svg" alt="Bar chart showing the distribution of curated project entries across technical and research topics" width="100%" />

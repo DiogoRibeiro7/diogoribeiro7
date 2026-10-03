@@ -30,6 +30,9 @@ PUBLIC_PAGES = (
 REPOSITORY_LINK_PATTERN = re.compile(
     rf"https://github\.com/{re.escape(OWNER)}/([A-Za-z0-9_.-]+)"
 )
+GITLAB_LINK_PATTERN = re.compile(
+    rf"https://gitlab\.com/{re.escape(OWNER)}/([A-Za-z0-9_.-]+)"
+)
 
 
 def request_headers(url: str) -> dict[str, str]:

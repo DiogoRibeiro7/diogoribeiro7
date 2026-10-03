@@ -25,7 +25,7 @@ Quantitative evidence about the portfolio: scale, empirical depth, publication/o
 | Real-data / empirical projects | **25 / 43 (58%)** |
 | Research software / methods | **17 / 43 (40%)** |
 | Curated flagship repositories | **12** |
-| Curated catalogue entries | **66** |
+| Curated catalogue entries | **71** |
 <!-- statistics:snapshot:end -->
 
 These figures intentionally use different populations for different questions. The denominator rules are explicit below rather than blending repository counts, output counts and catalogue entries into one headline number.
@@ -134,7 +134,7 @@ The page intentionally uses different denominators for different questions:
 | What inspectable artifacts has it produced? | **39 output records** |
 | What can a reviewer inspect end-to-end? | **16 case studies across 14 domains** |
 | How strong are repository controls on the curated front page? | **12 flagship repositories** |
-| Where is the broad catalogue concentrated? | **66 PROJECTS.md entries** |
+| Where is the broad catalogue concentrated? | **71 PROJECTS.md entries** |
 <!-- statistics:boundaries:end -->
 
 Keeping those populations separate avoids a common portfolio-statistics mistake: presenting one convenient subset as if it described everything.

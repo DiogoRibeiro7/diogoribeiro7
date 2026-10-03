@@ -4,10 +4,6 @@
 **Statistical ML · Time Series · Causal Inference · Applied AI · Research Software**  
 [Technical writing, research notes, and open-source software](https://diogoribeiro7.github.io)
 
-I build data and AI systems where the difficult part starts before and after model fitting: defining the estimand, choosing the decision rule, validating uncertainty, detecting distribution shift, and making the whole chain reproducible.
-
-My default is not “use more ML.” It is to start from the problem, the evidence, and the decision being supported; establish strong statistical or mathematical baselines; and add complexity only when it earns its place empirically.
-
 Statistical modelling, production AI, decision systems, and reproducible research · Python-first
 
 <div align="center">
@@ -18,6 +14,10 @@ Statistical modelling, production AI, decision systems, and reproducible researc
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/RESEARCH.md"><img src="assets/links/nav-research.svg" alt="Research" width="120" height="40" /></a>
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md"><img src="assets/links/nav-evidence.svg" alt="Evidence" width="120" height="40" /></a>
 </div>
+
+I build data and AI systems where the difficult part starts before and after model fitting: defining the estimand, choosing the decision rule, validating uncertainty, detecting distribution shift, and making the whole chain reproducible.
+
+My default is not “use more ML.” It is to start from the problem, the evidence, and the decision being supported; establish strong statistical or mathematical baselines; and add complexity only when it earns its place empirically.
 
 ## What I Work On
 

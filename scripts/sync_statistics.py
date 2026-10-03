@@ -30,6 +30,8 @@ DENOMINATOR_START = "<!-- statistics:denominator:start -->"
 DENOMINATOR_END = "<!-- statistics:denominator:end -->"
 OUTPUTS_INTRO_START = "<!-- statistics:outputs-intro:start -->"
 OUTPUTS_INTRO_END = "<!-- statistics:outputs-intro:end -->"
+TOPIC_INTRO_START = "<!-- statistics:topic-intro:start -->"
+TOPIC_INTRO_END = "<!-- statistics:topic-intro:end -->"
 
 
 def load_manifest() -> dict[str, Any]:
@@ -170,6 +172,17 @@ def render_outputs_intro(values: dict[str, Any]) -> str:
     ])
 
 
+def render_topic_intro(values: dict[str, Any]) -> str:
+    """Render the catalogue denominator used by the topic-composition section."""
+    return "\n".join([
+        TOPIC_INTRO_START,
+        f'**Denominator:** the **{values["catalogue"]} curated entries in [`PROJECTS.md`](PROJECTS.md)**. '
+        'Unlike the manifest dashboard above, this measures breadth of the catalogue rather than '
+        'the maturity or evidential strength of each project.',
+        TOPIC_INTRO_END,
+    ])
+
+
 def render_boundaries(values: dict[str, Any]) -> str:
     """Render the denominator reference table."""
     return "\n".join([
@@ -201,6 +214,7 @@ def render_statistics(text: str, values: dict[str, Any]) -> str:
     updated = replace_block(updated, OUTPUTS_START, OUTPUTS_END, render_outputs(values))
     updated = replace_block(updated, DENOMINATOR_START, DENOMINATOR_END, render_denominator(values))
     updated = replace_block(updated, OUTPUTS_INTRO_START, OUTPUTS_INTRO_END, render_outputs_intro(values))
+    updated = replace_block(updated, TOPIC_INTRO_START, TOPIC_INTRO_END, render_topic_intro(values))
     return replace_block(updated, BOUNDARIES_START, BOUNDARIES_END, render_boundaries(values))
 
 

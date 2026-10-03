@@ -98,6 +98,7 @@ These figures are generated from the same canonical portfolio data used by [Stat
 | Rust packages for statistics, numerical methods, and validation | **[Rust](RUST.md)** |
 | Citable software, studies, and released packages | **[Outputs](OUTPUTS.md)** · **[PyPI](PYPI.md)** |
 | Full catalogue breadth and quantitative portfolio evidence | **[Projects](PROJECTS.md)** · **[Statistics](STATISTICS.md)** |
+| What qualifies for the canonical portfolio and why | **[Portfolio Policy](PORTFOLIO_POLICY.md)** |
 | University teaching and supporting material | **[Teaching](TEACHING.md)** |
 
 ---

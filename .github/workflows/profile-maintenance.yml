@@ -35,6 +35,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Validate canonical portfolio schema
+        run: python scripts/validate_portfolio_schema.py
+
       - name: Regenerate manifest-backed pages and navigation
         run: python scripts/profile_maintenance.py generate
 

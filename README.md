@@ -2,7 +2,6 @@
 
 **Lead Data Scientist · Researcher · Invited Assistant Professor**  
 **Statistical ML · Time Series · Causal Inference · Applied AI · Research Software**  
-[Technical writing, research notes, and open-source software](https://diogoribeiro7.github.io)
 
 Statistical modelling, production AI, decision systems, and reproducible research · Python-first
 

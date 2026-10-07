@@ -217,21 +217,6 @@ _Top 10 of 226 public non-fork repositories · counts fetched 2026-10-07 · ties
 
 <br>
 
-<div align="center">
-  <a href="https://github-ranked.vercel.app/DiogoRibeiro7">
-    <img src="https://github-ranked.vercel.app/api/rank/DiogoRibeiro7?theme=minimal" alt="GitHub Ranked competitive tier" />
-  </a>
-</div>
-
-<br>
-
-<div align="center">
-  <a href="https://gitscore.mateusz-szostak1.workers.dev/?u=DiogoRibeiro7">
-    <img src="https://gitscore.mateusz-szostak1.workers.dev/api/badge/DiogoRibeiro7" alt="GitScore profile score" />
-  </a>
-</div>
-
-<br>
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">

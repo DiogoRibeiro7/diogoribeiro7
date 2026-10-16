@@ -108,7 +108,7 @@ I am a data scientist and researcher with more than 15 years of experience acros
 
 I am particularly interested in remote senior, lead, and principal-level work where statistical reasoning, engineering quality, and decision-making under uncertainty matter. I also collaborate on research, technical mentoring, and open-source scientific software.
 
-For collaboration or professional enquiries, a short note describing the problem, constraints, and expected outcome is the best starting point. Longer-form technical writing and research notes live on my **[website](https://diogoribeiro7.github.io)**.
+For collaboration or professional enquiries, a short note describing the problem, constraints, and expected outcome is the best starting point. Longer-form technical writing and research notes live on my **[website](https://diogoribeiro7.github.io)** and **[Medium](https://medium.com/@diogo-ribeiro-1975)**.
 
 <div align="center">
   <a href="mailto:diogo.debastos.ribeiro@gmail.com">

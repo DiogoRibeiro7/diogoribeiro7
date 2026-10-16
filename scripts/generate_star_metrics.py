@@ -6,14 +6,12 @@ import argparse
 import datetime as dt
 import html
 import json
-import os
 import re
-import time
-import urllib.error
-import urllib.request
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Final
+
+from check_external_inventory import get
 
 OWNER: Final[str] = "DiogoRibeiro7"
 TOP_N: Final[int] = 10
@@ -22,8 +20,6 @@ CHART_PATH: Final[Path] = Path("assets/star-metrics.svg")
 API_ROOT: Final[str] = "https://api.github.com"
 STARS_START: Final[str] = "<!-- statistics:stars:start -->"
 STARS_END: Final[str] = "<!-- statistics:stars:end -->"
-RETRYABLE_STATUS: Final[frozenset[int]] = frozenset({404, 429, 500, 502, 503, 504})
-FETCH_ATTEMPTS: Final[int] = 4
 
 ROW_PATTERN: Final[re.Pattern[str]] = re.compile(
     r"^\| \[(?P<name>[^\]]+)\]\(https://github\.com/" + OWNER + r"/(?P<repo>[^)]+)\) \| \*\*(?P<stars>\d+)\*\* \|$"
@@ -42,36 +38,12 @@ class Repository:
     stars: int
 
 
-def _headers() -> dict[str, str]:
-    """Return GitHub API request headers, using the Actions token when present."""
-    headers = {
-        "Accept": "application/vnd.github+json",
-        "User-Agent": "diogoribeiro7-profile-stars",
-        "X-GitHub-Api-Version": "2022-11-28",
-    }
-    token = os.getenv("GITHUB_TOKEN")
-    if token:
-        headers["Authorization"] = f"Bearer {token}"
-    return headers
-
-
 def _get_json(url: str) -> object:
-    """Fetch and decode a GitHub API JSON response, retrying transient failures."""
-    last_error: Exception | None = None
-    for attempt in range(FETCH_ATTEMPTS):
-        request = urllib.request.Request(url, headers=_headers())
-        try:
-            with urllib.request.urlopen(request, timeout=30) as response:
-                return json.loads(response.read().decode("utf-8"))
-        except urllib.error.HTTPError as exc:
-            if exc.code not in RETRYABLE_STATUS:
-                raise RuntimeError(f"GitHub API request failed: {url} ({exc.code})") from exc
-            last_error = exc
-        except (urllib.error.URLError, TimeoutError) as exc:
-            last_error = exc
-        if attempt + 1 < FETCH_ATTEMPTS:
-            time.sleep(1.5 * (attempt + 1))
-    raise RuntimeError(f"GitHub API request failed after {FETCH_ATTEMPTS} attempts: {url} ({last_error})")
+    """Fetch JSON using the shared, bounded public-API retry policy."""
+    status, payload = get(url, attempts=4)
+    if status != 200:
+        raise RuntimeError(f"Unexpected HTTP {status} for {url}")
+    return json.loads(payload.decode("utf-8"))
 
 
 def fetch_repositories() -> list[Repository]:

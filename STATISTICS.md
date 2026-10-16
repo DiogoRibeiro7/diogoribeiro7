@@ -103,7 +103,7 @@ Current structural evidence across those 12 flagships:
 | CI workflow present | **12 / 12 (100%)** |
 | Automated-test marker present | **12 / 12 (100%)** |
 | Dedicated documentation | **12 / 12 (100%)** |
-| Citation / archive metadata | **10 / 12 (83%)** |
+| Citation / archive metadata | **11 / 12 (92%)** |
 | Reproducibility-style assets | **8 / 12 (67%)** |
 <!-- statistics:controls:end -->
 
@@ -169,7 +169,7 @@ Stars record attention, not correctness, reliability or reproducibility. They si
 | [nosql-databases-labs](https://github.com/DiogoRibeiro7/nosql-databases-labs) | **3** |
 | [smart-todo-action](https://github.com/DiogoRibeiro7/smart-todo-action) | **3** |
 
-_Top 10 of 226 public non-fork repositories · counts fetched 2026-10-12 · ties broken alphabetically._
+_Top 10 of 227 public non-fork repositories · counts fetched 2026-10-16 · ties broken alphabetically._
 <!-- statistics:stars:end -->
 
 <div align="center">

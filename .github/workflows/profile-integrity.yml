@@ -25,20 +25,19 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Validate manifest schema and generated model
+      - name: Validate committed manifest-backed pages
         run: |
           python scripts/validate_portfolio_schema.py
-          python scripts/profile_maintenance.py generate
-          python scripts/normalize_readme_layout.py
-          python scripts/sync_readme_snapshot.py generate
-          python scripts/sync_projects_index.py generate
-          python scripts/generate_portfolio_overview.py
-          python scripts/generate_topic_statistics.py
-          python scripts/sync_statistics.py generate
           python scripts/profile_maintenance.py check
           python scripts/sync_readme_snapshot.py check
           python scripts/sync_projects_index.py check
           python scripts/sync_statistics.py check
+
+      - name: Verify deterministic generated assets are committed
+        run: |
+          python scripts/generate_portfolio_overview.py
+          python scripts/generate_topic_statistics.py
+          git diff --exit-code -- assets/portfolio-overview.svg assets/topic-statistics.svg
 
       # External repository evidence changes independently of this pull request.
       # Keep the live audit available on explicit workflow dispatch.

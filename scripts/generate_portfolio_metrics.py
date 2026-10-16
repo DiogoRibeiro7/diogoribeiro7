@@ -61,8 +61,10 @@ def _contents(repo: str, path: str = "") -> list[dict[str, object]]:
     suffix = f"/{path}" if path else ""
     payload = _get_json(f"{API_ROOT}/repos/{OWNER}/{repo}/contents{suffix}")
     if not isinstance(payload, list):
-        return []
-    return [item for item in payload if isinstance(item, dict)]
+        raise TypeError(f"GitHub directory listing for {repo}/{path} must be a JSON array")
+    if any(not isinstance(item, dict) for item in payload):
+        raise TypeError(f"GitHub directory listing for {repo}/{path} contains invalid entries")
+    return payload
 
 
 def _names(entries: list[dict[str, object]]) -> set[str]:

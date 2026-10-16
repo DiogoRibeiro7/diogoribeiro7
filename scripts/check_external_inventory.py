@@ -54,20 +54,46 @@ def request_headers(url: str) -> dict[str, str]:
 
 
 def get(url: str, attempts: int = 3) -> tuple[int, bytes]:
-    """Fetch a public metadata endpoint with bounded retries."""
-    request = urllib.request.Request(url, headers=request_headers(url))
-    last_error: Exception | None = None
+    """Fetch public metadata with bounded retries for transient failures.
 
+    A genuine 404 is a content error, not a temporary outage. Rate limits and
+    server failures are retried; authentication and other client errors fail fast.
+    """
+    if attempts < 1:
+        raise ValueError("attempts must be at least one")
+
+    last_error: Exception | None = None
     for attempt in range(attempts):
+        request = urllib.request.Request(url, headers=request_headers(url))
         try:
             with urllib.request.urlopen(request, timeout=20) as response:
                 return response.status, response.read()
+        except urllib.error.HTTPError as exc:
+            retryable = exc.code in {408, 429, 500, 502, 503, 504}
+            if exc.code == 403:
+                retryable = (
+                    exc.headers.get("X-RateLimit-Remaining") == "0"
+                    or bool(exc.headers.get("Retry-After"))
+                )
+            if not retryable:
+                raise RuntimeError(f"HTTP {exc.code} for {url}") from exc
+            last_error = exc
         except (urllib.error.URLError, TimeoutError) as exc:
             last_error = exc
-            if attempt + 1 < attempts:
-                time.sleep(1.5 * (attempt + 1))
 
-    raise RuntimeError(f"request failed after {attempts} attempts: {url}: {last_error}")
+        if attempt + 1 < attempts:
+            # Exponential backoff stays bounded. Retry-After is honoured when
+            # supplied as a numeric delay; avoid sleeping until the rate reset.
+            delay = min(2.0 * (2 ** attempt), 16.0)
+            if isinstance(last_error, urllib.error.HTTPError):
+                retry_after = last_error.headers.get("Retry-After")
+                if retry_after and retry_after.isdecimal():
+                    delay = min(max(delay, float(retry_after)), 60.0)
+            time.sleep(delay)
+
+    raise RuntimeError(
+        f"request failed after {attempts} attempts: {url}: {last_error}"
+    ) from last_error
 
 
 def linked_repositories() -> dict[str, tuple[str, ...]]:

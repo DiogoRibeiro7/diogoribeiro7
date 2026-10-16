@@ -40,15 +40,20 @@ jobs:
           python scripts/sync_projects_index.py check
           python scripts/sync_statistics.py check
 
+      # External repository evidence changes independently of this pull request.
+      # Keep the live audit available on explicit workflow dispatch.
       - name: Validate flagship engineering controls
+        if: github.event_name == 'workflow_dispatch'
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/generate_portfolio_metrics.py check
 
       - name: Validate most-starred repository table
+        if: github.event_name == 'workflow_dispatch'
         run: python scripts/generate_star_metrics.py check
 
       - name: Check public GitHub and PyPI inventory
+        if: github.event_name == 'workflow_dispatch'
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/check_external_inventory.py

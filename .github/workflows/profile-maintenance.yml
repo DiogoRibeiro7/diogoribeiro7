@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
   group: profile-maintenance-main
@@ -81,15 +82,27 @@ jobs:
           python scripts/generate_star_metrics.py check
           python scripts/check_external_inventory.py
 
-      - name: Commit refreshed profile artifacts
-        run: |
-          if [ -z "$(git status --porcelain)" ]; then
-            echo "Profile artifacts are already current."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md FEATURED.md PROJECTS.md METHODS.md RESEARCH.md OUTPUTS.md CASE_STUDIES.md TEACHING.md PYPI.md STATISTICS.md assets/
-          git commit -m "chore: refresh generated profile artifacts"
-          git pull --rebase origin main
-          git push
+      - name: Propose refreshed profile artifacts
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: refresh generated profile artifacts"
+          branch: automation/refresh-profile-artifacts
+          delete-branch: true
+          title: "chore: refresh generated profile artifacts"
+          body: |
+            Automated profile refresh from the canonical portfolio manifest and external repository metrics.
+
+            Please review generated Markdown and SVG changes before merging.
+          add-paths: |
+            README.md
+            FEATURED.md
+            PROJECTS.md
+            METHODS.md
+            RESEARCH.md
+            OUTPUTS.md
+            CASE_STUDIES.md
+            TEACHING.md
+            PYPI.md
+            STATISTICS.md
+            assets/**

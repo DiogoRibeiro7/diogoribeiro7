@@ -222,10 +222,15 @@ _Top 10 of 227 public non-fork repositories · counts fetched 2026-10-16 · ties
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy-unserori.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="GitHub profile trophies" />
   </a>
-  <br>
+</div>
+
+<p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy-unserori.vercel.app/?username=DiogoRibeiro7&amp;title=Experience&amp;no-frame=true&amp;theme=algolia" alt="GitHub Experience trophy" />
   </a>
+</p>
+
+<div align="center">
 </div>
 
 </details>

@@ -1,0 +1,30 @@
+name: Dependabot policy
+
+on:
+  pull_request:
+    paths:
+      - ".github/dependabot.yml"
+      - ".github/workflows/**"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/dependabot.yml"
+      - ".github/workflows/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: DiogoRibeiro7/safe-dependabot@v1
+        with:
+          max-open-prs: 5
+          require-major-ignore: true
+          require-github-actions: true
+          fail-on-broad-groups: false
+          detect-ecosystems: true

@@ -181,6 +181,34 @@ def validate_uniqueness(manifest: dict[str, Any]) -> list[str]:
     return errors
 
 
+def validate_references(manifest: dict[str, Any]) -> list[str]:
+    """Require every output and case study to reference a manifest project."""
+    projects = manifest.get("projects", [])
+    if not isinstance(projects, list):
+        return []
+
+    known = {
+        item["repo"]
+        for item in projects
+        if isinstance(item, dict) and isinstance(item.get("repo"), str)
+    }
+    errors: list[str] = []
+    for section in ("outputs", "case_studies"):
+        records = manifest.get(section, [])
+        if not isinstance(records, list):
+            continue
+        for index, item in enumerate(records):
+            if not isinstance(item, dict):
+                continue
+            repo = item.get("repo")
+            # Primitive type errors are reported by the JSON Schema validator.
+            if isinstance(repo, str) and repo not in known:
+                errors.append(
+                    f"$.{section}[{index}].repo: {repo!r} is not in $.projects"
+                )
+    return errors
+
+
 def main() -> int:
     """Validate the canonical portfolio manifest and print actionable errors."""
     schema: object = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
@@ -193,6 +221,7 @@ def main() -> int:
 
     errors = validate_node(manifest, schema, schema)
     errors.extend(validate_uniqueness(manifest))
+    errors.extend(validate_references(manifest))
 
     if errors:
         for error in errors:

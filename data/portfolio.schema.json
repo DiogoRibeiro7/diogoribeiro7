@@ -15,7 +15,9 @@
   "properties": {
     "schema_version": {
       "type": "integer",
-      "enum": [1]
+      "enum": [
+        1
+      ]
     },
     "navigation": {
       "type": "array",
@@ -65,7 +67,8 @@
     },
     "nonEmptyString": {
       "type": "string",
-      "minLength": 1
+      "minLength": 1,
+      "pattern": ".*\\S.*"
     },
     "project": {
       "type": "object",

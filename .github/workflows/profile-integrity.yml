@@ -40,6 +40,9 @@ jobs:
           python scripts/generate_topic_statistics.py
           git diff --exit-code -- assets/portfolio-overview.svg assets/topic-statistics.svg
 
+      - name: Validate generated SVG structure
+        run: python scripts/validate_generated_svgs.py
+
       # External repository evidence changes independently of this pull request.
       # Keep the live audit available on explicit workflow dispatch.
       - name: Validate flagship engineering controls

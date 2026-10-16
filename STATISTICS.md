@@ -73,6 +73,8 @@ The **39 outputs** currently break down into:
 
 This is an artifact count, not a repository count: a repository can legitimately produce more than one inspectable output.
 
+The **11 PyPI packages** and **11 published research-software outputs** are separate measures, even though their current totals happen to match. The PyPI figure counts projects with recorded package releases; the output figure counts records classified as published research software in the curated output inventory. For example, **DataExcept** is included in the PyPI total, while its output is classified under decision and engineering artifacts. **ChangePointLab** is included as a published research-software output with archive metadata, but has no PyPI package recorded in the manifest. Neither category requires a software DOI or implies that unrelated preprint-stage code must be made public.
+
 ---
 
 ## Delivered Impact

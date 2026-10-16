@@ -44,7 +44,7 @@ class TestSvgValidation(unittest.TestCase):
         self.assert_svg_errors("<html viewBox='0 0 900 400'/>", "expected SVG root")
 
     def test_invalid_viewbox(self) -> None:
-        for view_box in ("", "0 0 900", "0 0 zero 400", "0 0 0 400", "0 0 900 -2"):
+        for view_box in ("", "0 0 900", "0 0 zero 400", "0 0 0 400", "0 0 900 -2", "0 0 NaN 400", "0 0 900 Infinity", "NaN 0 900 400", "0 -Infinity 900 400"):
             with self.subTest(view_box=view_box):
                 self.assert_svg_errors(
                     f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{view_box}"/>',

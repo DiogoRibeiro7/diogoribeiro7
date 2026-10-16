@@ -58,5 +58,8 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/check_external_inventory.py
 
+      - name: Test deterministic portfolio generators
+        run: python -m unittest discover -s tests -v
+
       - name: Check Python syntax
         run: python -m py_compile scripts/validate_portfolio_schema.py scripts/profile_maintenance.py scripts/normalize_readme_layout.py scripts/sync_readme_snapshot.py scripts/sync_projects_index.py scripts/check_external_inventory.py scripts/generate_portfolio_overview.py scripts/generate_topic_statistics.py scripts/generate_portfolio_metrics.py scripts/sync_statistics.py scripts/generate_star_metrics.py

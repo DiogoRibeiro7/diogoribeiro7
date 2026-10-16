@@ -6,6 +6,7 @@ on:
       - "*.md"
       - "data/**"
       - "scripts/**"
+      - "tests/**"
       - "assets/**"
       - ".github/workflows/**"
   workflow_dispatch:

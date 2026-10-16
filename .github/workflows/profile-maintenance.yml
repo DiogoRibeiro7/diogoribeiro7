@@ -82,6 +82,24 @@ jobs:
           python scripts/generate_star_metrics.py check
           python scripts/check_external_inventory.py
 
+      # GITHUB_TOKEN-created PRs do not trigger ordinary pull_request workflows.
+      # Validate the generated tree here before proposing it for review.
+      - name: Run offline profile regression tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Check Python syntax
+        run: python -m compileall -q scripts tests
+
+      - name: Validate proposed generated assets
+        run: |
+          python scripts/validate_portfolio_schema.py
+          python scripts/profile_maintenance.py check
+          python scripts/sync_readme_snapshot.py check
+          python scripts/sync_projects_index.py check
+          python scripts/sync_statistics.py check
+          python scripts/generate_portfolio_overview.py
+          python scripts/generate_topic_statistics.py
+
       - name: Propose refreshed profile artifacts
         uses: peter-evans/create-pull-request@v7
         with:

@@ -120,6 +120,9 @@ For collaboration or professional enquiries, a short note describing the problem
   <a href="https://diogoribeiro7.github.io">
     <img src="assets/links/website.svg" alt="Personal website" width="118" height="40" />
   </a>
+  <a href="https://medium.com/@diogo-ribeiro-1975">
+    <img src="assets/links/medium.svg" alt="Medium writing profile" width="104" height="40" />
+  </a>
   <a href="https://orcid.org/0009-0001-2022-7072">
     <img src="assets/links/orcid.svg" alt="ORCID researcher profile" width="104" height="40" />
   </a>

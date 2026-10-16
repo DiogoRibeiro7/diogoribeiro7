@@ -100,6 +100,9 @@ jobs:
           python scripts/generate_portfolio_overview.py
           python scripts/generate_topic_statistics.py
 
+      - name: Validate generated SVG structure
+        run: python scripts/validate_generated_svgs.py
+
       - name: Propose refreshed profile artifacts
         uses: peter-evans/create-pull-request@v8
         with:

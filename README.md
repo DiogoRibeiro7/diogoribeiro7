@@ -1,9 +1,9 @@
 # Diogo Ribeiro (@DiogoRibeiro7)
 
-**Lead Data Scientist · Researcher · Invited Assistant Professor**  
+**Lead Data Scientist · Statistical Modelling & Research · Invited Assistant Professor**  
 **Statistical ML · Time Series · Causal Inference · Applied AI · Research Software**  
 
-Statistical modelling, production AI, decision systems, and reproducible research · Python-first
+20 years in software, statistical modelling and data science · Technical leadership, decision systems and reproducible research
 
 <div align="center">
   <img src="assets/links/nav-home-active.svg" alt="Home (current page)" width="96" height="40" />
@@ -14,7 +14,7 @@ Statistical modelling, production AI, decision systems, and reproducible researc
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md"><img src="assets/links/nav-evidence.svg" alt="Evidence" width="120" height="40" /></a>
 </div>
 
-I build data and AI systems where the difficult part starts before and after model fitting: defining the estimand, choosing the decision rule, validating uncertainty, detecting distribution shift, and making the whole chain reproducible.
+Over 20 years working across software engineering, statistical modelling and data science, I have designed and led work that connects analytical methods to operational decisions. My focus is on problems where defining the estimand, choosing a decision rule, quantifying uncertainty and maintaining reproducible evidence matter as much as model fitting.
 
 My default is not “use more ML.” It is to start from the problem, the evidence, and the decision being supported; establish strong statistical or mathematical baselines; and add complexity only when it earns its place empirically.
 
@@ -104,7 +104,7 @@ These figures are generated from the same canonical portfolio data used by [Stat
 
 ## Professional and Academic Work
 
-I am a data scientist and researcher with more than 15 years of experience across software, statistical modelling, machine learning, and data-intensive research. I have led data-science work in health technology and currently teach as an **Invited Assistant Professor at the Faculty of Media Arts and Design, Technical University of Porto (FMAD–UTP)**.
+My background combines mathematics, software engineering and statistical research. I have led data-science work in health technology, including sensor-based behavioural analysis, time-series modelling and decision-support systems. Alongside industry work, I teach as an **Invited Assistant Professor at the Faculty of Media Arts and Design, Technical University of Porto (FMAD–UTP)**.
 
 I am particularly interested in remote senior, lead, and principal-level work where statistical reasoning, engineering quality, and decision-making under uncertainty matter. I also collaborate on research, technical mentoring, and open-source scientific software.
 

@@ -42,7 +42,7 @@ My work spans statistical machine learning, time series, forecasting, causal inf
 
 These figures are generated from the same canonical portfolio data used by [Statistics](STATISTICS.md), so the front page and the detailed evidence page share one source of truth.
 
-**Selected professional delivery outcomes:** 80% reduction in reporting costs · 30% reduction in analytics processing time · €500K reduction in inventory value through forecasting and operational optimisation.
+**Reported outcomes from professional delivery:** 80% reduction in reporting costs · 30% reduction in analytics processing time · €500K reduction in inventory value through forecasting and operational optimisation. These figures refer to industry work, not measured results from the public GitHub projects; underlying commercial baselines are not published here.
 
 ---
 

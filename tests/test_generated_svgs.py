@@ -42,6 +42,15 @@ class TestSvgValidation(unittest.TestCase):
                     None,
                 )
 
+    def test_empty_comma_separated_fields(self) -> None:
+        """Adjacent or edge commas must not silently remove coordinates."""
+        for view_box in ("0,,0,900,400", ",0 0 900 400", "0 0 900 400,", "0, ,0,900,400"):
+            with self.subTest(view_box=view_box):
+                self.assert_svg_errors(
+                    f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{view_box}"/>',
+                    "invalid viewBox",
+                )
+
     def test_malformed_xml(self) -> None:
         self.assert_svg_errors(
             '<svg xmlns="http://www.w3.org/2000/svg"><rect>',

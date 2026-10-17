@@ -79,7 +79,7 @@ The **11 PyPI packages** and **11 published research-software outputs** are sepa
 
 ## Delivered Impact
 
-Professional outcomes are kept separate from repository metrics because GitHub activity is not a proxy for delivery.
+The following figures are reported outcomes from professional industry work, not measurements derived from the public repositories. The underlying commercial baselines, measurement windows and source records are not published in this portfolio, so these figures should not be treated as independently reproducible from GitHub. They are kept separate from repository metrics because GitHub activity is not a proxy for professional delivery.
 
 | Delivered outcome | Result |
 | :-- | --: |

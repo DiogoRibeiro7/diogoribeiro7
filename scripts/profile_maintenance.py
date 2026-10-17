@@ -364,6 +364,8 @@ def render_case_studies(manifest: dict) -> str:
         "",
         "These cases are selective. They are grouped by the kind of judgement they demonstrate rather than by application domain, so recurring patterns are easier to compare across the portfolio.",
         "",
+        "These outcomes describe the demonstrated artifact, analysis or decision workflow; they are not automatically measured business impact. For each case, assess the stated constraints, method and available repository evidence before interpreting an outcome as a validated improvement or a deployed result.",
+        "",
         "| Reviewer route | What it demonstrates |",
         "| :-- | :-- |",
         "| **System reliability & production** | Whether the data, model, serving and monitoring chain can be trusted together. |",

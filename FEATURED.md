@@ -25,6 +25,16 @@ The selection is designed to answer three different questions: can the work oper
 
 The maturity label is descriptive, not promotional. A production-style system, published package, empirical study, decision system, research toolkit, and active research programme are different kinds of evidence.
 
+### How to assess the evidence
+
+For senior technical review, start with the stated problem and constraints, then inspect the implementation and its validation. The three routes above serve different purposes:
+
+- **System design:** inspect the data contracts, testing strategy, serving and monitoring boundaries, and how operational decisions are made. A *production-style system* demonstrates engineering design; the label alone does not establish that the repository is deployed in a live organisation.
+- **Statistical methods:** inspect assumptions, known-truth simulations, comparisons with reference implementations, calibration, and failure cases. Package availability or CI is evidence of distribution and engineering practice, not of statistical correctness by itself.
+- **Empirical and decision work:** inspect data provenance, baselines, sensitivity analyses, uncertainty and identification limits. An empirical association should not be interpreted as a causal effect without an appropriate research design.
+
+For each project, the *Evidence to inspect* column below identifies the specific work to examine. For a problem-to-outcome account, follow the separate [Case Studies](CASE_STUDIES.md) page.
+
 ---
 
 ## Production and systems

@@ -32,7 +32,12 @@ def validate_svg(path: Path) -> list[str]:
     view_box = root.attrib.get("viewBox", "").split()
     try:
         dimensions = [float(value) for value in view_box]
-        if (\n            len(dimensions) != 4\n            or not all(math.isfinite(value) for value in dimensions)\n            or dimensions[2] <= 0\n            or dimensions[3] <= 0\n        ):
+        if (
+            len(dimensions) != 4
+            or not all(math.isfinite(value) for value in dimensions)
+            or dimensions[2] <= 0
+            or dimensions[3] <= 0
+        ):
             raise ValueError("non-positive or missing dimensions")
     except ValueError:
         errors.append(f"{path}: invalid viewBox (expected four finite numbers and positive dimensions)")

@@ -30,11 +30,15 @@ def validate_svg(path: Path) -> list[str]:
     errors: list[str] = []
     if root.tag != SVG_TAG:
         errors.append(f"{path}: expected SVG root element")
-    view_box = re.findall(r"[^\s,]+", root.attrib.get("viewBox", ""))
+    raw_view_box = root.attrib.get("viewBox", "")
+    view_box = re.findall(r"[^\s,]+", raw_view_box)
+    # A leading, trailing or repeated comma signifies a missing coordinate.
+    malformed_separators = bool(re.search(r"(^\s*,|,\s*,|,\s*$)", raw_view_box))
     try:
         dimensions = [float(value) for value in view_box]
         if (
-            len(dimensions) != 4
+            malformed_separators
+            or len(dimensions) != 4
             or not all(math.isfinite(value) for value in dimensions)
             or dimensions[2] <= 0
             or dimensions[3] <= 0

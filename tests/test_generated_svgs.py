@@ -34,6 +34,14 @@ class TestSvgValidation(unittest.TestCase):
             None,
         )
 
+    def test_comma_separated_viewbox(self) -> None:
+        for view_box in ("0,0,900,400", "0, 0, 900, 400", "0 0,900 400"):
+            with self.subTest(view_box=view_box):
+                self.assert_svg_errors(
+                    f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="{view_box}"/>',
+                    None,
+                )
+
     def test_malformed_xml(self) -> None:
         self.assert_svg_errors(
             '<svg xmlns="http://www.w3.org/2000/svg"><rect>',

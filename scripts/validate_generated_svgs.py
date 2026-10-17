@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import math
+import re
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -29,7 +30,7 @@ def validate_svg(path: Path) -> list[str]:
     errors: list[str] = []
     if root.tag != SVG_TAG:
         errors.append(f"{path}: expected SVG root element")
-    view_box = root.attrib.get("viewBox", "").split()
+    view_box = re.findall(r"[^\s,]+", root.attrib.get("viewBox", ""))
     try:
         dimensions = [float(value) for value in view_box]
         if (

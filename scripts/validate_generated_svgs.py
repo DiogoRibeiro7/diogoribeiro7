@@ -30,7 +30,7 @@ def validate_svg(path: Path) -> list[str]:
     errors: list[str] = []
     if root.tag != SVG_TAG:
         errors.append(f"{path}: expected SVG root element")
-    view_box = re.findall(r"[^\\s,]+", root.attrib.get("viewBox", ""))
+    view_box = re.findall(r"[^\s,]+", root.attrib.get("viewBox", ""))
     try:
         dimensions = [float(value) for value in view_box]
         if (

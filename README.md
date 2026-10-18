@@ -41,6 +41,16 @@ My professional work includes internal systems developed for operational use, di
 | Explaining longitudinal patterns to care and product users | Statistical summaries, time-dependent interpretation and controlled natural-language generation | Automated weekly reporting workflows | Translated analytical results into recurring, interpretable reports |
 | Estimating activity and location from indirect wireless signals | Received-signal-strength analysis, probabilistic modelling and spatial uncertainty | RSSI-based localisation and activity-inference components | Supported inference from imperfect sensor observations instead of relying on deterministic thresholds alone |
 
+### Mathematical decisions behind the systems
+
+Two examples illustrate why implementing a model is not the same as solving the operational problem.
+
+**Behavioural sensing — when does an observed change justify an alert?** A change in a sensor signal is not necessarily a change in behaviour: missing observations, unreliable readings and uncertain occupancy can produce similar patterns. The modelling task therefore includes defining usable evidence, distinguishing observation quality from behavioural change, and deciding when uncertainty warrants withholding a behavioural conclusion. The key trade-off is between generating more alerts and making alerts sufficiently defensible for downstream care decisions. This is a decision-system problem, not merely a changepoint-detection problem.
+
+**RSSI-based inference — what can an indirect radio signal tell us about location?** Received signal strength varies with obstacles, device placement and the surrounding environment. A fixed signal-to-location mapping would obscure uncertainty and environmental variation. Probabilistic spatial modelling, including Gaussian-process approaches, provides a way to represent the relationship between signal strength and location together with uncertainty. The engineering challenge is to make those estimates usable within a sensing pipeline while retaining their limitations, rather than presenting an inferred location as a direct observation.
+
+These descriptions focus on the mathematical and engineering considerations behind the work. They do not disclose proprietary model specifications, assert an unverified production comparison, or claim that a particular choice achieved a measured improvement.
+
 These descriptions concern the purpose and design of professional systems, not open-source releases or independently reproducible claims about employer outcomes. For publicly inspectable implementations of related ideas, see the projects below.
 
 ---

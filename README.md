@@ -30,21 +30,20 @@ Different readers can inspect different kinds of evidence without having to work
 
 ---
 
-## Industry Systems and Problem-Solving
+## From Mathematical Problems to Working Systems
 
-My professional work includes internal systems developed for operational use, distinct from the public research and engineering repositories below. The underlying employer code and commercial data are not published here.
+Across my professional work, I have designed and led analytical software that connects mathematical reasoning to practical decisions. The recurring challenge is not choosing a fashionable model; it is translating an uncertain or poorly defined problem into a tool that people can use and evaluate.
 
-The following four systems show how mathematical reasoning shaped the tools I developed and the decisions they supported.
+The same approach applies across different industries and problem types:
 
-**Behavioural sensing — when does an observed change justify an alert?** A change in a sensor signal is not necessarily a change in behaviour: missing observations, unreliable readings and uncertain occupancy can produce similar patterns. The modelling task therefore includes defining usable evidence, distinguishing observation quality from behavioural change, and deciding when uncertainty warrants withholding a behavioural conclusion. The key trade-off is between generating more alerts and making alerts sufficiently defensible for downstream care decisions. This is a decision-system problem, not merely a changepoint-detection problem.
+- **Forecasting and operational decisions.** Formulate what needs predicting, quantify uncertainty, and connect predictions to constraints, costs and feasible actions rather than treating forecast accuracy as the final objective.
+- **Data reliability and integration.** Reconcile heterogeneous data, timing, missingness and inconsistent definitions before using observations as evidence. Build ingestion, validation and analytical pipelines so that decisions rest on interpretable information.
+- **Statistical monitoring and change detection.** Separate meaningful variation from noise, degraded observations and changes in the data-generating process. Translate statistical evidence into decision rules with explicit failure modes.
+- **Analytical communication and automation.** Turn longitudinal analysis into structured reporting and understandable explanations, maintaining a clear boundary between what a model estimates and what a report can legitimately claim.
 
-**RSSI-based inference — what can an indirect radio signal tell us about location?** Received signal strength varies with obstacles, device placement and the surrounding environment. A fixed signal-to-location mapping would obscure uncertainty and environmental variation. Probabilistic spatial modelling, including Gaussian-process approaches, provides a way to represent the relationship between signal strength and location together with uncertainty. The engineering challenge is to make those estimates usable within a sensing pipeline while retaining their limitations, rather than presenting an inferred location as a direct observation.
+One example is my work on behavioural sensing and wireless-signal inference: indirect observations required probabilistic reasoning, uncertainty handling and safeguards against unsupported alerts. Those were applications of a broader mathematical and engineering approach, not its defining domain.
 
-**Sensor-data integration — when are measurements genuinely comparable?** Home sensors, wearable devices and care-system records can differ in sampling frequency, timestamps, coverage and data semantics. Simply joining the streams risks interpreting missing readings, duplicated events or delayed arrivals as changes in the underlying process. The engineering and statistical work therefore involves explicit event-time rules, schema and quality validation, deduplication, and coverage assessment before downstream inference. The trade-off is between retaining as much data as possible and ensuring that only sufficiently interpretable evidence enters an analytical result.
-
-**Automated reporting — how does an estimate become a defensible explanation?** A weekly report must summarise temporal patterns without turning noisy, incomplete observations into unwarranted narratives. Statistical aggregation, baseline comparison and uncertainty-aware interpretation establish what the data support; controlled natural-language generation then makes that evidence understandable to care or product users. The design trade-off is between readable summaries and fidelity to the underlying measurements. The reporting system is valuable because the mathematical interpretation is constrained before it is expressed in natural language.
-
-These are descriptions of internal professional systems, not open-source releases or independently reproducible commercial results. Proprietary implementations and measurements remain private. Public examples of related methods and tooling appear in the projects below.
+Some professional implementations and commercial data are proprietary. The public projects below demonstrate related modelling decisions, software tools and research practices without implying that those repositories are copies of employer systems.
 
 ---
 

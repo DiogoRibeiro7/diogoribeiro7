@@ -42,9 +42,9 @@ The value of a model is therefore not the algorithm itself, but the decision or 
 - **Measurement of economic effects.** Statistics, econometrics and causal inference help distinguish correlations from effects that could justify a business or policy decision. Assumptions, counterfactuals and uncertainty matter because acting on the wrong conclusion has a cost.
 - **Reliable operational monitoring.** Statistical change detection and evidence-quality rules help distinguish genuine events from noise and unreliable observations, avoiding decisions driven by misleading signals.
 
-### Manufacturing, supply chain and industrial operations — Grupo Piedade
+### Manufacturing, supply chain and industrial operations
 
-At Grupo Piedade, I worked across production management, demand planning, materials, warehousing, logistics and customer-service operations. The objective was to turn operational uncertainty into practical planning tools, not simply to improve a model score.
+In an industrial manufacturing setting, I worked across production management, demand planning, materials, warehousing, logistics and customer-service operations. The objective was to turn operational uncertainty into practical planning tools, not simply to improve a model score.
 
 - **Demand forecasting and production planning.** Developed statistical and predictive models for demand across 60 products and 80 international customers. Forecasts informed capacity planning, production scheduling, material requirements and responses to customer orders, connecting time-series modelling with operational decisions.
 - **Inventory and logistics analytics.** Built tools to study stock coverage, delivery lead times, forecast-versus-actual demand and logistics costs, supporting purchasing, replenishment, warehousing and dispatch decisions. Moving reporting and data management from spreadsheets into SQL made operational information more consistent and reusable.

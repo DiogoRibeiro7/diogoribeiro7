@@ -72,6 +72,21 @@ I care about leakage, missing evidence, distribution shift, contamination, weak 
 
 ---
 
+## Mathematical judgement in practice
+
+An algorithm list does not explain why a result should be trusted. The central choice is usually which mathematical structure is defensible, what the observations identify, and how error propagates into a decision.
+
+| Modelling choice | Mathematical question | Consequence for evaluation | Example |
+| :-- | :-- | :-- | :-- |
+| **Prediction versus intervention** | Does the target describe a conditional distribution, a treatment effect, or an optimal action under constraints? | Predictive accuracy alone cannot identify counterfactual effects or evaluate a policy. State the estimand and, for causal work, the identification assumptions first. | [Minimum-wage analysis](https://github.com/DiogoRibeiro7/portugal-minimum-wage-inflation) · [energy dispatch](https://github.com/DiogoRibeiro7/energy-system-simulator) |
+| **Dependence versus independent sampling** | Do temporal, spatial, grouped or censored observations satisfy the assumptions of the proposed estimator and validation split? | Use validation and uncertainty estimates that respect dependence instead of relying on random row splits. | [Lisbon spatial dynamics](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics) · [clinic forecasting](https://github.com/DiogoRibeiro7/clinic-forecasting-platform) |
+| **Statistical discrepancy versus operational alarm** | How does the decision threshold depend on sample size, false-alarm cost and available evidence? | Calibrate the decision rule and examine false positives, missing observations and regime changes, not only a single discrepancy score. | [Population resemblance](https://github.com/DiogoRibeiro7/population-resemblance) · [behavioural sensing](https://github.com/DiogoRibeiro7/behavioral-sensing-research) |
+| **Approximation versus warranted complexity** | Does a more flexible model improve the target quantity enough to justify estimation variance, computational cost and weaker interpretability? | Compare with principled simple baselines, known-truth simulation and sensitivity analysis before accepting complexity. | [Survival simulation](https://github.com/DiogoRibeiro7/genSurvPy) · [FNO baseline study](https://github.com/DiogoRibeiro7/oisst-fourier-neural-operator) |
+
+These are decision criteria, not claims that one model family is universally superior. The appropriate method depends on the data-generating process, the assumptions that can be defended and the consequences of an incorrect conclusion.
+
+---
+
 ## Reliability toolkit
 
 | Reliability question | Typical checks |

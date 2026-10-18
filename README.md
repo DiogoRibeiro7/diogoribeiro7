@@ -34,16 +34,7 @@ Different readers can inspect different kinds of evidence without having to work
 
 My professional work includes internal systems developed for operational use, distinct from the public research and engineering repositories below. The underlying employer code and commercial data are not published here.
 
-| Operational problem | Mathematical and engineering approach | Tool or system developed | What it enabled |
-| :-- | :-- | :-- | :-- |
-| Distinguishing genuine behavioural changes from unreliable sensor readings | Time-series change detection, sensor evidence quality, missingness and uncertainty-aware decision rules | Behavioural sensing and alerting logic combining in-home signals | Helped separate changes in observed behaviour from missing or ambiguous evidence before alerts were raised |
-| Turning heterogeneous home and wearable measurements into usable information | Event-time validation, data consistency, signal processing and integration of multiple sources | Sensor-data ingestion and analytical pipelines | Produced structured observations for downstream monitoring and analysis |
-| Explaining longitudinal patterns to care and product users | Statistical summaries, time-dependent interpretation and controlled natural-language generation | Automated weekly reporting workflows | Translated analytical results into recurring, interpretable reports |
-| Estimating activity and location from indirect wireless signals | Received-signal-strength analysis, probabilistic modelling and spatial uncertainty | RSSI-based localisation and activity-inference components | Supported inference from imperfect sensor observations instead of relying on deterministic thresholds alone |
-
-### Mathematical decisions behind the systems
-
-The four examples below illustrate why implementing a model is not the same as solving the operational problem.
+The following four systems show how mathematical reasoning shaped the tools I developed and the decisions they supported.
 
 **Behavioural sensing — when does an observed change justify an alert?** A change in a sensor signal is not necessarily a change in behaviour: missing observations, unreliable readings and uncertain occupancy can produce similar patterns. The modelling task therefore includes defining usable evidence, distinguishing observation quality from behavioural change, and deciding when uncertainty warrants withholding a behavioural conclusion. The key trade-off is between generating more alerts and making alerts sufficiently defensible for downstream care decisions. This is a decision-system problem, not merely a changepoint-detection problem.
 
@@ -53,9 +44,7 @@ The four examples below illustrate why implementing a model is not the same as s
 
 **Automated reporting — how does an estimate become a defensible explanation?** A weekly report must summarise temporal patterns without turning noisy, incomplete observations into unwarranted narratives. Statistical aggregation, baseline comparison and uncertainty-aware interpretation establish what the data support; controlled natural-language generation then makes that evidence understandable to care or product users. The design trade-off is between readable summaries and fidelity to the underlying measurements. The reporting system is valuable because the mathematical interpretation is constrained before it is expressed in natural language.
 
-These descriptions focus on the mathematical and engineering considerations behind the work. They do not disclose proprietary model specifications, assert an unverified production comparison, or claim that a particular choice achieved a measured improvement.
-
-These descriptions concern the purpose and design of professional systems, not open-source releases or independently reproducible claims about employer outcomes. For publicly inspectable implementations of related ideas, see the projects below.
+These are descriptions of internal professional systems, not open-source releases or independently reproducible commercial results. Proprietary implementations and measurements remain private. Public examples of related methods and tooling appear in the projects below.
 
 ---
 

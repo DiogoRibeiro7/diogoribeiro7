@@ -42,6 +42,18 @@ The value of a model is therefore not the algorithm itself, but the decision or 
 - **Measurement of economic effects.** Statistics, econometrics and causal inference help distinguish correlations from effects that could justify a business or policy decision. Assumptions, counterfactuals and uncertainty matter because acting on the wrong conclusion has a cost.
 - **Reliable operational monitoring.** Statistical change detection and evidence-quality rules help distinguish genuine events from noise and unreliable observations, avoiding decisions driven by misleading signals.
 
+### Manufacturing, supply chain and industrial operations — Grupo Piedade
+
+At Grupo Piedade, I worked across production management, demand planning, materials, warehousing, logistics and customer-service operations. The objective was to turn operational uncertainty into practical planning tools, not simply to improve a model score.
+
+- **Demand forecasting and production planning.** Developed statistical and predictive models for demand across 60 products and 80 international customers. Forecasts informed capacity planning, production scheduling, material requirements and responses to customer orders, connecting time-series modelling with operational decisions.
+- **Inventory and logistics analytics.** Built tools to study stock coverage, delivery lead times, forecast-versus-actual demand and logistics costs, supporting purchasing, replenishment, warehousing and dispatch decisions. Moving reporting and data management from spreadsheets into SQL made operational information more consistent and reusable.
+- **Manufacturing process and quality.** Used deterministic and stochastic mathematical models of heat transfer, including partial differential equations, to study thermal behaviour during cork disinfection. The contribution was to understand process variability and its implications for production conditions and quality assurance, rather than treating process settings as arbitrary constants.
+
+Reported outcomes from that professional work include a 12% improvement in forecast accuracy, a 40% reduction in inventory days, approximately €500K less inventory value, 25% less obsolete inventory and an 18% reduction in logistics costs. These are historical industry results; the underlying commercial data and measurement baselines are not published in this repository.
+
+The work illustrates the connection between mathematical modelling, tools used by operational teams, and business decisions with economic consequences.
+
 In each case, the work follows a common sequence: **define the economic or operational objective, formulate the mathematical problem, build the appropriate tool, and evaluate the decisions it supports**. A technically sophisticated implementation is not automatically valuable; its contribution must be judged in the context of the problem it addresses.
 
 My earlier work in behavioural sensing and wireless-signal inference is one application of this approach, not its defining industry. Some commercial systems and measurements remain proprietary. The public projects below demonstrate related methods and software without implying that they reproduce employer systems or their reported business outcomes.

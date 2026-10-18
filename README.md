@@ -18,6 +18,18 @@ Over 20 years working across software engineering, statistical modelling and dat
 
 My default is not “use more ML.” It is to start from the problem, the evidence, and the decision being supported; establish strong statistical or mathematical baselines; and add complexity only when it earns its place empirically.
 
+## Start Here
+
+Different readers can inspect different kinds of evidence without having to work through the entire repository catalogue.
+
+| Reader | Start with | What to evaluate |
+| :-- | :-- | :-- |
+| **Technical recruiters and hiring teams** | [Featured Projects](FEATURED.md) · [Case Studies](CASE_STUDIES.md) | System architecture, modelling decisions, technical leadership and the boundaries of demonstrated results. |
+| **Research collaborators and scientific reviewers** | [Research](RESEARCH.md) · [Methods](METHODS.md) · [Outputs](OUTPUTS.md) | Research questions, identification assumptions, known-truth validation, methodological limits and available artifacts. |
+| **Senior consulting clients** | [Case Studies](CASE_STUDIES.md) · [Methods](METHODS.md) · [Professional impact](STATISTICS.md#delivered-impact) | Problem formulation, operational constraints, decisions supported, and clearly identified professional outcomes. |
+
+---
+
 ## What I Work On
 
 My work spans statistical machine learning, time series, forecasting, causal inference, optimisation, behavioural sensing, research software, data engineering, and applied AI. Across those areas, I care most about four things:

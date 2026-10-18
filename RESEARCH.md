@@ -15,6 +15,14 @@ I work on problems where the difficult part is usually not fitting one more mode
 
 The research programme spans statistical methodology, causal inference and econometrics, time series and monitoring, behavioural sensing, spatial and policy analysis, scientific machine learning, and research software. The common standard is narrower: the question must be falsifiable, the evidence traceable, and the model no more complicated than the claim requires.
 
+## Research status and availability
+
+The **Status** column below describes the present research activity (such as an active programme, simulation study or empirical study). It is not a journal-publication status. A project repository, manuscript artifact, software release, preprint, and peer-reviewed publication are different kinds of evidence; none should be inferred from another.
+
+Research manuscripts may be developed as working papers or preprints before journal submission. Supporting implementations may remain private or restricted during that period; the existence of a research programme does not imply that all source code, datasets or intermediate results are publicly available. A software DOI or public software release is not a prerequisite for carrying out or describing the research.
+
+Publication claims should be made only when a specific manuscript, preprint record, or publication can be linked and its status verified. See [Outputs](OUTPUTS.md) for the public artifacts currently indexed.
+
 ## Current focus
 
 | Programme | Research question | Evidence now | Status |

@@ -15,6 +15,18 @@ I work on problems where the difficult part is usually not fitting one more mode
 
 The research programme spans statistical methodology, causal inference and econometrics, time series and monitoring, behavioural sensing, spatial and policy analysis, scientific machine learning, and research software. The common standard is narrower: the question must be falsifiable, the evidence traceable, and the model no more complicated than the claim requires.
 
+## Methodological direction
+
+The projects below are connected by a small number of methodological questions. These describe research directions and inspectable work, not claims that a new method has already been established or peer reviewed.
+
+| Research direction | Question and contribution under investigation | Evidence to inspect |
+| :-- | :-- | :-- |
+| **Decision-relevant statistical monitoring** | When does a measured distribution discrepancy justify intervention, and how should sample size, threshold calibration, missing evidence and structural change affect that decision? | [Population Resemblance](https://github.com/DiogoRibeiro7/population-resemblance), [ChangePointLab](https://github.com/DiogoRibeiro7/ChangePointLab), [behavioural sensing](https://github.com/DiogoRibeiro7/behavioral-sensing-research) |
+| **Evaluation against known truth and strong baselines** | How can controlled simulations, reference implementations and deliberately simple alternatives reveal estimation failures that headline metrics hide? | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy), [setqca](https://github.com/DiogoRibeiro7/setqca-python), [NOAA FNO comparison](https://github.com/DiogoRibeiro7/oisst-fourier-neural-operator) |
+| **Identification and measurement in observational systems** | Which quantities can be inferred from imperfect administrative or spatial data, and how much do accounting boundaries, treatment assignment, structural breaks and geographic aggregation constrain interpretation? | [Pension financing](https://github.com/DiogoRibeiro7/portugal-public-pension-financing), [GDP–wage transmission](https://github.com/DiogoRibeiro7/gdp-wage-transmission), [Lisbon spatial dynamics](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics) |
+
+Across these directions, the intended contribution is to make assumptions, decision rules and possible falsifications explicit. Whether a particular estimator, diagnostic or empirical conclusion is novel must be established against prior literature and supported by its own validation; repository breadth is not evidence of originality.
+
 ## Research status and availability
 
 The **Status** column below describes the present research activity (such as an active programme, simulation study or empirical study). It is not a journal-publication status. A project repository, manuscript artifact, software release, preprint, and peer-reviewed publication are different kinds of evidence; none should be inferred from another.

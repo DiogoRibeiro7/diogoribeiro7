@@ -30,20 +30,22 @@ Different readers can inspect different kinds of evidence without having to work
 
 ---
 
-## Selected Work
+## Selected Work: From Problems to Tools
 
-| Project | Focus | What to inspect |
-| :-- | :-- | :-- |
-| **[feedback-intelligence-agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent)** | Production AI / RAG | Guarded generation, retrieval evaluation, FastAPI serving, observability, and CI. |
-| **[clinic-forecasting-platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform)** | Forecasting → decisions | Rolling-origin evaluation, conformal uncertainty, hierarchical forecasting, staffing optimisation, serving, and monitoring. |
-| **[lisbon-spatial-dynamics](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics)** | Spatial analysis / urban economics | Official public data, parish-level housing change, local-accommodation pressure, spatial statistics, and regression. |
-| **[population-resemblance](https://github.com/DiogoRibeiro7/population-resemblance)** | Drift / statistical monitoring | Population Resemblance Statistic, sample-size-aware thresholds, PSI and discrete KS benchmarks, and Monte Carlo simulation. |
-| **[DataConsistencyChecker](https://github.com/DiogoRibeiro7/DataConsistencyChecker)** | Data quality / anomaly detection | Interpretable pattern discovery, outlier scoring, explanations, mixed data types, and synthetic validation examples. |
-| **[genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy)** | Statistical research software | Known-truth survival simulation, multiple model families, multistate simulation, typed APIs, and published releases. |
-| **[ChangePointLab](https://github.com/DiogoRibeiro7/ChangePointLab)** | Time series / changepoints | Offline, online, Bayesian, kernel, state-space, and point-process change detection. |
-| **[pinn](https://github.com/DiogoRibeiro7/pinn)** | Scientific machine learning | Typed PyTorch PINNs for forward and inverse PDEs, exact-solution benchmarks, adaptive sampling, and reproducible experiments. |
+The mathematical formulation is the bridge between a practical problem and a useful software tool. These public projects illustrate what was modelled, what was built, and what that implementation makes possible. They are not presented as independent measurements of the commercial results from my industry career.
 
-→ **[Featured](FEATURED.md)** gives the curated reviewer cross-section. **[Projects](PROJECTS.md)** contains the broader catalogue.
+| Problem | Mathematical approach | Tool developed | Contribution |
+| :-- | :-- | :-- | :-- |
+| Feedback is unstructured and difficult to interrogate reliably | Retrieval relevance, grounded answer evaluation, and explicit quality and failure criteria | [feedback-intelligence-agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent): retrieval and guarded-generation service with FastAPI and observability | Makes feedback searchable through answers that can be checked against retrieved evidence. |
+| Demand forecasts must support staffing decisions | Rolling-origin validation, probabilistic forecasts, conformal uncertainty and constrained resource allocation | [clinic-forecasting-platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform): forecasting, staffing optimisation, serving and monitoring | Connects predictive uncertainty to inspectable operational staffing decisions. |
+| Housing changes and local-accommodation pressure are difficult to distinguish from spatial effects | Parish-level measurement, spatial autocorrelation, robust regression and sensitivity to influential observations | [lisbon-spatial-dynamics](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics): official-data spatial analysis pipeline | Makes associations and their limitations inspectable without asserting unsupported causality. |
+| Population drift may be mistaken for model failure | Distribution comparisons, sample-size-aware thresholds, calibration and Monte Carlo experiments | [population-resemblance](https://github.com/DiogoRibeiro7/population-resemblance): statistical monitoring toolkit | Distinguishes evidence of changing populations from conclusions about model performance. |
+| Tabular data errors are difficult to explain and audit | Pattern consistency, mixed-type constraints and interpretable anomaly evidence | [DataConsistencyChecker](https://github.com/DiogoRibeiro7/DataConsistencyChecker): explainable consistency-checking software | Connects flagged records to the checks and expectations they violate. |
+| Survival-model evaluations need controlled ground truth | Event-history distributions, censoring, multistate processes and known-truth simulation | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy): survival simulation library | Enables reproducible method comparisons where the data-generating mechanism is known. |
+| Structural changes in time series require different detection assumptions | Bayesian, kernel, state-space, offline and online change detection | [ChangePointLab](https://github.com/DiogoRibeiro7/ChangePointLab): unified changepoint toolkit | Makes alternative change-detection methods accessible through a common research interface. |
+| Scientific models must satisfy differential-equation constraints | Physics-informed optimisation, PDE residuals, boundary conditions and numerical benchmarks | [PINNLab](https://github.com/DiogoRibeiro7/pinn): PyTorch toolkit for forward and inverse PDE problems | Provides a testable framework for exploring neural approximations to constrained scientific problems. |
+
+For a broader technical cross-section, see [Featured](FEATURED.md). For end-to-end accounts of constraints, methods and outcomes, see [Case Studies](CASE_STUDIES.md).
 
 ---
 

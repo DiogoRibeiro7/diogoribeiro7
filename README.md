@@ -30,20 +30,21 @@ Different readers can inspect different kinds of evidence without having to work
 
 ---
 
-## From Mathematical Problems to Working Systems
+## From Economic Problems to Mathematical Tools
 
-Across my professional work, I have designed and led analytical software that connects mathematical reasoning to practical decisions. The recurring challenge is not choosing a fashionable model; it is translating an uncertain or poorly defined problem into a tool that people can use and evaluate.
+My work starts with problems that have operational or economic consequences: resources being allocated inefficiently, forecasts that do not support decisions, unreliable information, avoidable process costs, and risks that are poorly understood. Mathematics provides a way to express these problems precisely. Software turns those formulations into tools that can be used, evaluated and improved.
 
-The same approach applies across different industries and problem types:
+The value of a model is therefore not the algorithm itself, but the decision or process it enables:
 
-- **Forecasting and operational decisions.** Formulate what needs predicting, quantify uncertainty, and connect predictions to constraints, costs and feasible actions rather than treating forecast accuracy as the final objective.
-- **Data reliability and integration.** Reconcile heterogeneous data, timing, missingness and inconsistent definitions before using observations as evidence. Build ingestion, validation and analytical pipelines so that decisions rest on interpretable information.
-- **Statistical monitoring and change detection.** Separate meaningful variation from noise, degraded observations and changes in the data-generating process. Translate statistical evidence into decision rules with explicit failure modes.
-- **Analytical communication and automation.** Turn longitudinal analysis into structured reporting and understandable explanations, maintaining a clear boundary between what a model estimates and what a report can legitimately claim.
+- **Costs, waste and scarce resources.** Forecasting and constrained optimisation connect uncertain demand to staffing, inventory, scheduling and resource-allocation decisions. The economic question is not simply whether a forecast is accurate, but whether using it leads to a better decision under real constraints.
+- **Commercial and operational risk.** Probabilistic modelling, calibration and explicit loss functions make the consequences of different errors visible. Decision thresholds should reflect the costs of false alarms, missed events and unnecessary intervention.
+- **Productivity and analytical infrastructure.** Data integration, validation and automation reduce manual reconciliation and make information more consistent and usable. The purpose is to support more reliable decisions and free effort for higher-value work.
+- **Measurement of economic effects.** Statistics, econometrics and causal inference help distinguish correlations from effects that could justify a business or policy decision. Assumptions, counterfactuals and uncertainty matter because acting on the wrong conclusion has a cost.
+- **Reliable operational monitoring.** Statistical change detection and evidence-quality rules help distinguish genuine events from noise and unreliable observations, avoiding decisions driven by misleading signals.
 
-One example is my work on behavioural sensing and wireless-signal inference: indirect observations required probabilistic reasoning, uncertainty handling and safeguards against unsupported alerts. Those were applications of a broader mathematical and engineering approach, not its defining domain.
+In each case, the work follows a common sequence: **define the economic or operational objective, formulate the mathematical problem, build the appropriate tool, and evaluate the decisions it supports**. A technically sophisticated implementation is not automatically valuable; its contribution must be judged in the context of the problem it addresses.
 
-Some professional implementations and commercial data are proprietary. The public projects below demonstrate related modelling decisions, software tools and research practices without implying that those repositories are copies of employer systems.
+My earlier work in behavioural sensing and wireless-signal inference is one application of this approach, not its defining industry. Some commercial systems and measurements remain proprietary. The public projects below demonstrate related methods and software without implying that they reproduce employer systems or their reported business outcomes.
 
 ---
 

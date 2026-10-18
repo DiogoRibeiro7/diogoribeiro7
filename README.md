@@ -30,6 +30,21 @@ Different readers can inspect different kinds of evidence without having to work
 
 ---
 
+## Industry Systems and Problem-Solving
+
+My professional work includes internal systems developed for operational use, distinct from the public research and engineering repositories below. The underlying employer code and commercial data are not published here.
+
+| Operational problem | Mathematical and engineering approach | Tool or system developed | What it enabled |
+| :-- | :-- | :-- | :-- |
+| Distinguishing genuine behavioural changes from unreliable sensor readings | Time-series change detection, sensor evidence quality, missingness and uncertainty-aware decision rules | Behavioural sensing and alerting logic combining in-home signals | Helped separate changes in observed behaviour from missing or ambiguous evidence before alerts were raised |
+| Turning heterogeneous home and wearable measurements into usable information | Event-time validation, data consistency, signal processing and integration of multiple sources | Sensor-data ingestion and analytical pipelines | Produced structured observations for downstream monitoring and analysis |
+| Explaining longitudinal patterns to care and product users | Statistical summaries, time-dependent interpretation and controlled natural-language generation | Automated weekly reporting workflows | Translated analytical results into recurring, interpretable reports |
+| Estimating activity and location from indirect wireless signals | Received-signal-strength analysis, probabilistic modelling and spatial uncertainty | RSSI-based localisation and activity-inference components | Supported inference from imperfect sensor observations instead of relying on deterministic thresholds alone |
+
+These descriptions concern the purpose and design of professional systems, not open-source releases or independently reproducible claims about employer outcomes. For publicly inspectable implementations of related ideas, see the projects below.
+
+---
+
 ## Selected Work: Problems, Mathematics and Tools
 
 The mathematical formulation connects a real problem with a working tool. These projects show what was built and what it makes possible—not independently measured commercial outcomes.

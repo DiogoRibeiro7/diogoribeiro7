@@ -30,20 +30,51 @@ Different readers can inspect different kinds of evidence without having to work
 
 ---
 
-## Selected Work
+## Selected Work: Problems, Mathematics and Tools
 
-| Project | Focus | What to inspect |
-| :-- | :-- | :-- |
-| **[feedback-intelligence-agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent)** | Production AI / RAG | Guarded generation, retrieval evaluation, FastAPI serving, observability, and CI. |
-| **[clinic-forecasting-platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform)** | Forecasting → decisions | Rolling-origin evaluation, conformal uncertainty, hierarchical forecasting, staffing optimisation, serving, and monitoring. |
-| **[lisbon-spatial-dynamics](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics)** | Spatial analysis / urban economics | Official public data, parish-level housing change, local-accommodation pressure, spatial statistics, and regression. |
-| **[population-resemblance](https://github.com/DiogoRibeiro7/population-resemblance)** | Drift / statistical monitoring | Population Resemblance Statistic, sample-size-aware thresholds, PSI and discrete KS benchmarks, and Monte Carlo simulation. |
-| **[DataConsistencyChecker](https://github.com/DiogoRibeiro7/DataConsistencyChecker)** | Data quality / anomaly detection | Interpretable pattern discovery, outlier scoring, explanations, mixed data types, and synthetic validation examples. |
-| **[genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy)** | Statistical research software | Known-truth survival simulation, multiple model families, multistate simulation, typed APIs, and published releases. |
-| **[ChangePointLab](https://github.com/DiogoRibeiro7/ChangePointLab)** | Time series / changepoints | Offline, online, Bayesian, kernel, state-space, and point-process change detection. |
-| **[pinn](https://github.com/DiogoRibeiro7/pinn)** | Scientific machine learning | Typed PyTorch PINNs for forward and inverse PDEs, exact-solution benchmarks, adaptive sampling, and reproducible experiments. |
+The mathematical formulation connects a real problem with a working tool. These projects show what was built and what it makes possible—not independently measured commercial outcomes.
 
-→ **[Featured](FEATURED.md)** gives the curated reviewer cross-section. **[Projects](PROJECTS.md)** contains the broader catalogue.
+### [Feedback intelligence agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent)
+- **Problem:** Customer feedback is difficult to search and interpret reliably.
+- **Mathematics:** Retrieval relevance, grounded-answer evaluation, quality and failure criteria.
+- **Tool and contribution:** A guarded RAG service with FastAPI and observability, enabling answers to be inspected against retrieved evidence.
+
+### [Clinic forecasting platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform)
+- **Problem:** Uncertain healthcare demand must inform staffing.
+- **Mathematics:** Rolling-origin evaluation, probabilistic forecasts, conformal intervals and resource constraints.
+- **Tool and contribution:** A forecasting and staffing-optimisation platform that connects uncertainty to operational decisions.
+
+### [Lisbon spatial dynamics](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics)
+- **Problem:** Housing-value changes and local-accommodation pressure may be confounded by geography.
+- **Mathematics:** Spatial autocorrelation, robust regression and influence sensitivity.
+- **Tool and contribution:** An official-data analysis pipeline that exposes associations and their limits without claiming causality.
+
+### [Population resemblance](https://github.com/DiogoRibeiro7/population-resemblance)
+- **Problem:** Population shift can be mistaken for predictive-model failure.
+- **Mathematics:** Distribution comparison, sample-size-aware thresholds and Monte Carlo calibration.
+- **Tool and contribution:** A statistical monitoring toolkit that separates evidence of drift from claims about model performance.
+
+### [DataConsistencyChecker](https://github.com/DiogoRibeiro7/DataConsistencyChecker)
+- **Problem:** Data-quality failures need explanations rather than opaque scores.
+- **Mathematics:** Pattern consistency, mixed-type constraints and interpretable anomaly evidence.
+- **Tool and contribution:** A consistency-checking library that links unusual records to violated expectations.
+
+### [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy)
+- **Problem:** Survival estimators require validation against controlled ground truth.
+- **Mathematics:** Event-history simulation, censoring and multistate processes.
+- **Tool and contribution:** A simulation library for reproducible method comparisons with known generating mechanisms.
+
+### [ChangePointLab](https://github.com/DiogoRibeiro7/ChangePointLab)
+- **Problem:** Structural changes in time series require distinct detection assumptions.
+- **Mathematics:** Bayesian, kernel, state-space, offline and online changepoint methods.
+- **Tool and contribution:** A unified toolkit for comparing detection approaches through a shared interface.
+
+### [PINNLab](https://github.com/DiogoRibeiro7/pinn)
+- **Problem:** Scientific model approximations must respect differential-equation constraints.
+- **Mathematics:** PDE residuals, boundary conditions and physics-informed optimisation.
+- **Tool and contribution:** A PyTorch framework for evaluating neural approaches to forward and inverse PDE problems.
+
+See [Featured](FEATURED.md) for more projects and [Case Studies](CASE_STUDIES.md) for detailed problem-to-outcome narratives.
 
 ---
 

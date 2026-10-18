@@ -1,17 +1,39 @@
+"""Normalize the gap between the profile navigation and introduction.
+
+This script deliberately does not depend on the wording of the introduction.
+"""
+
+from __future__ import annotations
+
+import re
 from pathlib import Path
 
 README = Path("README.md")
-NAV_END = "</div>"
-INTRO = "I build data and AI systems"
+NAV_CLOSE = "</div>"
 
-text = README.read_text(encoding="utf-8")
-needle = f"{NAV_END}{INTRO}"
-replacement = f"{NAV_END}\n\n{INTRO}"
 
-if needle in text:
-    text = text.replace(needle, replacement, 1)
+def normalize_readme(text: str) -> str:
+    """Ensure exactly one blank line after the first navigation container.
 
-if f"{NAV_END}\n\n{INTRO}" not in text:
-    raise SystemExit("README navigation is not separated from the introduction by a blank line")
+    The first closing div in this profile belongs to its primary navigation.
+    Do not modify the subsequent introduction or any other layout.
+    """
+    header, separator, remainder = text.partition(NAV_CLOSE)
+    if not separator:
+        raise ValueError("README primary navigation closing tag is missing")
+    if "nav-home-active.svg" not in header:
+        raise ValueError("README primary navigation was not found")
+    # Only normalize line separators at the navigation boundary.
+    return header + separator + "\n\n" + remainder.lstrip("\r\n")
 
-README.write_text(text, encoding="utf-8")
+
+def main() -> None:
+    """Normalize the checked-out README in place when necessary."""
+    original = README.read_text(encoding="utf-8")
+    updated = normalize_readme(original)
+    if updated != original:
+        README.write_text(updated, encoding="utf-8")
+
+
+if __name__ == "__main__":
+    main()

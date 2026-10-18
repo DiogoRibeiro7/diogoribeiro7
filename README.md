@@ -30,6 +30,23 @@ Different readers can inspect different kinds of evidence without having to work
 
 ---
 
+## Selected Work
+
+| Project | Focus | What to inspect |
+| :-- | :-- | :-- |
+| **[feedback-intelligence-agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent)** | Production AI / RAG | Guarded generation, retrieval evaluation, FastAPI serving, observability, and CI. |
+| **[clinic-forecasting-platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform)** | Forecasting → decisions | Rolling-origin evaluation, conformal uncertainty, hierarchical forecasting, staffing optimisation, serving, and monitoring. |
+| **[lisbon-spatial-dynamics](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics)** | Spatial analysis / urban economics | Official public data, parish-level housing change, local-accommodation pressure, spatial statistics, and regression. |
+| **[population-resemblance](https://github.com/DiogoRibeiro7/population-resemblance)** | Drift / statistical monitoring | Population Resemblance Statistic, sample-size-aware thresholds, PSI and discrete KS benchmarks, and Monte Carlo simulation. |
+| **[DataConsistencyChecker](https://github.com/DiogoRibeiro7/DataConsistencyChecker)** | Data quality / anomaly detection | Interpretable pattern discovery, outlier scoring, explanations, mixed data types, and synthetic validation examples. |
+| **[genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy)** | Statistical research software | Known-truth survival simulation, multiple model families, multistate simulation, typed APIs, and published releases. |
+| **[ChangePointLab](https://github.com/DiogoRibeiro7/ChangePointLab)** | Time series / changepoints | Offline, online, Bayesian, kernel, state-space, and point-process change detection. |
+| **[pinn](https://github.com/DiogoRibeiro7/pinn)** | Scientific machine learning | Typed PyTorch PINNs for forward and inverse PDEs, exact-solution benchmarks, adaptive sampling, and reproducible experiments. |
+
+→ **[Featured](FEATURED.md)** gives the curated reviewer cross-section. **[Projects](PROJECTS.md)** contains the broader catalogue.
+
+---
+
 ## What I Work On
 
 My work spans statistical machine learning, time series, forecasting, causal inference, optimisation, behavioural sensing, research software, data engineering, and applied AI. Across those areas, I care most about four things:
@@ -55,23 +72,6 @@ My work spans statistical machine learning, time series, forecasting, causal inf
 These figures are generated from the same canonical portfolio data used by [Statistics](STATISTICS.md), so the front page and the detailed evidence page share one source of truth.
 
 **Reported outcomes from professional delivery:** 80% reduction in reporting costs · 30% reduction in analytics processing time · €500K reduction in inventory value through forecasting and operational optimisation. These figures refer to industry work, not measured results from the public GitHub projects; underlying commercial baselines are not published here.
-
----
-
-## Selected Work
-
-| Project | Focus | What to inspect |
-| :-- | :-- | :-- |
-| **[feedback-intelligence-agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent)** | Production AI / RAG | Guarded generation, retrieval evaluation, FastAPI serving, observability, and CI. |
-| **[clinic-forecasting-platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform)** | Forecasting → decisions | Rolling-origin evaluation, conformal uncertainty, hierarchical forecasting, staffing optimisation, serving, and monitoring. |
-| **[lisbon-spatial-dynamics](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics)** | Spatial analysis / urban economics | Official public data, parish-level housing change, local-accommodation pressure, spatial statistics, and regression. |
-| **[population-resemblance](https://github.com/DiogoRibeiro7/population-resemblance)** | Drift / statistical monitoring | Population Resemblance Statistic, sample-size-aware thresholds, PSI and discrete KS benchmarks, and Monte Carlo simulation. |
-| **[DataConsistencyChecker](https://github.com/DiogoRibeiro7/DataConsistencyChecker)** | Data quality / anomaly detection | Interpretable pattern discovery, outlier scoring, explanations, mixed data types, and synthetic validation examples. |
-| **[genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy)** | Statistical research software | Known-truth survival simulation, multiple model families, multistate simulation, typed APIs, and published releases. |
-| **[ChangePointLab](https://github.com/DiogoRibeiro7/ChangePointLab)** | Time series / changepoints | Offline, online, Bayesian, kernel, state-space, and point-process change detection. |
-| **[pinn](https://github.com/DiogoRibeiro7/pinn)** | Scientific machine learning | Typed PyTorch PINNs for forward and inverse PDEs, exact-solution benchmarks, adaptive sampling, and reproducible experiments. |
-
-→ **[Featured](FEATURED.md)** gives the curated reviewer cross-section. **[Projects](PROJECTS.md)** contains the broader catalogue.
 
 ---
 

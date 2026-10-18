@@ -47,15 +47,6 @@ Different readers can inspect different kinds of evidence without having to work
 
 ---
 
-## What I Work On
-
-My work spans statistical machine learning, time series, forecasting, causal inference, optimisation, behavioural sensing, research software, data engineering, and applied AI. Across those areas, I care most about four things:
-
-- **Decision-aware modelling** — evaluate a model by the decisions it supports, not only by an aggregate predictive score.
-- **Uncertainty and failure modes** — calibration, missingness, drift, censoring, abstention, leakage, and operating thresholds are part of the model.
-- **Reproducible evidence** — typed code, tests, CI, frozen configurations, provenance, and machine-readable outputs are part of the research contract.
-- **Methods that remain inspectable** — prefer the least complicated model that answers the question well and make the resulting claim auditable.
-
 ## Portfolio at a Glance
 
 <!-- readme:portfolio-snapshot:start -->
@@ -90,13 +81,14 @@ These figures are generated from the same canonical portfolio data used by [Stat
 
 ## How I Work
 
-- **Model the question before the algorithm.** Define the estimand, failure modes, constraints, and decision rule first.
-- **Use strong baselines.** Classical statistical and mathematical models are often the right starting point; complexity has to earn its place empirically.
-- **Validate in the regime that matters.** Temporal splits, rolling-origin evaluation, realistic missingness, censoring, imbalance, and deployment constraints matter more than convenient random splits.
-- **Treat reliability as part of modelling.** Calibration, uncertainty, leakage, missingness, drift, abstention, and operating thresholds belong in the design, not in an appendix.
-- **Make claims reproducible.** Typed code, tests, CI, frozen configurations, provenance, and machine-readable outputs are part of the research and engineering contract.
+My work spans statistical modelling, time series, causal inference, optimisation, behavioural sensing, data engineering and applied AI. The common discipline is to:
 
----
+- **Define the question and decision first.** Specify the estimand, constraints, assumptions and consequences of a wrong decision before choosing an algorithm.
+- **Earn model complexity through evidence.** Start from mathematical and statistical baselines; compare alternatives using validation that respects time, grouping, censoring and other data-generating structure.
+- **Make uncertainty and failure explicit.** Evaluate calibration, missing evidence, drift, leakage, abstention and operating thresholds, not only aggregate scores.
+- **Keep the result inspectable.** Use tests, provenance, frozen configurations and reproducible outputs, with enough detail to examine the claim and its limitations.
+
+The detailed reasoning, methods and supporting projects are in [Methods](METHODS.md) and [Case Studies](CASE_STUDIES.md).
 
 ## Explore by Question
 

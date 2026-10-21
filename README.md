@@ -1,9 +1,9 @@
 # Diogo Ribeiro (@DiogoRibeiro7)
 
-**Lead Data Scientist · Statistical Modelling & Research · Invited Assistant Professor**  
-**Statistical ML · Time Series · Causal Inference · Applied AI · Research Software**  
+**Lead Data Scientist · Machine Learning Engineer · Applied Mathematician · Researcher**  
+**Statistical Learning · ML Systems · Causal Inference · Time Series · Scientific Computing**  
 
-20 years in software, statistical modelling and data science · Technical leadership, decision systems and reproducible research
+20 years connecting mathematics, data science and software engineering to reliable decisions, working tools and measurable operational value
 
 <div align="center">
   <img src="assets/links/nav-home-active.svg" alt="Home (current page)" width="96" height="40" />
@@ -14,9 +14,11 @@
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md"><img src="assets/links/nav-evidence.svg" alt="Evidence" width="120" height="40" /></a>
 </div>
 
-Over 20 years working across software engineering, statistical modelling and data science, I have designed and led work that connects analytical methods to operational decisions. My focus is on problems where defining the estimand, choosing a decision rule, quantifying uncertainty and maintaining reproducible evidence matter as much as model fitting.
+My work combines four complementary roles: I formulate problems mathematically, investigate them statistically, implement methods as usable software, and lead the delivery of analytical systems that support decisions. These are not separate labels for the same work: each has its own evidence in the projects and professional outcomes below.
 
-My default is not “use more ML.” It is to start from the problem, the evidence, and the decision being supported; establish strong statistical or mathematical baselines; and add complexity only when it earns its place empirically.
+As a data scientist, I design analyses and predictive models around explicit decisions and uncertainty. As a machine learning engineer, I translate models into tested pipelines, APIs and monitoring tools that other systems can use. As an applied mathematician, I formulate mechanisms, constraints and numerical approximations. As a researcher, I assess assumptions, reproduce experiments and document what results do—and do not—establish.
+
+I do not default to machine learning when a simpler statistical or mathematical approach is adequate. I start with a baseline, evaluate complexity against the intended decision, and engineer the resulting solution to remain inspectable and maintainable.
 
 ## Start Here
 
@@ -27,6 +29,32 @@ Different readers can inspect different kinds of evidence without having to work
 | **Technical recruiters and hiring teams** | [Featured Projects](FEATURED.md) · [Case Studies](CASE_STUDIES.md) | System architecture, modelling decisions, technical leadership and the boundaries of demonstrated results. |
 | **Research collaborators and scientific reviewers** | [Research](RESEARCH.md) · [Methods](METHODS.md) · [Outputs](OUTPUTS.md) | Research questions, identification assumptions, known-truth validation, methodological limits and available artifacts. |
 | **Senior consulting clients** | [Case Studies](CASE_STUDIES.md) · [Methods](METHODS.md) · [Professional impact](STATISTICS.md#delivered-impact) | Problem formulation, operational constraints, decisions supported, and clearly identified professional outcomes. |
+
+---
+
+## Professional identities: claims and evidence
+
+| Identity | What I do | Where to examine the evidence |
+| :-- | :-- | :-- |
+| Data scientist and technical lead | Define analytical questions, design validation, model uncertainty and translate findings into operational decisions; lead multidisciplinary delivery. | [Manufacturing outcomes](#manufacturing-supply-chain-and-industrial-operations), [Clinic forecasting platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform), [Case Studies](CASE_STUDIES.md) |
+| Machine learning engineer | Implement statistical and learning methods as reusable, tested software; connect inference to services, data pipelines, evaluation and monitoring. | [Feedback intelligence agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent), [Population resemblance](https://github.com/DiogoRibeiro7/population-resemblance), [PINNLab](https://github.com/DiogoRibeiro7/pinn) |
+| Applied mathematician | Formulate dynamical, stochastic, optimisation and differential-equation problems; choose and assess numerical methods. | [Manufacturing process and quality](#manufacturing-supply-chain-and-industrial-operations), [PINNLab](https://github.com/DiogoRibeiro7/pinn), [ChangePointLab](https://github.com/DiogoRibeiro7/ChangePointLab) |
+| Researcher and educator | Design reproducible studies, validate methods under known assumptions, articulate limits and teach mathematical reasoning. | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy), [Research](RESEARCH.md), [Teaching](TEACHING.md), [Outputs](OUTPUTS.md) |
+
+### From models to maintained ML systems
+
+Engineering is the work between a fitted model and a dependable decision. My public projects illustrate different parts of this lifecycle—not a claim that every repository is a deployed commercial service.
+
+| Engineering responsibility | Demonstrated approach | Project evidence |
+| :-- | :-- | :-- |
+| Problem-to-model design | Establish a measurable decision, a baseline, evaluation criteria and acceptable failure modes before choosing an algorithm. | [Clinic forecasting platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform) |
+| Data and feature reliability | Validate incoming data, detect inconsistent records and expose the reasons for rejected evidence. | [DataConsistencyChecker](https://github.com/DiogoRibeiro7/DataConsistencyChecker) |
+| Application integration | Expose retrieval and evaluation logic through a FastAPI-based service with grounded-response checks and observability. | [Feedback intelligence agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent) |
+| Monitoring and evaluation | Detect population shift, examine calibration and avoid confusing input drift with predictive degradation. | [Population resemblance](https://github.com/DiogoRibeiro7/population-resemblance) |
+| Scientific ML implementation | Implement neural PDE approximations with explicit residual and boundary-condition constraints. | [PINNLab](https://github.com/DiogoRibeiro7/pinn) |
+| Reproducibility and maintainability | Use tests, versioned configurations, documented assumptions and known-truth simulations to support review. | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy) · [Methods](METHODS.md) |
+
+In professional work, I have also led delivery of automated analytics and sensor-based decision systems. Reported operational improvements appear below; private implementation details are not presented as public repository evidence.
 
 ---
 
@@ -142,7 +170,7 @@ These figures are generated from the same canonical portfolio data used by [Stat
 
 ## How I Work
 
-My work spans statistical modelling, time series, causal inference, optimisation, behavioural sensing, data engineering and applied AI. The common discipline is to:
+My work spans statistical modelling, machine learning engineering, causal inference, optimisation, scientific computing, data engineering and applied AI. Across research prototypes and operational systems, the common discipline is to:
 
 - **Define the question and decision first.** Specify the estimand, constraints, assumptions and consequences of a wrong decision before choosing an algorithm.
 - **Earn model complexity through evidence.** Start from mathematical and statistical baselines; compare alternatives using validation that respects time, grouping, censoring and other data-generating structure.
@@ -169,7 +197,7 @@ The detailed reasoning, methods and supporting projects are in [Methods](METHODS
 
 ## Professional and Academic Work
 
-My background combines mathematics, software engineering and statistical research. I have led data-science work in health technology, including sensor-based behavioural analysis, time-series modelling and decision-support systems. Alongside industry work, I teach as an **Invited Assistant Professor at the Faculty of Media Arts and Design, Technical University of Porto (FMAD–UTP)**.
+My background combines applied mathematics, data science leadership, machine learning engineering and statistical research. I have led data-science work in health technology, including sensor-based behavioural analysis, time-series modelling and decision-support systems. Alongside industry work, I teach as an **Invited Assistant Professor at the Faculty of Media Arts and Design, Technical University of Porto (FMAD–UTP)**.
 
 I am particularly interested in remote senior, lead, and principal-level work where statistical reasoning, engineering quality, and decision-making under uncertainty matter. I also collaborate on research, technical mentoring, and open-source scientific software.
 

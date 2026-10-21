@@ -145,15 +145,24 @@ def nav_html(current: str, manifest: dict) -> str:
 def replace_nav(text: str, current: str, manifest: dict) -> str:
     """Replace the navigation block without regenerating human-edited page content."""
     replacement = nav_html(current, manifest)
-    cleaned = NAV_PATTERN.sub("", text)
 
     if current == "README.md":
-        anchor = "Statistical modelling, production AI, decision systems, and reproducible research · Python-first"
-        if anchor not in cleaned:
-            raise ValueError("README navigation anchor not found")
-        before, after = cleaned.split(anchor, 1)
-        return before + anchor + "\n\n" + replacement + "\n\n" + after.lstrip("\n")
+        # Update the actual navigation container in place. Introductory copy
+        # is human-edited and must not be treated as a structural anchor.
+        matches = list(NAV_PATTERN.finditer(text))
+        if len(matches) != 1:
+            raise ValueError(
+                f"Expected exactly one README navigation block, found {len(matches)}"
+            )
+        nav = matches[0]
+        return (
+            text[: nav.start()]
+            + replacement
+            + "\n\n"
+            + text[nav.end() :].lstrip("\r\n")
+        )
 
+    cleaned = NAV_PATTERN.sub("", text)
     return replacement + "\n\n---\n\n" + cleaned.lstrip("\n- ")
 
 

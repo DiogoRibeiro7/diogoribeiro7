@@ -39,6 +39,41 @@ class TestReadmeLayout(unittest.TestCase):
         once = normalize_readme(content)
         self.assertEqual(normalize_readme(once), once)
 
+    def test_navigation_replacement_preserves_rewritten_header(self) -> None:
+        """Regenerating navigation must not rely on fixed headline wording."""
+        from profile_maintenance import replace_nav
+
+        manifest: dict[str, object] = {"navigation": [
+            ("Home", "README.md"), ("Featured", "FEATURED.md"),
+            ("Projects", "PROJECTS.md"), ("Methods", "METHODS.md"),
+            ("Research", "RESEARCH.md"), ("Evidence", "STATISTICS.md"),
+        ]}
+        old_nav = (
+            '<div align="center">\n'
+            '  <img src="assets/links/nav-home-active.svg" alt="Home" />\n'
+            '</div>\n\n'
+        )
+        headline = "# Profile\n\nMachine Learning Engineer · Applied Mathematician\n\n"
+        intro = "The introduction can change independently of the generator.\n"
+        original = headline + old_nav + intro
+        updated = replace_nav(original, "README.md", manifest)
+        self.assertTrue(updated.startswith(headline))
+        self.assertIn(intro, updated)
+        self.assertEqual(updated.count('nav-home-active.svg'), 1)
+        self.assertEqual(replace_nav(updated, "README.md", manifest), updated)
+
+    def test_navigation_replacement_rejects_absent_block(self) -> None:
+        """Fail explicitly instead of inserting navigation at an arbitrary point."""
+        from profile_maintenance import replace_nav
+
+        manifest: dict[str, object] = {"navigation": [
+            ("Home", "README.md"), ("Featured", "FEATURED.md"),
+            ("Projects", "PROJECTS.md"), ("Methods", "METHODS.md"),
+            ("Research", "RESEARCH.md"), ("Evidence", "STATISTICS.md"),
+        ]}
+        with self.assertRaisesRegex(ValueError, "exactly one README navigation block"):
+            replace_nav("# Profile\n\nNo navigation.\n", "README.md", manifest)
+
 
 if __name__ == "__main__":
     unittest.main()

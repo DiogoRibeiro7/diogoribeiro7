@@ -31,7 +31,7 @@ The best starting point is the work itself. These examples distinguish public, i
 | **Applied mathematics and statistical software** | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy) — known-truth survival simulations; [Gaussian processes in R](https://gitlab.com/DiogoRibeiro7/gaussian-processes-r) — covariance kernels, numerical stability and posterior inference; [numerical linear algebra in R](https://gitlab.com/DiogoRibeiro7/numerical-linear-algebra-r) — QR/SVD, iterative methods and numerical diagnostics. |
 | **Research and education** | [Research](RESEARCH.md) · [Methods](METHODS.md) · [Outputs](OUTPUTS.md) · [Teaching](TEACHING.md) — research questions, identification assumptions, reproducibility and educational artifacts. |
 
-For a deeper review, begin with [twelve curated projects](FEATURED.md) or [sixteen case studies](CASE_STUDIES.md). The [full catalogue](PROJECTS.md) is organised separately so breadth is not confused with depth.
+For a deeper technical review, follow the [three system architecture maps and source-code evidence](SYSTEMS.md), [twelve curated projects](FEATURED.md), or [sixteen case studies](CASE_STUDIES.md). The [full catalogue](PROJECTS.md) is organised separately so breadth is not confused with depth.
 
 ---
 
@@ -40,7 +40,7 @@ For a deeper review, begin with [twelve curated projects](FEATURED.md) or [sixte
 | Identity | What I do | Where to examine the evidence |
 | :-- | :-- | :-- |
 | Data scientist and technical lead | Define analytical questions, design validation, model uncertainty and translate findings into operational decisions; lead multidisciplinary delivery. | [Manufacturing outcomes](#manufacturing-supply-chain-and-industrial-operations), [Clinic forecasting platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform), [Case Studies](CASE_STUDIES.md) |
-| Machine learning engineer | Implement statistical and learning methods as reusable, tested software; connect inference to services, data pipelines, evaluation and monitoring. | [Feedback intelligence agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent), [Population resemblance](https://github.com/DiogoRibeiro7/population-resemblance), [PINNLab](https://github.com/DiogoRibeiro7/pinn) |
+| Machine learning engineer | Implement statistical and learning methods as reusable, tested software; connect inference to services, data pipelines, evaluation and monitoring. | [ML systems and architecture evidence](SYSTEMS.md), [Feedback intelligence agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent), [Population resemblance](https://github.com/DiogoRibeiro7/population-resemblance), [PINNLab](https://github.com/DiogoRibeiro7/pinn) |
 | Applied mathematician | Formulate dynamical, stochastic, optimisation and differential-equation problems; choose and assess numerical methods. | [Manufacturing process and quality](#manufacturing-supply-chain-and-industrial-operations), [PINNLab](https://github.com/DiogoRibeiro7/pinn), [Gaussian processes in R](https://gitlab.com/DiogoRibeiro7/gaussian-processes-r), [numerical linear algebra in R](https://gitlab.com/DiogoRibeiro7/numerical-linear-algebra-r) |
 | Researcher and educator | Design reproducible studies, validate methods under known assumptions, articulate limits and teach mathematical reasoning. | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy), [Research](RESEARCH.md), [Teaching](TEACHING.md), [Outputs](OUTPUTS.md) |
 
@@ -188,6 +188,7 @@ The detailed reasoning, methods and supporting projects are in [Methods](METHODS
 | :-- | :-- |
 | The strongest cross-section of the portfolio | **[Featured](FEATURED.md)** |
 | End-to-end problem → constraints → method → outcome reasoning | **[Case Studies](CASE_STUDIES.md)** |
+| ML system architecture, serving boundaries and test evidence | [ML Systems](SYSTEMS.md) |
 | Modelling methods, statistical tools, and engineering stack | **[Methods](METHODS.md)** |
 | Active research programmes and reproducibility standards | **[Research](RESEARCH.md)** |
 | Rust packages for statistics, numerical methods, and validation | **[Rust](RUST.md)** |

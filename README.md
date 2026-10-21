@@ -20,15 +20,18 @@ As a data scientist, I design analyses and predictive models around explicit dec
 
 I do not default to machine learning when a simpler statistical or mathematical approach is adequate. I start with a baseline, evaluate complexity against the intended decision, and engineer the resulting solution to remain inspectable and maintainable.
 
-## Start Here
+## Evidence at a Glance
 
-Different readers can inspect different kinds of evidence without having to work through the entire repository catalogue.
+The best starting point is the work itself. These examples distinguish public, inspectable implementations from reported outcomes in professional settings.
 
-| Reader | Start with | What to evaluate |
-| :-- | :-- | :-- |
-| **Technical recruiters and hiring teams** | [Featured Projects](FEATURED.md) · [Case Studies](CASE_STUDIES.md) | System architecture, modelling decisions, technical leadership and the boundaries of demonstrated results. |
-| **Research collaborators and scientific reviewers** | [Research](RESEARCH.md) · [Methods](METHODS.md) · [Outputs](OUTPUTS.md) | Research questions, identification assumptions, known-truth validation, methodological limits and available artifacts. |
-| **Senior consulting clients** | [Case Studies](CASE_STUDIES.md) · [Methods](METHODS.md) · [Professional impact](STATISTICS.md#delivered-impact) | Problem formulation, operational constraints, decisions supported, and clearly identified professional outcomes. |
+| Focus | Evidence to inspect |
+| :-- | :-- |
+| **Machine learning engineering** | [Feedback intelligence agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent) — evaluated retrieval, guarded RAG, FastAPI, telemetry and deployment artifacts; [transaction risk lakehouse](https://github.com/DiogoRibeiro7/transaction-risk-lakehouse) — temporal validation, Spark pipelines, scoring and drift monitoring. Both are portfolio systems, not claims of live client deployment. |
+| **Data science and decision systems** | [Clinic forecasting platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform) — forecasts, uncertainty and staffing decisions; [professional impact](STATISTICS.md#delivered-impact) — reported 30% lower analytics processing time and €500K lower inventory value, with the limits of independent verification stated. |
+| **Applied mathematics and statistical software** | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy) — known-truth survival simulations; [Gaussian processes in R](https://gitlab.com/DiogoRibeiro7/gaussian-processes-r) — covariance kernels, numerical stability and posterior inference; [numerical linear algebra in R](https://gitlab.com/DiogoRibeiro7/numerical-linear-algebra-r) — QR/SVD, iterative methods and numerical diagnostics. |
+| **Research and education** | [Research](RESEARCH.md) · [Methods](METHODS.md) · [Outputs](OUTPUTS.md) · [Teaching](TEACHING.md) — research questions, identification assumptions, reproducibility and educational artifacts. |
+
+For a deeper review, begin with [twelve curated projects](FEATURED.md) or [sixteen case studies](CASE_STUDIES.md). The [full catalogue](PROJECTS.md) is organised separately so breadth is not confused with depth.
 
 ---
 
@@ -38,7 +41,7 @@ Different readers can inspect different kinds of evidence without having to work
 | :-- | :-- | :-- |
 | Data scientist and technical lead | Define analytical questions, design validation, model uncertainty and translate findings into operational decisions; lead multidisciplinary delivery. | [Manufacturing outcomes](#manufacturing-supply-chain-and-industrial-operations), [Clinic forecasting platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform), [Case Studies](CASE_STUDIES.md) |
 | Machine learning engineer | Implement statistical and learning methods as reusable, tested software; connect inference to services, data pipelines, evaluation and monitoring. | [Feedback intelligence agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent), [Population resemblance](https://github.com/DiogoRibeiro7/population-resemblance), [PINNLab](https://github.com/DiogoRibeiro7/pinn) |
-| Applied mathematician | Formulate dynamical, stochastic, optimisation and differential-equation problems; choose and assess numerical methods. | [Manufacturing process and quality](#manufacturing-supply-chain-and-industrial-operations), [PINNLab](https://github.com/DiogoRibeiro7/pinn), [ChangePointLab](https://github.com/DiogoRibeiro7/ChangePointLab) |
+| Applied mathematician | Formulate dynamical, stochastic, optimisation and differential-equation problems; choose and assess numerical methods. | [Manufacturing process and quality](#manufacturing-supply-chain-and-industrial-operations), [PINNLab](https://github.com/DiogoRibeiro7/pinn), [Gaussian processes in R](https://gitlab.com/DiogoRibeiro7/gaussian-processes-r), [numerical linear algebra in R](https://gitlab.com/DiogoRibeiro7/numerical-linear-algebra-r) |
 | Researcher and educator | Design reproducible studies, validate methods under known assumptions, articulate limits and teach mathematical reasoning. | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy), [Research](RESEARCH.md), [Teaching](TEACHING.md), [Outputs](OUTPUTS.md) |
 
 ### From models to maintained ML systems

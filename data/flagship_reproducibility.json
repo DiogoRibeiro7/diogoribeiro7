@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "evidence": [
+    {
+      "repo": "feedback-intelligence-agent",
+      "path": "scripts/benchmark.py",
+      "kind": "RAG benchmarking script",
+      "note": "Local retrieval/evaluation driver; example dataset and provider configuration determine the run"
+    },
+    {
+      "repo": "clinic-forecasting-platform",
+      "path": "scripts/run_hybrid_policy_benchmark.py",
+      "kind": "Hybrid-policy benchmark",
+      "note": "Synthetic-data staffing experiment with separately documented decision and coverage limits"
+    },
+    {
+      "repo": "transaction-risk-lakehouse",
+      "path": "src/transaction_risk/experiments/benchmark.py",
+      "kind": "Spark model benchmark",
+      "note": "Temporal risk-model evaluation implementation; demo data and local Spark required"
+    },
+    {
+      "repo": "genSurvPy",
+      "path": "research/discrimination-not-calibration/scripts/reproduce.py",
+      "kind": "Study reproduction entrypoint",
+      "note": "Pilot and locked-production orchestration for simulation, aggregation, tables and figures"
+    },
+    {
+      "repo": "setqca-python",
+      "path": "validation/r/generate_fixtures.R",
+      "kind": "R reference fixture generator",
+      "note": "Cross-language parity fixtures; R QCA and jsonlite required when regenerating"
+    },
+    {
+      "repo": "ChangePointLab",
+      "path": "docs/notebooks/within_period_reproduction.ipynb",
+      "kind": "Reproduction notebook",
+      "note": "Method comparison/reproduction notebook; execution depends on notebook environment"
+    },
+    {
+      "repo": "population-resemblance",
+      "path": "examples/reproduce_table2.py",
+      "kind": "Published-table reproduction",
+      "note": "Deterministic verification of selected PRS calibration values and tolerances"
+    },
+    {
+      "repo": "DataConsistencyChecker",
+      "path": "Demo Notebooks/Demo_Clear_Issues.ipynb",
+      "kind": "OpenML-backed demonstration",
+      "note": "Executable notebook demonstrating pattern checks; downloads the hypothyroid dataset from OpenML"
+    },
+    {
+      "repo": "behavioral-sensing-research",
+      "path": "scripts/run_phase1_recoverable_gap.py",
+      "kind": "Sensing simulation runner",
+      "note": "Phase-one recoverable-information experiment; protocol and artifact assumptions documented in repository"
+    },
+    {
+      "repo": "oisst-fourier-neural-operator",
+      "path": "notebooks/05_baselines.ipynb",
+      "kind": "NOAA baseline notebook",
+      "note": "Empirical SST forecasting baseline; NOAA data preparation and experiment environment required"
+    },
+    {
+      "repo": "lisbon-spatial-dynamics",
+      "path": "scripts/analyse_housing_spatial_sensitivity.py",
+      "kind": "Spatial sensitivity analysis",
+      "note": "Geographic robustness procedure; official-data inputs and configured boundaries required"
+    },
+    {
+      "repo": "energy-system-simulator",
+      "path": "experiments/storage_value/scripts/run_experiment.py",
+      "kind": "Storage-value experiment",
+      "note": "Configuration-backed power-system experiment with local input data"
+    }
+  ]
+}

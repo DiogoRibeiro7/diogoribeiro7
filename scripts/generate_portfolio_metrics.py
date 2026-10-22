@@ -8,6 +8,7 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any, Final
+from urllib.parse import quote
 from xml.sax.saxutils import escape
 
 from check_external_inventory import get
@@ -17,9 +18,12 @@ FEATURED_PATH: Final[Path] = Path("FEATURED.md")
 MANIFEST_PATH: Final[Path] = Path("data/portfolio.json")
 STATISTICS_PATH: Final[Path] = Path("STATISTICS.md")
 OUTPUT_PATH: Final[Path] = Path("assets/portfolio-evidence.svg")
+REPRODUCIBILITY_PATH: Final[Path] = Path("data/flagship_reproducibility.json")
 API_ROOT: Final[str] = "https://api.github.com"
 CONTROLS_START: Final[str] = "<!-- statistics:controls:start -->"
 CONTROLS_END: Final[str] = "<!-- statistics:controls:end -->"
+REPRO_START: Final[str] = "<!-- statistics:reproducibility-index:start -->"
+REPRO_END: Final[str] = "<!-- statistics:reproducibility-index:end -->"
 
 
 @dataclass(frozen=True)
@@ -32,6 +36,9 @@ class RepoEvidence:
     has_docs: bool
     has_citation: bool
     has_reproducibility_assets: bool
+    reproducibility_path: str | None = None
+    reproducibility_kind: str | None = None
+    reproducibility_note: str | None = None
 
 
 @dataclass(frozen=True)
@@ -56,24 +63,68 @@ def _get_json(url: str) -> object:
     return json.loads(payload.decode("utf-8"))
 
 
-def _contents(repo: str, path: str = "") -> list[dict[str, object]]:
-    """Return directory entries from one repository path."""
-    suffix = f"/{path}" if path else ""
-    payload = _get_json(f"{API_ROOT}/repos/{OWNER}/{repo}/contents{suffix}")
-    if not isinstance(payload, list):
-        raise TypeError(f"GitHub directory listing for {repo}/{path} must be a JSON array")
-    if any(not isinstance(item, dict) for item in payload):
-        raise TypeError(f"GitHub directory listing for {repo}/{path} contains invalid entries")
-    return payload
+def _tree_files(repo: str) -> set[str]:
+    """Return nonempty tracked files from the complete main-branch tree.
 
+    One API request replaces shallow directory-name checks. Reject truncated
+    responses rather than silently undercounting large repositories.
+    """
+    payload = _get_json(f"{API_ROOT}/repos/{OWNER}/{repo}/git/trees/main?recursive=1")
+    if not isinstance(payload, dict) or not isinstance(payload.get("tree"), list):
+        raise TypeError(f"Git tree for {repo} must contain a tree array")
+    if payload.get("truncated") is not False:
+        raise ValueError(f"Git tree for {repo} is truncated or lacks truncation metadata")
 
-def _names(entries: list[dict[str, object]]) -> set[str]:
-    """Return entry names with runtime type validation."""
     result: set[str] = set()
-    for item in entries:
-        name = item.get("name")
-        if isinstance(name, str):
-            result.add(name)
+    for entry in payload["tree"]:
+        if not isinstance(entry, dict):
+            raise TypeError(f"Git tree for {repo} contains an invalid entry")
+        path = entry.get("path")
+        size = entry.get("size")
+        if entry.get("type") != "blob":
+            continue
+        if not isinstance(path, str) or not isinstance(size, int) or size < 0:
+            raise TypeError(f"Git tree for {repo} contains invalid file metadata")
+        if size > 0:
+            result.add(path)
+    return result
+
+
+@dataclass(frozen=True)
+class ReproductionReference:
+    """Curated reference to one specific artifact; not proof of reproducibility."""
+
+    path: str
+    kind: str
+    note: str
+
+
+def _reproducibility_catalog() -> dict[str, ReproductionReference]:
+    """Read and validate source-linked evidence declared for featured projects."""
+    payload: Any = json.loads(REPRODUCIBILITY_PATH.read_text(encoding="utf-8"))
+    if not isinstance(payload, dict) or payload.get("version") != 1:
+        raise ValueError("Reproducibility catalog must have version 1")
+    rows = payload.get("evidence")
+    if not isinstance(rows, list):
+        raise TypeError("Reproducibility catalog requires an evidence array")
+
+    result: dict[str, ReproductionReference] = {}
+    for row in rows:
+        if not isinstance(row, dict):
+            raise TypeError("Reproducibility catalog entries must be objects")
+        repo = row.get("repo")
+        path = row.get("path")
+        kind = row.get("kind")
+        note = row.get("note")
+        if not all(isinstance(value, str) and value.strip() for value in (repo, path, kind, note)):
+            raise ValueError("Every reproducibility reference needs repo, path, kind and note")
+        if not re.fullmatch(r"[A-Za-z0-9_.-]+", repo):
+            raise ValueError(f"Invalid reproducibility repository identifier: {repo}")
+        if path.startswith("/") or any(part in ("", ".", "..") for part in path.split("/")):
+            raise ValueError(f"Invalid reproducibility evidence path: {repo}/{path}")
+        if repo in result:
+            raise ValueError(f"Duplicate reproducibility reference: {repo}")
+        result[repo] = ReproductionReference(path=path, kind=kind, note=note)
     return result
 
 
@@ -101,36 +152,33 @@ def _project_metadata() -> dict[str, dict[str, Any]]:
     return metadata
 
 
-def _audit_repo(repo: str) -> RepoEvidence:
-    """Audit mechanically verifiable repository-level evidence."""
-    root = _names(_contents(repo))
-    github = _names(_contents(repo, ".github")) if ".github" in root else set()
-    workflows = _contents(repo, ".github/workflows") if "workflows" in github else []
-
+def _audit_repo(repo: str, reference: ReproductionReference | None = None) -> RepoEvidence:
+    """Audit actual tracked files and optionally verify one curated evidence link."""
+    files = _tree_files(repo)
+    root = {path.split("/", 1)[0] for path in files}
     docs_markers = {"docs", "mkdocs.yml", "mkdocs.yaml", "docs.yml", "docs.yaml"}
     test_markers = {"tests", "test", "pytest.ini", "tox.ini"}
     citation_markers = {"CITATION.cff", ".zenodo.json"}
-    reproducibility_markers = {
-        "experiments",
-        "artifacts",
-        "results",
-        "reports",
-        "notebooks",
-        "data",
-        "data_sources",
-        "config",
-        "configs",
-    }
+
+    if reference is not None and reference.path not in files:
+        raise ValueError(
+            f"Curated reproducibility artifact missing: {repo}/{reference.path}"
+        )
 
     return RepoEvidence(
         name=repo,
-        has_ci=bool(workflows),
+        has_ci=any(
+            path.startswith(".github/workflows/") and path.endswith((".yml", ".yaml"))
+            for path in files
+        ),
         has_tests=bool(root & test_markers),
         has_docs=bool(root & docs_markers),
         has_citation=bool(root & citation_markers),
-        has_reproducibility_assets=bool(root & reproducibility_markers),
+        has_reproducibility_assets=reference is not None,
+        reproducibility_path=reference.path if reference else None,
+        reproducibility_kind=reference.kind if reference else None,
+        reproducibility_note=reference.note if reference else None,
     )
-
 
 def audit() -> AuditResult:
     """Run the full structural and semantic audit over the curated flagship set."""
@@ -140,7 +188,12 @@ def audit() -> AuditResult:
     if missing:
         raise ValueError(f"Featured repositories missing from canonical manifest: {missing}")
 
-    evidence = tuple(_audit_repo(repo) for repo in repos)
+    catalog = _reproducibility_catalog()
+    extra_repos = sorted(set(catalog) - set(repos))
+    if extra_repos:
+        raise ValueError(f"Reproducibility references outside Featured: {extra_repos}")
+
+    evidence = tuple(_audit_repo(repo, catalog.get(repo)) for repo in repos)
     real_data_count = sum(bool(metadata[repo].get("real_data")) for repo in repos)
     research_software_count = sum(bool(metadata[repo].get("research_software")) for repo in repos)
     return AuditResult(tuple(repos), evidence, real_data_count, research_software_count)
@@ -167,7 +220,7 @@ def _metrics(result: AuditResult) -> list[tuple[str, int, str]]:
         (
             "Reproducibility assets",
             sum(item.has_reproducibility_assets for item in evidence),
-            "experiments/results/data/config-style artifacts present",
+            "curated, source-linked artifact verified in main",
         ),
         (
             "Real-data / empirical",
@@ -246,19 +299,52 @@ def _render_controls_table(result: AuditResult) -> str:
     return "\n".join(rows)
 
 
-def _replace_controls(text: str, replacement: str) -> str:
-    """Replace exactly one generated engineering-control block."""
-    pattern = re.compile(re.escape(CONTROLS_START) + r".*?" + re.escape(CONTROLS_END), re.DOTALL)
+def _replace_block(text: str, replacement: str, start: str, end: str) -> str:
+    """Replace exactly one bounded generated Markdown block."""
+    pattern = re.compile(re.escape(start) + r".*?" + re.escape(end), re.DOTALL)
     matches = pattern.findall(text)
     if len(matches) != 1:
-        raise ValueError(f"Expected exactly one engineering-control block; found {len(matches)}.")
-    return pattern.sub(replacement, text, count=1)
+        raise ValueError(f"Expected exactly one block ({start}); found {len(matches)}")
+    return pattern.sub(lambda _: replacement, text, count=1)
+
+
+def _replace_controls(text: str, replacement: str) -> str:
+    """Preserve the public function used by offline regression tests."""
+    return _replace_block(text, replacement, CONTROLS_START, CONTROLS_END)
+
+
+def _render_reproducibility_index(result: AuditResult) -> str:
+    """Render per-repository, source-linked evidence without grading scientific quality."""
+    rows = [
+        REPRO_START,
+        "| Flagship repository | Reference artifact | What it demonstrates / requires |",
+        "| :-- | :-- | :-- |",
+    ]
+    for item in result.evidence:
+        repository_link = f"https://github.com/{OWNER}/{quote(item.name)}"
+        if item.reproducibility_path is None:
+            rows.append(f"| [{item.name}]({repository_link}) | Not yet curated | — |")
+            continue
+        artifact_url = (
+            f"{repository_link}/blob/main/"
+            f"{quote(item.reproducibility_path, safe='/')}"
+        )
+        label = (item.reproducibility_kind or "Evidence artifact").replace("|", r"\|")
+        note = (item.reproducibility_note or "").replace("|", r"\|")
+        rows.append(
+            f"| [{item.name}]({repository_link}) | [{label}]({artifact_url}) | {note} |"
+        )
+    rows.append(REPRO_END)
+    return "\n".join(rows)
 
 
 def _expected_statistics(result: AuditResult) -> str:
-    """Return Statistics Markdown with the flagship control table refreshed."""
+    """Return Statistics Markdown with both generated evidence tables refreshed."""
     current = STATISTICS_PATH.read_text(encoding="utf-8")
-    return _replace_controls(current, _render_controls_table(result))
+    updated = _replace_controls(current, _render_controls_table(result))
+    return _replace_block(
+        updated, _render_reproducibility_index(result), REPRO_START, REPRO_END
+    )
 
 
 def generate(result: AuditResult) -> None:
@@ -276,7 +362,7 @@ def check(result: AuditResult) -> int:
     elif OUTPUT_PATH.read_text(encoding="utf-8") != _render_svg(result):
         errors.append("assets/portfolio-evidence.svg is stale")
     if STATISTICS_PATH.read_text(encoding="utf-8") != _expected_statistics(result):
-        errors.append("STATISTICS.md flagship engineering-control table is stale")
+        errors.append("STATISTICS.md flagship controls or evidence index is stale")
     if errors:
         for error in errors:
             print(f"ERROR: {error}")

@@ -109,7 +109,14 @@ Current structural evidence across those 12 flagships:
 | Reproducibility-style assets | **8 / 12 (67%)** |
 <!-- statistics:controls:end -->
 
-These are **structural controls**, not claims that every project is scientifically valid or production-ready. A test directory proves that tests exist, not that every possible failure mode is covered.
+These are structural controls, not claims that every project is scientifically valid or production-ready. The reproducibility row now counts a curated, nonempty tracked artifact in each flagship repository; it does not assert that the artifact was executed successfully, that all inputs are available, or that a paper was replicated independently.
+
+### Reproducibility evidence index
+
+The following references identify one concrete artifact per flagship repository and describe its scope or dependencies. A source file, notebook, configuration, or fixture is evidence of an inspectable reproducibility pathway, not a successful independent rerun.
+
+<!-- statistics:reproducibility-index:start -->
+<!-- statistics:reproducibility-index:end -->
 
 ---
 

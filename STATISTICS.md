@@ -106,7 +106,7 @@ Current structural evidence across those 12 flagships:
 | Automated-test marker present | **12 / 12 (100%)** |
 | Dedicated documentation | **12 / 12 (100%)** |
 | Citation / archive metadata | **11 / 12 (92%)** |
-| Reproducibility-style assets | **8 / 12 (67%)** |
+| Reproducibility-style assets | **12 / 12 (100%)** |
 <!-- statistics:controls:end -->
 
 These are structural controls, not claims that every project is scientifically valid or production-ready. The reproducibility row now counts a curated, nonempty tracked artifact in each flagship repository; it does not assert that the artifact was executed successfully, that all inputs are available, or that a paper was replicated independently.
@@ -116,6 +116,20 @@ These are structural controls, not claims that every project is scientifically v
 The following references identify one concrete artifact per flagship repository and describe its scope or dependencies. A source file, notebook, configuration, or fixture is evidence of an inspectable reproducibility pathway, not a successful independent rerun.
 
 <!-- statistics:reproducibility-index:start -->
+| Flagship repository | Reference artifact | What it demonstrates / requires |
+| :-- | :-- | :-- |
+| [feedback-intelligence-agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent) | [RAG benchmarking script](https://github.com/DiogoRibeiro7/feedback-intelligence-agent/blob/main/scripts/benchmark.py) | Local retrieval/evaluation driver; example dataset and provider configuration determine the run |
+| [clinic-forecasting-platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform) | [Hybrid-policy benchmark](https://github.com/DiogoRibeiro7/clinic-forecasting-platform/blob/main/scripts/run_hybrid_policy_benchmark.py) | Synthetic-data staffing experiment with separately documented decision and coverage limits |
+| [transaction-risk-lakehouse](https://github.com/DiogoRibeiro7/transaction-risk-lakehouse) | [Spark model benchmark](https://github.com/DiogoRibeiro7/transaction-risk-lakehouse/blob/main/src/transaction_risk/experiments/benchmark.py) | Temporal risk-model evaluation implementation; demo data and local Spark required |
+| [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy) | [Study reproduction entrypoint](https://github.com/DiogoRibeiro7/genSurvPy/blob/main/research/discrimination-not-calibration/scripts/reproduce.py) | Pilot and locked-production orchestration for simulation, aggregation, tables and figures |
+| [setqca-python](https://github.com/DiogoRibeiro7/setqca-python) | [R reference fixture generator](https://github.com/DiogoRibeiro7/setqca-python/blob/main/validation/r/generate_fixtures.R) | Cross-language parity fixtures; R QCA and jsonlite required when regenerating |
+| [ChangePointLab](https://github.com/DiogoRibeiro7/ChangePointLab) | [Reproduction notebook](https://github.com/DiogoRibeiro7/ChangePointLab/blob/main/docs/notebooks/within_period_reproduction.ipynb) | Method comparison/reproduction notebook; execution depends on notebook environment |
+| [population-resemblance](https://github.com/DiogoRibeiro7/population-resemblance) | [Published-table reproduction](https://github.com/DiogoRibeiro7/population-resemblance/blob/main/examples/reproduce_table2.py) | Deterministic verification of selected PRS calibration values and tolerances |
+| [DataConsistencyChecker](https://github.com/DiogoRibeiro7/DataConsistencyChecker) | [OpenML-backed demonstration](https://github.com/DiogoRibeiro7/DataConsistencyChecker/blob/main/Demo%20Notebooks/Demo_Clear_Issues.ipynb) | Executable notebook demonstrating pattern checks; downloads the hypothyroid dataset from OpenML |
+| [behavioral-sensing-research](https://github.com/DiogoRibeiro7/behavioral-sensing-research) | [Sensing simulation runner](https://github.com/DiogoRibeiro7/behavioral-sensing-research/blob/main/scripts/run_phase1_recoverable_gap.py) | Phase-one recoverable-information experiment; protocol and artifact assumptions documented in repository |
+| [oisst-fourier-neural-operator](https://github.com/DiogoRibeiro7/oisst-fourier-neural-operator) | [NOAA baseline notebook](https://github.com/DiogoRibeiro7/oisst-fourier-neural-operator/blob/main/notebooks/05_baselines.ipynb) | Empirical SST forecasting baseline; NOAA data preparation and experiment environment required |
+| [lisbon-spatial-dynamics](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics) | [Spatial sensitivity analysis](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics/blob/main/scripts/analyse_housing_spatial_sensitivity.py) | Geographic robustness procedure; official-data inputs and configured boundaries required |
+| [energy-system-simulator](https://github.com/DiogoRibeiro7/energy-system-simulator) | [Storage-value experiment](https://github.com/DiogoRibeiro7/energy-system-simulator/blob/main/experiments/storage_value/scripts/run_experiment.py) | Configuration-backed power-system experiment with local input data |
 <!-- statistics:reproducibility-index:end -->
 
 ---
@@ -169,7 +183,7 @@ Stars record attention, not correctness, reliability or reproducibility. They si
 | :-- | --: |
 | [bmssp](https://github.com/DiogoRibeiro7/bmssp) | **26** |
 | [esmad_public](https://github.com/DiogoRibeiro7/esmad_public) | **7** |
-| [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy) | **6** |
+| [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy) | **7** |
 | [min_ratio_cycle](https://github.com/DiogoRibeiro7/min_ratio_cycle) | **6** |
 | [heavytails](https://github.com/DiogoRibeiro7/heavytails) | **4** |
 | [Medium-Blog](https://github.com/DiogoRibeiro7/Medium-Blog) | **4** |
@@ -178,7 +192,7 @@ Stars record attention, not correctness, reliability or reproducibility. They si
 | [nosql-databases-labs](https://github.com/DiogoRibeiro7/nosql-databases-labs) | **3** |
 | [smart-todo-action](https://github.com/DiogoRibeiro7/smart-todo-action) | **3** |
 
-_Top 10 of 228 public non-fork repositories · counts fetched 2026-10-21 · ties broken alphabetically._
+_Top 10 of 228 public non-fork repositories · counts fetched 2026-10-22 · ties broken alphabetically._
 <!-- statistics:stars:end -->
 
 <div align="center">

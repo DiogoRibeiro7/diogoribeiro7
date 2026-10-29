@@ -136,6 +136,14 @@ The following references identify one concrete artifact per flagship repository 
 
 ## Topic Composition
 
+### Technical work radar
+
+<p align="center">
+  <img src="assets/evidence-radar.svg" alt="Radar of six groups of curated public project entries; radius proportional to counts relative to the largest group" width="100%" />
+</p>
+
+The six axes group the same **71 curated entries** used in the topic chart below. Each entry belongs to one PROJECTS.md section and each section belongs to exactly one radar axis. The radius is `group count / largest group count`; the outer ring means *the largest group in this catalogue*, **not** a proficiency rating. Counts appear directly on the diagram. This measures documented public activity, not ability, project quality, time invested or private professional experience. The mapping is explicit in [`scripts/generate_evidence_radar.py`](scripts/generate_evidence_radar.py), and the SVG is regenerated from [`PROJECTS.md`](PROJECTS.md).
+
 <!-- statistics:topic-intro:start -->
 **Denominator:** the **71 curated entries in [`PROJECTS.md`](PROJECTS.md)**. Unlike the manifest dashboard above, this measures breadth of the catalogue rather than the maturity or evidential strength of each project.
 <!-- statistics:topic-intro:end -->

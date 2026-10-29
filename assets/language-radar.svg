@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 820 510" role="img" aria-labelledby="title desc">
+<title id="title">GitHub primary languages across public and private repositories</title>
+<desc id="desc">Six leading primary-language classifications across 504 repositories: Python 311; Jupyter Notebook 88; R 26; TeX 19; TypeScript 15; Rust 8. Other classifications are excluded from the six-axis display.</desc>
+<style>text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#c9d1d9}.title{font-size:20px;font-weight:700}.sub{font-size:13px;fill:#8b949e}.axis{stroke:#57606a;stroke-width:1}.ring{fill:none;stroke:#57606a;stroke-opacity:.5}.area{fill:#a371f7;fill-opacity:.25;stroke:#a371f7;stroke-width:3}.dot{fill:#d2a8ff}.label{font-size:14px;font-weight:600}@media(prefers-color-scheme:light){text{fill:#24292f}.sub{fill:#57606a}.axis,.ring{stroke:#8c959f}.area{fill:#8250df;stroke:#8250df}.dot{fill:#8250df}}</style>
+<text x="24" y="33" class="title">GitHub primary languages · repository evidence</text>
+<text x="24" y="56" class="sub">504 owned repositories · largest language count = 311</text>
+<polygon points="410.0,210.0 444.6,230.0 444.6,270.0 410.0,290.0 375.4,270.0 375.4,230.0" class="ring"/>
+<polygon points="410.0,170.0 479.3,210.0 479.3,290.0 410.0,330.0 340.7,290.0 340.7,210.0" class="ring"/>
+<polygon points="410.0,130.0 513.9,190.0 513.9,310.0 410.0,370.0 306.1,310.0 306.1,190.0" class="ring"/>
+<polygon points="410.0,90.0 548.6,170.0 548.6,330.0 410.0,410.0 271.4,330.0 271.4,170.0" class="ring"/>
+<line x1="410" y1="250" x2="410.0" y2="90.0" class="axis"/>
+<line x1="410" y1="250" x2="548.6" y2="170.0" class="axis"/>
+<line x1="410" y1="250" x2="548.6" y2="330.0" class="axis"/>
+<line x1="410" y1="250" x2="410.0" y2="410.0" class="axis"/>
+<line x1="410" y1="250" x2="271.4" y2="330.0" class="axis"/>
+<line x1="410" y1="250" x2="271.4" y2="170.0" class="axis"/>
+<polygon points="410.0,90.0 449.2,227.4 421.6,256.7 410.0,259.8 403.3,253.9 406.4,247.9" class="area"/>
+<circle cx="410.0" cy="90.0" r="4" class="dot"/>
+<text x="410.0" y="56.0" text-anchor="middle" class="label">Python · 311</text>
+<circle cx="449.2" cy="227.4" r="4" class="dot"/>
+<text x="578.0" y="153.0" text-anchor="start" class="label">Jupyter Notebook · 88</text>
+<circle cx="421.6" cy="256.7" r="4" class="dot"/>
+<text x="578.0" y="347.0" text-anchor="start" class="label">R · 26</text>
+<circle cx="410.0" cy="259.8" r="4" class="dot"/>
+<text x="410.0" y="444.0" text-anchor="middle" class="label">TeX · 19</text>
+<circle cx="403.3" cy="253.9" r="4" class="dot"/>
+<text x="242.0" y="347.0" text-anchor="end" class="label">TypeScript · 15</text>
+<circle cx="406.4" cy="247.9" r="4" class="dot"/>
+<text x="242.0" y="153.0" text-anchor="end" class="label">Rust · 8</text>
+<text x="410" y="490" text-anchor="middle" class="sub">Primary language per repository, not proficiency or code volume</text>
+</svg>

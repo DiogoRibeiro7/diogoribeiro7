@@ -15,6 +15,7 @@ ASSETS: Final[tuple[Path, ...]] = tuple(
         "portfolio-overview.svg",
         "topic-statistics.svg",
         "evidence-radar.svg",
+        "language-radar.svg",
         "portfolio-evidence.svg",
         "star-metrics.svg",
     )

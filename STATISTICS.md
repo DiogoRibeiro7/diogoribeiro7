@@ -165,6 +165,31 @@ The following references identify one concrete artifact per flagship repository 
 
 ## Topic Composition
 
+### Programming languages across the full GitHub inventory
+
+<p align="center">
+  <img src="assets/language-radar.svg" alt="Radar of the six leading GitHub primary-language classifications across 504 owned public and private repositories" width="100%" />
+</p>
+
+This radar uses **all 504 owned repositories** in the authenticated 29 October 2026 snapshot, including 240 public and 264 private repositories. For each repository, GitHub reports one *primary language* using its Linguist classification; this is not a count of all languages used, lines of code, depth of experience or skill level. In particular, GitHub classifies **Jupyter Notebook** separately from Python. The six leading classifications are displayed; **37 repositories** belong to other classifications or are unclassified.
+
+| GitHub primary-language classification | Public | Private | Total |
+| :-- | --: | --: | --: |
+| Python | 122 | 189 | **311** |
+| Jupyter Notebook | 58 | 30 | **88** |
+| R | 16 | 10 | **26** |
+| TeX | 7 | 12 | **19** |
+| TypeScript | 9 | 6 | **15** |
+| Rust | 6 | 2 | **8** |
+| Other / unclassified | 22 | 15 | **37** |
+| **Total** | **240** | **264** | **504** |
+
+The radii are normalised to the largest language group (Python, 311), not to an arbitrary rating scale. The [aggregate language snapshot](data/repository_language_snapshot.json) contains counts only: no private repository identifiers or metadata. [`scripts/refresh_repository_inventory.py`](scripts/refresh_repository_inventory.py) regenerates both visibility and language snapshots from GitHub's authenticated repository metadata and then generates the SVG. Automatic remote refresh requires a dedicated token with access to the private repository inventory; the committed snapshot remains clearly dated until refreshed.
+
+The [weekly refresh workflow](.github/workflows/repository-inventory.yml) requires a repository Actions secret named `PROFILE_INVENTORY_TOKEN` containing a fine-grained GitHub token with **read-only Metadata access to all owned public and private repositories**. The normal per-repository `GITHUB_TOKEN` is not sufficient for this account-wide inventory. The workflow runs offline checks without the secret, but does not refresh snapshots; with the secret, it proposes a PR when aggregate counts change. The refresh process never writes repository identities to the committed files.
+
+### Public portfolio topic composition
+
 ### Technical work radar
 
 <p align="center">

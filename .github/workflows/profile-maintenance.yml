@@ -57,6 +57,9 @@ jobs:
       - name: Regenerate topic statistics
         run: python scripts/generate_topic_statistics.py
 
+      - name: Regenerate evidence radar
+        run: python scripts/generate_evidence_radar.py
+
       - name: Synchronise Statistics tables
         run: python scripts/sync_statistics.py generate
 
@@ -99,6 +102,7 @@ jobs:
           python scripts/sync_statistics.py check
           python scripts/generate_portfolio_overview.py
           python scripts/generate_topic_statistics.py
+          python scripts/generate_evidence_radar.py
 
       - name: Validate generated SVG structure
         run: python scripts/validate_generated_svgs.py

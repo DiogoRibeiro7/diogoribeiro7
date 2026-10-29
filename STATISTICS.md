@@ -13,6 +13,35 @@
 
 Quantitative evidence about the portfolio: scale, empirical depth, publication/output depth, reproducibility controls, delivered impact and secondary GitHub activity signals.
 
+## Repository Visibility and Evidence Boundaries
+
+**Account-wide snapshot (29 October 2026):** authenticated GitHub owner-affiliation inventory, paginated to an empty page and deduplicated by repository ID. It includes archived repositories and is distinct from the curated, manifest-backed public portfolio.
+
+| Visibility | All owned repositories | Archived subset | Publicly inspectable here? |
+| :-- | --: | --: | :-- |
+| Public | **240** | 5 | Yes, subject to individual repository contents and access |
+| Private | **264** | 1 | No; only aggregate visibility metadata is disclosed |
+| **Combined** | **504** | **6** | Not a measure of research quality or professional experience |
+
+The counts come from an authenticated GitHub inventory on the stated date, not from a publicly reproducible API query. They are **point-in-time ownership and visibility counts**, not claims about code quality, completeness, active development, originality or deployment. The private count cannot be independently verified by anonymous visitors. This section does not expose private repository names, descriptions, links, languages, contributors, timestamps or repository-level metadata. The published [aggregate snapshot](data/repository_visibility_snapshot.json) includes only counts and collection-method metadata; it must be refreshed deliberately with authenticated access rather than guessed from public GitHub statistics.
+
+### Public evidence: inspectable examples
+
+The selected examples below link to public source or specific implementation artifacts. Inclusion shows that a reviewer can inspect the work, not that every claim has been independently replicated.
+
+| Evidence area | Public repository | Inspectable evidence |
+| :-- | :-- | :-- |
+| Production AI and evaluation | [feedback-intelligence-agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent) | [Retrieval/evaluation benchmark](https://github.com/DiogoRibeiro7/feedback-intelligence-agent/blob/main/scripts/benchmark.py) |
+| Forecasting and decision systems | [clinic-forecasting-platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform) | [Staffing policy benchmark](https://github.com/DiogoRibeiro7/clinic-forecasting-platform/blob/main/scripts/run_hybrid_policy_benchmark.py) |
+| Data engineering and temporal validation | [transaction-risk-lakehouse](https://github.com/DiogoRibeiro7/transaction-risk-lakehouse) | [Spark model benchmark](https://github.com/DiogoRibeiro7/transaction-risk-lakehouse/blob/main/src/transaction_risk/experiments/benchmark.py) |
+| Statistical methods and research software | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy) | [Study reproduction entrypoint](https://github.com/DiogoRibeiro7/genSurvPy/blob/main/research/discrimination-not-calibration/scripts/reproduce.py) |
+| Change-point analysis | [ChangePointLab](https://github.com/DiogoRibeiro7/ChangePointLab) | [Reproduction notebook](https://github.com/DiogoRibeiro7/ChangePointLab/blob/main/docs/notebooks/within_period_reproduction.ipynb) |
+| Empirical spatial analysis | [lisbon-spatial-dynamics](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics) | [Spatial sensitivity analysis](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics/blob/main/scripts/analyse_housing_spatial_sensitivity.py) |
+
+For broader coverage, see [Projects](PROJECTS.md), [Case Studies](CASE_STUDIES.md), [Outputs](OUTPUTS.md), and the [flagship reproducibility index](#reproducibility-evidence-index). The private inventory is not mixed into any of those public-project denominators.
+
+---
+
 ## Portfolio Snapshot
 
 <!-- statistics:snapshot:start -->

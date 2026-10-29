@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "captured_on": "2026-10-29",
+  "source": "Authenticated GitHub repository inventory (owner affiliation)",
+  "scope": "Repositories owned by DiogoRibeiro7, including archived repositories and any forks",
+  "visibility": {
+    "public": 240,
+    "private": 264
+  },
+  "archived": {
+    "public": 5,
+    "private": 1
+  },
+  "pagination": {
+    "page_size": 100,
+    "nonempty_pages": 6,
+    "unique_repository_ids": 504,
+    "next_page_empty": true
+  }
+}

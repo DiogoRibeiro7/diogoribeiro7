@@ -1,0 +1,44 @@
+name: Refresh repository visibility and languages
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 7 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh aggregate snapshots when authorized
+        env:
+          PROFILE_INVENTORY_TOKEN: ${{ secrets.PROFILE_INVENTORY_TOKEN }}
+        if: env.PROFILE_INVENTORY_TOKEN != ''
+        run: python scripts/refresh_repository_inventory.py refresh
+      - name: Validate generated SVGs and tests
+        run: |
+          python scripts/refresh_repository_inventory.py check
+          python scripts/validate_generated_svgs.py
+          python -m unittest discover -s tests -q
+      - name: Propose refreshed aggregates
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: automation/refresh-repository-inventory
+          delete-branch: true
+          commit-message: "chore: refresh aggregate GitHub repository inventory"
+          title: "chore: refresh aggregate GitHub repository inventory"
+          body: |
+            Updated aggregate-only repository counts and the primary-language radar.
+            No private repository names or code are committed.
+          add-paths: |
+            data/repository_language_snapshot.json
+            data/repository_visibility_snapshot.json
+            assets/language-radar.svg

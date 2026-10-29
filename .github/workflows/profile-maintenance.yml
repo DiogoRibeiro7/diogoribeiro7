@@ -60,6 +60,9 @@ jobs:
       - name: Regenerate evidence radar
         run: python scripts/generate_evidence_radar.py
 
+      - name: Verify language snapshot and radar
+        run: python scripts/refresh_repository_inventory.py check
+
       - name: Synchronise Statistics tables
         run: python scripts/sync_statistics.py generate
 

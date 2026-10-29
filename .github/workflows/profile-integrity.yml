@@ -39,7 +39,8 @@ jobs:
           python scripts/generate_portfolio_overview.py
           python scripts/generate_topic_statistics.py
           python scripts/generate_evidence_radar.py
-          git diff --exit-code -- assets/portfolio-overview.svg assets/topic-statistics.svg assets/evidence-radar.svg
+          python scripts/refresh_repository_inventory.py check
+          git diff --exit-code -- assets/portfolio-overview.svg assets/topic-statistics.svg assets/evidence-radar.svg assets/language-radar.svg
 
       - name: Validate generated SVG structure
         run: python scripts/validate_generated_svgs.py

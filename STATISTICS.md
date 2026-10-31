@@ -11,38 +11,9 @@
 
 # Statistics
 
-Quantitative evidence about the portfolio: scale, empirical depth, publication/output depth, reproducibility controls, delivered impact and secondary GitHub activity signals.
+A concise view of public project evidence, engineering controls, professional outcomes and portfolio composition.
 
-## Repository Visibility and Evidence Boundaries
-
-**Account-wide snapshot (29 October 2026):** authenticated GitHub owner-affiliation inventory, paginated to an empty page and deduplicated by repository ID. It includes archived repositories and is distinct from the curated, manifest-backed public portfolio.
-
-| Visibility | All owned repositories | Archived subset | Publicly inspectable here? |
-| :-- | --: | --: | :-- |
-| Public | **240** | 5 | Yes, subject to individual repository contents and access |
-| Private | **264** | 1 | No; only aggregate visibility metadata is disclosed |
-| **Combined** | **504** | **6** | Not a measure of research quality or professional experience |
-
-The counts come from an authenticated GitHub inventory on the stated date, not from a publicly reproducible API query. They are **point-in-time ownership and visibility counts**, not claims about code quality, completeness, active development, originality or deployment. The private count cannot be independently verified by anonymous visitors. This section does not expose private repository names, descriptions, links, languages, contributors, timestamps or repository-level metadata. The published [aggregate snapshot](data/repository_visibility_snapshot.json) includes only counts and collection-method metadata; it must be refreshed deliberately with authenticated access rather than guessed from public GitHub statistics.
-
-### Public evidence: inspectable examples
-
-The selected examples below link to public source or specific implementation artifacts. Inclusion shows that a reviewer can inspect the work, not that every claim has been independently replicated.
-
-| Evidence area | Public repository | Inspectable evidence |
-| :-- | :-- | :-- |
-| Production AI and evaluation | [feedback-intelligence-agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent) | [Retrieval/evaluation benchmark](https://github.com/DiogoRibeiro7/feedback-intelligence-agent/blob/main/scripts/benchmark.py) |
-| Forecasting and decision systems | [clinic-forecasting-platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform) | [Staffing policy benchmark](https://github.com/DiogoRibeiro7/clinic-forecasting-platform/blob/main/scripts/run_hybrid_policy_benchmark.py) |
-| Data engineering and temporal validation | [transaction-risk-lakehouse](https://github.com/DiogoRibeiro7/transaction-risk-lakehouse) | [Spark model benchmark](https://github.com/DiogoRibeiro7/transaction-risk-lakehouse/blob/main/src/transaction_risk/experiments/benchmark.py) |
-| Statistical methods and research software | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy) | [Study reproduction entrypoint](https://github.com/DiogoRibeiro7/genSurvPy/blob/main/research/discrimination-not-calibration/scripts/reproduce.py) |
-| Change-point analysis | [ChangePointLab](https://github.com/DiogoRibeiro7/ChangePointLab) | [Reproduction notebook](https://github.com/DiogoRibeiro7/ChangePointLab/blob/main/docs/notebooks/within_period_reproduction.ipynb) |
-| Empirical spatial analysis | [lisbon-spatial-dynamics](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics) | [Spatial sensitivity analysis](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics/blob/main/scripts/analyse_housing_spatial_sensitivity.py) |
-
-For broader coverage, see [Projects](PROJECTS.md), [Case Studies](CASE_STUDIES.md), [Outputs](OUTPUTS.md), and the [flagship reproducibility index](#reproducibility-evidence-index). The private inventory is not mixed into any of those public-project denominators.
-
----
-
-## Portfolio Snapshot
+## Portfolio at a Glance
 
 <!-- statistics:snapshot:start -->
 | Portfolio signal | Current value |
@@ -57,11 +28,7 @@ For broader coverage, see [Projects](PROJECTS.md), [Case Studies](CASE_STUDIES.m
 | Curated catalogue entries | **71** |
 <!-- statistics:snapshot:end -->
 
-These figures intentionally use different populations for different questions. The denominator rules are explicit below rather than blending repository counts, output counts and catalogue entries into one headline number.
-
----
-
-## Portfolio-Wide Evidence
+These figures describe distinct populations; definitions and collection methods are documented in [Methodology and Data Sources](#methodology-and-data-sources).
 
 <!-- statistics:denominator:start -->
 **Primary denominator:** the **43 public projects represented in the canonical [`data/portfolio.json`](data/portfolio.json) manifest**. This is broader than the 12-project Featured subset and narrower than every repository ever created on the account.
@@ -71,7 +38,8 @@ These figures intentionally use different populations for different questions. T
   <img src="assets/portfolio-overview.svg" alt="Portfolio-wide evidence dashboard showing project count, outputs, case studies, empirical work, research software, PyPI packages and maturity mix" width="100%" />
 </p>
 
-### Research and output depth
+<details>
+<summary>Metric definitions (expanded audit table)</summary>
 
 <!-- statistics:depth:start -->
 | Measure | Current scope | What it means |
@@ -84,6 +52,10 @@ These figures intentionally use different populations for different questions. T
 | Case studies | **16 across 14 domains** | End-to-end problem → constraints → method → outcome narratives |
 | Curated flagship projects | **12** | Reviewer-oriented subset; deliberately not used as the portfolio denominator |
 <!-- statistics:depth:end -->
+
+</details>
+
+## Research and Engineering Evidence
 
 ### Output composition
 
@@ -108,7 +80,7 @@ The **11 PyPI packages** and **11 published research-software outputs** are sepa
 
 ## Delivered Impact
 
-The following figures are reported outcomes from professional industry work, not measurements derived from the public repositories. The underlying commercial baselines, measurement windows and source records are not published in this portfolio, so these figures should not be treated as independently reproducible from GitHub. They are kept separate from repository metrics because GitHub activity is not a proxy for professional delivery.
+Self-reported industry outcomes, separate from public repository metrics. Commercial baselines and measurement records are not published here.
 
 | Delivered outcome | Result |
 | :-- | --: |
@@ -118,7 +90,7 @@ The following figures are reported outcomes from professional industry work, not
 
 ---
 
-## Flagship Engineering Controls
+### Flagship engineering controls
 
 **Denominator:** the **12 projects in [`FEATURED.md`](FEATURED.md)**. This smaller set is used only for repository-structure auditing, where a consistent manual/automated check is useful.
 
@@ -140,7 +112,8 @@ Current structural evidence across those 12 flagships:
 
 These are structural controls, not claims that every project is scientifically valid or production-ready. The reproducibility row now counts a curated, nonempty tracked artifact in each flagship repository; it does not assert that the artifact was executed successfully, that all inputs are available, or that a paper was replicated independently.
 
-### Reproducibility evidence index
+<details>
+<summary><strong>Reproducibility evidence index — 12 inspectable artifacts</strong></summary>
 
 The following references identify one concrete artifact per flagship repository and describe its scope or dependencies. A source file, notebook, configuration, or fixture is evidence of an inspectable reproducibility pathway, not a successful independent rerun.
 
@@ -161,9 +134,11 @@ The following references identify one concrete artifact per flagship repository 
 | [energy-system-simulator](https://github.com/DiogoRibeiro7/energy-system-simulator) | [Storage-value experiment](https://github.com/DiogoRibeiro7/energy-system-simulator/blob/main/experiments/storage_value/scripts/run_experiment.py) | Configuration-backed power-system experiment with local input data |
 <!-- statistics:reproducibility-index:end -->
 
+</details>
+
 ---
 
-## Topic Composition
+## Technology and Research Distribution
 
 ### Programming languages across the full GitHub inventory
 
@@ -171,7 +146,7 @@ The following references identify one concrete artifact per flagship repository 
   <img src="assets/language-radar.svg" alt="Radar of the six leading GitHub primary-language classifications across 504 owned public and private repositories" width="100%" />
 </p>
 
-This radar uses **all 504 owned repositories** in the authenticated 29 October 2026 snapshot, including 240 public and 264 private repositories. For each repository, GitHub reports one *primary language* using its Linguist classification; this is not a count of all languages used, lines of code, depth of experience or skill level. In particular, GitHub classifies **Jupyter Notebook** separately from Python. The six leading classifications are displayed; **37 repositories** belong to other classifications or are unclassified.
+GitHub Linguist assigns one primary language to each of the **504 owned repositories**, including private repositories. Jupyter Notebook is classified separately from Python. This is a repository count, not a measure of proficiency or lines of code.
 
 | GitHub primary-language classification | Public | Private | Total |
 | :-- | --: | --: | --: |
@@ -184,19 +159,9 @@ This radar uses **all 504 owned repositories** in the authenticated 29 October 2
 | Other / unclassified | 22 | 15 | **37** |
 | **Total** | **240** | **264** | **504** |
 
-The radii are normalised to the largest language group (Python, 311), not to an arbitrary rating scale. The [aggregate language snapshot](data/repository_language_snapshot.json) contains counts only: no private repository identifiers or metadata. [`scripts/refresh_repository_inventory.py`](scripts/refresh_repository_inventory.py) regenerates both visibility and language snapshots from GitHub's authenticated repository metadata and then generates the SVG. Automatic remote refresh requires a dedicated token with access to the private repository inventory; the committed snapshot remains clearly dated until refreshed.
-
-The [weekly refresh workflow](.github/workflows/repository-inventory.yml) requires a repository Actions secret named `PROFILE_INVENTORY_TOKEN` containing a fine-grained GitHub token with **read-only Metadata access to all owned public and private repositories**. The normal per-repository `GITHUB_TOKEN` is not sufficient for this account-wide inventory. The workflow runs offline checks without the secret, but does not refresh snapshots; with the secret, it proposes a PR when aggregate counts change. The refresh process never writes repository identities to the committed files.
+The [aggregate language snapshot](data/repository_language_snapshot.json) records counts only, without private repository identifiers. Refresh requirements are documented in [Methodology and Data Sources](#methodology-and-data-sources).
 
 ### Public portfolio topic composition
-
-### Technical work radar
-
-<p align="center">
-  <img src="assets/evidence-radar.svg" alt="Radar of six groups of curated public project entries; radius proportional to counts relative to the largest group" width="100%" />
-</p>
-
-The six axes group the same **71 curated entries** used in the topic chart below. Each entry belongs to one PROJECTS.md section and each section belongs to exactly one radar axis. The radius is `group count / largest group count`; the outer ring means *the largest group in this catalogue*, **not** a proficiency rating. Counts appear directly on the diagram. This measures documented public activity, not ability, project quality, time invested or private professional experience. The mapping is explicit in [`scripts/generate_evidence_radar.py`](scripts/generate_evidence_radar.py), and the SVG is regenerated from [`PROJECTS.md`](PROJECTS.md).
 
 <!-- statistics:topic-intro:start -->
 **Denominator:** the **71 curated entries in [`PROJECTS.md`](PROJECTS.md)**. Unlike the manifest dashboard above, this measures breadth of the catalogue rather than the maturity or evidential strength of each project.
@@ -206,13 +171,21 @@ The six axes group the same **71 curated entries** used in the topic chart below
   <img src="assets/topic-statistics.svg" alt="Bar chart showing the distribution of curated project entries across technical and research topics" width="100%" />
 </p>
 
-Topic counts are therefore a **composition metric**, not a quality score and not an estimate of time spent or expertise level.
+Topic counts describe catalogue composition, not project quality or proficiency.
 
 ---
 
-## Definitions and Boundaries
+## Methodology and Data Sources
 
-The page intentionally uses different denominators for different questions:
+The [Portfolio Policy](PORTFOLIO_POLICY.md) documents inclusion rules. Account inventory counts and language classifications use the authenticated, dated [visibility](data/repository_visibility_snapshot.json) and [language](data/repository_language_snapshot.json) snapshots. The inventory includes archived repositories and publishes aggregate private counts only; private repository counts cannot be independently verified by anonymous visitors.
+
+| Account visibility (29 October 2026) | Repositories | Archived |
+| :-- | --: | --: |
+| Public | **240** | 5 |
+| Private | **264** | 1 |
+| **Total** | **504** | **6** |
+
+The snapshot is point-in-time ownership metadata, not a measure of quality, experience, deployed systems or scientific validity. The [refresh script](scripts/refresh_repository_inventory.py) and [weekly workflow](.github/workflows/repository-inventory.yml) update aggregates when a `PROFILE_INVENTORY_TOKEN` with read-only Metadata access to owned repositories is configured; otherwise the checked-in snapshot remains dated.
 
 <!-- statistics:boundaries:start -->
 | Question | Denominator |
@@ -224,17 +197,13 @@ The page intentionally uses different denominators for different questions:
 | Where is the broad catalogue concentrated? | **71 PROJECTS.md entries** |
 <!-- statistics:boundaries:end -->
 
-Keeping those populations separate avoids a common portfolio-statistics mistake: presenting one convenient subset as if it described everything. Inclusion rules and the distinction between the canonical portfolio, Featured set, curated catalogue, and full account are documented in **[Portfolio Policy](PORTFOLIO_POLICY.md)**.
+Professional delivery figures are self-reported and cannot be independently reproduced from these repositories. Engineering controls indicate tracked artifacts, not independently successful reruns. Popularity metrics are attention signals only.
 
 ---
 
 ## GitHub Activity and Reach
 
-Activity and popularity are useful context, but they are deliberately separated from the evidence above. Profile views, contribution badges and trophies do not establish modelling quality, scientific validity, production reliability, reproducibility or business impact.
-
-### Most-starred repositories
-
-Stars record attention, not correctness, reliability or reproducibility. They sit in this section, outside the evidence tables above, for reach context only.
+These are reach signals, not evidence of research quality or engineering reliability.
 
 <p align="center">
   <img src="assets/star-metrics.svg" alt="Bar chart of star counts for the ten most-starred public repositories" width="100%" />
@@ -257,65 +226,4 @@ Stars record attention, not correctness, reliability or reproducibility. They si
 _Top 10 of 228 public non-fork repositories · counts fetched 2026-10-22 · ties broken alphabetically._
 <!-- statistics:stars:end -->
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=DiogoRibeiro7&label=Profile%20views&color=30363D&style=for-the-badge" alt="Profile views" />
-</div>
 
-<br>
-
-<details>
-<summary><strong>Additional GitHub activity widgets</strong></summary>
-
-<br>
-
-<div align="center">
-  <a href="https://user-badge.committers.top/portugal/DiogoRibeiro7">
-    <img src="https://user-badge.committers.top/portugal/DiogoRibeiro7.svg" alt="committers.top Portugal public-contribution rank" />
-  </a>
-  <a href="https://user-badge.committers.top/portugal_private/DiogoRibeiro7">
-    <img src="https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg" alt="committers.top Portugal total-contribution rank" />
-  </a>
-</div>
-
-<br>
-
-<div align="center">
-  <a href="https://gitranks.com/profile/DiogoRibeiro7">
-    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=s&context=global&type=position&meta=none&label=Global%20Stars&cornerStyle=rounded" alt="GitRanks global stars rank" />
-  </a>
-  <a href="https://gitranks.com/profile/DiogoRibeiro7">
-    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=s&context=country&type=position&meta=none&label=Portugal%20Stars&cornerStyle=rounded" alt="GitRanks Portugal stars rank" />
-  </a>
-  <a href="https://gitranks.com/profile/DiogoRibeiro7">
-    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=c&context=global&type=position&meta=none&label=Global%20Contributor&cornerStyle=rounded" alt="GitRanks global contributor rank" />
-  </a>
-  <a href="https://gitranks.com/profile/DiogoRibeiro7">
-    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=c&context=country&type=position&meta=none&label=Portugal%20Contributor&cornerStyle=rounded" alt="GitRanks Portugal contributor rank" />
-  </a>
-  <a href="https://gitranks.com/profile/DiogoRibeiro7">
-    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=f&context=global&type=position&meta=none&label=Global%20Followers&cornerStyle=rounded" alt="GitRanks global followers rank" />
-  </a>
-  <a href="https://gitranks.com/profile/DiogoRibeiro7">
-    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=f&context=country&type=position&meta=none&label=Portugal%20Followers&cornerStyle=rounded" alt="GitRanks Portugal followers rank" />
-  </a>
-</div>
-
-<br>
-
-
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy-unserori.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="GitHub profile trophies" />
-  </a>
-</div>
-
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy-unserori.vercel.app/?username=DiogoRibeiro7&amp;title=Experience&amp;no-frame=true&amp;theme=algolia" alt="GitHub Experience trophy" />
-  </a>
-</p>
-
-<div align="center">
-</div>
-
-</details>

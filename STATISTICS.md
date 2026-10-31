@@ -203,7 +203,11 @@ Professional delivery figures are self-reported and cannot be independently repr
 
 ## GitHub Activity and Reach
 
-These are reach signals, not evidence of research quality or engineering reliability.
+Activity and popularity are useful context, but they are deliberately separated from the evidence above. Profile views, contribution badges and trophies do not establish modelling quality, scientific validity, production reliability, reproducibility or business impact.
+
+### Most-starred repositories
+
+Stars record attention, not correctness, reliability or reproducibility. They sit in this section, outside the evidence tables above, for reach context only.
 
 <p align="center">
   <img src="assets/star-metrics.svg" alt="Bar chart of star counts for the ten most-starred public repositories" width="100%" />
@@ -216,14 +220,75 @@ These are reach signals, not evidence of research quality or engineering reliabi
 | [esmad_public](https://github.com/DiogoRibeiro7/esmad_public) | **7** |
 | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy) | **7** |
 | [min_ratio_cycle](https://github.com/DiogoRibeiro7/min_ratio_cycle) | **6** |
-| [Medium-Blog](https://github.com/DiogoRibeiro7/Medium-Blog) | **5** |
-| [causal-uplift-marketing-campaign](https://github.com/DiogoRibeiro7/causal-uplift-marketing-campaign) | **4** |
 | [heavytails](https://github.com/DiogoRibeiro7/heavytails) | **4** |
+| [Medium-Blog](https://github.com/DiogoRibeiro7/Medium-Blog) | **4** |
+| [causal-uplift-marketing-campaign](https://github.com/DiogoRibeiro7/causal-uplift-marketing-campaign) | **3** |
 | [fastapi-ml-platform](https://github.com/DiogoRibeiro7/fastapi-ml-platform) | **3** |
 | [nosql-databases-labs](https://github.com/DiogoRibeiro7/nosql-databases-labs) | **3** |
 | [smart-todo-action](https://github.com/DiogoRibeiro7/smart-todo-action) | **3** |
 
-_Top 10 of 230 public non-fork repositories · counts fetched 2026-10-31 · ties broken alphabetically._
+_Top 10 of 228 public non-fork repositories · counts fetched 2026-10-22 · ties broken alphabetically._
 <!-- statistics:stars:end -->
 
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=DiogoRibeiro7&label=Profile%20views&color=30363D&style=for-the-badge" alt="Profile views" />
+</div>
 
+<br>
+
+<details>
+<summary><strong>Additional GitHub activity widgets</strong></summary>
+
+<br>
+
+<div align="center">
+  <a href="https://user-badge.committers.top/portugal/DiogoRibeiro7">
+    <img src="https://user-badge.committers.top/portugal/DiogoRibeiro7.svg" alt="committers.top Portugal public-contribution rank" />
+  </a>
+  <a href="https://user-badge.committers.top/portugal_private/DiogoRibeiro7">
+    <img src="https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg" alt="committers.top Portugal total-contribution rank" />
+  </a>
+</div>
+
+<br>
+
+<div align="center">
+  <a href="https://gitranks.com/profile/DiogoRibeiro7">
+    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=s&context=global&type=position&meta=none&label=Global%20Stars&cornerStyle=rounded" alt="GitRanks global stars rank" />
+  </a>
+  <a href="https://gitranks.com/profile/DiogoRibeiro7">
+    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=s&context=country&type=position&meta=none&label=Portugal%20Stars&cornerStyle=rounded" alt="GitRanks Portugal stars rank" />
+  </a>
+  <a href="https://gitranks.com/profile/DiogoRibeiro7">
+    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=c&context=global&type=position&meta=none&label=Global%20Contributor&cornerStyle=rounded" alt="GitRanks global contributor rank" />
+  </a>
+  <a href="https://gitranks.com/profile/DiogoRibeiro7">
+    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=c&context=country&type=position&meta=none&label=Portugal%20Contributor&cornerStyle=rounded" alt="GitRanks Portugal contributor rank" />
+  </a>
+  <a href="https://gitranks.com/profile/DiogoRibeiro7">
+    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=f&context=global&type=position&meta=none&label=Global%20Followers&cornerStyle=rounded" alt="GitRanks global followers rank" />
+  </a>
+  <a href="https://gitranks.com/profile/DiogoRibeiro7">
+    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=f&context=country&type=position&meta=none&label=Portugal%20Followers&cornerStyle=rounded" alt="GitRanks Portugal followers rank" />
+  </a>
+</div>
+
+<br>
+
+
+<div align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy-unserori.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="GitHub profile trophies" />
+  </a>
+</div>
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy-unserori.vercel.app/?username=DiogoRibeiro7&amp;title=Experience&amp;no-frame=true&amp;theme=algolia" alt="GitHub Experience trophy" />
+  </a>
+</p>
+
+<div align="center">
+</div>
+
+</details>

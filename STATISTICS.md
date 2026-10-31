@@ -31,7 +31,7 @@ A concise view of public project evidence, engineering controls, professional ou
 These figures describe distinct populations; definitions and collection methods are documented in [Methodology and Data Sources](#methodology-and-data-sources).
 
 <!-- statistics:denominator:start -->
-The primary public-project denominator is the **43 projects** in [`data/portfolio.json`](data/portfolio.json).
+**Primary denominator:** the **43 public projects represented in the canonical [`data/portfolio.json`](data/portfolio.json) manifest**. This is broader than the 12-project Featured subset and narrower than every repository ever created on the account.
 <!-- statistics:denominator:end -->
 
 <p align="center">

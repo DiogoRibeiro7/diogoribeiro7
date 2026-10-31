@@ -177,7 +177,7 @@ Topic counts describe catalogue composition, not project quality or proficiency.
 
 ## Methodology and Data Sources
 
-The [Portfolio Policy](PORTFOLIO_POLICY.md) documents inclusion rules. Account inventory counts and language classifications use the authenticated, dated [visibility](data/repository_visibility_snapshot.json) and [language](data/repository_language_snapshot.json) snapshots. The inventory includes archived repositories and publishes aggregate private counts only; anonymous visitors cannot independently verify private counts.
+The [Portfolio Policy](PORTFOLIO_POLICY.md) documents inclusion rules. Account inventory counts and language classifications use the authenticated, dated [visibility](data/repository_visibility_snapshot.json) and [language](data/repository_language_snapshot.json) snapshots. The inventory includes archived repositories and publishes aggregate private counts only; private repository counts cannot be independently verified by anonymous visitors.
 
 | Account visibility (29 October 2026) | Repositories | Archived |
 | :-- | --: | --: |

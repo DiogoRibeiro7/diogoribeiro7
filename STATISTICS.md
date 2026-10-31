@@ -220,14 +220,14 @@ Stars record attention, not correctness, reliability or reproducibility. They si
 | [esmad_public](https://github.com/DiogoRibeiro7/esmad_public) | **7** |
 | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy) | **7** |
 | [min_ratio_cycle](https://github.com/DiogoRibeiro7/min_ratio_cycle) | **6** |
+| [Medium-Blog](https://github.com/DiogoRibeiro7/Medium-Blog) | **5** |
+| [causal-uplift-marketing-campaign](https://github.com/DiogoRibeiro7/causal-uplift-marketing-campaign) | **4** |
 | [heavytails](https://github.com/DiogoRibeiro7/heavytails) | **4** |
-| [Medium-Blog](https://github.com/DiogoRibeiro7/Medium-Blog) | **4** |
-| [causal-uplift-marketing-campaign](https://github.com/DiogoRibeiro7/causal-uplift-marketing-campaign) | **3** |
 | [fastapi-ml-platform](https://github.com/DiogoRibeiro7/fastapi-ml-platform) | **3** |
 | [nosql-databases-labs](https://github.com/DiogoRibeiro7/nosql-databases-labs) | **3** |
 | [smart-todo-action](https://github.com/DiogoRibeiro7/smart-todo-action) | **3** |
 
-_Top 10 of 228 public non-fork repositories · counts fetched 2026-10-22 · ties broken alphabetically._
+_Top 10 of 230 public non-fork repositories · counts fetched 2026-10-31 · ties broken alphabetically._
 <!-- statistics:stars:end -->
 
 <div align="center">

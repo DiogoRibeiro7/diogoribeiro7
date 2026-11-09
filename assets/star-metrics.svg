@@ -20,16 +20,16 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;fill:#c9
 <text x="842" y="126" text-anchor="end" class="value">7</text>
 <text x="24" y="164" class="label">genSurvPy</text>
 <rect x="300" y="150" width="496" height="18" rx="9" class="track"/>
-<rect x="300" y="150" width="133.5" height="18" rx="9" class="bar"/>
-<text x="842" y="164" text-anchor="end" class="value">7</text>
-<text x="24" y="202" class="label">min_ratio_cycle</text>
+<rect x="300" y="150" width="114.5" height="18" rx="9" class="bar"/>
+<text x="842" y="164" text-anchor="end" class="value">6</text>
+<text x="24" y="202" class="label">Medium-Blog</text>
 <rect x="300" y="188" width="496" height="18" rx="9" class="track"/>
 <rect x="300" y="188" width="114.5" height="18" rx="9" class="bar"/>
 <text x="842" y="202" text-anchor="end" class="value">6</text>
-<text x="24" y="240" class="label">Medium-Blog</text>
+<text x="24" y="240" class="label">min_ratio_cycle</text>
 <rect x="300" y="226" width="496" height="18" rx="9" class="track"/>
-<rect x="300" y="226" width="95.4" height="18" rx="9" class="bar"/>
-<text x="842" y="240" text-anchor="end" class="value">5</text>
+<rect x="300" y="226" width="114.5" height="18" rx="9" class="bar"/>
+<text x="842" y="240" text-anchor="end" class="value">6</text>
 <text x="24" y="278" class="label">causal-uplift-marketing-campaign</text>
 <rect x="300" y="264" width="496" height="18" rx="9" class="track"/>
 <rect x="300" y="264" width="76.3" height="18" rx="9" class="bar"/>

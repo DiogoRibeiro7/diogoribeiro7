@@ -282,13 +282,10 @@ _Top 10 of 230 public non-fork repositories · counts fetched 2026-11-18 · ties
   </a>
 </div>
 
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy-unserori.vercel.app/?username=DiogoRibeiro7&amp;title=Stars&amp;no-frame=true&amp;theme=algolia" alt="GitHub Stars trophy" />
-  </a>
-</p>
-
 <div align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy-unserori.vercel.app/?username=DiogoRibeiro7&amp;title=Stars&amp;column=1&amp;no-frame=true&amp;theme=algolia" alt="GitHub Stars trophy" />
+  </a>
 </div>
 
 </details>

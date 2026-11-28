@@ -38,22 +38,21 @@ These figures describe distinct populations; definitions and collection methods 
   <img src="assets/portfolio-overview.svg" alt="Portfolio-wide evidence dashboard showing project count, outputs, case studies, empirical work, research software, PyPI packages and maturity mix" width="100%" />
 </p>
 
-<details>
-<summary>Metric definitions (expanded audit table)</summary>
+## Delivered Impact
 
-<!-- statistics:depth:start -->
-| Measure | Current scope | What it means |
-| :-- | --: | :-- |
-| Manifest-backed public projects | **43** | Projects with explicit category, maturity and evidence metadata |
-| Substantial outputs | **39** | Published software, research programmes, empirical/replication studies, and decision/engineering artifacts |
-| Published PyPI packages | **11** | Verified package releases, not merely package-ready repositories |
-| Real-data / empirical projects | **25 / 43 (58%)** | Explicitly classified in the manifest |
-| Research software / methods | **17 / 43 (40%)** | Explicitly classified libraries, methods and research tooling |
-| Case studies | **16 across 14 domains** | End-to-end problem → constraints → method → outcome narratives |
-| Curated flagship projects | **12** | Reviewer-oriented subset; deliberately not used as the portfolio denominator |
-<!-- statistics:depth:end -->
+Self-reported industry outcomes, separate from public repository metrics. Commercial baselines and measurement records are not published here.
 
-</details>
+| Delivered outcome | Result |
+| :-- | --: |
+| Forecast accuracy improvement | **12%** |
+| Inventory-days reduction | **40%** |
+| Inventory-value reduction through forecasting and operational optimisation | **€500K** |
+| Obsolete-inventory reduction | **25%** |
+| Logistics-cost reduction | **18%** |
+| Analytics processing-time reduction | **30%** |
+| Reporting-cost reduction | **80%** |
+
+---
 
 ## Research and Engineering Evidence
 
@@ -74,19 +73,7 @@ The **39 outputs** currently break down into:
 
 This is an artifact count, not a repository count: a repository can legitimately produce more than one inspectable output.
 
-The **11 PyPI packages** and **11 published research-software outputs** are separate measures, even though their current totals happen to match. The PyPI figure counts projects with recorded package releases; the output figure counts records classified as published research software in the curated output inventory. For example, **DataExcept** is included in the PyPI total, while its output is classified under decision and engineering artifacts. **ChangePointLab** is included as a published research-software output with archive metadata, but has no PyPI package recorded in the manifest. Neither category requires a software DOI or implies that unrelated preprint-stage code must be made public.
-
----
-
-## Delivered Impact
-
-Self-reported industry outcomes, separate from public repository metrics. Commercial baselines and measurement records are not published here.
-
-| Delivered outcome | Result |
-| :-- | --: |
-| Reporting cost reduction | **80%** |
-| Analytics processing-time reduction | **30%** |
-| Inventory-value reduction through forecasting and operational optimisation | **€500K** |
+The **11 PyPI packages** (verified package releases) and the **11 published research-software outputs** are separate measures that happen to match. For example, **DataExcept** is on PyPI but its output is classified as a decision and engineering artifact, and **ChangePointLab** is a published research-software output with archive metadata but no recorded PyPI package.
 
 ---
 
@@ -179,23 +166,9 @@ Topic counts describe catalogue composition, not project quality or proficiency.
 
 The [Portfolio Policy](PORTFOLIO_POLICY.md) documents inclusion rules. Account inventory counts and language classifications use the authenticated, dated [visibility](data/repository_visibility_snapshot.json) and [language](data/repository_language_snapshot.json) snapshots. The inventory includes archived repositories and publishes aggregate private counts only; private repository counts cannot be independently verified by anonymous visitors.
 
-| Account visibility (29 October 2026) | Repositories | Archived |
-| :-- | --: | --: |
-| Public | **240** | 5 |
-| Private | **264** | 1 |
-| **Total** | **504** | **6** |
+On 29 October 2026 the account owned **504** repositories: **240** public and **264** private, of which 6 are archived.
 
 The snapshot is point-in-time ownership metadata, not a measure of quality, experience, deployed systems or scientific validity. The [refresh script](scripts/refresh_repository_inventory.py) and [weekly workflow](.github/workflows/repository-inventory.yml) update aggregates when a `PROFILE_INVENTORY_TOKEN` with read-only Metadata access to owned repositories is configured; otherwise the checked-in snapshot remains dated.
-
-<!-- statistics:boundaries:start -->
-| Question | Denominator |
-| :-- | :-- |
-| What does the serious public portfolio contain? | **43 manifest-backed public projects** |
-| What inspectable artifacts has it produced? | **39 output records** |
-| What can a reviewer inspect end-to-end? | **16 case studies across 14 domains** |
-| How strong are repository controls on the curated front page? | **12 flagship repositories** |
-| Where is the broad catalogue concentrated? | **71 PROJECTS.md entries** |
-<!-- statistics:boundaries:end -->
 
 Professional delivery figures are self-reported and cannot be independently reproduced from these repositories. Engineering controls indicate tracked artifacts, not independently successful reruns. Popularity metrics are attention signals only.
 
@@ -247,29 +220,6 @@ _Top 10 of 230 public non-fork repositories · counts fetched 2026-11-18 · ties
   </a>
   <a href="https://user-badge.committers.top/portugal_private/DiogoRibeiro7">
     <img src="https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg" alt="committers.top Portugal total-contribution rank" />
-  </a>
-</div>
-
-<br>
-
-<div align="center">
-  <a href="https://gitranks.com/profile/DiogoRibeiro7">
-    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=s&context=global&type=position&meta=none&label=Global%20Stars&cornerStyle=rounded" alt="GitRanks global stars rank" />
-  </a>
-  <a href="https://gitranks.com/profile/DiogoRibeiro7">
-    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=s&context=country&type=position&meta=none&label=Portugal%20Stars&cornerStyle=rounded" alt="GitRanks Portugal stars rank" />
-  </a>
-  <a href="https://gitranks.com/profile/DiogoRibeiro7">
-    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=c&context=global&type=position&meta=none&label=Global%20Contributor&cornerStyle=rounded" alt="GitRanks global contributor rank" />
-  </a>
-  <a href="https://gitranks.com/profile/DiogoRibeiro7">
-    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=c&context=country&type=position&meta=none&label=Portugal%20Contributor&cornerStyle=rounded" alt="GitRanks Portugal contributor rank" />
-  </a>
-  <a href="https://gitranks.com/profile/DiogoRibeiro7">
-    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=f&context=global&type=position&meta=none&label=Global%20Followers&cornerStyle=rounded" alt="GitRanks global followers rank" />
-  </a>
-  <a href="https://gitranks.com/profile/DiogoRibeiro7">
-    <img src="https://gitranks.com/api/badge/v2/DiogoRibeiro7?ranking=f&context=country&type=position&meta=none&label=Portugal%20Followers&cornerStyle=rounded" alt="GitRanks Portugal followers rank" />
   </a>
 </div>
 

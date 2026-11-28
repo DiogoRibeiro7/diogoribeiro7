@@ -20,12 +20,8 @@ FEATURED_REPO_PATTERN = re.compile(r"https://github\.com/DiogoRibeiro7/([^/)#]+)
 
 SNAPSHOT_START = "<!-- statistics:snapshot:start -->"
 SNAPSHOT_END = "<!-- statistics:snapshot:end -->"
-DEPTH_START = "<!-- statistics:depth:start -->"
-DEPTH_END = "<!-- statistics:depth:end -->"
 OUTPUTS_START = "<!-- statistics:outputs:start -->"
 OUTPUTS_END = "<!-- statistics:outputs:end -->"
-BOUNDARIES_START = "<!-- statistics:boundaries:start -->"
-BOUNDARIES_END = "<!-- statistics:boundaries:end -->"
 DENOMINATOR_START = "<!-- statistics:denominator:start -->"
 DENOMINATOR_END = "<!-- statistics:denominator:end -->"
 OUTPUTS_INTRO_START = "<!-- statistics:outputs-intro:start -->"
@@ -112,26 +108,6 @@ def render_snapshot(values: dict[str, Any]) -> str:
     ])
 
 
-def render_depth(values: dict[str, Any]) -> str:
-    """Render the portfolio-wide research/output depth table."""
-    total = int(values["projects"])
-    real_data = int(values["real_data"])
-    research_software = int(values["research_software"])
-    return "\n".join([
-        DEPTH_START,
-        "| Measure | Current scope | What it means |",
-        "| :-- | --: | :-- |",
-        f'| Manifest-backed public projects | **{total}** | Projects with explicit category, maturity and evidence metadata |',
-        f'| Substantial outputs | **{values["outputs"]}** | Published software, research programmes, empirical/replication studies, and decision/engineering artifacts |',
-        f'| Published PyPI packages | **{values["pypi"]}** | Verified package releases, not merely package-ready repositories |',
-        f'| Real-data / empirical projects | **{real_data} / {total} ({100 * real_data / total:.0f}%)** | Explicitly classified in the manifest |',
-        f'| Research software / methods | **{research_software} / {total} ({100 * research_software / total:.0f}%)** | Explicitly classified libraries, methods and research tooling |',
-        f'| Case studies | **{values["cases"]} across {values["domains"]} domains** | End-to-end problem → constraints → method → outcome narratives |',
-        f'| Curated flagship projects | **{values["featured"]}** | Reviewer-oriented subset; deliberately not used as the portfolio denominator |',
-        DEPTH_END,
-    ])
-
-
 def render_outputs(values: dict[str, Any]) -> str:
     """Render output-class counts from manifest output types."""
     output_types: Counter[str] = values["output_types"]
@@ -183,21 +159,6 @@ def render_topic_intro(values: dict[str, Any]) -> str:
     ])
 
 
-def render_boundaries(values: dict[str, Any]) -> str:
-    """Render the denominator reference table."""
-    return "\n".join([
-        BOUNDARIES_START,
-        "| Question | Denominator |",
-        "| :-- | :-- |",
-        f'| What does the serious public portfolio contain? | **{values["projects"]} manifest-backed public projects** |',
-        f'| What inspectable artifacts has it produced? | **{values["outputs"]} output records** |',
-        f'| What can a reviewer inspect end-to-end? | **{values["cases"]} case studies across {values["domains"]} domains** |',
-        f'| How strong are repository controls on the curated front page? | **{values["featured"]} flagship repositories** |',
-        f'| Where is the broad catalogue concentrated? | **{values["catalogue"]} PROJECTS.md entries** |',
-        BOUNDARIES_END,
-    ])
-
-
 def replace_block(text: str, start: str, end: str, replacement: str) -> str:
     """Replace exactly one generated marker block."""
     pattern = re.compile(re.escape(start) + r".*?" + re.escape(end), re.DOTALL)
@@ -210,12 +171,10 @@ def replace_block(text: str, start: str, end: str, replacement: str) -> str:
 def render_statistics(text: str, values: dict[str, Any]) -> str:
     """Return Statistics Markdown with all generated tables refreshed."""
     updated = replace_block(text, SNAPSHOT_START, SNAPSHOT_END, render_snapshot(values))
-    updated = replace_block(updated, DEPTH_START, DEPTH_END, render_depth(values))
     updated = replace_block(updated, OUTPUTS_START, OUTPUTS_END, render_outputs(values))
     updated = replace_block(updated, DENOMINATOR_START, DENOMINATOR_END, render_denominator(values))
     updated = replace_block(updated, OUTPUTS_INTRO_START, OUTPUTS_INTRO_END, render_outputs_intro(values))
-    updated = replace_block(updated, TOPIC_INTRO_START, TOPIC_INTRO_END, render_topic_intro(values))
-    return replace_block(updated, BOUNDARIES_START, BOUNDARIES_END, render_boundaries(values))
+    return replace_block(updated, TOPIC_INTRO_START, TOPIC_INTRO_END, render_topic_intro(values))
 
 
 def main() -> int:

@@ -200,7 +200,7 @@ Stars record attention, not correctness, reliability or reproducibility. They si
 | [nosql-databases-labs](https://github.com/DiogoRibeiro7/nosql-databases-labs) | **3** |
 | [smart-todo-action](https://github.com/DiogoRibeiro7/smart-todo-action) | **3** |
 
-_Top 10 of 230 public non-fork repositories · counts fetched 2026-11-18 · ties broken alphabetically._
+_Top 10 of 230 public non-fork repositories · counts fetched 2026-11-28 · ties broken alphabetically._
 <!-- statistics:stars:end -->
 
 <div align="center">

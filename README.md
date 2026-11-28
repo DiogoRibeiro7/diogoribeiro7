@@ -14,117 +14,58 @@
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md"><img src="assets/links/nav-evidence.svg" alt="Evidence" width="120" height="40" /></a>
 </div>
 
-My work combines four complementary roles: I formulate problems mathematically, investigate them statistically, implement methods as usable software, and lead the delivery of analytical systems that support decisions. These are not separate labels for the same work: each has its own evidence in the projects and professional outcomes below.
+20 years connecting mathematics, data science and software engineering to reliable decisions, working tools and measurable operational value. I am looking for **remote senior, lead and principal roles** where statistical reasoning, engineering quality and decisions under uncertainty matter.
 
-As a data scientist, I design analyses and predictive models around explicit decisions and uncertainty. As a machine learning engineer, I translate models into tested pipelines, APIs and monitoring tools that other systems can use. As an applied mathematician, I formulate mechanisms, constraints and numerical approximations. As a researcher, I assess assumptions, reproduce experiments and document what results do—and do not—establish.
+- **Data scientist and technical lead:** define analytical questions, design validation, model uncertainty, lead multidisciplinary delivery. → [Case Studies](CASE_STUDIES.md)
+- **Machine learning engineer:** tested pipelines, APIs and monitoring around statistical and learning methods. → [ML systems](SYSTEMS.md), [Feedback intelligence agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent)
+- **Applied mathematician:** dynamical, stochastic, optimisation and differential-equation problems. → [PINNLab](https://github.com/DiogoRibeiro7/pinn), [Gaussian processes in R](https://gitlab.com/DiogoRibeiro7/gaussian-processes-r)
+- **Researcher and educator:** reproducible studies, stated limits, teaching. → [Research](RESEARCH.md), [Teaching](TEACHING.md)
 
-I do not default to machine learning when a simpler statistical or mathematical approach is adequate. I start with a baseline, evaluate complexity against the intended decision, and engineer the resulting solution to remain inspectable and maintainable.
+I do not default to machine learning when a simpler statistical or mathematical approach is adequate. I start with a baseline, evaluate complexity against the intended decision, and keep the result inspectable and maintainable.
+
+## Results from Professional Delivery
+
+Industrial manufacturing: production management, demand planning, materials, warehousing, logistics and customer service.
+
+**Reported outcomes:** **12%** better forecast accuracy · **40%** fewer inventory days · about **€500K** less inventory value · **25%** less obsolete inventory · **18%** lower logistics costs · **30%** lower analytics processing time · **80%** lower reporting costs.
+
+**The work:**
+
+- Statistical and predictive demand models for 60 products and 80 international customers, informing capacity planning, production scheduling, material requirements and customer-order responses.
+- Tools for stock coverage, delivery lead times, forecast-versus-actual demand and logistics costs, supporting purchasing, replenishment, warehousing and dispatch; reporting and data management moved from spreadsheets to SQL.
+- Deterministic and stochastic heat-transfer models (including partial differential equations) of thermal behaviour during cork disinfection, to understand process variability and its implications for production conditions and quality assurance.
+
+These are historical industry results. The commercial data and baselines are not published here, and they are not measured results of the public repositories. Earlier work in health technology (behavioural sensing, wireless-signal inference, time series, decision support) is proprietary in part; the public projects show related methods without reproducing employer systems.
 
 ## Evidence at a Glance
 
-The best starting point is the work itself. These examples distinguish public, inspectable implementations from reported outcomes in professional settings.
+The best starting point is the work itself.
 
 | Focus | Evidence to inspect |
 | :-- | :-- |
-| **Machine learning engineering** | [Feedback intelligence agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent) — evaluated retrieval, guarded RAG, FastAPI, telemetry and deployment artifacts; [transaction risk lakehouse](https://github.com/DiogoRibeiro7/transaction-risk-lakehouse) — temporal validation, Spark pipelines, scoring and drift monitoring. Both are portfolio systems, not claims of live client deployment. |
-| **Data science and decision systems** | [Clinic forecasting platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform) — forecasts, uncertainty and staffing decisions; [professional impact](STATISTICS.md#delivered-impact) — reported 30% lower analytics processing time and €500K lower inventory value, with the limits of independent verification stated. |
-| **Applied mathematics and statistical software** | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy) — known-truth survival simulations; [Gaussian processes in R](https://gitlab.com/DiogoRibeiro7/gaussian-processes-r) — covariance kernels, numerical stability and posterior inference; [numerical linear algebra in R](https://gitlab.com/DiogoRibeiro7/numerical-linear-algebra-r) — QR/SVD, iterative methods and numerical diagnostics. |
-| **Research and education** | [Research](RESEARCH.md) · [Methods](METHODS.md) · [Outputs](OUTPUTS.md) · [Teaching](TEACHING.md) — research questions, identification assumptions, reproducibility and educational artifacts. |
+| **Machine learning engineering** | [Feedback intelligence agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent): evaluated retrieval, guarded RAG, FastAPI, telemetry, deployment artifacts. [Transaction risk lakehouse](https://github.com/DiogoRibeiro7/transaction-risk-lakehouse): temporal validation, Spark pipelines, scoring, drift monitoring. Both are portfolio systems, not claims of live client deployment. |
+| **Data science and decision systems** | [Clinic forecasting platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform): forecasts, uncertainty and staffing decisions. [Professional impact](STATISTICS.md#delivered-impact): the reported figures above, with the limits of independent verification stated. |
+| **Applied mathematics and statistical software** | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy): known-truth survival simulations. [Gaussian processes in R](https://gitlab.com/DiogoRibeiro7/gaussian-processes-r): kernels, numerical stability, posterior inference. [Numerical linear algebra in R](https://gitlab.com/DiogoRibeiro7/numerical-linear-algebra-r): QR/SVD, iterative methods, diagnostics. |
+| **Research and education** | [Research](RESEARCH.md) · [Methods](METHODS.md) · [Outputs](OUTPUTS.md) · [Teaching](TEACHING.md) |
 
-For a deeper technical review, follow the [system architecture maps and source-code evidence](SYSTEMS.md), the [curated featured projects](FEATURED.md), or the [case studies](CASE_STUDIES.md). The [full catalogue](PROJECTS.md) is organised separately so breadth is not confused with depth.
+Deeper review: the [system architecture maps and source-code evidence](SYSTEMS.md), the [curated featured projects](FEATURED.md), the [case studies](CASE_STUDIES.md), or the [full catalogue](PROJECTS.md), which is organised separately so breadth is not confused with depth.
 
----
+## Selected Work
 
-## Professional identities: claims and evidence
+What was built and what it makes possible. These are public projects, not independently measured commercial outcomes.
 
-| Identity | What I do | Where to examine the evidence |
-| :-- | :-- | :-- |
-| Data scientist and technical lead | Define analytical questions, design validation, model uncertainty and translate findings into operational decisions; lead multidisciplinary delivery. | [Manufacturing outcomes](#manufacturing-supply-chain-and-industrial-operations), [Clinic forecasting platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform), [Case Studies](CASE_STUDIES.md) |
-| Machine learning engineer | Implement statistical and learning methods as reusable, tested software; connect inference to services, data pipelines, evaluation and monitoring. | [ML systems and architecture evidence](SYSTEMS.md), [Feedback intelligence agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent), [Population resemblance](https://github.com/DiogoRibeiro7/population-resemblance), [PINNLab](https://github.com/DiogoRibeiro7/pinn) |
-| Applied mathematician | Formulate dynamical, stochastic, optimisation and differential-equation problems; choose and assess numerical methods. | [Manufacturing process and quality](#manufacturing-supply-chain-and-industrial-operations), [PINNLab](https://github.com/DiogoRibeiro7/pinn), [Gaussian processes in R](https://gitlab.com/DiogoRibeiro7/gaussian-processes-r), [numerical linear algebra in R](https://gitlab.com/DiogoRibeiro7/numerical-linear-algebra-r) |
-| Researcher and educator | Design reproducible studies, validate methods under known assumptions, articulate limits and teach mathematical reasoning. | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy), [Research](RESEARCH.md), [Teaching](TEACHING.md), [Outputs](OUTPUTS.md) |
+| Project | Problem | Mathematics | Tool and contribution |
+| :-- | :-- | :-- | :-- |
+| **[Feedback intelligence agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent)** | Customer feedback is difficult to search and interpret reliably. | Retrieval relevance, grounded-answer evaluation, quality and failure criteria. | A guarded RAG service with FastAPI and observability, enabling answers to be inspected against retrieved evidence. |
+| **[Clinic forecasting platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform)** | Uncertain healthcare demand must inform staffing. | Rolling-origin evaluation, probabilistic forecasts, conformal intervals and resource constraints. | A forecasting and staffing-optimisation platform that connects uncertainty to operational decisions. |
+| **[Lisbon spatial dynamics](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics)** | Housing-value changes and local-accommodation pressure may be confounded by geography. | Spatial autocorrelation, robust regression and influence sensitivity. | An official-data analysis pipeline that exposes associations and their limits without claiming causality. |
+| **[Population resemblance](https://github.com/DiogoRibeiro7/population-resemblance)** | Population shift can be mistaken for predictive-model failure. | Distribution comparison, sample-size-aware thresholds and Monte Carlo calibration. | A statistical monitoring toolkit that separates evidence of drift from claims about model performance. |
+| **[DataConsistencyChecker](https://github.com/DiogoRibeiro7/DataConsistencyChecker)** | Data-quality failures need explanations rather than opaque scores. | Pattern consistency, mixed-type constraints and interpretable anomaly evidence. | A consistency-checking library that links unusual records to violated expectations. |
+| **[genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy)** | Survival estimators require validation against controlled ground truth. | Event-history simulation, censoring and multistate processes. | A simulation library for reproducible method comparisons with known generating mechanisms. |
+| **[ChangePointLab](https://github.com/DiogoRibeiro7/ChangePointLab)** | Structural changes in time series require distinct detection assumptions. | Bayesian, kernel, state-space, offline and online changepoint methods. | A unified toolkit for comparing detection approaches through a shared interface. |
+| **[PINNLab](https://github.com/DiogoRibeiro7/pinn)** | Scientific model approximations must respect differential-equation constraints. | PDE residuals, boundary conditions and physics-informed optimisation. | A PyTorch framework for evaluating neural approaches to forward and inverse PDE problems. |
 
-In professional work, I have also led delivery of automated analytics and sensor-based decision systems. Reported operational improvements appear below; private implementation details are not presented as public repository evidence.
-
----
-
-## From Economic Problems to Mathematical Tools
-
-My work starts with problems that have operational or economic consequences: resources being allocated inefficiently, forecasts that do not support decisions, unreliable information, avoidable process costs, and risks that are poorly understood. Mathematics provides a way to express these problems precisely. Software turns those formulations into tools that can be used, evaluated and improved.
-
-The value of a model is therefore not the algorithm itself, but the decision or process it enables:
-
-- **Costs, waste and scarce resources.** Forecasting and constrained optimisation connect uncertain demand to staffing, inventory, scheduling and resource-allocation decisions. The economic question is not simply whether a forecast is accurate, but whether using it leads to a better decision under real constraints.
-- **Commercial and operational risk.** Probabilistic modelling, calibration and explicit loss functions make the consequences of different errors visible. Decision thresholds should reflect the costs of false alarms, missed events and unnecessary intervention.
-- **Productivity and analytical infrastructure.** Data integration, validation and automation reduce manual reconciliation and make information more consistent and usable. The purpose is to support more reliable decisions and free effort for higher-value work.
-- **Measurement of economic effects.** Statistics, econometrics and causal inference help distinguish correlations from effects that could justify a business or policy decision. Assumptions, counterfactuals and uncertainty matter because acting on the wrong conclusion has a cost.
-- **Reliable operational monitoring.** Statistical change detection and evidence-quality rules help distinguish genuine events from noise and unreliable observations, avoiding decisions driven by misleading signals.
-
-### Manufacturing, supply chain and industrial operations
-
-In an industrial manufacturing setting, I worked across production management, demand planning, materials, warehousing, logistics and customer-service operations. The objective was to turn operational uncertainty into practical planning tools, not simply to improve a model score.
-
-- **Demand forecasting and production planning.** Developed statistical and predictive models for demand across 60 products and 80 international customers. Forecasts informed capacity planning, production scheduling, material requirements and responses to customer orders, connecting time-series modelling with operational decisions.
-- **Inventory and logistics analytics.** Built tools to study stock coverage, delivery lead times, forecast-versus-actual demand and logistics costs, supporting purchasing, replenishment, warehousing and dispatch decisions. Moving reporting and data management from spreadsheets into SQL made operational information more consistent and reusable.
-- **Manufacturing process and quality.** Used deterministic and stochastic mathematical models of heat transfer, including partial differential equations, to study thermal behaviour during cork disinfection. The contribution was to understand process variability and its implications for production conditions and quality assurance, rather than treating process settings as arbitrary constants.
-
-Reported outcomes from professional delivery include a 12% improvement in forecast accuracy, a 40% reduction in inventory days, approximately €500K less inventory value, 25% less obsolete inventory, an 18% reduction in logistics costs, a 30% reduction in analytics processing time and an 80% reduction in reporting costs. These are historical industry results; the underlying commercial data and measurement baselines are not published in this repository.
-
-The work illustrates the connection between mathematical modelling, tools used by operational teams, and business decisions with economic consequences.
-
-In each case, the work follows a common sequence: **define the economic or operational objective, formulate the mathematical problem, build the appropriate tool, and evaluate the decisions it supports**. A technically sophisticated implementation is not automatically valuable; its contribution must be judged in the context of the problem it addresses.
-
-My earlier work in behavioural sensing and wireless-signal inference is one application of this approach, not its defining industry. Some commercial systems and measurements remain proprietary. The public projects below demonstrate related methods and software without implying that they reproduce employer systems or their reported business outcomes.
-
----
-
-## Selected Work: Problems, Mathematics and Tools
-
-The mathematical formulation connects a real problem with a working tool. These projects show what was built and what it makes possible—not independently measured commercial outcomes.
-
-### [Feedback intelligence agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent)
-- **Problem:** Customer feedback is difficult to search and interpret reliably.
-- **Mathematics:** Retrieval relevance, grounded-answer evaluation, quality and failure criteria.
-- **Tool and contribution:** A guarded RAG service with FastAPI and observability, enabling answers to be inspected against retrieved evidence.
-
-### [Clinic forecasting platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform)
-- **Problem:** Uncertain healthcare demand must inform staffing.
-- **Mathematics:** Rolling-origin evaluation, probabilistic forecasts, conformal intervals and resource constraints.
-- **Tool and contribution:** A forecasting and staffing-optimisation platform that connects uncertainty to operational decisions.
-
-### [Lisbon spatial dynamics](https://github.com/DiogoRibeiro7/lisbon-spatial-dynamics)
-- **Problem:** Housing-value changes and local-accommodation pressure may be confounded by geography.
-- **Mathematics:** Spatial autocorrelation, robust regression and influence sensitivity.
-- **Tool and contribution:** An official-data analysis pipeline that exposes associations and their limits without claiming causality.
-
-### [Population resemblance](https://github.com/DiogoRibeiro7/population-resemblance)
-- **Problem:** Population shift can be mistaken for predictive-model failure.
-- **Mathematics:** Distribution comparison, sample-size-aware thresholds and Monte Carlo calibration.
-- **Tool and contribution:** A statistical monitoring toolkit that separates evidence of drift from claims about model performance.
-
-### [DataConsistencyChecker](https://github.com/DiogoRibeiro7/DataConsistencyChecker)
-- **Problem:** Data-quality failures need explanations rather than opaque scores.
-- **Mathematics:** Pattern consistency, mixed-type constraints and interpretable anomaly evidence.
-- **Tool and contribution:** A consistency-checking library that links unusual records to violated expectations.
-
-### [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy)
-- **Problem:** Survival estimators require validation against controlled ground truth.
-- **Mathematics:** Event-history simulation, censoring and multistate processes.
-- **Tool and contribution:** A simulation library for reproducible method comparisons with known generating mechanisms.
-
-### [ChangePointLab](https://github.com/DiogoRibeiro7/ChangePointLab)
-- **Problem:** Structural changes in time series require distinct detection assumptions.
-- **Mathematics:** Bayesian, kernel, state-space, offline and online changepoint methods.
-- **Tool and contribution:** A unified toolkit for comparing detection approaches through a shared interface.
-
-### [PINNLab](https://github.com/DiogoRibeiro7/pinn)
-- **Problem:** Scientific model approximations must respect differential-equation constraints.
-- **Mathematics:** PDE residuals, boundary conditions and physics-informed optimisation.
-- **Tool and contribution:** A PyTorch framework for evaluating neural approaches to forward and inverse PDE problems.
-
-See [Featured](FEATURED.md) for more projects and [Case Studies](CASE_STUDIES.md) for detailed problem-to-outcome narratives.
-
----
+More in [Featured](FEATURED.md) and [Case Studies](CASE_STUDIES.md).
 
 ## Portfolio Snapshot
 
@@ -139,11 +80,7 @@ See [Featured](FEATURED.md) for more projects and [Case Studies](CASE_STUDIES.md
 | Curated flagship repositories | **12** |
 <!-- readme:portfolio-snapshot:end -->
 
-These figures are generated from the same canonical portfolio data used by [Statistics](STATISTICS.md), so the front page and the detailed evidence page share one source of truth.
-
-The reported professional outcomes are listed [above](#manufacturing-supply-chain-and-industrial-operations); they are not measured results of the public repositories.
-
----
+These figures are generated from the same canonical portfolio data used by [Statistics](STATISTICS.md).
 
 ## Current Focus
 
@@ -186,13 +123,11 @@ The detailed reasoning, methods and supporting projects are in [Methods](METHODS
 
 ---
 
-## Professional and Academic Work
+## About
 
-My background combines applied mathematics, data science leadership, machine learning engineering and statistical research. I have led data-science work in health technology, including sensor-based behavioural analysis, time-series modelling and decision-support systems. Alongside industry work, I teach as an **Invited Assistant Professor at the Faculty of Media Arts and Design, Technical University of Porto (FMAD–UTP)**.
+Invited Assistant Professor at the **Faculty of Media Arts and Design, Technical University of Porto (FMAD–UTP)**. I have led data-science work in health technology, including sensor-based behavioural analysis, time-series modelling and decision-support systems, and I also collaborate on research, technical mentoring and open-source scientific software.
 
-I am particularly interested in remote senior, lead, and principal-level work where statistical reasoning, engineering quality, and decision-making under uncertainty matter. I also collaborate on research, technical mentoring, and open-source scientific software.
-
-For collaboration or professional enquiries, a short note describing the problem, constraints, and expected outcome is the best starting point. Longer-form technical writing and research notes live on my **[website](https://diogoribeiro7.github.io)** and **[Medium](https://medium.com/@diogo-ribeiro-1975)**.
+For roles or collaboration, a short note describing the problem, constraints and expected outcome is the best starting point. Longer-form writing lives on my **[website](https://diogoribeiro7.github.io)** and **[Medium](https://medium.com/@diogo-ribeiro-1975)**.
 
 <div align="center">
   <a href="mailto:dfr@esmad.ipp.pt">

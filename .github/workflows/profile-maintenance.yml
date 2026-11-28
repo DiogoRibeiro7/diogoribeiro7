@@ -25,6 +25,7 @@ concurrency:
 jobs:
   regenerate:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Check out repository
         uses: actions/checkout@v7
@@ -34,7 +35,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
-          python-version: "3.12"
+          python-version: "3.13"
 
       - name: Validate canonical portfolio schema
         run: python scripts/validate_portfolio_schema.py

@@ -9,14 +9,19 @@ permissions:
   contents: write
   pull-requests: write
 
+concurrency:
+  group: repository-inventory
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
-          python-version: "3.12"
+          python-version: "3.13"
       - name: Refresh aggregate snapshots when authorized
         env:
           PROFILE_INVENTORY_TOKEN: ${{ secrets.PROFILE_INVENTORY_TOKEN }}

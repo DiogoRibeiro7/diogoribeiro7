@@ -3,7 +3,7 @@
 **Lead Data Scientist · Machine Learning Engineer · Applied Mathematician · Researcher**  
 **Statistical Learning · ML Systems · Causal Inference · Time Series · Scientific Computing**  
 
-20 years connecting mathematics, data science and software engineering to reliable decisions, working tools and measurable operational value
+20 years connecting mathematics, data science and software engineering to reliable decisions, working tools and measurable operational value.
 
 <div align="center">
   <img src="assets/links/nav-home-active.svg" alt="Home (current page)" width="96" height="40" />
@@ -139,7 +139,7 @@ See [Featured](FEATURED.md) for more projects and [Case Studies](CASE_STUDIES.md
 
 ---
 
-## Portfolio at a Glance
+## Portfolio Snapshot
 
 <!-- readme:portfolio-snapshot:start -->
 | Evidence | Current scope |
@@ -208,7 +208,7 @@ I am particularly interested in remote senior, lead, and principal-level work wh
 For collaboration or professional enquiries, a short note describing the problem, constraints, and expected outcome is the best starting point. Longer-form technical writing and research notes live on my **[website](https://diogoribeiro7.github.io)** and **[Medium](https://medium.com/@diogo-ribeiro-1975)**.
 
 <div align="center">
-  <a href="mailto:diogo.debastos.ribeiro@gmail.com">
+  <a href="mailto:dfr@esmad.ipp.pt">
     <img src="assets/links/email.svg" alt="Email Diogo Ribeiro" width="120" height="40" />
   </a>
   <a href="https://www.linkedin.com/in/diogo-ribeiro-9094604a/">

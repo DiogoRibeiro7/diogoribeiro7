@@ -176,7 +176,11 @@ Professional delivery figures are self-reported and cannot be independently repr
 
 ## GitHub Activity and Reach
 
-Stars record attention, not correctness, reliability or reproducibility. They are shown for reach context only, outside the evidence above.
+Activity and popularity are useful context, but they are deliberately separated from the evidence above. Profile views, contribution badges and trophies do not establish modelling quality, scientific validity, production reliability, reproducibility or business impact.
+
+### Most-starred repositories
+
+Stars record attention, not correctness, reliability or reproducibility. They sit in this section, outside the evidence tables above, for reach context only.
 
 <p align="center">
   <img src="assets/star-metrics.svg" alt="Bar chart of star counts for the ten most-starred public repositories" width="100%" />
@@ -198,3 +202,40 @@ Stars record attention, not correctness, reliability or reproducibility. They ar
 
 _Top 10 of 230 public non-fork repositories · counts fetched 2026-11-18 · ties broken alphabetically._
 <!-- statistics:stars:end -->
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=DiogoRibeiro7&label=Profile%20views&color=30363D&style=for-the-badge" alt="Profile views" />
+</div>
+
+<br>
+
+<details>
+<summary><strong>Additional GitHub activity widgets</strong></summary>
+
+<br>
+
+<div align="center">
+  <a href="https://user-badge.committers.top/portugal/DiogoRibeiro7">
+    <img src="https://user-badge.committers.top/portugal/DiogoRibeiro7.svg" alt="committers.top Portugal public-contribution rank" />
+  </a>
+  <a href="https://user-badge.committers.top/portugal_private/DiogoRibeiro7">
+    <img src="https://user-badge.committers.top/portugal_private/DiogoRibeiro7.svg" alt="committers.top Portugal total-contribution rank" />
+  </a>
+</div>
+
+<br>
+
+
+<div align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy-unserori.vercel.app/?username=DiogoRibeiro7&column=3&no-frame=true&theme=algolia" alt="GitHub profile trophies" />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy-unserori.vercel.app/?username=DiogoRibeiro7&amp;title=Stars&amp;column=1&amp;no-frame=true&amp;theme=algolia" alt="GitHub Stars trophy" />
+  </a>
+</div>
+
+</details>

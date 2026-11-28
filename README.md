@@ -31,7 +31,7 @@ The best starting point is the work itself. These examples distinguish public, i
 | **Applied mathematics and statistical software** | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy) — known-truth survival simulations; [Gaussian processes in R](https://gitlab.com/DiogoRibeiro7/gaussian-processes-r) — covariance kernels, numerical stability and posterior inference; [numerical linear algebra in R](https://gitlab.com/DiogoRibeiro7/numerical-linear-algebra-r) — QR/SVD, iterative methods and numerical diagnostics. |
 | **Research and education** | [Research](RESEARCH.md) · [Methods](METHODS.md) · [Outputs](OUTPUTS.md) · [Teaching](TEACHING.md) — research questions, identification assumptions, reproducibility and educational artifacts. |
 
-For a deeper technical review, follow the [three system architecture maps and source-code evidence](SYSTEMS.md), [twelve curated projects](FEATURED.md), or [sixteen case studies](CASE_STUDIES.md). The [full catalogue](PROJECTS.md) is organised separately so breadth is not confused with depth.
+For a deeper technical review, follow the [system architecture maps and source-code evidence](SYSTEMS.md), the [curated featured projects](FEATURED.md), or the [case studies](CASE_STUDIES.md). The [full catalogue](PROJECTS.md) is organised separately so breadth is not confused with depth.
 
 ---
 
@@ -43,19 +43,6 @@ For a deeper technical review, follow the [three system architecture maps and so
 | Machine learning engineer | Implement statistical and learning methods as reusable, tested software; connect inference to services, data pipelines, evaluation and monitoring. | [ML systems and architecture evidence](SYSTEMS.md), [Feedback intelligence agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent), [Population resemblance](https://github.com/DiogoRibeiro7/population-resemblance), [PINNLab](https://github.com/DiogoRibeiro7/pinn) |
 | Applied mathematician | Formulate dynamical, stochastic, optimisation and differential-equation problems; choose and assess numerical methods. | [Manufacturing process and quality](#manufacturing-supply-chain-and-industrial-operations), [PINNLab](https://github.com/DiogoRibeiro7/pinn), [Gaussian processes in R](https://gitlab.com/DiogoRibeiro7/gaussian-processes-r), [numerical linear algebra in R](https://gitlab.com/DiogoRibeiro7/numerical-linear-algebra-r) |
 | Researcher and educator | Design reproducible studies, validate methods under known assumptions, articulate limits and teach mathematical reasoning. | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy), [Research](RESEARCH.md), [Teaching](TEACHING.md), [Outputs](OUTPUTS.md) |
-
-### From models to maintained ML systems
-
-Engineering is the work between a fitted model and a dependable decision. My public projects illustrate different parts of this lifecycle—not a claim that every repository is a deployed commercial service.
-
-| Engineering responsibility | Demonstrated approach | Project evidence |
-| :-- | :-- | :-- |
-| Problem-to-model design | Establish a measurable decision, a baseline, evaluation criteria and acceptable failure modes before choosing an algorithm. | [Clinic forecasting platform](https://github.com/DiogoRibeiro7/clinic-forecasting-platform) |
-| Data and feature reliability | Validate incoming data, detect inconsistent records and expose the reasons for rejected evidence. | [DataConsistencyChecker](https://github.com/DiogoRibeiro7/DataConsistencyChecker) |
-| Application integration | Expose retrieval and evaluation logic through a FastAPI-based service with grounded-response checks and observability. | [Feedback intelligence agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent) |
-| Monitoring and evaluation | Detect population shift, examine calibration and avoid confusing input drift with predictive degradation. | [Population resemblance](https://github.com/DiogoRibeiro7/population-resemblance) |
-| Scientific ML implementation | Implement neural PDE approximations with explicit residual and boundary-condition constraints. | [PINNLab](https://github.com/DiogoRibeiro7/pinn) |
-| Reproducibility and maintainability | Use tests, versioned configurations, documented assumptions and known-truth simulations to support review. | [genSurvPy](https://github.com/DiogoRibeiro7/genSurvPy) · [Methods](METHODS.md) |
 
 In professional work, I have also led delivery of automated analytics and sensor-based decision systems. Reported operational improvements appear below; private implementation details are not presented as public repository evidence.
 
@@ -81,7 +68,7 @@ In an industrial manufacturing setting, I worked across production management, d
 - **Inventory and logistics analytics.** Built tools to study stock coverage, delivery lead times, forecast-versus-actual demand and logistics costs, supporting purchasing, replenishment, warehousing and dispatch decisions. Moving reporting and data management from spreadsheets into SQL made operational information more consistent and reusable.
 - **Manufacturing process and quality.** Used deterministic and stochastic mathematical models of heat transfer, including partial differential equations, to study thermal behaviour during cork disinfection. The contribution was to understand process variability and its implications for production conditions and quality assurance, rather than treating process settings as arbitrary constants.
 
-Reported outcomes from that professional work include a 12% improvement in forecast accuracy, a 40% reduction in inventory days, approximately €500K less inventory value, 25% less obsolete inventory and an 18% reduction in logistics costs. These are historical industry results; the underlying commercial data and measurement baselines are not published in this repository.
+Reported outcomes from professional delivery include a 12% improvement in forecast accuracy, a 40% reduction in inventory days, approximately €500K less inventory value, 25% less obsolete inventory, an 18% reduction in logistics costs, a 30% reduction in analytics processing time and an 80% reduction in reporting costs. These are historical industry results; the underlying commercial data and measurement baselines are not published in this repository.
 
 The work illustrates the connection between mathematical modelling, tools used by operational teams, and business decisions with economic consequences.
 
@@ -154,7 +141,7 @@ See [Featured](FEATURED.md) for more projects and [Case Studies](CASE_STUDIES.md
 
 These figures are generated from the same canonical portfolio data used by [Statistics](STATISTICS.md), so the front page and the detailed evidence page share one source of truth.
 
-**Reported outcomes from professional delivery:** 80% reduction in reporting costs · 30% reduction in analytics processing time · €500K reduction in inventory value through forecasting and operational optimisation. These figures refer to industry work, not measured results from the public GitHub projects; underlying commercial baselines are not published here.
+The reported professional outcomes are listed [above](#manufacturing-supply-chain-and-industrial-operations); they are not measured results of the public repositories.
 
 ---
 

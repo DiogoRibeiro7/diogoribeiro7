@@ -106,7 +106,7 @@ This is intentional: students should see technical ideas as parts of a coherent 
 
 Shorter sessions and supervision work typically connect a mathematical or statistical idea to an operational workflow. Topics include statistical modelling and experimentation, causal inference, forecasting and anomaly detection, Bayesian methods, data science and MLOps, graph analytics, sensor systems, scientific ML, and reliable LLM/RAG evaluation.
 
-For guest lectures, workshops, course collaboration, mentoring, or supervision enquiries: [Email](mailto:diogo.debastos.ribeiro@gmail.com) · [LinkedIn](https://www.linkedin.com/in/diogo-ribeiro-9094604a/) · [Website](https://diogoribeiro7.github.io) · [ORCID](https://orcid.org/0009-0001-2022-7072).
+For guest lectures, workshops, course collaboration, mentoring, or supervision enquiries: [Email](mailto:dfr@esmad.ipp.pt) · [LinkedIn](https://www.linkedin.com/in/diogo-ribeiro-9094604a/) · [Website](https://diogoribeiro7.github.io) · [ORCID](https://orcid.org/0009-0001-2022-7072).
 
 ---
 

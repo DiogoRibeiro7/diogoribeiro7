@@ -118,7 +118,7 @@ I am most interested in collaborations where the technical question is clear eno
 
 The best starting point is a short description of the research question, available data, constraints, identification assumptions where relevant, and what would count as convincing evidence.
 
-**Contact:** [Email](mailto:diogo.debastos.ribeiro@gmail.com) · [LinkedIn](https://www.linkedin.com/in/diogo-ribeiro-9094604a/) · [Website](https://diogoribeiro7.github.io) · [ORCID](https://orcid.org/0009-0001-2022-7072)
+**Contact:** [Email](mailto:dfr@esmad.ipp.pt) · [LinkedIn](https://www.linkedin.com/in/diogo-ribeiro-9094604a/) · [Website](https://diogoribeiro7.github.io) · [ORCID](https://orcid.org/0009-0001-2022-7072)
 
 ---
 

@@ -67,21 +67,6 @@ My research workflow is organised around rules that are meant to survive contact
 
 ---
 
-## Recurring research themes
-
-- **Causal inference and econometrics** — potential outcomes, panel designs, DiD and event studies, synthetic control, RDD, IV, doubly robust estimation, causal ML, negative controls, and sensitivity analysis.
-- **Public finance and official statistics** — accounting boundaries, fiscal subsectors, pension financing, debt-service burdens, denominator audits, and reproducible use of administrative statistics.
-- **Spatial and urban analysis** — small-area measurement, spatial autocorrelation, neighbourhood heterogeneity, registry completeness, robust regression, and uncertainty about geographic assignment.
-- **Statistical reliability and monitoring** — calibration, uncertainty, missing evidence, population drift, changepoints, selective prediction, and known-truth simulation.
-- **Applied econometrics and economic history** — long-run transmission, structural breaks, historical reconstruction, counterfactual design, and open-data provenance.
-- **Configurational methods** — csQCA/fsQCA, calibration, Boolean minimisation, and multi-country comparative designs.
-- **Time series and dynamical systems** — state-space models, change points, rare events, regime shifts, nonlinear dynamics, and forecast-to-decision evaluation.
-- **Scientific machine learning** — physics-informed models, neural operators, and controlled comparisons against classical numerical or statistical baselines.
-- **Production AI evaluation** — retrieval quality, grounded generation, execution-based evaluation, observability, and regression testing for LLM systems.
-- **Decision systems** — connecting forecasts or risk estimates to constrained optimisation, operating thresholds, costs, and measurable downstream decisions.
-
----
-
 ## Research infrastructure
 
 I prefer research programmes to one-off notebooks. A typical project keeps the evidence chain explicit:

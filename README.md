@@ -14,7 +14,7 @@
   <a href="https://github.com/DiogoRibeiro7/diogoribeiro7/blob/main/STATISTICS.md"><img src="assets/links/nav-evidence.svg" alt="Evidence" width="120" height="40" /></a>
 </div>
 
-20 years connecting mathematics, data science and software engineering to reliable decisions, working tools and measurable operational value. I am looking for **senior, lead and principal roles** where statistical reasoning, engineering quality and decisions under uncertainty matter. I work remotely.
+20 years connecting mathematics, data science and software engineering to reliable decisions, working tools and measurable operational value. I work at **senior, lead and principal level**, where statistical reasoning, engineering quality and decisions under uncertainty matter. I work remotely.
 
 - **Data scientist and technical lead:** define analytical questions, design validation, model uncertainty, lead multidisciplinary delivery. → [Case Studies](CASE_STUDIES.md)
 - **Machine learning engineer:** tested pipelines, APIs and monitoring around statistical and learning methods. → [ML systems](SYSTEMS.md), [Feedback intelligence agent](https://github.com/DiogoRibeiro7/feedback-intelligence-agent)
